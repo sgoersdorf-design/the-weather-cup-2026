@@ -1,0 +1,2 @@
+match_id,tournament_stage,group_name,matchday,matchday_label,calendar_day,calendar_day_label,date_utc,local_date,local_time,local_timezone,team_a_iso3,team_b_iso3,stadium_name,host_city,match_status,data_source_name,data_quality_score
+M001,group,A,1,2026-06-11T19:00:00Z,2026-06-11,13:00,America/Mexico_City,TBD,TBD,TBD,TBD,scheduled,seed,0

@@ -1,0 +1,2 @@
+iso3,reference_temp_c,reference_humidity,heat_tolerance_score,humidity_tolerance_score,rain_tolerance_score,wind_tolerance_score,profile_method,data_source_name,is_active,data_quality_score
+TBD,20,55,50,50,50,50,structured_reference,seed,true,0

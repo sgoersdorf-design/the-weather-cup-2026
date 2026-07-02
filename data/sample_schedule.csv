@@ -1,0 +1,7 @@
+match_id,tournament_stage,group_name,matchday,matchday_label,calendar_day,calendar_day_label,date_utc,local_date,local_time,local_timezone,team_a_iso3,team_b_iso3,stadium_name,host_city,match_status,data_source_name,data_quality_score
+M001,group,A,1,1. Gruppenspieltag,1,Turniertag 1,2026-06-11T19:00:00Z,2026-06-11,13:00,America/Mexico_City,MEX,ZAF,Mexico City Stadium,Mexico City,scheduled,FIFA public schedule reference,80
+M002,group,B,1,1. Gruppenspieltag,2,Turniertag 2,2026-06-12T19:00:00Z,2026-06-12,15:00,America/Toronto,CAN,BIH,Toronto Stadium,Toronto,scheduled,FIFA public schedule reference,75
+M003,group,D,1,1. Gruppenspieltag,2,Turniertag 2,2026-06-13T01:00:00Z,2026-06-12,18:00,America/Los_Angeles,USA,PRY,Los Angeles Stadium,Inglewood,scheduled,FIFA public schedule reference,80
+M004,group,C,1,1. Gruppenspieltag,3,Turniertag 3,2026-06-13T22:00:00Z,2026-06-13,18:00,America/New_York,BRA,MAR,New York New Jersey Stadium,East Rutherford,scheduled,FIFA public schedule reference,80
+M005,group,E,1,1. Gruppenspieltag,4,Turniertag 4,2026-06-14T17:00:00Z,2026-06-14,12:00,America/Chicago,CUW,DEU,Houston Stadium,Houston,scheduled,FIFA public schedule reference,80
+M006,group,L,1,1. Gruppenspieltag,7,Turniertag 7,2026-06-17T20:00:00Z,2026-06-17,15:00,America/Chicago,ENG,HRV,Dallas Stadium,Arlington,scheduled,FIFA public schedule reference,80

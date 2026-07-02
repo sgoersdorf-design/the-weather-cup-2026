@@ -1,0 +1,2 @@
+stadium_name,host_city,host_country,latitude,longitude,elevation_m,timezone,stadium_type_basic,stadium_capacity,roof_available_boolean,roof_type,climate_control_available,weather_protection_level,climate_control_note_de,pitch_surface_note_de,venue_weather_note_de,capacity_source_note,coordinate_precision,coordinate_accuracy_m,google_place_id,maps_url,coordinate_verified_at,data_source_name,data_quality_score
+TBD,TBD,TBD,0,0,,UTC,unknown,,false,unknown,false,0,Daten folgen,Daten folgen,Daten folgen,Daten folgen,unknown,,,,,seed,0

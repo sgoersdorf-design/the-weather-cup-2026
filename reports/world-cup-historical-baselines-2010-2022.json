@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2022,
+    "scope": "full_tournament",
+    "champion": "ARG",
+    "top_scorer": "Kylian Mbappé",
+    "top_scorer_goals": 8,
+    "matches": 64,
+    "goals": 172,
+    "goals_per_match": 2.69,
+    "note_de": "Katar 2022 endete mit 172 Toren und einem 3:3-Finale. Marokko wurde als erstes afrikanisches Team Halbfinalist.",
+    "note_en": "Qatar 2022 ended with 172 goals and a 3-3 final. Morocco became the first African semi-finalist.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+      "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022"
+    ]
+  },
+  {
+    "year": 2018,
+    "scope": "full_tournament",
+    "champion": "FRA",
+    "top_scorer": "Harry Kane",
+    "top_scorer_goals": 6,
+    "matches": 64,
+    "goals": 169,
+    "goals_per_match": 2.64,
+    "note_de": "Russland 2018 brachte 169 Tore. Deutschland schied als Titelverteidiger in der Gruppenphase aus; das Turnier setzte mit 12 Eigentoren einen Rekord.",
+    "note_en": "Russia 2018 produced 169 goals. Germany exited in the group stage as defending champion; the tournament set a record with 12 own goals.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+      "https://inside.fifa.com/tournaments/mens/worldcup/russia2018"
+    ]
+  },
+  {
+    "year": 2014,
+    "scope": "full_tournament",
+    "champion": "DEU",
+    "top_scorer": "James Rodríguez",
+    "top_scorer_goals": 6,
+    "matches": 64,
+    "goals": 171,
+    "goals_per_match": 2.67,
+    "group_stage_goals": 136,
+    "note_de": "Brasilien 2014 blieb mit 171 Toren eines der offensivsten Turniere der Neuzeit. Die Gruppenphase brachte 136 Tore und im Halbfinale stand das 7:1 gegen Brasilien.",
+    "note_en": "Brazil 2014 remained one of the most attack-heavy modern tournaments with 171 goals. Its group stage produced 136 goals and the semi-final featured the 7-1 against Brazil.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup",
+      "https://inside.fifa.com/tournaments/mens/worldcup/brazil2014"
+    ]
+  },
+  {
+    "year": 2010,
+    "scope": "full_tournament",
+    "champion": "ESP",
+    "top_scorer": "Diego Forlán / Thomas Müller / Wesley Sneijder / David Villa",
+    "top_scorer_goals": 5,
+    "matches": 64,
+    "goals": 145,
+    "goals_per_match": 2.27,
+    "note_de": "Suedafrika 2010 war das torarmste der vier Vergleichsturniere. Spanien gewann den Titel mit nur acht eigenen Turniertoren.",
+    "note_en": "South Africa 2010 was the lowest-scoring tournament of the four. Spain won the title with only eight goals of its own.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup",
+      "https://inside.fifa.com/tournaments/mens/worldcup/southafrica2010"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "instagram_carousel": {
+    "de": [
+      "{team_a_flag} {team_a_iso3} vs. {team_b_flag} {team_b_iso3}",
+      "Kontextfaktor: {public_context_factor_de}",
+      "Wetter: {forecast_temp} Grad, Load {weather_load_score}/100",
+      "Einordnung: Kontextindikator, kein Wettmodell"
+    ],
+    "en": [
+      "{team_a_flag} {team_a_iso3} vs {team_b_flag} {team_b_iso3}",
+      "Context factor: {public_context_factor_en}",
+      "Weather: {forecast_temp} degrees, load {weather_load_score}/100",
+      "Read as context, not as a betting model"
+    ]
+  },
+  "reel_tiktok_shorts": {
+    "de": "{team_a_iso3} gegen {team_b_iso3}: Der auffälligste sichtbare Kontextfaktor ist {public_context_factor_de}. Unsicherheit: {uncertainty_level}.",
+    "en": "{team_a_iso3} vs {team_b_iso3}: the standout visible context factor is {public_context_factor_en}. Uncertainty: {uncertainty_level}."
+  },
+  "linkedin": {
+    "de": "WM 2026 Context Lab: {team_a_iso3} vs. {team_b_iso3} zeigt, wie Wetter-, Höhen- und Zeitzonendaten zu transparenten Kontextindikatoren verdichtet werden können.",
+    "en": "World Cup 2026 Context Lab: {team_a_iso3} vs {team_b_iso3} shows how weather, altitude and time-zone data can be condensed into transparent context indicators."
+  },
+  "x_twitter": {
+    "de": "{team_a_flag} {team_a_iso3} vs. {team_b_flag} {team_b_iso3}: Kontextvorteil {main_context_advantage}, sichtbarer Faktor {public_context_factor_de}. Kein Wettmodell.",
+    "en": "{team_a_flag} {team_a_iso3} vs {team_b_flag} {team_b_iso3}: context edge {main_context_advantage}, visible factor {public_context_factor_en}. Not a betting model."
+  },
+  "newsletter": {
+    "de": "Vor {team_a_iso3} vs. {team_b_iso3} bewertet das Context Lab die Standortbedingungen in {host_city}. Der sichtbare Kontextfaktor ist {public_context_factor_de}; die Unsicherheit liegt bei {uncertainty_level}.",
+    "en": "Ahead of {team_a_iso3} vs {team_b_iso3}, Context Lab evaluates venue conditions in {host_city}. The visible context factor is {public_context_factor_en}; uncertainty is {uncertainty_level}."
+  },
+  "website_push_teaser": {
+    "de": "{team_a_iso3} vs. {team_b_iso3}: Der datenjournalistische Kontext-Check für {host_city}.",
+    "en": "{team_a_iso3} vs {team_b_iso3}: the data-journalistic context check for {host_city}."
+  }
+}

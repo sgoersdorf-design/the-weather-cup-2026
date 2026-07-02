@@ -1,0 +1,49 @@
+name_de,name_en,iso2,iso3,flag_emoji,confederation,continent,capital_city,capital_latitude,capital_longitude,reference_timezone,reference_timezone_method,data_quality_score
+Mexiko,Mexico,MX,MEX,🇲🇽,CONCACAF,North America,Mexico City,19.43,-99.13,America/Mexico_City,restcountries_capital_with_overrides,78
+Suedafrika,South Africa,ZA,ZAF,🇿🇦,CAF,Africa,Pretoria,-25.7,28.22,Africa/Johannesburg,restcountries_capital_with_overrides,78
+Suedkorea,South Korea,KR,KOR,🇰🇷,AFC,Asia,Seoul,37.55,126.98,Asia/Seoul,restcountries_capital_with_overrides,78
+Tschechien,Czechia,CZ,CZE,🇨🇿,UEFA,Europe,Prague,50.08,14.47,Europe/Prague,restcountries_capital_with_overrides,78
+Kanada,Canada,CA,CAN,🇨🇦,CONCACAF,North America,Ottawa,45.42,-75.7,America/Toronto,restcountries_capital_with_overrides,78
+Schweiz,Switzerland,CH,CHE,🇨🇭,UEFA,Europe,Bern,46.92,7.47,Europe/Zurich,restcountries_capital_with_overrides,78
+Katar,Qatar,QA,QAT,🇶🇦,AFC,Asia,Doha,25.28,51.53,Asia/Qatar,restcountries_capital_with_overrides,78
+Bosnien und Herzegowina,Bosnia and Herzegovina,BA,BIH,🇧🇦,UEFA,Europe,Sarajevo,43.87,18.42,Europe/Sarajevo,restcountries_capital_with_overrides,78
+Brasilien,Brazil,BR,BRA,🇧🇷,CONMEBOL,South America,Brasília,-15.79,-47.88,America/Sao_Paulo,restcountries_capital_with_overrides,78
+Marokko,Morocco,MA,MAR,🇲🇦,CAF,Africa,Rabat,34.02,-6.82,Africa/Casablanca,restcountries_capital_with_overrides,78
+Haiti,Haiti,HT,HTI,🇭🇹,CONCACAF,North America,Port-au-Prince,18.53,-72.33,America/Port-au-Prince,restcountries_capital_with_overrides,78
+Schottland,Scotland,SC,SCO,🇬🇧,UEFA,Europe,Edinburgh,55.9533,-3.1883,Europe/London,restcountries_capital_with_overrides,65
+USA,United States,US,USA,🇺🇸,CONCACAF,North America,"Washington, D.C.",38.89,-77.05,America/New_York,restcountries_capital_with_overrides,78
+Paraguay,Paraguay,PY,PRY,🇵🇾,CONMEBOL,South America,Asunción,-25.28,-57.57,America/Asuncion,restcountries_capital_with_overrides,78
+Australien,Australia,AU,AUS,🇦🇺,AFC,Oceania,Canberra,-35.27,149.13,Australia/Canberra,restcountries_capital_with_overrides,78
+Tuerkei,Turkiye,TR,TUR,🇹🇷,UEFA,Europe,Ankara,39.93,32.87,Europe/Istanbul,restcountries_capital_with_overrides,78
+Deutschland,Germany,DE,DEU,🇩🇪,UEFA,Europe,Berlin,52.52,13.4,Europe/Berlin,restcountries_capital_with_overrides,78
+Curacao,Curacao,CW,CUW,🇨🇼,CONCACAF,North America,Willemstad,12.1,-68.92,America/Curacao,restcountries_capital_with_overrides,78
+Elfenbeinkueste,Ivory Coast,CI,CIV,🇨🇮,CAF,Africa,Yamoussoukro,6.82,-5.27,Africa/Abidjan,restcountries_capital_with_overrides,78
+Ecuador,Ecuador,EC,ECU,🇪🇨,CONMEBOL,South America,Quito,-0.22,-78.5,America/Guayaquil,restcountries_capital_with_overrides,78
+Niederlande,Netherlands,NL,NLD,🇳🇱,UEFA,Europe,Amsterdam,52.35,4.92,Europe/Amsterdam,restcountries_capital_with_overrides,78
+Japan,Japan,JP,JPN,🇯🇵,AFC,Asia,Tokyo,35.68,139.75,Asia/Tokyo,restcountries_capital_with_overrides,78
+Tunesien,Tunisia,TN,TUN,🇹🇳,CAF,Africa,Tunis,36.8,10.18,Africa/Tunis,restcountries_capital_with_overrides,78
+Schweden,Sweden,SE,SWE,🇸🇪,UEFA,Europe,Stockholm,59.33,18.05,Europe/Stockholm,restcountries_capital_with_overrides,78
+Belgien,Belgium,BE,BEL,🇧🇪,UEFA,Europe,Brussels,50.83,4.33,Europe/Brussels,restcountries_capital_with_overrides,78
+Aegypten,Egypt,EG,EGY,🇪🇬,CAF,Africa,Cairo,30.05,31.25,Africa/Cairo,restcountries_capital_with_overrides,78
+Iran,Iran,IR,IRN,🇮🇷,AFC,Asia,Tehran,35.7,51.42,Asia/Tehran,restcountries_capital_with_overrides,78
+Neuseeland,New Zealand,NZ,NZL,🇳🇿,OFC,Oceania,Wellington,-41.3,174.78,Pacific/Auckland,restcountries_capital_with_overrides,78
+Spanien,Spain,ES,ESP,🇪🇸,UEFA,Europe,Madrid,40.4,-3.68,Europe/Madrid,restcountries_capital_with_overrides,78
+Cabo Verde,Cape Verde,CV,CPV,🇨🇻,CAF,Africa,Praia,14.92,-23.52,Atlantic/Cape_Verde,restcountries_capital_with_overrides,78
+Saudi-Arabien,Saudi Arabia,SA,SAU,🇸🇦,AFC,Asia,Riyadh,24.65,46.7,Asia/Riyadh,restcountries_capital_with_overrides,78
+Uruguay,Uruguay,UY,URY,🇺🇾,CONMEBOL,South America,Montevideo,-34.85,-56.17,America/Montevideo,restcountries_capital_with_overrides,78
+Frankreich,France,FR,FRA,🇫🇷,UEFA,Europe,Paris,48.87,2.33,Europe/Paris,restcountries_capital_with_overrides,78
+Senegal,Senegal,SN,SEN,🇸🇳,CAF,Africa,Dakar,14.73,-17.63,Africa/Dakar,restcountries_capital_with_overrides,78
+Norwegen,Norway,NO,NOR,🇳🇴,UEFA,Europe,Oslo,59.92,10.75,Europe/Oslo,restcountries_capital_with_overrides,78
+Irak,Iraq,IQ,IRQ,🇮🇶,AFC,Asia,Baghdad,33.33,44.4,Asia/Baghdad,restcountries_capital_with_overrides,78
+Argentinien,Argentina,AR,ARG,🇦🇷,CONMEBOL,South America,Buenos Aires,-34.58,-58.67,America/Argentina/Buenos_Aires,restcountries_capital_with_overrides,78
+Algerien,Algeria,DZ,DZA,🇩🇿,CAF,Africa,Algiers,36.75,3.05,Africa/Algiers,restcountries_capital_with_overrides,78
+Oesterreich,Austria,AT,AUT,🇦🇹,UEFA,Europe,Vienna,48.2,16.37,Europe/Vienna,restcountries_capital_with_overrides,78
+Jordanien,Jordan,JO,JOR,🇯🇴,AFC,Asia,Amman,31.95,35.93,Asia/Amman,restcountries_capital_with_overrides,78
+Portugal,Portugal,PT,PRT,🇵🇹,UEFA,Europe,Lisbon,38.72,-9.13,Europe/Lisbon,restcountries_capital_with_overrides,78
+Usbekistan,Uzbekistan,UZ,UZB,🇺🇿,AFC,Asia,Tashkent,41.32,69.25,Asia/Tashkent,restcountries_capital_with_overrides,78
+Kolumbien,Colombia,CO,COL,🇨🇴,CONMEBOL,South America,Bogotá,4.71,-74.07,America/Bogota,restcountries_capital_with_overrides,78
+DR Kongo,DR Congo,CD,COD,🇨🇩,CAF,Africa,Kinshasa,-4.32,15.3,Africa/Kinshasa,restcountries_capital_with_overrides,78
+England,England,EN,ENG,🇬🇧,UEFA,Europe,London,51.5074,-0.1278,Europe/London,restcountries_capital_with_overrides,65
+Kroatien,Croatia,HR,HRV,🇭🇷,UEFA,Europe,Zagreb,45.8,16.0,Europe/Zagreb,restcountries_capital_with_overrides,78
+Ghana,Ghana,GH,GHA,🇬🇭,CAF,Africa,Accra,5.55,-0.22,Africa/Accra,restcountries_capital_with_overrides,78
+Panama,Panama,PA,PAN,🇵🇦,CONCACAF,North America,Panama City,8.97,-79.53,America/Panama,restcountries_capital_with_overrides,78

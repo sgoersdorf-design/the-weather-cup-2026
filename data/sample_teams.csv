@@ -1,0 +1,13 @@
+name_de,name_en,iso2,iso3,flag_emoji,confederation,continent,capital_city,capital_latitude,capital_longitude,reference_timezone,reference_timezone_method,data_quality_score
+Mexiko,Mexico,MX,MEX,🇲🇽,CONCACAF,North America,Mexico City,19.4326,-99.1332,America/Mexico_City,capital_city,85
+Suedafrika,South Africa,ZA,ZAF,🇿🇦,CAF,Africa,Pretoria,-25.7461,28.1881,Africa/Johannesburg,capital_city,85
+Kanada,Canada,CA,CAN,🇨🇦,CONCACAF,North America,Ottawa,45.4215,-75.6972,America/Toronto,capital_city,85
+Bosnien und Herzegowina,Bosnia and Herzegovina,BA,BIH,🇧🇦,UEFA,Europe,Sarajevo,43.8563,18.4131,Europe/Sarajevo,capital_city,80
+USA,United States,US,USA,🇺🇸,CONCACAF,North America,Washington,38.9072,-77.0369,America/New_York,capital_city,85
+Paraguay,Paraguay,PY,PRY,🇵🇾,CONMEBOL,South America,Asuncion,-25.2637,-57.5759,America/Asuncion,capital_city,80
+Deutschland,Germany,DE,DEU,🇩🇪,UEFA,Europe,Berlin,52.5200,13.4050,Europe/Berlin,capital_city,85
+Curacao,Curacao,CW,CUW,🇨🇼,CONCACAF,North America,Willemstad,12.1224,-68.8824,America/Curacao,capital_city,75
+Brasilien,Brazil,BR,BRA,🇧🇷,CONMEBOL,South America,Brasilia,-15.7939,-47.8828,America/Sao_Paulo,capital_city,85
+Marokko,Morocco,MA,MAR,🇲🇦,CAF,Africa,Rabat,34.0209,-6.8416,Africa/Casablanca,capital_city,85
+England,England,GB,ENG,🏴,UEFA,Europe,London,51.5074,-0.1278,Europe/London,capital_city,75
+Kroatien,Croatia,HR,HRV,🇭🇷,UEFA,Europe,Zagreb,45.8150,15.9819,Europe/Zagreb,capital_city,85

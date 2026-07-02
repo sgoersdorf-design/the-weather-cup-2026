@@ -1,0 +1,13 @@
+iso3,reference_temp_c,reference_humidity,heat_tolerance_score,humidity_tolerance_score,rain_tolerance_score,wind_tolerance_score,profile_method,data_source_name,is_active,data_quality_score
+MEX,22,55,78,62,48,52,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,68
+ZAF,20,50,66,50,44,56,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62
+CAN,12,62,36,58,62,54,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62
+BIH,13,68,42,60,56,48,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,58
+USA,16,60,58,58,54,54,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,60
+PRY,24,68,76,70,62,48,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62
+BRA,24,72,80,78,68,48,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,64
+MAR,21,58,72,54,42,50,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62
+CUW,28,76,86,82,68,58,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,58
+DEU,12,70,42,62,58,52,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62
+ENG,12,72,38,66,70,62,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,58
+HRV,16,66,56,60,54,52,capital_climate_reference,seeded MVP profile from capital climate assumptions,true,62

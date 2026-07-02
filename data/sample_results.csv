@@ -1,0 +1,7 @@
+match_id,result_team_a,result_team_b,match_status,data_quality_score
+M001,2,1,finished,75
+M002,1,1,finished,75
+M003,2,0,finished,75
+M004,1,2,finished,75
+M005,0,1,finished,75
+M006,2,2,finished,75

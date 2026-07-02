@@ -1,0 +1,7 @@
+match_id,forecast_temp,forecast_min_temp,forecast_max_temp,forecast_precipitation_probability,forecast_humidity,forecast_wind_speed,forecast_heat_index,forecast_weather_code,forecast_data_source,data_quality_score
+M001,28,18,29,30,50,12,28,2,Open-Meteo forecast sample,72
+M002,24,17,26,45,68,18,24,61,Open-Meteo forecast sample,72
+M003,22,17,24,10,56,14,22,1,Open-Meteo forecast sample,72
+M004,31,24,33,35,72,16,36,3,Open-Meteo forecast sample,72
+M005,34,27,36,20,76,12,43,2,Open-Meteo forecast sample,72
+M006,33,24,35,25,58,10,35,1,Open-Meteo forecast sample,72

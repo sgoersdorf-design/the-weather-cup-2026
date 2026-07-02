@@ -1,0 +1,30 @@
+{
+  "match_preview": {
+    "de": {
+      "headline": "{team_a_flag} {team_a_iso3} vs. {team_b_flag} {team_b_iso3}: Der Kontext-Check",
+      "subheadline": "{host_city}, {local_date}: Wetter, Zeitzonen und Standortfaktoren im transparenten MVP-Vergleich.",
+      "teaser": "Der auffälligste sichtbare Kontextfaktor ist {public_context_factor_de}. Die Modellunsicherheit liegt bei {uncertainty_level}.",
+      "weather_summary": "Erwartet werden {forecast_temp} Grad Celsius, {forecast_humidity}% Luftfeuchtigkeit und ein Weather Load Score von {weather_load_score}/100.",
+      "prediction_summary": "Die MVP-Prognose lautet {predicted_result_category} mit {probability_team_a_win}% / {probability_draw}% / {probability_team_b_win}% für Team A, Remis und Team B.",
+      "body": "{team_a_name_de} gegen {team_b_name_de}: Das Context Lab kombiniert Basis-Teamstärke, Wetter, Zeitzonen, Höhe und Standortnähe. Die Werte sollen den Spielkontext erklären, nicht den Ausgang beweisen."
+    },
+    "en": {
+      "headline": "{team_a_flag} {team_a_iso3} vs {team_b_flag} {team_b_iso3}: The Context Check",
+      "subheadline": "{host_city}, {local_date}: weather, time zones and venue factors in a transparent MVP comparison.",
+      "teaser": "The most visible context factor is {public_context_factor_en}. Model uncertainty is {uncertainty_level}.",
+      "weather_summary": "Expected conditions are {forecast_temp} degrees Celsius, {forecast_humidity}% humidity and a Weather Load Score of {weather_load_score}/100.",
+      "prediction_summary": "The MVP prediction is {predicted_result_category} with {probability_team_a_win}% / {probability_draw}% / {probability_team_b_win}% for Team A, draw and Team B.",
+      "body": "{team_a_name_en} vs {team_b_name_en}: Context Lab combines basic team strength, weather, time zones, altitude and proximity. The values explain match context, not causality."
+    }
+  },
+  "post_match": {
+    "de": {
+      "headline": "{team_a_iso3} {result_team_a}:{result_team_b} {team_b_iso3}: Prognose vs. Realität",
+      "body": "Das Modell erwartete {predicted_result_category}. Der Vergleich zeigt {prediction_correct_text_de}. Wetter-Check: {weather_check_de}"
+    },
+    "en": {
+      "headline": "{team_a_iso3} {result_team_a}:{result_team_b} {team_b_iso3}: Prediction vs Reality",
+      "body": "The model expected {predicted_result_category}. The comparison shows {prediction_correct_text_en}. Weather check: {weather_check_en}"
+    }
+  }
+}

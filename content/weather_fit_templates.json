@@ -1,0 +1,26 @@
+{
+  "pre_match": {
+    "de": {
+      "headline": "{team_a_flag} {team_a_iso3} vs. {team_b_flag} {team_b_iso3}: Wer passt besser zum Wetter?",
+      "teaser": "Weather Fit: {team_a_iso3} {team_a_weather_fit_score}/100, {team_b_iso3} {team_b_weather_fit_score}/100. Vorteil: {weather_fit_edge_de}.",
+      "social_hook": "{team_a_iso3} vs. {team_b_iso3}: Bei {weather_temp_c} Grad und {weather_humidity}% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich {weather_fit_edge_de} vorne. Kein Wettmodell.",
+      "disclaimer": "Weather Fit ist ein datenjournalistischer Kontextindikator, kein Beweis für Ergebnisursachen."
+    },
+    "en": {
+      "headline": "{team_a_flag} {team_a_iso3} vs {team_b_flag} {team_b_iso3}: who fits the weather better?",
+      "teaser": "Weather Fit: {team_a_iso3} {team_a_weather_fit_score}/100, {team_b_iso3} {team_b_weather_fit_score}/100. Edge: {weather_fit_edge_en}.",
+      "social_hook": "{team_a_iso3} vs {team_b_iso3}: at {weather_temp_c} degrees and {weather_humidity}% humidity, the Weather Fit check leans {weather_fit_edge_en}. Not a betting model.",
+      "disclaimer": "Weather Fit is a data-journalistic context indicator, not proof of match-result causality."
+    }
+  },
+  "post_match": {
+    "de": {
+      "match_note": "{team_a_iso3} {result_team_a}:{result_team_b} {team_b_iso3}. Forecast Weather Fit: {forecast_weather_edge_team_iso3}. Ist-Wetter-Check: {actual_weather_edge}.",
+      "aggregate_note": "{scope_label}: {matches} Spiele, durchschnittlicher Actual Weather Load {avg_actual_weather_load_score}/100."
+    },
+    "en": {
+      "match_note": "{team_a_iso3} {result_team_a}:{result_team_b} {team_b_iso3}. Forecast Weather Fit: {forecast_weather_edge_team_iso3}. Actual-weather check: {actual_weather_edge}.",
+      "aggregate_note": "{scope_label}: {matches} matches, average actual Weather Load {avg_actual_weather_load_score}/100."
+    }
+  }
+}

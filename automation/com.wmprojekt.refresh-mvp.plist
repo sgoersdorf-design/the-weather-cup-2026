@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.wmprojekt.refresh-mvp</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd '/Users/steffengorsdorf/Documents/WM Projekt' &amp;&amp; echo "WM MVP refresh started: $(date)" &amp;&amp; .venv/bin/python -m python.pipelines.refresh_mvp_data &amp;&amp; echo "WM MVP refresh finished: $(date)"</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/steffengorsdorf/Documents/WM Projekt</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>7</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/steffengorsdorf/Documents/WM Projekt/logs/refresh_mvp.out.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/steffengorsdorf/Documents/WM Projekt/logs/refresh_mvp.err.log</string>
+</dict>
+</plist>

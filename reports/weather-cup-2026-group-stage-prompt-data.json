@@ -1,0 +1,4817 @@
+{
+  "metadata": {
+    "exported_at": "2026-06-29T07:05:22",
+    "source": "Supabase/PostgreSQL static export",
+    "language": "de",
+    "matches": 104,
+    "forecast_matches": 27,
+    "weather_fit_matches": 75
+  },
+  "report": {
+    "id": "weather-cup-2026-group-stage",
+    "generated_at": "2026-06-29T07:05:22",
+    "scope_stage": "group_stage",
+    "scope_label_de": "Gruppenphase",
+    "scope_label_en": "Group stage",
+    "headline_de": "72 Spiele sind im Gruppenphasen-Report verarbeitet. 10 von 44 klaren Wetterkanten deckten sich mit dem Siegerbild; die Trefferquote liegt bei 23%.",
+    "headline_en": "The group-stage report covers 72 finished matches. 10 of 44 clear weather edges matched the winning side, for a hit rate of 23%.",
+    "summary_de": "Erster wissenschaftlicher Zwischenstand zum Weather Cup 2026 nach Abschluss der Gruppenphase.",
+    "summary_en": "First scientific checkpoint for the Weather Cup 2026 after the completed group stage.",
+    "finished_matches": 72,
+    "total_goals": 215,
+    "goals_per_match": 2.99,
+    "draws": 20,
+    "draw_share": 0.278,
+    "both_teams_scored": 39,
+    "both_teams_scored_share": 0.542,
+    "avg_weather_load_score": 21.1,
+    "high_load_matches": 28,
+    "comparable_matches": 44,
+    "weather_edge_confirmed": 10,
+    "weather_edge_missed": 20,
+    "weather_edge_draws": 14,
+    "weather_edge_hit_rate": 23,
+    "avg_weather_edge_gap": 11.89,
+    "event_coverage": {
+      "finished_matches": 72,
+      "goal_event_matches": 50,
+      "goal_event_share": 0.694,
+      "lineup_matches": 55,
+      "hydration_matches": 55,
+      "last_event_update": "2026-06-25T05:05:00.945473+00:00"
+    },
+    "knockout_readiness": {
+      "upcoming_matches": 31,
+      "forecast_matches": 27,
+      "weather_fit_matches": 2,
+      "forecast_share": 0.871,
+      "weather_fit_share": 0.065
+    },
+    "key_findings_de": [
+      "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",
+      "Der durchschnittliche Weather Load lag bei 21.1/100; 28 Partien lagen im mindestens mittleren Belastungsbereich.",
+      "Die Event-Coverage deckt 50/72 beendete Spiele mit Tor-Events ab; Ist-Wetter bleibt bewusst offen, solange keine Messdaten vorliegen."
+    ],
+    "key_findings_en": [
+      "The group stage produced 215 goals across 72 matches, or 2.99 per match.",
+      "Average Weather Load was 21.1/100; 28 matches landed in at least the medium-load band.",
+      "Event coverage reaches 50/72 finished matches with goal events; actual weather remains intentionally open until measurements exist."
+    ],
+    "method_note_de": "Weather Fit bleibt ein Kontextindikator. Ergebnisse, Tore und Wettermuster werden deskriptiv ausgewertet; Kausalität wird nicht behauptet.",
+    "method_note_en": "Weather Fit remains a context indicator. Results, goals and weather patterns are evaluated descriptively; causality is not claimed.",
+    "featured_matches": {
+      "confirmed": [
+        {
+          "match_id": "M030",
+          "label": "ECU vs. DEU",
+          "result": "2:1",
+          "weather_edge": "ECU Edge",
+          "weather_load_score": 18.0,
+          "gap": 31.33,
+          "host_city": "East Rutherford",
+          "local_date": "2026-06-25",
+          "category": "confirmed",
+          "team_a_iso3": "ECU",
+          "team_b_iso3": "DEU"
+        },
+        {
+          "match_id": "M017",
+          "label": "SCO vs. BRA",
+          "result": "0:3",
+          "weather_edge": "BRA Edge",
+          "weather_load_score": 32.0,
+          "gap": 16.03,
+          "host_city": "Miami Gardens",
+          "local_date": "2026-06-24",
+          "category": "confirmed",
+          "team_a_iso3": "SCO",
+          "team_b_iso3": "BRA"
+        },
+        {
+          "match_id": "M066",
+          "label": "COD vs. UZB",
+          "result": "3:1",
+          "weather_edge": "COD Edge",
+          "weather_load_score": 42.0,
+          "gap": 14.44,
+          "host_city": "Atlanta",
+          "local_date": "2026-06-27",
+          "category": "confirmed",
+          "team_a_iso3": "COD",
+          "team_b_iso3": "UZB"
+        }
+      ],
+      "missed": [
+        {
+          "match_id": "M049",
+          "label": "FRA vs. SEN",
+          "result": "3:1",
+          "weather_edge": "SEN Edge",
+          "weather_load_score": 18.0,
+          "gap": 23.99,
+          "host_city": "East Rutherford",
+          "local_date": "2026-06-16",
+          "category": "missed",
+          "team_a_iso3": "FRA",
+          "team_b_iso3": "SEN"
+        },
+        {
+          "match_id": "M025",
+          "label": "DEU vs. CUW",
+          "result": "7:1",
+          "weather_edge": "CUW Edge",
+          "weather_load_score": 49.0,
+          "gap": 23.77,
+          "host_city": "Houston",
+          "local_date": "2026-06-14",
+          "category": "missed",
+          "team_a_iso3": "DEU",
+          "team_b_iso3": "CUW"
+        },
+        {
+          "match_id": "M052",
+          "label": "NOR vs. SEN",
+          "result": "3:2",
+          "weather_edge": "SEN Edge",
+          "weather_load_score": 7.0,
+          "gap": 19.35,
+          "host_city": "East Rutherford",
+          "local_date": "2026-06-22",
+          "category": "missed",
+          "team_a_iso3": "NOR",
+          "team_b_iso3": "SEN"
+        }
+      ],
+      "draw": [
+        {
+          "match_id": "M061",
+          "label": "PRT vs. COD",
+          "result": "1:1",
+          "weather_edge": "COD Edge",
+          "weather_load_score": 50.0,
+          "gap": 28.96,
+          "host_city": "Houston",
+          "local_date": "2026-06-17",
+          "category": "draw",
+          "team_a_iso3": "PRT",
+          "team_b_iso3": "COD"
+        },
+        {
+          "match_id": "M043",
+          "label": "ESP vs. CPV",
+          "result": "0:0",
+          "weather_edge": "CPV Edge",
+          "weather_load_score": 18.0,
+          "gap": 19.64,
+          "host_city": "Atlanta",
+          "local_date": "2026-06-15",
+          "category": "draw",
+          "team_a_iso3": "ESP",
+          "team_b_iso3": "CPV"
+        },
+        {
+          "match_id": "M065",
+          "label": "COL vs. PRT",
+          "result": "0:0",
+          "weather_edge": "COL Edge",
+          "weather_load_score": 32.0,
+          "gap": 16.57,
+          "host_city": "Miami Gardens",
+          "local_date": "2026-06-27",
+          "category": "draw",
+          "team_a_iso3": "COL",
+          "team_b_iso3": "PRT"
+        }
+      ]
+    },
+    "team_leaders": {
+      "attack": [
+        {
+          "iso3": "FRA",
+          "name_de": "Frankreich",
+          "name_en": "France",
+          "flag": "🇫🇷",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 10,
+          "goals_against": 2,
+          "goal_difference": 8
+        },
+        {
+          "iso3": "DEU",
+          "name_de": "Deutschland",
+          "name_en": "Germany",
+          "flag": "🇩🇪",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6
+        },
+        {
+          "iso3": "NLD",
+          "name_de": "Niederlande",
+          "name_en": "Netherlands",
+          "flag": "🇳🇱",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6
+        },
+        {
+          "iso3": "ARG",
+          "name_de": "Argentinien",
+          "name_en": "Argentina",
+          "flag": "🇦🇷",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 8,
+          "goals_against": 1,
+          "goal_difference": 7
+        },
+        {
+          "iso3": "CAN",
+          "name_de": "Kanada",
+          "name_en": "Canada",
+          "flag": "🇨🇦",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals_for": 8,
+          "goals_against": 3,
+          "goal_difference": 5
+        }
+      ],
+      "goal_difference": [
+        {
+          "iso3": "FRA",
+          "name_de": "Frankreich",
+          "name_en": "France",
+          "flag": "🇫🇷",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 10,
+          "goals_against": 2,
+          "goal_difference": 8
+        },
+        {
+          "iso3": "ARG",
+          "name_de": "Argentinien",
+          "name_en": "Argentina",
+          "flag": "🇦🇷",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 8,
+          "goals_against": 1,
+          "goal_difference": 7
+        },
+        {
+          "iso3": "MEX",
+          "name_de": "Mexiko",
+          "name_en": "Mexico",
+          "flag": "🇲🇽",
+          "played": 3,
+          "wins": 3,
+          "draws": 0,
+          "losses": 0,
+          "goals_for": 6,
+          "goals_against": 0,
+          "goal_difference": 6
+        },
+        {
+          "iso3": "BRA",
+          "name_de": "Brasilien",
+          "name_en": "Brazil",
+          "flag": "🇧🇷",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals_for": 7,
+          "goals_against": 1,
+          "goal_difference": 6
+        },
+        {
+          "iso3": "DEU",
+          "name_de": "Deutschland",
+          "name_en": "Germany",
+          "flag": "🇩🇪",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6
+        }
+      ],
+      "conceded": [
+        {
+          "iso3": "TUN",
+          "name_de": "Tunesien",
+          "name_en": "Tunisia",
+          "flag": "🇹🇳",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals_for": 2,
+          "goals_against": 12,
+          "goal_difference": -10
+        },
+        {
+          "iso3": "IRQ",
+          "name_de": "Irak",
+          "name_en": "Iraq",
+          "flag": "🇮🇶",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals_for": 1,
+          "goals_against": 12,
+          "goal_difference": -11
+        },
+        {
+          "iso3": "UZB",
+          "name_de": "Usbekistan",
+          "name_en": "Uzbekistan",
+          "flag": "🇺🇿",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals_for": 2,
+          "goals_against": 11,
+          "goal_difference": -9
+        },
+        {
+          "iso3": "NZL",
+          "name_de": "Neuseeland",
+          "name_en": "New Zealand",
+          "flag": "🇳🇿",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 4,
+          "goals_against": 10,
+          "goal_difference": -6
+        },
+        {
+          "iso3": "QAT",
+          "name_de": "Katar",
+          "name_en": "Qatar",
+          "flag": "🇶🇦",
+          "played": 3,
+          "wins": 0,
+          "draws": 1,
+          "losses": 2,
+          "goals_for": 2,
+          "goals_against": 10,
+          "goal_difference": -8
+        }
+      ]
+    },
+    "context_extremes": {
+      "highest_load": {
+        "match_id": "M061",
+        "label": "PRT vs. COD",
+        "result": "1:1",
+        "weather_edge": "COD Edge",
+        "weather_load_score": 50.0,
+        "gap": 28.96,
+        "host_city": "Houston",
+        "local_date": "2026-06-17",
+        "category": "context",
+        "team_a_iso3": "PRT",
+        "team_b_iso3": "COD"
+      },
+      "sharpest_edge": {
+        "match_id": "M030",
+        "label": "ECU vs. DEU",
+        "result": "2:1",
+        "weather_edge": "ECU Edge",
+        "weather_load_score": 18.0,
+        "gap": 31.33,
+        "host_city": "East Rutherford",
+        "local_date": "2026-06-25",
+        "category": "context",
+        "team_a_iso3": "ECU",
+        "team_b_iso3": "DEU"
+      },
+      "longest_travel": {
+        "match_id": "M009",
+        "label": "CHE vs. BIH",
+        "result": "4:1",
+        "weather_edge": "Ausgeglichen",
+        "weather_load_score": 14.0,
+        "gap": 1.85,
+        "host_city": "Inglewood",
+        "local_date": "2026-06-18",
+        "category": "context",
+        "team_a_iso3": "CHE",
+        "team_b_iso3": "BIH"
+      },
+      "highest_altitude": {
+        "match_id": "M001",
+        "label": "MEX vs. ZAF",
+        "result": "2:0",
+        "weather_edge": "ZAF Edge",
+        "weather_load_score": 14.0,
+        "gap": 4.98,
+        "host_city": "Mexico City",
+        "local_date": "2026-06-11",
+        "category": "context",
+        "team_a_iso3": "MEX",
+        "team_b_iso3": "ZAF"
+      }
+    }
+  },
+  "event_coverage": {
+    "finished_matches": 73,
+    "matches_with_goal_events": 40,
+    "matches_with_complete_lineups": 43,
+    "matches_with_substitutions": 43,
+    "matches_with_hydration_markers": 43,
+    "last_event_update": "2026-06-25T05:05:00.945473+00:00",
+    "goal_event_coverage_share": 0.548
+  },
+  "top_scorers": [
+    {
+      "player_name": "Lionel Messi",
+      "team_iso3": "ARG",
+      "total_goals": 5,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Erling Haaland",
+      "team_iso3": "NOR",
+      "total_goals": 4,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 2
+    },
+    {
+      "player_name": "Vinícius Júnior",
+      "team_iso3": "BRA",
+      "total_goals": 4,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 2
+    },
+    {
+      "player_name": "Kylian Mbappé",
+      "team_iso3": "FRA",
+      "total_goals": 4,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ismael Saibari",
+      "team_iso3": "MAR",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Johan Manzambi",
+      "team_iso3": "CHE",
+      "total_goals": 3,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Jonathan David",
+      "team_iso3": "CAN",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Matheus Cunha",
+      "team_iso3": "BRA",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mikel Oyarzabal",
+      "team_iso3": "ESP",
+      "total_goals": 2,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 2
+    },
+    {
+      "player_name": "Ayase Ueda",
+      "team_iso3": "JPN",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Aymen Hussein",
+      "team_iso3": "IRQ",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Cyle Larin",
+      "team_iso3": "CAN",
+      "total_goals": 2,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Daniel Muñoz",
+      "team_iso3": "COL",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Elijah Just",
+      "team_iso3": "NZL",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Folarin Balogun",
+      "team_iso3": "USA",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Harry Kane",
+      "team_iso3": "ENG",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ismaïla Sarr",
+      "team_iso3": "SEN",
+      "total_goals": 2,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Julián Quiñones",
+      "team_iso3": "MEX",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Rubén Vargas",
+      "team_iso3": "CHE",
+      "total_goals": 2,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Yasin Ayari",
+      "team_iso3": "SWE",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Abbosbek Fayzullaev",
+      "team_iso3": "UZB",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Achraf Hakimi",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Alex Freeman",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Alexander Isak",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ali Olwan",
+      "team_iso3": "JOR",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Amad Diallo",
+      "team_iso3": "CIV",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Amine Gouiri",
+      "team_iso3": "DZA",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ante Budimir",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Bradley Barcola",
+      "team_iso3": "FRA",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Breel Embolo",
+      "team_iso3": "CHE",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Caleb Yirenkyi",
+      "team_iso3": "GHA",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Cameron Burgess",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Daichi Kamada",
+      "team_iso3": "JPN",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Damián Bobadilla",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Emam Ashour",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Finn Surman",
+      "team_iso3": "NZL",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Gessime Yassine",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Giovanni Reyna",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Granit Xhaka",
+      "team_iso3": "CHE",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Hassan Al-Haydos",
+      "team_iso3": "QAT",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Hassan Al-Tambakti",
+      "team_iso3": "ESP",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Hwang In-Beom",
+      "team_iso3": "KOR",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ibrahim Mbaye",
+      "team_iso3": "SEN",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "John McGinn",
+      "team_iso3": "SCO",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Jude Bellingham",
+      "team_iso3": "ENG",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Junya Ito",
+      "team_iso3": "JPN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Jáminton Campaz",
+      "team_iso3": "COL",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ladislav Krejcí",
+      "team_iso3": "CZE",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Lamine Yamal",
+      "team_iso3": "ESP",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Leo Østigard",
+      "team_iso3": "NOR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Luis Díaz",
+      "team_iso3": "COL",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Luis Romo",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Marcus Holmgren Pedersen",
+      "team_iso3": "NOR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Marcus Rashford",
+      "team_iso3": "ENG",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Marko Arnautovic",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Martin Baturina",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mateo Chávez",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mattias Svanberg",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Maurício",
+      "team_iso3": "PRY",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Michal Sadílek",
+      "team_iso3": "CZE",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Miro Muheim",
+      "team_iso3": "QAT",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mohamed Hany",
+      "team_iso3": "BEL",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mohamed Manai",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mohamed Salah",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mohammad Mohebbi",
+      "team_iso3": "IRN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Mostafa Zico",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Nadhir Benbouali",
+      "team_iso3": "DZA",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Nathan Saliba",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Nizar Al-Rashdan",
+      "team_iso3": "JOR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Oh Hyeon-Gyu",
+      "team_iso3": "KOR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Omar Rekik",
+      "team_iso3": "TUN",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ousmane Dembélé",
+      "team_iso3": "FRA",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Petar Musa",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Promise David",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Ramin Rezaeian",
+      "team_iso3": "IRN",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Raúl Jiménez",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Romano Schmid",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Soufiane Rahimi",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Teboho Mokoena",
+      "team_iso3": "ZAF",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Thapelo Maseko",
+      "team_iso3": "ZAF",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Trézéguet",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Viktor Gyökeres",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Wilson Isidor",
+      "team_iso3": "HTI",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Yassine Bounou",
+      "team_iso3": "HTI",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Yazan Al-Arab",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1
+    },
+    {
+      "player_name": "Álvaro Fidalgo",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1
+    }
+  ],
+  "goal_timing_buckets": [
+    {
+      "bucket": "00-15",
+      "goals": 14
+    },
+    {
+      "bucket": "16-30",
+      "goals": 13
+    },
+    {
+      "bucket": "31-45+",
+      "goals": 18
+    },
+    {
+      "bucket": "46-60",
+      "goals": 25
+    },
+    {
+      "bucket": "61-75",
+      "goals": 16
+    },
+    {
+      "bucket": "76-90",
+      "goals": 19
+    },
+    {
+      "bucket": "90+X",
+      "goals": 14
+    }
+  ],
+  "hydration_break_post_window_goals": [
+    {
+      "key": "CAN",
+      "count": 3
+    },
+    {
+      "key": "FRA",
+      "count": 2
+    },
+    {
+      "key": "NOR",
+      "count": 2
+    },
+    {
+      "key": "CHE",
+      "count": 1
+    },
+    {
+      "key": "SCO",
+      "count": 1
+    }
+  ],
+  "team_scoring_windows": [
+    {
+      "key": "BRA",
+      "bucket": "46-60",
+      "count": 3,
+      "total": 7
+    },
+    {
+      "key": "CAN",
+      "bucket": "76-90",
+      "count": 2,
+      "total": 8
+    },
+    {
+      "key": "CHE",
+      "bucket": "76-90",
+      "count": 2,
+      "total": 7
+    },
+    {
+      "key": "NOR",
+      "bucket": "31-45+",
+      "count": 2,
+      "total": 7
+    },
+    {
+      "key": "FRA",
+      "bucket": "61-75",
+      "count": 2,
+      "total": 6
+    }
+  ],
+  "team_conceding_windows": [
+    {
+      "key": "QAT",
+      "bucket": "16-30",
+      "count": 3,
+      "total": 7
+    },
+    {
+      "key": "BIH",
+      "bucket": "76-90",
+      "count": 3,
+      "total": 6
+    },
+    {
+      "key": "TUN",
+      "bucket": "00-15",
+      "count": 2,
+      "total": 9
+    },
+    {
+      "key": "HTI",
+      "bucket": "16-30",
+      "count": 2,
+      "total": 8
+    },
+    {
+      "key": "CZE",
+      "bucket": "61-75",
+      "count": 2,
+      "total": 6
+    }
+  ],
+  "player_goal_timing_profiles": [
+    {
+      "player_name": "Lionel Messi",
+      "team_iso3": "ARG",
+      "total_goals": 5,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Erling Haaland",
+      "team_iso3": "NOR",
+      "total_goals": 4,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 2,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 2
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Vinícius Júnior",
+      "team_iso3": "BRA",
+      "total_goals": 4,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 2,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 2
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Kylian Mbappé",
+      "team_iso3": "FRA",
+      "total_goals": 4,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Ismael Saibari",
+      "team_iso3": "MAR",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Johan Manzambi",
+      "team_iso3": "CHE",
+      "total_goals": 3,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Jonathan David",
+      "team_iso3": "CAN",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Matheus Cunha",
+      "team_iso3": "BRA",
+      "total_goals": 3,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mikel Oyarzabal",
+      "team_iso3": "ESP",
+      "total_goals": 2,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 2,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 2
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ayase Ueda",
+      "team_iso3": "JPN",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Aymen Hussein",
+      "team_iso3": "IRQ",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Cyle Larin",
+      "team_iso3": "CAN",
+      "total_goals": 2,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Daniel Muñoz",
+      "team_iso3": "COL",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Elijah Just",
+      "team_iso3": "NZL",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Folarin Balogun",
+      "team_iso3": "USA",
+      "total_goals": 2,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Harry Kane",
+      "team_iso3": "ENG",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ismaïla Sarr",
+      "team_iso3": "SEN",
+      "total_goals": 2,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Julián Quiñones",
+      "team_iso3": "MEX",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Rubén Vargas",
+      "team_iso3": "CHE",
+      "total_goals": 2,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Yasin Ayari",
+      "team_iso3": "SWE",
+      "total_goals": 2,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Abbosbek Fayzullaev",
+      "team_iso3": "UZB",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Achraf Hakimi",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Alex Freeman",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Alexander Isak",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ali Olwan",
+      "team_iso3": "JOR",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Amad Diallo",
+      "team_iso3": "CIV",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Amine Gouiri",
+      "team_iso3": "DZA",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ante Budimir",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Bradley Barcola",
+      "team_iso3": "FRA",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Breel Embolo",
+      "team_iso3": "CHE",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Caleb Yirenkyi",
+      "team_iso3": "GHA",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Cameron Burgess",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Daichi Kamada",
+      "team_iso3": "JPN",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Damián Bobadilla",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Emam Ashour",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Finn Surman",
+      "team_iso3": "NZL",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Gessime Yassine",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Giovanni Reyna",
+      "team_iso3": "USA",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Granit Xhaka",
+      "team_iso3": "CHE",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Hassan Al-Haydos",
+      "team_iso3": "QAT",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Hassan Al-Tambakti",
+      "team_iso3": "ESP",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Hwang In-Beom",
+      "team_iso3": "KOR",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ibrahim Mbaye",
+      "team_iso3": "SEN",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "John McGinn",
+      "team_iso3": "SCO",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Jude Bellingham",
+      "team_iso3": "ENG",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Junya Ito",
+      "team_iso3": "JPN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Jáminton Campaz",
+      "team_iso3": "COL",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Ladislav Krejcí",
+      "team_iso3": "CZE",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Lamine Yamal",
+      "team_iso3": "ESP",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Leo Østigard",
+      "team_iso3": "NOR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Luis Díaz",
+      "team_iso3": "COL",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Luis Romo",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Marcus Holmgren Pedersen",
+      "team_iso3": "NOR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Marcus Rashford",
+      "team_iso3": "ENG",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Marko Arnautovic",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Martin Baturina",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mateo Chávez",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mattias Svanberg",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Maurício",
+      "team_iso3": "PRY",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Michal Sadílek",
+      "team_iso3": "CZE",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Miro Muheim",
+      "team_iso3": "QAT",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "player_name": "Mohamed Hany",
+      "team_iso3": "BEL",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mohamed Manai",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mohamed Salah",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mohammad Mohebbi",
+      "team_iso3": "IRN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Mostafa Zico",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Nadhir Benbouali",
+      "team_iso3": "DZA",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Nathan Saliba",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Nizar Al-Rashdan",
+      "team_iso3": "JOR",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Oh Hyeon-Gyu",
+      "team_iso3": "KOR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Omar Rekik",
+      "team_iso3": "TUN",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ousmane Dembélé",
+      "team_iso3": "FRA",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Petar Musa",
+      "team_iso3": "HRV",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Promise David",
+      "team_iso3": "CAN",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Ramin Rezaeian",
+      "team_iso3": "IRN",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Raúl Jiménez",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Romano Schmid",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "16-30",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 1
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Soufiane Rahimi",
+      "team_iso3": "MAR",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Teboho Mokoena",
+      "team_iso3": "ZAF",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Thapelo Maseko",
+      "team_iso3": "ZAF",
+      "total_goals": 1,
+      "top_bucket": "61-75",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 1
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Trézéguet",
+      "team_iso3": "EGY",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Viktor Gyökeres",
+      "team_iso3": "SWE",
+      "total_goals": 1,
+      "top_bucket": "46-60",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 1
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Wilson Isidor",
+      "team_iso3": "HTI",
+      "total_goals": 1,
+      "top_bucket": "31-45+",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 1
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Yassine Bounou",
+      "team_iso3": "HTI",
+      "total_goals": 1,
+      "top_bucket": "00-15",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 1
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Yazan Al-Arab",
+      "team_iso3": "AUT",
+      "total_goals": 1,
+      "top_bucket": "76-90",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 1
+        },
+        {
+          "bucket": "90+X",
+          "goals": 0
+        }
+      ]
+    },
+    {
+      "player_name": "Álvaro Fidalgo",
+      "team_iso3": "MEX",
+      "total_goals": 1,
+      "top_bucket": "90+X",
+      "top_bucket_goals": 1,
+      "buckets": [
+        {
+          "bucket": "00-15",
+          "goals": 0
+        },
+        {
+          "bucket": "16-30",
+          "goals": 0
+        },
+        {
+          "bucket": "31-45+",
+          "goals": 0
+        },
+        {
+          "bucket": "46-60",
+          "goals": 0
+        },
+        {
+          "bucket": "61-75",
+          "goals": 0
+        },
+        {
+          "bucket": "76-90",
+          "goals": 0
+        },
+        {
+          "bucket": "90+X",
+          "goals": 1
+        }
+      ]
+    }
+  ],
+  "tournament_analysis": {
+    "matches": 104,
+    "finished": 73,
+    "forecast_matches": 27,
+    "actual_weather_matches": 0,
+    "weather_fit_matches": 75,
+    "weather_fit_edges": 46,
+    "avg_weather_load_score": 21.47,
+    "report_ready_matches": 0
+  },
+  "group_stage_match_examples": {
+    "confirmed": [
+      {
+        "match_id": "M030",
+        "label": "ECU vs. DEU",
+        "result": "2:1",
+        "weather_edge": "ECU Edge",
+        "weather_load_score": 18.0,
+        "gap": 31.33,
+        "host_city": "East Rutherford",
+        "local_date": "2026-06-25",
+        "category": "confirmed",
+        "team_a_iso3": "ECU",
+        "team_b_iso3": "DEU"
+      },
+      {
+        "match_id": "M017",
+        "label": "SCO vs. BRA",
+        "result": "0:3",
+        "weather_edge": "BRA Edge",
+        "weather_load_score": 32.0,
+        "gap": 16.03,
+        "host_city": "Miami Gardens",
+        "local_date": "2026-06-24",
+        "category": "confirmed",
+        "team_a_iso3": "SCO",
+        "team_b_iso3": "BRA"
+      },
+      {
+        "match_id": "M066",
+        "label": "COD vs. UZB",
+        "result": "3:1",
+        "weather_edge": "COD Edge",
+        "weather_load_score": 42.0,
+        "gap": 14.44,
+        "host_city": "Atlanta",
+        "local_date": "2026-06-27",
+        "category": "confirmed",
+        "team_a_iso3": "COD",
+        "team_b_iso3": "UZB"
+      }
+    ],
+    "missed": [
+      {
+        "match_id": "M049",
+        "label": "FRA vs. SEN",
+        "result": "3:1",
+        "weather_edge": "SEN Edge",
+        "weather_load_score": 18.0,
+        "gap": 23.99,
+        "host_city": "East Rutherford",
+        "local_date": "2026-06-16",
+        "category": "missed",
+        "team_a_iso3": "FRA",
+        "team_b_iso3": "SEN"
+      },
+      {
+        "match_id": "M025",
+        "label": "DEU vs. CUW",
+        "result": "7:1",
+        "weather_edge": "CUW Edge",
+        "weather_load_score": 49.0,
+        "gap": 23.77,
+        "host_city": "Houston",
+        "local_date": "2026-06-14",
+        "category": "missed",
+        "team_a_iso3": "DEU",
+        "team_b_iso3": "CUW"
+      },
+      {
+        "match_id": "M052",
+        "label": "NOR vs. SEN",
+        "result": "3:2",
+        "weather_edge": "SEN Edge",
+        "weather_load_score": 7.0,
+        "gap": 19.35,
+        "host_city": "East Rutherford",
+        "local_date": "2026-06-22",
+        "category": "missed",
+        "team_a_iso3": "NOR",
+        "team_b_iso3": "SEN"
+      }
+    ],
+    "draw": [
+      {
+        "match_id": "M061",
+        "label": "PRT vs. COD",
+        "result": "1:1",
+        "weather_edge": "COD Edge",
+        "weather_load_score": 50.0,
+        "gap": 28.96,
+        "host_city": "Houston",
+        "local_date": "2026-06-17",
+        "category": "draw",
+        "team_a_iso3": "PRT",
+        "team_b_iso3": "COD"
+      },
+      {
+        "match_id": "M043",
+        "label": "ESP vs. CPV",
+        "result": "0:0",
+        "weather_edge": "CPV Edge",
+        "weather_load_score": 18.0,
+        "gap": 19.64,
+        "host_city": "Atlanta",
+        "local_date": "2026-06-15",
+        "category": "draw",
+        "team_a_iso3": "ESP",
+        "team_b_iso3": "CPV"
+      },
+      {
+        "match_id": "M065",
+        "label": "COL vs. PRT",
+        "result": "0:0",
+        "weather_edge": "COL Edge",
+        "weather_load_score": 32.0,
+        "gap": 16.57,
+        "host_city": "Miami Gardens",
+        "local_date": "2026-06-27",
+        "category": "draw",
+        "team_a_iso3": "COL",
+        "team_b_iso3": "PRT"
+      }
+    ]
+  },
+  "context_extremes": {
+    "highest_load": {
+      "match_id": "M061",
+      "label": "PRT vs. COD",
+      "result": "1:1",
+      "weather_edge": "COD Edge",
+      "weather_load_score": 50.0,
+      "gap": 28.96,
+      "host_city": "Houston",
+      "local_date": "2026-06-17",
+      "category": "context",
+      "team_a_iso3": "PRT",
+      "team_b_iso3": "COD"
+    },
+    "sharpest_edge": {
+      "match_id": "M030",
+      "label": "ECU vs. DEU",
+      "result": "2:1",
+      "weather_edge": "ECU Edge",
+      "weather_load_score": 18.0,
+      "gap": 31.33,
+      "host_city": "East Rutherford",
+      "local_date": "2026-06-25",
+      "category": "context",
+      "team_a_iso3": "ECU",
+      "team_b_iso3": "DEU"
+    },
+    "longest_travel": {
+      "match_id": "M009",
+      "label": "CHE vs. BIH",
+      "result": "4:1",
+      "weather_edge": "Ausgeglichen",
+      "weather_load_score": 14.0,
+      "gap": 1.85,
+      "host_city": "Inglewood",
+      "local_date": "2026-06-18",
+      "category": "context",
+      "team_a_iso3": "CHE",
+      "team_b_iso3": "BIH"
+    },
+    "highest_altitude": {
+      "match_id": "M001",
+      "label": "MEX vs. ZAF",
+      "result": "2:0",
+      "weather_edge": "ZAF Edge",
+      "weather_load_score": 14.0,
+      "gap": 4.98,
+      "host_city": "Mexico City",
+      "local_date": "2026-06-11",
+      "category": "context",
+      "team_a_iso3": "MEX",
+      "team_b_iso3": "ZAF"
+    }
+  },
+  "team_leaders": {
+    "attack": [
+      {
+        "iso3": "FRA",
+        "name_de": "Frankreich",
+        "name_en": "France",
+        "flag": "🇫🇷",
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 10,
+        "goals_against": 2,
+        "goal_difference": 8
+      },
+      {
+        "iso3": "DEU",
+        "name_de": "Deutschland",
+        "name_en": "Germany",
+        "flag": "🇩🇪",
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 10,
+        "goals_against": 4,
+        "goal_difference": 6
+      },
+      {
+        "iso3": "NLD",
+        "name_de": "Niederlande",
+        "name_en": "Netherlands",
+        "flag": "🇳🇱",
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 10,
+        "goals_against": 4,
+        "goal_difference": 6
+      },
+      {
+        "iso3": "ARG",
+        "name_de": "Argentinien",
+        "name_en": "Argentina",
+        "flag": "🇦🇷",
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 8,
+        "goals_against": 1,
+        "goal_difference": 7
+      },
+      {
+        "iso3": "CAN",
+        "name_de": "Kanada",
+        "name_en": "Canada",
+        "flag": "🇨🇦",
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goals_for": 8,
+        "goals_against": 3,
+        "goal_difference": 5
+      }
+    ],
+    "goal_difference": [
+      {
+        "iso3": "FRA",
+        "name_de": "Frankreich",
+        "name_en": "France",
+        "flag": "🇫🇷",
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 10,
+        "goals_against": 2,
+        "goal_difference": 8
+      },
+      {
+        "iso3": "ARG",
+        "name_de": "Argentinien",
+        "name_en": "Argentina",
+        "flag": "🇦🇷",
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 8,
+        "goals_against": 1,
+        "goal_difference": 7
+      },
+      {
+        "iso3": "MEX",
+        "name_de": "Mexiko",
+        "name_en": "Mexico",
+        "flag": "🇲🇽",
+        "played": 3,
+        "wins": 3,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 6,
+        "goals_against": 0,
+        "goal_difference": 6
+      },
+      {
+        "iso3": "BRA",
+        "name_de": "Brasilien",
+        "name_en": "Brazil",
+        "flag": "🇧🇷",
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 7,
+        "goals_against": 1,
+        "goal_difference": 6
+      },
+      {
+        "iso3": "DEU",
+        "name_de": "Deutschland",
+        "name_en": "Germany",
+        "flag": "🇩🇪",
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 10,
+        "goals_against": 4,
+        "goal_difference": 6
+      }
+    ],
+    "conceded": [
+      {
+        "iso3": "TUN",
+        "name_de": "Tunesien",
+        "name_en": "Tunisia",
+        "flag": "🇹🇳",
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goals_for": 2,
+        "goals_against": 12,
+        "goal_difference": -10
+      },
+      {
+        "iso3": "IRQ",
+        "name_de": "Irak",
+        "name_en": "Iraq",
+        "flag": "🇮🇶",
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goals_for": 1,
+        "goals_against": 12,
+        "goal_difference": -11
+      },
+      {
+        "iso3": "UZB",
+        "name_de": "Usbekistan",
+        "name_en": "Uzbekistan",
+        "flag": "🇺🇿",
+        "played": 3,
+        "wins": 0,
+        "draws": 0,
+        "losses": 3,
+        "goals_for": 2,
+        "goals_against": 11,
+        "goal_difference": -9
+      },
+      {
+        "iso3": "NZL",
+        "name_de": "Neuseeland",
+        "name_en": "New Zealand",
+        "flag": "🇳🇿",
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goals_for": 4,
+        "goals_against": 10,
+        "goal_difference": -6
+      },
+      {
+        "iso3": "QAT",
+        "name_de": "Katar",
+        "name_en": "Qatar",
+        "flag": "🇶🇦",
+        "played": 3,
+        "wins": 0,
+        "draws": 1,
+        "losses": 2,
+        "goals_for": 2,
+        "goals_against": 10,
+        "goal_difference": -8
+      }
+    ]
+  },
+  "historical_world_cup_baselines": [
+    {
+      "year": 2022,
+      "scope": "full_tournament",
+      "champion": "ARG",
+      "top_scorer": "Kylian Mbappé",
+      "top_scorer_goals": 8,
+      "matches": 64,
+      "goals": 172,
+      "goals_per_match": 2.69,
+      "note_de": "Katar 2022 endete mit 172 Toren und einem 3:3-Finale. Marokko wurde als erstes afrikanisches Team Halbfinalist.",
+      "note_en": "Qatar 2022 ended with 172 goals and a 3-3 final. Morocco became the first African semi-finalist.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+        "https://inside.fifa.com/tournaments/mens/worldcup/qatar2022"
+      ]
+    },
+    {
+      "year": 2018,
+      "scope": "full_tournament",
+      "champion": "FRA",
+      "top_scorer": "Harry Kane",
+      "top_scorer_goals": 6,
+      "matches": 64,
+      "goals": 169,
+      "goals_per_match": 2.64,
+      "note_de": "Russland 2018 brachte 169 Tore. Deutschland schied als Titelverteidiger in der Gruppenphase aus; das Turnier setzte mit 12 Eigentoren einen Rekord.",
+      "note_en": "Russia 2018 produced 169 goals. Germany exited in the group stage as defending champion; the tournament set a record with 12 own goals.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
+        "https://inside.fifa.com/tournaments/mens/worldcup/russia2018"
+      ]
+    },
+    {
+      "year": 2014,
+      "scope": "full_tournament",
+      "champion": "DEU",
+      "top_scorer": "James Rodríguez",
+      "top_scorer_goals": 6,
+      "matches": 64,
+      "goals": 171,
+      "goals_per_match": 2.67,
+      "group_stage_goals": 136,
+      "note_de": "Brasilien 2014 blieb mit 171 Toren eines der offensivsten Turniere der Neuzeit. Die Gruppenphase brachte 136 Tore und im Halbfinale stand das 7:1 gegen Brasilien.",
+      "note_en": "Brazil 2014 remained one of the most attack-heavy modern tournaments with 171 goals. Its group stage produced 136 goals and the semi-final featured the 7-1 against Brazil.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup",
+        "https://inside.fifa.com/tournaments/mens/worldcup/brazil2014"
+      ]
+    },
+    {
+      "year": 2010,
+      "scope": "full_tournament",
+      "champion": "ESP",
+      "top_scorer": "Diego Forlán / Thomas Müller / Wesley Sneijder / David Villa",
+      "top_scorer_goals": 5,
+      "matches": 64,
+      "goals": 145,
+      "goals_per_match": 2.27,
+      "note_de": "Suedafrika 2010 war das torarmste der vier Vergleichsturniere. Spanien gewann den Titel mit nur acht eigenen Turniertoren.",
+      "note_en": "South Africa 2010 was the lowest-scoring tournament of the four. Spain won the title with only eight goals of its own.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup",
+        "https://inside.fifa.com/tournaments/mens/worldcup/southafrica2010"
+      ]
+    }
+  ]
+}

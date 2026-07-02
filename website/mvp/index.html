@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Weather Cup 2026</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero" id="top">
+        <div class="hero-bar">
+          <div class="brand-lockup">
+            <p class="eyebrow" data-i18n="siteEyebrow">WM 2026 Context Lab</p>
+            <h1>The Weather Cup 2026</h1>
+          </div>
+          <div class="topbar-actions">
+            <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to English">EN</button>
+            <div class="status" id="exportStatus" data-i18n="statusLoading">Datenstand wird geladen</div>
+          </div>
+        </div>
+        <div class="hero-content">
+          <div>
+            <h2 class="hero-claim" data-i18n="heroClaim">Der tägliche Blick auf den Wetter-Faktor bei der WM.</h2>
+            <p class="site-subline" data-i18n="siteSubline">Wetter, Reisen, Höhe und Zeitzonen für jedes Spiel — datenbasiert, zweisprachig, ohne Ergebnisgarantie.</p>
+          </div>
+          <div class="hero-actions">
+            <button class="primary-action" id="heroTodayCta" type="button" data-i18n="heroTodayCta">Heutige Spiele ansehen</button>
+            <button class="secondary-action is-on-dark" id="heroMapCta" type="button" data-i18n="heroMapCta">Wetterkarte öffnen</button>
+          </div>
+        </div>
+        <div class="hero-signal" id="heroSignal" aria-live="polite"></div>
+      </header>
+
+      <nav class="app-nav" aria-label="Hauptnavigation">
+        <button class="app-nav-item is-active" type="button" data-section-target="home" data-i18n="navToday">Heute</button>
+        <button class="app-nav-item" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
+        <button class="app-nav-item" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
+        <button class="app-nav-item" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
+        <button class="app-nav-item" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
+        <button class="app-nav-item" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
+        <button class="app-nav-item" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
+        <button class="app-nav-item" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
+      </nav>
+
+      <section class="app-section home-section is-active" data-section="home" aria-label="Heute">
+        <div id="homeDashboard"></div>
+      </section>
+
+      <section class="app-section" data-section="matches" aria-label="Spielplan">
+        <div class="schedule-toolbar">
+          <section class="schedule-jumpbar" id="scheduleJumpbar" aria-label="Spielplan Schnellnavigation"></section>
+          <section class="controls" aria-label="Filter">
+            <div class="search-wrap">
+              <input id="searchInput" type="search" placeholder="Team, Gruppe, Ort, Match-ID" data-i18n-placeholder="searchPlaceholder" autocomplete="off">
+            </div>
+            <div class="segments" role="group" aria-label="Ansicht">
+              <button class="segment is-active" type="button" data-mode="all" data-i18n="modeAll">Alle</button>
+              <button class="segment" type="button" data-mode="edge" data-i18n="modeEdge">Wettervorteil</button>
+            </div>
+            <select id="matchdayFilter" aria-label="Gruppenspieltag"></select>
+            <select id="groupFilter" aria-label="Gruppe"></select>
+          </section>
+          <div class="schedule-toolbar-status" id="scheduleToolbarStatus" aria-live="polite"></div>
+        </div>
+
+        <section class="workspace">
+          <div class="match-list" id="matchList" aria-label="Matches"></div>
+        </section>
+
+        <section class="matchday-insights" aria-label="Spieltag Überblick">
+          <section class="matchday-summary" id="matchdaySummary" aria-label="Aktueller Spieltag"></section>
+
+          <div class="ad-slot ad-slot-inline" data-ad-slot="matchday_inline" aria-label="Anzeige Spieltag Inline"></div>
+
+          <section class="metrics" aria-label="MVP Status">
+            <div class="metric">
+              <span class="metric-value" id="metricMatches">0</span>
+              <span class="metric-label" data-i18n="metricMatches">Gruppenspiele</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" id="metricForecasts">0</span>
+              <span class="metric-label" data-i18n="metricForecasts">mit Forecast</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" id="metricEdges">0</span>
+              <span class="metric-label" data-i18n="metricEdges">Wettervorteile</span>
+            </div>
+            <div class="metric">
+              <span class="metric-value" id="metricTexts">0</span>
+              <span class="metric-label" data-i18n="metricTexts">Social Hooks</span>
+            </div>
+          </section>
+
+          <section class="forecast-band" aria-label="Forecast-Verteilung">
+            <div class="band-title" data-i18n="forecastBandTitle">Forecast-Abdeckung nach Turniertag</div>
+            <div class="coverage-bars" id="coverageBars"></div>
+          </section>
+
+          <div class="ad-slot ad-slot-wide" data-ad-slot="matchday_top" aria-label="Anzeige Spieltag Top"></div>
+        </section>
+      </section>
+
+      <section class="app-section favorites-section" data-section="favorites" aria-label="Wetterfavoriten">
+        <div class="section-head favorites-head">
+          <div>
+            <p class="eyebrow" data-i18n="favoritesEyebrow">Wettervorteil</p>
+            <h2 data-i18n="favoritesTitle">Wetterfavoriten</h2>
+            <p class="section-copy" data-i18n="favoritesIntro">Teams, deren Spielprofil besonders gut zu den erwarteten Bedingungen passt.</p>
+          </div>
+          <select id="favoritesMatchdayFilter" aria-label="Gruppenspieltag für Wetterfavoriten"></select>
+        </div>
+        <section class="favorites-summary" id="favoritesSummary" aria-label="Zusammenfassung Wetterfavoriten"></section>
+        <div class="weather-favorites-grid" id="weatherFavorites"></div>
+      </section>
+
+      <section class="app-section weather-map-section" data-section="map" aria-label="Interaktive Wetterkarte">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-i18n="mapEyebrow">Wetterkarte</p>
+            <h2 data-i18n="mapTitle">Spielorte & Bedingungen</h2>
+          </div>
+          <select id="mapMatchdayFilter" aria-label="Gruppenspieltag für Wetterkarte"></select>
+        </div>
+        <div class="map-mobile-controls" role="group" aria-label="Kartenansicht">
+          <button class="map-view-toggle is-active" type="button" data-map-view="venues" data-i18n="mapViewVenues">Spielorte</button>
+          <button class="map-view-toggle" type="button" data-map-view="map" data-i18n="mapViewMap">Karte</button>
+        </div>
+        <div class="venue-highlights" id="venueHighlights" aria-label="Härteste Spielorte"></div>
+        <div class="weather-map-layout">
+          <div class="map-canvas" id="weatherMapCanvas" aria-label="Wetterkarte der Spielorte">
+          </div>
+          <aside class="map-detail" id="weatherMapDetail" aria-label="Wetterkarte Detail"></aside>
+        </div>
+        <div class="map-legend" aria-label="Kartenlegende">
+          <span><i class="load-low"></i> <span data-i18n="legendLow">niedrig</span></span>
+          <span><i class="load-medium"></i> <span data-i18n="legendMedium">mittel</span></span>
+          <span><i class="load-high"></i> <span data-i18n="legendHigh">hoch</span></span>
+          <span><i class="load-pending"></i> <span data-i18n="legendPending">Forecast offen</span></span>
+        </div>
+      </section>
+
+      <section class="app-section travel-section" data-section="travel" aria-label="Reiseranking der Teams">
+        <div id="travelContent"></div>
+      </section>
+
+      <section class="app-section analysis-section" data-section="analysis" aria-label="Turnierstand und Tabellen">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" id="analysisEyebrow">Turnierdaten</p>
+            <h2 id="analysisTitle">Turnierstand & Tabellen</h2>
+          </div>
+          <div class="analysis-tabs" id="analysisTabs" role="group" aria-label="Tabellenansicht">
+            <button class="analysis-tab is-active" type="button" data-analysis-mode="standings" data-i18n="tabStandings">Stand</button>
+            <button class="analysis-tab" type="button" data-analysis-mode="matches" data-i18n="tabMatches">Partien</button>
+            <button class="analysis-tab" type="button" data-analysis-mode="matchdays" data-i18n="tabMatchdays">Spieltage</button>
+            <button class="analysis-tab" type="button" data-analysis-mode="phases" data-i18n="tabPhases">Phasen</button>
+            <button class="analysis-tab" type="button" data-analysis-mode="report" data-i18n="tabReport">Report</button>
+          </div>
+        </div>
+        <div class="ad-slot ad-slot-wide" data-ad-slot="tables_top" aria-label="Anzeige Tabellen Top"></div>
+        <div class="analysis-content" id="analysisContent"></div>
+      </section>
+
+      <section class="app-section faq" data-section="faq" aria-label="FAQ">
+        <div class="faq-head">
+          <h2>FAQ</h2>
+        </div>
+        <div class="faq-items">
+          <details open>
+            <summary data-i18n="faq1Q">Was zeigt der Weather Fit?</summary>
+            <p data-i18n="faq1A">Der Wert vergleicht, wie gut beide Teams zur erwarteten Wettersituation passen. Berücksichtigt werden Temperatur, Luftfeuchtigkeit, Wind, Niederschlagsrisiko, Gewöhnung und wetterbezogene Toleranzprofile.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq2Q">Was bedeutet Wettervorteil?</summary>
+            <p data-i18n="faq2A">Der Wettervorteil zeigt, welches Team besser zu den erwarteten Bedingungen passt. Kleine Unterschiede gelten als ausgeglichen. Er ist ein Kontextsignal, kein Ergebnisversprechen.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq3Q">Warum haben manche Spiele noch keinen Forecast?</summary>
+            <p data-i18n="faq3A">Forecast-Daten liegen nur in einem begrenzten Vorhersagefenster vor. Sobald ein Spieltag nah genug ist, werden neue Open-Meteo-Daten importiert und die Match Cards aktualisiert.</p>
+          </details>
+          <details>
+            <summary data-i18n="faq4Q">Was bedeuten die Prozentwerte?</summary>
+            <p data-i18n="faq4A">Die Prozentwerte sind transparente MVP-Prognosen aus Teamstärke, Wetter, Zeitzone, Höhe und Standortnähe. Sie sind keine Wettquoten und keine sicheren Vorhersagen.</p>
+          </details>
+          <details id="faq-privacy">
+            <summary data-i18n="faq5Q">Welche Daten werden beim Besuch verarbeitet?</summary>
+            <p data-i18n="faq5A">Diese Website verwendet derzeit keine Cookies, kein Analytics und kein Werbetracking. Beim Hosting können technisch notwendige Server-Logdaten wie IP-Adresse, Zeitpunkt, aufgerufene Datei und Browserinformationen verarbeitet werden. Google Maps wird erst nach einem bewussten Klick geöffnet.</p>
+          </details>
+          <details id="faq-sources">
+            <summary data-i18n="faq6Q">Woher stammen Wetter-, Karten- und Turnierdaten?</summary>
+            <p data-i18n="faq6A">Wetterdaten stammen von Open-Meteo und werden unter CC BY 4.0 genutzt. Die Kartengrundlage basiert auf Natural Earth, Public Domain. Spielplan-, Team- und Stadiondaten werden aus dokumentierten Quellen importiert und vor der Veröffentlichung plausibilisiert.</p>
+            <div class="faq-links">
+              <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a>
+              <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a>
+            </div>
+          </details>
+          <details id="faq-independent">
+            <summary data-i18n="faq7Q">Ist The Weather Cup ein offizielles FIFA-Angebot?</summary>
+            <p data-i18n="faq7A">Nein. The Weather Cup ist ein unabhängiges Daten- und Analyseangebot und steht in keiner offiziellen Verbindung zur FIFA oder zu den teilnehmenden Verbänden. Namen, Logos und Marken gehören ihren jeweiligen Rechteinhabern.</p>
+          </details>
+          <details id="faq-disclaimer">
+            <summary data-i18n="faq8Q">Wie verbindlich sind Wetterdaten und Prognosen?</summary>
+            <p data-i18n="faq8A">Forecasts, Weather Fit, Wettervorteile und Siegchancen dienen ausschließlich der Information und Einordnung. Sie können sich durch neue Wetter- oder Turnierdaten ändern und sind weder Ergebnisgarantie noch Wettquote oder Handlungsempfehlung.</p>
+          </details>
+          <details id="faq-predictions">
+            <summary data-i18n="faq9Q">Wie funktioniert die Tippfunktion?</summary>
+            <p data-i18n="faq9A">Deine Tipps werden ausschließlich lokal in diesem Browser gespeichert. Es gibt kein Konto, keine Übertragung personenbezogener Daten und kein verpflichtendes Tracking. Du kannst die lokalen Tipps jederzeit über deine Browserdaten löschen.</p>
+          </details>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div>
+          <b>The Weather Cup 2026</b>
+          <span data-i18n="footerClaim">Unabhängiges Wetter- und Turnierdatenangebot.</span>
+        </div>
+        <nav class="footer-links" aria-label="Rechtliche Hinweise">
+          <button type="button" data-legal-target="faq-privacy" data-i18n="footerPrivacy">Datenschutz</button>
+          <button type="button" data-legal-target="faq-sources" data-i18n="footerSources">Datenquellen</button>
+          <button type="button" data-legal-target="faq-independent" data-i18n="footerLegal">Rechtliche Hinweise</button>
+        </nav>
+      </footer>
+    </main>
+
+    <button class="back-to-top" id="backToTop" type="button" data-i18n="backToTop" hidden>Nach oben</button>
+
+    <dialog class="prediction-dialog" id="predictionDialog" aria-labelledby="predictionDialogTitle">
+      <div id="predictionDialogContent"></div>
+    </dialog>
+
+    <script src="./data.js"></script>
+    <script src="./map-data.js"></script>
+    <script src="./experience.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+match_id,tournament_stage,group_name,matchday,matchday_label,calendar_day,calendar_day_label,date_utc,local_date,local_time,local_timezone,team_a_iso3,team_b_iso3,stadium_name,host_city,result_team_a,result_team_b,match_status,data_source_name,data_quality_score
+M001,group_stage,A,,,1,Turniertag 1,2026-06-11T19:00:00Z,2026-06-11,13:00,America/Mexico_City,MEX,ZAF,Mexico City Stadium,Mexico City,2,0,finished,OpenFootball worldcup.json CC0,90
+M002,group_stage,A,,,1,Turniertag 1,2026-06-12T02:00:00Z,2026-06-11,20:00,America/Mexico_City,KOR,CZE,Guadalajara Stadium,Guadalajara,2,1,finished,OpenFootball worldcup.json CC0,90
+M003,group_stage,A,,,8,Turniertag 8,2026-06-18T16:00:00Z,2026-06-18,12:00,America/New_York,CZE,ZAF,Atlanta Stadium,Atlanta,1,1,finished,OpenFootball worldcup.json CC0,90
+M004,group_stage,A,,,8,Turniertag 8,2026-06-19T01:00:00Z,2026-06-18,19:00,America/Mexico_City,MEX,KOR,Guadalajara Stadium,Guadalajara,1,0,finished,OpenFootball worldcup.json CC0,90
+M005,group_stage,A,,,14,Turniertag 14,2026-06-25T01:00:00Z,2026-06-24,19:00,America/Mexico_City,CZE,MEX,Mexico City Stadium,Mexico City,0,3,finished,OpenFootball worldcup.json CC0,90
+M006,group_stage,A,,,14,Turniertag 14,2026-06-25T01:00:00Z,2026-06-24,19:00,America/Monterrey,ZAF,KOR,Monterrey Stadium,Monterrey,1,0,finished,OpenFootball worldcup.json CC0,90
+M007,group_stage,B,,,2,Turniertag 2,2026-06-12T19:00:00Z,2026-06-12,15:00,America/Toronto,CAN,BIH,Toronto Stadium,Toronto,1,1,finished,OpenFootball worldcup.json CC0,90
+M008,group_stage,B,,,3,Turniertag 3,2026-06-13T19:00:00Z,2026-06-13,12:00,America/Los_Angeles,QAT,CHE,San Francisco Bay Area Stadium,Santa Clara,1,1,finished,OpenFootball worldcup.json CC0,90
+M009,group_stage,B,,,8,Turniertag 8,2026-06-18T19:00:00Z,2026-06-18,12:00,America/Los_Angeles,CHE,BIH,Los Angeles Stadium,Inglewood,4,1,finished,OpenFootball worldcup.json CC0,90
+M010,group_stage,B,,,8,Turniertag 8,2026-06-18T22:00:00Z,2026-06-18,15:00,America/Vancouver,CAN,QAT,BC Place Vancouver,Vancouver,6,0,finished,OpenFootball worldcup.json CC0,90
+M011,group_stage,B,,,14,Turniertag 14,2026-06-24T19:00:00Z,2026-06-24,12:00,America/Vancouver,CHE,CAN,BC Place Vancouver,Vancouver,2,1,finished,OpenFootball worldcup.json CC0,90
+M012,group_stage,B,,,14,Turniertag 14,2026-06-24T19:00:00Z,2026-06-24,12:00,America/Los_Angeles,BIH,QAT,Seattle Stadium,Seattle,3,1,finished,OpenFootball worldcup.json CC0,90
+M013,group_stage,C,,,3,Turniertag 3,2026-06-13T22:00:00Z,2026-06-13,18:00,America/New_York,BRA,MAR,New York New Jersey Stadium,East Rutherford,1,1,finished,OpenFootball worldcup.json CC0,90
+M014,group_stage,C,,,3,Turniertag 3,2026-06-14T01:00:00Z,2026-06-13,21:00,America/New_York,HTI,SCO,Boston Stadium,Foxborough,0,1,finished,OpenFootball worldcup.json CC0,90
+M015,group_stage,C,,,9,Turniertag 9,2026-06-19T22:00:00Z,2026-06-19,18:00,America/New_York,SCO,MAR,Boston Stadium,Foxborough,0,1,finished,OpenFootball worldcup.json CC0,90
+M016,group_stage,C,,,9,Turniertag 9,2026-06-20T00:30:00Z,2026-06-19,20:30,America/New_York,BRA,HTI,Philadelphia Stadium,Philadelphia,3,0,finished,OpenFootball worldcup.json CC0,90
+M017,group_stage,C,,,14,Turniertag 14,2026-06-24T22:00:00Z,2026-06-24,18:00,America/New_York,SCO,BRA,Miami Stadium,Miami Gardens,0,3,finished,OpenFootball worldcup.json CC0,90
+M018,group_stage,C,,,14,Turniertag 14,2026-06-24T22:00:00Z,2026-06-24,18:00,America/New_York,MAR,HTI,Atlanta Stadium,Atlanta,4,2,finished,OpenFootball worldcup.json CC0,90
+M019,group_stage,D,,,2,Turniertag 2,2026-06-13T01:00:00Z,2026-06-12,18:00,America/Los_Angeles,USA,PRY,Los Angeles Stadium,Inglewood,4,1,finished,OpenFootball worldcup.json CC0,90
+M020,group_stage,D,,,3,Turniertag 3,2026-06-14T04:00:00Z,2026-06-13,21:00,America/Vancouver,AUS,TUR,BC Place Vancouver,Vancouver,2,0,finished,OpenFootball worldcup.json CC0,90
+M021,group_stage,D,,,9,Turniertag 9,2026-06-19T19:00:00Z,2026-06-19,12:00,America/Los_Angeles,USA,AUS,Seattle Stadium,Seattle,2,0,finished,OpenFootball worldcup.json CC0,90
+M022,group_stage,D,,,9,Turniertag 9,2026-06-20T03:00:00Z,2026-06-19,20:00,America/Los_Angeles,TUR,PRY,San Francisco Bay Area Stadium,Santa Clara,0,1,finished,OpenFootball worldcup.json CC0,90
+M023,group_stage,D,,,15,Turniertag 15,2026-06-26T02:00:00Z,2026-06-25,19:00,America/Los_Angeles,TUR,USA,Los Angeles Stadium,Inglewood,3,2,finished,OpenFootball worldcup.json CC0,90
+M024,group_stage,D,,,15,Turniertag 15,2026-06-26T02:00:00Z,2026-06-25,19:00,America/Los_Angeles,PRY,AUS,San Francisco Bay Area Stadium,Santa Clara,0,0,finished,OpenFootball worldcup.json CC0,90
+M025,group_stage,E,,,4,Turniertag 4,2026-06-14T17:00:00Z,2026-06-14,12:00,America/Chicago,DEU,CUW,Houston Stadium,Houston,7,1,finished,OpenFootball worldcup.json CC0,90
+M026,group_stage,E,,,4,Turniertag 4,2026-06-14T23:00:00Z,2026-06-14,19:00,America/New_York,CIV,ECU,Philadelphia Stadium,Philadelphia,1,0,finished,OpenFootball worldcup.json CC0,90
+M027,group_stage,E,,,10,Turniertag 10,2026-06-20T20:00:00Z,2026-06-20,16:00,America/Toronto,DEU,CIV,Toronto Stadium,Toronto,2,1,finished,OpenFootball worldcup.json CC0,90
+M028,group_stage,E,,,10,Turniertag 10,2026-06-21T00:00:00Z,2026-06-20,19:00,America/Chicago,ECU,CUW,Kansas City Stadium,Kansas City,0,0,finished,OpenFootball worldcup.json CC0,90
+M029,group_stage,E,,,15,Turniertag 15,2026-06-25T20:00:00Z,2026-06-25,16:00,America/New_York,CUW,CIV,Philadelphia Stadium,Philadelphia,0,2,finished,OpenFootball worldcup.json CC0,90
+M030,group_stage,E,,,15,Turniertag 15,2026-06-25T20:00:00Z,2026-06-25,16:00,America/New_York,ECU,DEU,New York New Jersey Stadium,East Rutherford,2,1,finished,OpenFootball worldcup.json CC0,90
+M031,group_stage,F,,,4,Turniertag 4,2026-06-14T20:00:00Z,2026-06-14,15:00,America/Chicago,NLD,JPN,Dallas Stadium,Arlington,2,2,finished,OpenFootball worldcup.json CC0,90
+M032,group_stage,F,,,4,Turniertag 4,2026-06-15T02:00:00Z,2026-06-14,20:00,America/Monterrey,SWE,TUN,Monterrey Stadium,Monterrey,5,1,finished,OpenFootball worldcup.json CC0,90
+M033,group_stage,F,,,10,Turniertag 10,2026-06-20T17:00:00Z,2026-06-20,12:00,America/Chicago,NLD,SWE,Houston Stadium,Houston,5,1,finished,OpenFootball worldcup.json CC0,90
+M034,group_stage,F,,,10,Turniertag 10,2026-06-21T04:00:00Z,2026-06-20,22:00,America/Monterrey,TUN,JPN,Monterrey Stadium,Monterrey,0,4,finished,OpenFootball worldcup.json CC0,90
+M035,group_stage,F,,,15,Turniertag 15,2026-06-25T23:00:00Z,2026-06-25,18:00,America/Chicago,JPN,SWE,Dallas Stadium,Arlington,1,1,finished,OpenFootball worldcup.json CC0,90
+M036,group_stage,F,,,15,Turniertag 15,2026-06-25T23:00:00Z,2026-06-25,18:00,America/Chicago,TUN,NLD,Kansas City Stadium,Kansas City,1,3,finished,OpenFootball worldcup.json CC0,90
+M037,group_stage,G,,,5,Turniertag 5,2026-06-15T19:00:00Z,2026-06-15,12:00,America/Los_Angeles,BEL,EGY,Seattle Stadium,Seattle,1,1,finished,OpenFootball worldcup.json CC0,90
+M038,group_stage,G,,,5,Turniertag 5,2026-06-16T01:00:00Z,2026-06-15,18:00,America/Los_Angeles,IRN,NZL,Los Angeles Stadium,Inglewood,2,2,finished,OpenFootball worldcup.json CC0,90
+M039,group_stage,G,,,11,Turniertag 11,2026-06-21T19:00:00Z,2026-06-21,12:00,America/Los_Angeles,BEL,IRN,Los Angeles Stadium,Inglewood,0,0,finished,OpenFootball worldcup.json CC0,90
+M040,group_stage,G,,,11,Turniertag 11,2026-06-22T01:00:00Z,2026-06-21,18:00,America/Vancouver,NZL,EGY,BC Place Vancouver,Vancouver,1,3,finished,OpenFootball worldcup.json CC0,90
+M041,group_stage,G,,,16,Turniertag 16,2026-06-27T03:00:00Z,2026-06-26,20:00,America/Los_Angeles,EGY,IRN,Seattle Stadium,Seattle,1,1,finished,OpenFootball worldcup.json CC0,90
+M042,group_stage,G,,,16,Turniertag 16,2026-06-27T03:00:00Z,2026-06-26,20:00,America/Vancouver,NZL,BEL,BC Place Vancouver,Vancouver,1,5,finished,OpenFootball worldcup.json CC0,90
+M043,group_stage,H,,,5,Turniertag 5,2026-06-15T16:00:00Z,2026-06-15,12:00,America/New_York,ESP,CPV,Atlanta Stadium,Atlanta,0,0,finished,OpenFootball worldcup.json CC0,90
+M044,group_stage,H,,,5,Turniertag 5,2026-06-15T22:00:00Z,2026-06-15,18:00,America/New_York,SAU,URY,Miami Stadium,Miami Gardens,1,1,finished,OpenFootball worldcup.json CC0,90
+M045,group_stage,H,,,11,Turniertag 11,2026-06-21T16:00:00Z,2026-06-21,12:00,America/New_York,ESP,SAU,Atlanta Stadium,Atlanta,4,0,finished,OpenFootball worldcup.json CC0,90
+M046,group_stage,H,,,11,Turniertag 11,2026-06-21T22:00:00Z,2026-06-21,18:00,America/New_York,URY,CPV,Miami Stadium,Miami Gardens,2,2,finished,OpenFootball worldcup.json CC0,90
+M047,group_stage,H,,,16,Turniertag 16,2026-06-27T00:00:00Z,2026-06-26,19:00,America/Chicago,CPV,SAU,Houston Stadium,Houston,0,0,finished,OpenFootball worldcup.json CC0,90
+M048,group_stage,H,,,16,Turniertag 16,2026-06-27T00:00:00Z,2026-06-26,18:00,America/Mexico_City,URY,ESP,Guadalajara Stadium,Guadalajara,0,1,finished,OpenFootball worldcup.json CC0,90
+M049,group_stage,I,,,6,Turniertag 6,2026-06-16T19:00:00Z,2026-06-16,15:00,America/New_York,FRA,SEN,New York New Jersey Stadium,East Rutherford,3,1,finished,OpenFootball worldcup.json CC0,90
+M050,group_stage,I,,,6,Turniertag 6,2026-06-16T22:00:00Z,2026-06-16,18:00,America/New_York,IRQ,NOR,Boston Stadium,Foxborough,1,4,finished,OpenFootball worldcup.json CC0,90
+M051,group_stage,I,,,12,Turniertag 12,2026-06-22T21:00:00Z,2026-06-22,17:00,America/New_York,FRA,IRQ,Philadelphia Stadium,Philadelphia,3,0,finished,OpenFootball worldcup.json CC0,90
+M052,group_stage,I,,,12,Turniertag 12,2026-06-23T00:00:00Z,2026-06-22,20:00,America/New_York,NOR,SEN,New York New Jersey Stadium,East Rutherford,3,2,finished,OpenFootball worldcup.json CC0,90
+M053,group_stage,I,,,16,Turniertag 16,2026-06-26T19:00:00Z,2026-06-26,15:00,America/New_York,NOR,FRA,Boston Stadium,Foxborough,1,4,finished,OpenFootball worldcup.json CC0,90
+M054,group_stage,I,,,16,Turniertag 16,2026-06-26T19:00:00Z,2026-06-26,15:00,America/Toronto,SEN,IRQ,Toronto Stadium,Toronto,5,0,finished,OpenFootball worldcup.json CC0,90
+M055,group_stage,J,,,6,Turniertag 6,2026-06-17T01:00:00Z,2026-06-16,20:00,America/Chicago,ARG,DZA,Kansas City Stadium,Kansas City,3,0,finished,OpenFootball worldcup.json CC0,90
+M056,group_stage,J,,,6,Turniertag 6,2026-06-17T04:00:00Z,2026-06-16,21:00,America/Los_Angeles,AUT,JOR,San Francisco Bay Area Stadium,Santa Clara,3,1,finished,OpenFootball worldcup.json CC0,90
+M057,group_stage,J,,,12,Turniertag 12,2026-06-22T17:00:00Z,2026-06-22,12:00,America/Chicago,ARG,AUT,Dallas Stadium,Arlington,2,0,finished,OpenFootball worldcup.json CC0,90
+M058,group_stage,J,,,12,Turniertag 12,2026-06-23T03:00:00Z,2026-06-22,20:00,America/Los_Angeles,JOR,DZA,San Francisco Bay Area Stadium,Santa Clara,1,2,finished,OpenFootball worldcup.json CC0,90
+M059,group_stage,J,,,17,Turniertag 17,2026-06-28T02:00:00Z,2026-06-27,21:00,America/Chicago,DZA,AUT,Kansas City Stadium,Kansas City,3,3,finished,OpenFootball worldcup.json CC0,90
+M060,group_stage,J,,,17,Turniertag 17,2026-06-28T02:00:00Z,2026-06-27,21:00,America/Chicago,JOR,ARG,Dallas Stadium,Arlington,1,3,finished,OpenFootball worldcup.json CC0,90
+M061,group_stage,K,,,7,Turniertag 7,2026-06-17T17:00:00Z,2026-06-17,12:00,America/Chicago,PRT,COD,Houston Stadium,Houston,1,1,finished,OpenFootball worldcup.json CC0,90
+M062,group_stage,K,,,7,Turniertag 7,2026-06-18T02:00:00Z,2026-06-17,20:00,America/Mexico_City,UZB,COL,Mexico City Stadium,Mexico City,1,3,finished,OpenFootball worldcup.json CC0,90
+M063,group_stage,K,,,13,Turniertag 13,2026-06-23T17:00:00Z,2026-06-23,12:00,America/Chicago,PRT,UZB,Houston Stadium,Houston,5,0,finished,OpenFootball worldcup.json CC0,90
+M064,group_stage,K,,,13,Turniertag 13,2026-06-24T02:00:00Z,2026-06-23,20:00,America/Mexico_City,COL,COD,Guadalajara Stadium,Guadalajara,1,0,finished,OpenFootball worldcup.json CC0,90
+M065,group_stage,K,,,17,Turniertag 17,2026-06-27T23:30:00Z,2026-06-27,19:30,America/New_York,COL,PRT,Miami Stadium,Miami Gardens,0,0,finished,OpenFootball worldcup.json CC0,90
+M066,group_stage,K,,,17,Turniertag 17,2026-06-27T23:30:00Z,2026-06-27,19:30,America/New_York,COD,UZB,Atlanta Stadium,Atlanta,3,1,finished,OpenFootball worldcup.json CC0,90
+M067,group_stage,L,,,7,Turniertag 7,2026-06-17T20:00:00Z,2026-06-17,15:00,America/Chicago,ENG,HRV,Dallas Stadium,Arlington,4,2,finished,OpenFootball worldcup.json CC0,90
+M068,group_stage,L,,,7,Turniertag 7,2026-06-17T23:00:00Z,2026-06-17,19:00,America/Toronto,GHA,PAN,Toronto Stadium,Toronto,1,0,finished,OpenFootball worldcup.json CC0,90
+M069,group_stage,L,,,13,Turniertag 13,2026-06-23T20:00:00Z,2026-06-23,16:00,America/New_York,ENG,GHA,Boston Stadium,Foxborough,0,0,finished,OpenFootball worldcup.json CC0,90
+M070,group_stage,L,,,13,Turniertag 13,2026-06-23T23:00:00Z,2026-06-23,19:00,America/Toronto,PAN,HRV,Toronto Stadium,Toronto,0,1,finished,OpenFootball worldcup.json CC0,90
+M071,group_stage,L,,,17,Turniertag 17,2026-06-27T21:00:00Z,2026-06-27,17:00,America/New_York,PAN,ENG,New York New Jersey Stadium,East Rutherford,0,2,finished,OpenFootball worldcup.json CC0,90
+M072,group_stage,L,,,17,Turniertag 17,2026-06-27T21:00:00Z,2026-06-27,17:00,America/New_York,HRV,GHA,Philadelphia Stadium,Philadelphia,2,1,finished,OpenFootball worldcup.json CC0,90
+M073,round_of_32,,,Sechzehntelfinale,,,2026-06-28T19:00:00Z,2026-06-28,12:00,America/Los_Angeles,ZAF,CAN,Los Angeles Stadium,Inglewood,0,1,finished,OpenFootball worldcup.json CC0,90
+M074,round_of_32,,,Sechzehntelfinale,,,2026-06-29T20:30:00Z,2026-06-29,16:30,America/New_York,DEU,PRY,Boston Stadium,Foxborough,1,1,finished,OpenFootball worldcup.json CC0,90
+M075,round_of_32,,,Sechzehntelfinale,,,2026-06-30T01:00:00Z,2026-06-29,19:00,America/Monterrey,NLD,MAR,Monterrey Stadium,Monterrey,1,1,finished,OpenFootball worldcup.json CC0,90
+M076,round_of_32,,,Sechzehntelfinale,,,2026-06-29T17:00:00Z,2026-06-29,12:00,America/Chicago,BRA,JPN,Houston Stadium,Houston,2,1,finished,OpenFootball worldcup.json CC0,90
+M077,round_of_32,,,Sechzehntelfinale,,,2026-06-30T21:00:00Z,2026-06-30,17:00,America/New_York,FRA,SWE,New York New Jersey Stadium,East Rutherford,3,0,finished,OpenFootball worldcup.json CC0,90
+M078,round_of_32,,,Sechzehntelfinale,,,2026-06-30T17:00:00Z,2026-06-30,12:00,America/Chicago,CIV,NOR,Dallas Stadium,Arlington,1,2,finished,OpenFootball worldcup.json CC0,90
+M079,round_of_32,,,Sechzehntelfinale,,,2026-07-01T01:00:00Z,2026-06-30,19:00,America/Mexico_City,MEX,ECU,Mexico City Stadium,Mexico City,2,0,finished,OpenFootball worldcup.json CC0,90
+M080,round_of_32,,,Sechzehntelfinale,,,2026-07-01T16:00:00Z,2026-07-01,12:00,America/New_York,ENG,COD,Atlanta Stadium,Atlanta,2,1,finished,OpenFootball worldcup.json CC0,90
+M081,round_of_32,,,Sechzehntelfinale,,,2026-07-02T00:00:00Z,2026-07-01,17:00,America/Los_Angeles,USA,BIH,San Francisco Bay Area Stadium,Santa Clara,2,0,finished,OpenFootball worldcup.json CC0,90
+M082,round_of_32,,,Sechzehntelfinale,,,2026-07-01T20:00:00Z,2026-07-01,13:00,America/Los_Angeles,BEL,SEN,Seattle Stadium,Seattle,2,2,finished,OpenFootball worldcup.json CC0,90
+M083,round_of_32,,,Sechzehntelfinale,,,2026-07-02T23:00:00Z,2026-07-02,19:00,America/Toronto,PRT,HRV,Toronto Stadium,Toronto,,,scheduled,OpenFootball worldcup.json CC0,90
+M084,round_of_32,,,Sechzehntelfinale,,,2026-07-02T19:00:00Z,2026-07-02,12:00,America/Los_Angeles,ESP,AUT,Los Angeles Stadium,Inglewood,,,scheduled,OpenFootball worldcup.json CC0,90
+M085,round_of_32,,,Sechzehntelfinale,,,2026-07-03T03:00:00Z,2026-07-02,20:00,America/Vancouver,CHE,DZA,BC Place Vancouver,Vancouver,,,scheduled,OpenFootball worldcup.json CC0,90
+M086,round_of_32,,,Sechzehntelfinale,,,2026-07-03T22:00:00Z,2026-07-03,18:00,America/New_York,ARG,CPV,Miami Stadium,Miami Gardens,,,scheduled,OpenFootball worldcup.json CC0,90
+M087,round_of_32,,,Sechzehntelfinale,,,2026-07-04T01:30:00Z,2026-07-03,20:30,America/Chicago,COL,GHA,Kansas City Stadium,Kansas City,,,scheduled,OpenFootball worldcup.json CC0,90
+M088,round_of_32,,,Sechzehntelfinale,,,2026-07-03T18:00:00Z,2026-07-03,13:00,America/Chicago,AUS,EGY,Dallas Stadium,Arlington,,,scheduled,OpenFootball worldcup.json CC0,90
+M089,round_of_16,,,Achtelfinale,,,2026-07-04T21:00:00Z,2026-07-04,17:00,America/New_York,PRY,FRA,Philadelphia Stadium,Philadelphia,,,scheduled,OpenFootball worldcup.json CC0,90
+M090,round_of_16,,,Achtelfinale,,,2026-07-04T17:00:00Z,2026-07-04,12:00,America/Chicago,CAN,MAR,Houston Stadium,Houston,,,scheduled,OpenFootball worldcup.json CC0,90
+M091,round_of_16,,,Achtelfinale,,,2026-07-05T20:00:00Z,2026-07-05,16:00,America/New_York,BRA,NOR,New York New Jersey Stadium,East Rutherford,,,scheduled,OpenFootball worldcup.json CC0,90
+M092,round_of_16,,,Achtelfinale,,,2026-07-06T00:00:00Z,2026-07-05,18:00,America/Mexico_City,MEX,W80,Mexico City Stadium,Mexico City,,,scheduled,OpenFootball worldcup.json CC0,90
+M093,round_of_16,,,Achtelfinale,,,2026-07-06T19:00:00Z,2026-07-06,14:00,America/Chicago,W83,W84,Dallas Stadium,Arlington,,,scheduled,OpenFootball worldcup.json CC0,90
+M094,round_of_16,,,Achtelfinale,,,2026-07-07T00:00:00Z,2026-07-06,17:00,America/Los_Angeles,W81,W82,Seattle Stadium,Seattle,,,scheduled,OpenFootball worldcup.json CC0,90
+M095,round_of_16,,,Achtelfinale,,,2026-07-07T16:00:00Z,2026-07-07,12:00,America/New_York,W86,W88,Atlanta Stadium,Atlanta,,,scheduled,OpenFootball worldcup.json CC0,90
+M096,round_of_16,,,Achtelfinale,,,2026-07-07T20:00:00Z,2026-07-07,13:00,America/Vancouver,W85,W87,BC Place Vancouver,Vancouver,,,scheduled,OpenFootball worldcup.json CC0,90
+M097,quarterfinals,,,Viertelfinale,,,2026-07-09T20:00:00Z,2026-07-09,16:00,America/New_York,W89,W90,Boston Stadium,Foxborough,,,scheduled,OpenFootball worldcup.json CC0,90
+M098,quarterfinals,,,Viertelfinale,,,2026-07-10T19:00:00Z,2026-07-10,12:00,America/Los_Angeles,W93,W94,Los Angeles Stadium,Inglewood,,,scheduled,OpenFootball worldcup.json CC0,90
+M099,quarterfinals,,,Viertelfinale,,,2026-07-11T21:00:00Z,2026-07-11,17:00,America/New_York,W91,W92,Miami Stadium,Miami Gardens,,,scheduled,OpenFootball worldcup.json CC0,90
+M100,quarterfinals,,,Viertelfinale,,,2026-07-12T01:00:00Z,2026-07-11,20:00,America/Chicago,W95,W96,Kansas City Stadium,Kansas City,,,scheduled,OpenFootball worldcup.json CC0,90
+M101,semifinals,,,Halbfinale,,,2026-07-14T19:00:00Z,2026-07-14,14:00,America/Chicago,W97,W98,Dallas Stadium,Arlington,,,scheduled,OpenFootball worldcup.json CC0,90
+M102,semifinals,,,Halbfinale,,,2026-07-15T19:00:00Z,2026-07-15,15:00,America/New_York,W99,W100,Atlanta Stadium,Atlanta,,,scheduled,OpenFootball worldcup.json CC0,90
+M103,third_place,,,Spiel um Platz 3,,,2026-07-18T21:00:00Z,2026-07-18,17:00,America/New_York,L101,L102,Miami Stadium,Miami Gardens,,,scheduled,OpenFootball worldcup.json CC0,90
+M104,final,,,Finale,,,2026-07-19T19:00:00Z,2026-07-19,15:00,America/New_York,W101,W102,New York New Jersey Stadium,East Rutherford,,,scheduled,OpenFootball worldcup.json CC0,90

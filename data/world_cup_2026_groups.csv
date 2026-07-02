@@ -1,0 +1,49 @@
+group_name,group_position,team_name_en,team_name_de,team_code,confederation,source_name,data_quality_score,notes
+A,1,Mexico,Mexiko,MEX,CONCACAF,FourFourTwo current groups overview,75,Host country; code is football team code aligned with ISO where possible
+A,2,South Africa,Suedafrika,ZAF,CAF,FourFourTwo current groups overview,75,ISO3 code
+A,3,South Korea,Suedkorea,KOR,AFC,FourFourTwo current groups overview,75,ISO3 code
+A,4,Czechia,Tschechien,CZE,UEFA,FourFourTwo current groups overview,75,ISO3 code
+B,1,Canada,Kanada,CAN,CONCACAF,FourFourTwo current groups overview,75,Host country; ISO3 code
+B,2,Switzerland,Schweiz,CHE,UEFA,FourFourTwo current groups overview,75,ISO3 code
+B,3,Qatar,Katar,QAT,AFC,FourFourTwo current groups overview,75,ISO3 code
+B,4,Bosnia and Herzegovina,Bosnien und Herzegowina,BIH,UEFA,FourFourTwo current groups overview,75,ISO3 code
+C,1,Brazil,Brasilien,BRA,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+C,2,Morocco,Marokko,MAR,CAF,FourFourTwo current groups overview,75,ISO3 code
+C,3,Haiti,Haiti,HTI,CONCACAF,FourFourTwo current groups overview,75,ISO3 code
+C,4,Scotland,Schottland,SCO,UEFA,FourFourTwo current groups overview,70,Football team code; not ISO 3166 sovereign code
+D,1,United States,USA,USA,CONCACAF,FourFourTwo current groups overview,75,Host country; ISO3 code
+D,2,Paraguay,Paraguay,PRY,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+D,3,Australia,Australien,AUS,AFC,FourFourTwo current groups overview,75,ISO3 code
+D,4,Turkiye,Tuerkei,TUR,UEFA,FourFourTwo current groups overview,75,ISO3 code
+E,1,Germany,Deutschland,DEU,UEFA,FourFourTwo current groups overview,75,ISO3 code
+E,2,Curacao,Curacao,CUW,CONCACAF,FourFourTwo current groups overview,75,ISO3 code
+E,3,Ivory Coast,Elfenbeinkueste,CIV,CAF,FourFourTwo current groups overview,75,ISO3 code
+E,4,Ecuador,Ecuador,ECU,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+F,1,Netherlands,Niederlande,NLD,UEFA,FourFourTwo current groups overview,75,ISO3 code
+F,2,Japan,Japan,JPN,AFC,FourFourTwo current groups overview,75,ISO3 code
+F,3,Tunisia,Tunesien,TUN,CAF,FourFourTwo current groups overview,75,ISO3 code
+F,4,Sweden,Schweden,SWE,UEFA,FourFourTwo current groups overview,75,ISO3 code
+G,1,Belgium,Belgien,BEL,UEFA,FourFourTwo current groups overview,75,ISO3 code
+G,2,Egypt,Aegypten,EGY,CAF,FourFourTwo current groups overview,75,ISO3 code
+G,3,Iran,Iran,IRN,AFC,FourFourTwo current groups overview,75,ISO3 code
+G,4,New Zealand,Neuseeland,NZL,OFC,FourFourTwo current groups overview,75,ISO3 code
+H,1,Spain,Spanien,ESP,UEFA,FourFourTwo current groups overview,75,ISO3 code
+H,2,Cape Verde,Cabo Verde,CPV,CAF,FourFourTwo current groups overview,75,ISO3 code
+H,3,Saudi Arabia,Saudi-Arabien,SAU,AFC,FourFourTwo current groups overview,75,ISO3 code
+H,4,Uruguay,Uruguay,URY,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+I,1,France,Frankreich,FRA,UEFA,FourFourTwo current groups overview,75,ISO3 code
+I,2,Senegal,Senegal,SEN,CAF,FourFourTwo current groups overview,75,ISO3 code
+I,3,Norway,Norwegen,NOR,UEFA,FourFourTwo current groups overview,75,ISO3 code
+I,4,Iraq,Irak,IRQ,AFC,FourFourTwo current groups overview,75,ISO3 code
+J,1,Argentina,Argentinien,ARG,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+J,2,Algeria,Algerien,DZA,CAF,FourFourTwo current groups overview,75,ISO3 code
+J,3,Austria,Oesterreich,AUT,UEFA,FourFourTwo current groups overview,75,ISO3 code
+J,4,Jordan,Jordanien,JOR,AFC,FourFourTwo current groups overview,75,ISO3 code
+K,1,Portugal,Portugal,PRT,UEFA,FourFourTwo current groups overview,75,ISO3 code
+K,2,Uzbekistan,Usbekistan,UZB,AFC,FourFourTwo current groups overview,75,ISO3 code
+K,3,Colombia,Kolumbien,COL,CONMEBOL,FourFourTwo current groups overview,75,ISO3 code
+K,4,DR Congo,DR Kongo,COD,CAF,FourFourTwo current groups overview,75,ISO3 code
+L,1,England,England,ENG,UEFA,FourFourTwo current groups overview,70,Football team code; not ISO 3166 sovereign code
+L,2,Croatia,Kroatien,HRV,UEFA,FourFourTwo current groups overview,75,ISO3 code
+L,3,Ghana,Ghana,GHA,CAF,FourFourTwo current groups overview,75,ISO3 code
+L,4,Panama,Panama,PAN,CONCACAF,FourFourTwo current groups overview,75,ISO3 code

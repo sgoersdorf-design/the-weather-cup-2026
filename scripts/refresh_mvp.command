@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -euo pipefail
 
-PROJECT_DIR="/Users/steffengorsdorf/Documents/WM Projekt"
+PROJECT_DIR="/Users/steffengorsdorf/Documents/wm-projekt"
 cd "$PROJECT_DIR"
 mkdir -p logs
 

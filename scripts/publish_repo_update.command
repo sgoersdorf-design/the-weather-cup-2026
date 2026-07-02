@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -euo pipefail
 
-PROJECT_DIR="/Users/steffengorsdorf/Documents/WM Projekt"
+PROJECT_DIR="/Users/steffengorsdorf/Documents/wm-projekt"
 cd "$PROJECT_DIR"
 
 commit_message="${1:-Automated WM refresh $(date '+%Y-%m-%d %H:%M:%S')}"
@@ -20,4 +20,3 @@ fi
 
 git commit -m "$commit_message"
 git push origin main
-

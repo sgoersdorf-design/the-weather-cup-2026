@@ -119,6 +119,7 @@ Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 - Ein optionaler Event-DB-Import wird bei Supabase-DNS-Problemen sauber übersprungen, damit Export und HTML-Build trotzdem fertig werden.
 - Der lokale Browser-Check prüft die in die Standalone-Datei eingebetteten Daten und die Schedule-UX-Elemente direkt im Build.
 - Für die Vollautomatik kann `scripts/refresh_mvp.command --auto-publish` nach erfolgreichem Lauf automatisch committen und nach GitHub pushen, wodurch Netlify direkt neu deployed.
+- Mit `python -m python.pipelines.generate_launchd_refresh_schedule` wird die LaunchAgent-Datei zusätzlich an den Turnierplan angepasst: täglicher Lauf um 06:00 Uhr plus weitere Läufe kurz nach dem geplanten Match-Ende jeder Partie.
 
 ## Automatik wieder deaktivieren
 

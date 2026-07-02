@@ -205,6 +205,14 @@ Damit läuft nach erfolgreichem Refresh automatisch:
 4. Push nach `origin/main`
 5. Netlify-Deploy über den GitHub-Webhook
 
+Die LaunchAgent-Konfiguration kann spielplanbasiert neu erzeugt werden:
+
+```bash
+python -m python.pipelines.generate_launchd_refresh_schedule
+```
+
+Damit entstehen tägliche 06:00-Läufe plus zusätzliche Refreshes kurz nach den angesetzten Match-Enden.
+
 ## Sportdaten
 
 Echte Ranking-, Form- und Elo-Daten brauchen eine lizenzierte Quelle oder einen API-Key. Der MVP enthält dafür `data/sport_metrics_template.csv` und `python.pipelines.import_sport_metrics`. Ohne Lizenzdaten bleiben Team-Strength-Werte neutral oder inaktiv.

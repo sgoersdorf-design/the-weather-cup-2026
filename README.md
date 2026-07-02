@@ -191,6 +191,20 @@ Empfohlener Ablauf:
 2. Änderungen committen und nach `main` pushen
 3. Netlify veröffentlicht den neuen Stand automatisch
 
+Für die Vollautomatik ist zusätzlich dieses lokale Wrapper-Skript vorgesehen:
+
+```bash
+scripts/refresh_mvp.command --auto-publish
+```
+
+Damit läuft nach erfolgreichem Refresh automatisch:
+
+1. Git-Änderungen erkennen
+2. `git add -A`
+3. Auto-Commit mit Zeitstempel
+4. Push nach `origin/main`
+5. Netlify-Deploy über den GitHub-Webhook
+
 ## Sportdaten
 
 Echte Ranking-, Form- und Elo-Daten brauchen eine lizenzierte Quelle oder einen API-Key. Der MVP enthält dafür `data/sport_metrics_template.csv` und `python.pipelines.import_sport_metrics`. Ohne Lizenzdaten bleiben Team-Strength-Werte neutral oder inaktiv.

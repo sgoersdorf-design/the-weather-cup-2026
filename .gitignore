@@ -9,3 +9,4 @@ build/
 coverage/
 .pytest_cache/
 logs/
+gcm-diagnose.log

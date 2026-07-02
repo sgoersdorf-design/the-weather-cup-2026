@@ -118,6 +118,7 @@ Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 - DNS-/Hostfehler werden vorab sichtbar gemacht.
 - Ein optionaler Event-DB-Import wird bei Supabase-DNS-Problemen sauber übersprungen, damit Export und HTML-Build trotzdem fertig werden.
 - Der lokale Browser-Check prüft die in die Standalone-Datei eingebetteten Daten und die Schedule-UX-Elemente direkt im Build.
+- Für die Vollautomatik kann `scripts/refresh_mvp.command --auto-publish` nach erfolgreichem Lauf automatisch committen und nach GitHub pushen, wodurch Netlify direkt neu deployed.
 
 ## Automatik wieder deaktivieren
 

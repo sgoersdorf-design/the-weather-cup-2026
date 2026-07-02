@@ -1796,3 +1796,161 @@ M078,CIV,CIV,Bazoumana Touré,Ghislain Konan,sub_in,90,3,2H,,,"Substitution, Cô
 M078,CIV,CIV,Evann Guessand,Yan Diomande,sub_in,90,3,2H,,,"Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande.",ESPN public summary API,82
 M078,CIV,CIV,Ghislain Konan,Bazoumana Touré,sub_out,90,3,2H,,,"Substitution, Côte d'Ivoire. Bazoumana Touré replaces Ghislain Konan.",ESPN public summary API,82
 M078,CIV,CIV,Yan Diomande,Evann Guessand,sub_out,90,3,2H,,,"Substitution, Côte d'Ivoire. Evann Guessand replaces Yan Diomande.",ESPN public summary API,82
+M079,MEX,MEX,Julián Quiñones,Roberto Alvarado,goal,22,,1H,1,0,"Goal! Mexico 1, Ecuador 0. Julián Quiñones (Mexico) right footed shot from the left side of the box to the top left corner. Assisted by Roberto Alvarado with a through ball.",ESPN public summary API,82
+M079,MEX,MEX,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M079,MEX,MEX,,,hydration_break_end,28,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M079,MEX,MEX,Raúl Jiménez,Julián Quiñones,goal,31,,1H,2,0,"Goal! Mexico 2, Ecuador 0. Raúl Jiménez (Mexico) right footed shot from the centre of the box to the top right corner. Assisted by Julián Quiñones.",ESPN public summary API,82
+M079,ECU,ECU,Yaimar Medina,Alan Franco,sub_in,45,,2H,,,"Substitution, Ecuador. Yaimar Medina replaces Alan Franco.",ESPN public summary API,82
+M079,ECU,ECU,Ángelo Preciado,Joel Ordóñez,sub_in,45,,2H,,,"Substitution, Ecuador. Ángelo Preciado replaces Joel Ordóñez.",ESPN public summary API,82
+M079,ECU,ECU,Alan Franco,Yaimar Medina,sub_out,45,,2H,,,"Substitution, Ecuador. Yaimar Medina replaces Alan Franco.",ESPN public summary API,82
+M079,ECU,ECU,Joel Ordóñez,Ángelo Preciado,sub_out,45,,2H,,,"Substitution, Ecuador. Ángelo Preciado replaces Joel Ordóñez.",ESPN public summary API,82
+M079,ECU,ECU,Alan Franco,,yellow_card,45,1,1H,,,Alan Franco (Ecuador) is shown the yellow card.,ESPN public summary API,82
+M079,MEX,MEX,Brian Gutiérrez,Gilberto Mora,sub_in,58,,2H,,,"Substitution, Mexico. Brian Gutiérrez replaces Gilberto Mora.",ESPN public summary API,82
+M079,MEX,MEX,Gilberto Mora,Brian Gutiérrez,sub_out,58,,2H,,,"Substitution, Mexico. Brian Gutiérrez replaces Gilberto Mora.",ESPN public summary API,82
+M079,ECU,ECU,Kevin Rodríguez,Enner Valencia,sub_in,59,,2H,,,"Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia.",ESPN public summary API,82
+M079,ECU,ECU,Enner Valencia,Kevin Rodríguez,sub_out,59,,2H,,,"Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia.",ESPN public summary API,82
+M079,ECU,ECU,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M079,MEX,MEX,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M079,ECU,ECU,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M079,MEX,MEX,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M079,MEX,MEX,Obed Vargas,Luis Romo,sub_in,73,,2H,,,"Substitution, Mexico. Obed Vargas replaces Luis Romo.",ESPN public summary API,82
+M079,MEX,MEX,Luis Romo,Obed Vargas,sub_out,73,,2H,,,"Substitution, Mexico. Obed Vargas replaces Luis Romo.",ESPN public summary API,82
+M079,MEX,MEX,Santiago Gimenez,Raúl Jiménez,sub_in,74,,2H,,,"Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez.",ESPN public summary API,82
+M079,MEX,MEX,Raúl Jiménez,Santiago Gimenez,sub_out,74,,2H,,,"Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez.",ESPN public summary API,82
+M079,MEX,MEX,,,hydration_break_end,76,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M079,ECU,ECU,Jordy Caicedo,John Yeboah,sub_in,79,,2H,,,"Substitution, Ecuador. Jordy Caicedo replaces John Yeboah.",ESPN public summary API,82
+M079,ECU,ECU,Kendry Páez,Nilson Angulo,sub_in,79,,2H,,,"Substitution, Ecuador. Kendry Páez replaces Nilson Angulo.",ESPN public summary API,82
+M079,ECU,ECU,John Yeboah,Jordy Caicedo,sub_out,79,,2H,,,"Substitution, Ecuador. Jordy Caicedo replaces John Yeboah.",ESPN public summary API,82
+M079,ECU,ECU,Nilson Angulo,Kendry Páez,sub_out,79,,2H,,,"Substitution, Ecuador. Kendry Páez replaces Nilson Angulo.",ESPN public summary API,82
+M079,MEX,MEX,Israel Reyes,Roberto Alvarado,sub_in,80,,2H,,,"Substitution, Mexico. Israel Reyes replaces Roberto Alvarado.",ESPN public summary API,82
+M079,MEX,MEX,Orbelín Pineda,Julián Quiñones,sub_in,80,,2H,,,"Substitution, Mexico. Orbelín Pineda replaces Julián Quiñones.",ESPN public summary API,82
+M079,MEX,MEX,Julián Quiñones,Orbelín Pineda,sub_out,80,,2H,,,"Substitution, Mexico. Orbelín Pineda replaces Julián Quiñones.",ESPN public summary API,82
+M079,MEX,MEX,Roberto Alvarado,Israel Reyes,sub_out,80,,2H,,,"Substitution, Mexico. Israel Reyes replaces Roberto Alvarado.",ESPN public summary API,82
+M079,ECU,ECU,Kendry Páez,,yellow_card,90,3,2H,,,Kendry Páez (Ecuador) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M079,ECU,ECU,Piero Hincapié,,red_card,90,5,2H,,,Piero Hincapié (Ecuador) is shown the red card.,ESPN public summary API,82
+M079,ECU,ECU,Moisés Caicedo,,yellow_card,90,9,2H,,,Moisés Caicedo (Ecuador) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M080,COD,COD,Brian Cipenga,Chancel Mbemba,goal,7,,1H,0,1,"Goal! England 0, Congo DR 1. Brian Cipenga (Congo DR) right footed shot from the left side of the box to the bottom left corner. Assisted by Chancel Mbemba.",ESPN public summary API,82
+M080,COD,COD,,,hydration_break_end,10,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M080,ENG,ENG,Jude Bellingham,,yellow_card,19,,1H,,,Jude Bellingham (England) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M080,ENG,ENG,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M080,ENG,ENG,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M080,COD,COD,Noah Sadiki,,yellow_card,28,,1H,,,Noah Sadiki (Congo DR) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M080,ENG,ENG,Anthony Gordon,Marcus Rashford,sub_in,61,,2H,,,"Substitution, England. Anthony Gordon replaces Marcus Rashford.",ESPN public summary API,82
+M080,ENG,ENG,Bukayo Saka,Noni Madueke,sub_in,61,,2H,,,"Substitution, England. Bukayo Saka replaces Noni Madueke.",ESPN public summary API,82
+M080,ENG,ENG,Marcus Rashford,Anthony Gordon,sub_out,61,,2H,,,"Substitution, England. Anthony Gordon replaces Marcus Rashford.",ESPN public summary API,82
+M080,ENG,ENG,Noni Madueke,Bukayo Saka,sub_out,61,,2H,,,"Substitution, England. Bukayo Saka replaces Noni Madueke.",ESPN public summary API,82
+M080,COD,COD,Meschack Elia,Nathanaël Mbuku,sub_in,64,,2H,,,"Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku.",ESPN public summary API,82
+M080,COD,COD,Nathanaël Mbuku,Meschack Elia,sub_out,64,,2H,,,"Substitution, Congo DR. Meschack Elia replaces Nathanaël Mbuku.",ESPN public summary API,82
+M080,ENG,ENG,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M080,ENG,ENG,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M080,ENG,ENG,Eberechi Eze,Djed Spence,sub_in,70,,2H,,,"Substitution, England. Eberechi Eze replaces Djed Spence.",ESPN public summary API,82
+M080,ENG,ENG,Djed Spence,Eberechi Eze,sub_out,70,,2H,,,"Substitution, England. Eberechi Eze replaces Djed Spence.",ESPN public summary API,82
+M080,ENG,ENG,Harry Kane,Anthony Gordon,goal,75,,2H,1,1,"Goal! England 1, Congo DR 1. Harry Kane (England) header from the centre of the box to the bottom left corner. Assisted by Anthony Gordon with a cross.",ESPN public summary API,82
+M080,COD,COD,Edo Kayembe,Ngal'ayel Mukau,sub_in,76,,2H,,,"Substitution, Congo DR. Edo Kayembe replaces Ngal'ayel Mukau.",ESPN public summary API,82
+M080,COD,COD,Théo Bongonda,Brian Cipenga,sub_in,76,,2H,,,"Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga.",ESPN public summary API,82
+M080,COD,COD,Brian Cipenga,Théo Bongonda,sub_out,76,,2H,,,"Substitution, Congo DR. Théo Bongonda replaces Brian Cipenga.",ESPN public summary API,82
+M080,COD,COD,Ngal'ayel Mukau,Edo Kayembe,sub_out,76,,2H,,,"Substitution, Congo DR. Edo Kayembe replaces Ngal'ayel Mukau.",ESPN public summary API,82
+M080,ENG,ENG,Harry Kane,Anthony Gordon,goal,86,,2H,2,1,"Goal! England 2, Congo DR 1. Harry Kane (England) right footed shot from the right side of the box to the top right corner. Assisted by Anthony Gordon.",ESPN public summary API,82
+M080,COD,COD,Fiston Mayele,Samuel Moutoussamy,sub_in,89,,2H,,,"Substitution, Congo DR. Fiston Mayele replaces Samuel Moutoussamy.",ESPN public summary API,82
+M080,COD,COD,Joris Kayembe,Arthur Masuaku,sub_in,89,,2H,,,"Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",ESPN public summary API,82
+M080,COD,COD,Arthur Masuaku,Joris Kayembe,sub_out,89,,2H,,,"Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",ESPN public summary API,82
+M080,COD,COD,Samuel Moutoussamy,Fiston Mayele,sub_out,89,,2H,,,"Substitution, Congo DR. Fiston Mayele replaces Samuel Moutoussamy.",ESPN public summary API,82
+M080,ENG,ENG,John Stones,Declan Rice,sub_in,90,1,2H,,,"Substitution, England. John Stones replaces Declan Rice.",ESPN public summary API,82
+M080,ENG,ENG,Declan Rice,John Stones,sub_out,90,1,2H,,,"Substitution, England. John Stones replaces Declan Rice.",ESPN public summary API,82
+M081,,,,,hydration_break_end,6,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,,,,,hydration_break_end,20,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,USA,USA,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,USA,USA,Folarin Balogun,,goal,45,,1H,1,0,"Goal! USA 1, Bosnia and Herzegovina 0. Folarin Balogun (USA) left footed shot from the centre of the box to the centre of the goal.",ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,45,5,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,,,,,hydration_break_end,45,10,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,45,10,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,,,Benjamin Tahirovic,Ivan Sunjic,sub_in,51,,2H,,,"Substitution, Bosnia and Herzegovina. Benjamin Tahirovic replaces Ivan Sunjic.",ESPN public summary API,82
+M081,,,Ermin Mahmic,Edin Dzeko,sub_in,51,,2H,,,"Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Edin Dzeko because of an injury.",ESPN public summary API,82
+M081,,,Esmir Bajraktarevic,Armin Gigovic,sub_in,51,,2H,,,"Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Armin Gigovic.",ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,63,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,USA,USA,Folarin Balogun,,red_card,64,,2H,,,Folarin Balogun (USA) is shown the red card.,ESPN public summary API,82
+M081,USA,USA,,,hydration_break_start,69,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,,,Amar Memic,Nikola Katic,sub_in,75,,2H,,,"Substitution, Bosnia and Herzegovina. Amar Memic replaces Nikola Katic.",ESPN public summary API,82
+M081,,,Haris Tabakovic,Sead Kolasinac,sub_in,75,,2H,,,"Substitution, Bosnia and Herzegovina. Haris Tabakovic replaces Sead Kolasinac.",ESPN public summary API,82
+M081,,,Stjepan Radeljic,,yellow_card,80,,2H,,,Stjepan Radeljic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M081,USA,USA,Malik Tillman,,goal,82,,2H,2,0,"Goal! USA 2, Bosnia and Herzegovina 0. Malik Tillman (USA) from a free kick with a right footed shot to the top left corner.",ESPN public summary API,82
+M081,USA,USA,,,hydration_break_end,87,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M081,USA,USA,Sebastian Berhalter,Sergiño Dest,sub_in,87,,2H,,,"Substitution, USA. Sebastian Berhalter replaces Sergiño Dest.",ESPN public summary API,82
+M081,USA,USA,Sergiño Dest,Sebastian Berhalter,sub_out,87,,2H,,,"Substitution, USA. Sebastian Berhalter replaces Sergiño Dest.",ESPN public summary API,82
+M081,USA,USA,Ricardo Pepi,Christian Pulisic,sub_in,88,,2H,,,"Substitution, USA. Ricardo Pepi replaces Christian Pulisic.",ESPN public summary API,82
+M081,USA,USA,Christian Pulisic,Ricardo Pepi,sub_out,88,,2H,,,"Substitution, USA. Ricardo Pepi replaces Christian Pulisic.",ESPN public summary API,82
+M081,USA,USA,Giovanni Reyna,Weston McKennie,sub_in,90,5,2H,,,"Substitution, USA. Giovanni Reyna replaces Weston McKennie.",ESPN public summary API,82
+M081,USA,USA,Weston McKennie,Giovanni Reyna,sub_out,90,5,2H,,,"Substitution, USA. Giovanni Reyna replaces Weston McKennie.",ESPN public summary API,82
+M082,SEN,SEN,Habib Diarra,,goal,24,,1H,0,1,"Goal! Belgium 0, Senegal 1. Habib Diarra (Senegal) right footed shot from very close range to the centre of the goal.",ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_start,27,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M082,SEN,SEN,,,hydration_break_start,27,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_end,30,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,SEN,SEN,,,hydration_break_end,30,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_end,32,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,SEN,SEN,,,hydration_break_end,32,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,BEL,BEL,Romelu Lukaku,Charles De Ketelaere,sub_in,45,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",ESPN public summary API,82
+M082,BEL,BEL,Charles De Ketelaere,Romelu Lukaku,sub_out,45,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",ESPN public summary API,82
+M082,SEN,SEN,Ismaïla Sarr,Moussa Niakhaté,goal,51,,2H,0,2,"Goal! Belgium 0, Senegal 2. Ismaïla Sarr (Senegal) right footed shot from the centre of the box to the bottom right corner. Assisted by Moussa Niakhaté with a through ball.",ESPN public summary API,82
+M082,BEL,BEL,Dodi Lukébakio,Jérémy Doku,sub_in,56,,2H,,,"Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku.",ESPN public summary API,82
+M082,BEL,BEL,Nicolas Raskin,Kevin De Bruyne,sub_in,56,,2H,,,"Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne.",ESPN public summary API,82
+M082,BEL,BEL,Jérémy Doku,Dodi Lukébakio,sub_out,56,,2H,,,"Substitution, Belgium. Dodi Lukébakio replaces Jérémy Doku.",ESPN public summary API,82
+M082,BEL,BEL,Kevin De Bruyne,Nicolas Raskin,sub_out,56,,2H,,,"Substitution, Belgium. Nicolas Raskin replaces Kevin De Bruyne.",ESPN public summary API,82
+M082,BEL,BEL,Diego Moreira,Hans Vanaken,sub_in,63,,2H,,,"Substitution, Belgium. Diego Moreira replaces Hans Vanaken.",ESPN public summary API,82
+M082,BEL,BEL,Hans Vanaken,Diego Moreira,sub_out,63,,2H,,,"Substitution, Belgium. Diego Moreira replaces Hans Vanaken.",ESPN public summary API,82
+M082,BEL,BEL,Brandon Mechele,,yellow_card,64,,2H,,,Brandon Mechele (Belgium) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M082,SEN,SEN,Lamine Camara,Pape Gueye,sub_in,66,,2H,,,"Substitution, Senegal. Lamine Camara replaces Pape Gueye.",ESPN public summary API,82
+M082,SEN,SEN,Pape Gueye,Lamine Camara,sub_out,66,,2H,,,"Substitution, Senegal. Lamine Camara replaces Pape Gueye.",ESPN public summary API,82
+M082,SEN,SEN,Lamine Camara,,yellow_card,67,,2H,,,Lamine Camara (Senegal) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_start,70,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,SEN,SEN,Ibrahim Mbaye,Iliman Ndiaye,sub_in,73,,2H,,,"Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye.",ESPN public summary API,82
+M082,SEN,SEN,Pape Matar Sarr,Habib Diarra,sub_in,73,,2H,,,"Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra.",ESPN public summary API,82
+M082,SEN,SEN,Habib Diarra,Pape Matar Sarr,sub_out,73,,2H,,,"Substitution, Senegal. Pape Matar Sarr replaces Habib Diarra.",ESPN public summary API,82
+M082,SEN,SEN,Iliman Ndiaye,Ibrahim Mbaye,sub_out,73,,2H,,,"Substitution, Senegal. Ibrahim Mbaye replaces Iliman Ndiaye.",ESPN public summary API,82
+M082,BEL,BEL,Thomas Meunier,Maxim De Cuyper,sub_in,78,,2H,,,"Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper.",ESPN public summary API,82
+M082,BEL,BEL,Maxim De Cuyper,Thomas Meunier,sub_out,78,,2H,,,"Substitution, Belgium. Thomas Meunier replaces Maxim De Cuyper.",ESPN public summary API,82
+M082,BEL,BEL,Romelu Lukaku,Thomas Meunier,goal,86,,2H,1,2,"Goal! Belgium 1, Senegal 2. Romelu Lukaku (Belgium) right footed shot from the right side of the six yard box to the high centre of the goal. Assisted by Thomas Meunier with a cross.",ESPN public summary API,82
+M082,BEL,BEL,Youri Tielemans,Leandro Trossard,goal,89,,2H,2,2,"Goal! Belgium 2, Senegal 2. Youri Tielemans (Belgium) header from the centre of the box to the bottom left corner. Assisted by Leandro Trossard.",ESPN public summary API,82
+M082,SEN,SEN,El Hadji Malick Diouf,Ismail Jakobs,sub_in,94,,ET1,,,"Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs.",ESPN public summary API,82
+M082,SEN,SEN,Nicolas Jackson,Sadio Mané,sub_in,94,,ET1,,,"Substitution, Senegal. Nicolas Jackson replaces Sadio Mané.",ESPN public summary API,82
+M082,SEN,SEN,Ismail Jakobs,El Hadji Malick Diouf,sub_out,94,,ET1,,,"Substitution, Senegal. El Hadji Malick Diouf replaces Ismail Jakobs.",ESPN public summary API,82
+M082,SEN,SEN,Sadio Mané,Nicolas Jackson,sub_out,94,,ET1,,,"Substitution, Senegal. Nicolas Jackson replaces Sadio Mané.",ESPN public summary API,82
+M082,SEN,SEN,Bara Sapoko Ndiaye,Idrissa Gueye,sub_in,96,,ET1,,,"Substitution, Senegal. Bara Sapoko Ndiaye replaces Idrissa Gueye.",ESPN public summary API,82
+M082,SEN,SEN,Idrissa Gueye,Bara Sapoko Ndiaye,sub_out,96,,ET1,,,"Substitution, Senegal. Bara Sapoko Ndiaye replaces Idrissa Gueye.",ESPN public summary API,82
+M082,BEL,BEL,Amadou Onana,Leandro Trossard,sub_in,109,,ET2,,,"Substitution, Belgium. Amadou Onana replaces Leandro Trossard.",ESPN public summary API,82
+M082,BEL,BEL,Leandro Trossard,Amadou Onana,sub_out,109,,ET2,,,"Substitution, Belgium. Amadou Onana replaces Leandro Trossard.",ESPN public summary API,82
+M082,BEL,BEL,,,hydration_break_end,111,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M082,BEL,BEL,Youri Tielemans,,goal,120,5,ET2,3,2,"Goal! Belgium 3, Senegal 2. Youri Tielemans (Belgium) converts the penalty with a right footed shot to the top right corner.",ESPN public summary API,82
+M084,ESP,ESP,,,hydration_break_start,24,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M084,ESP,ESP,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M084,ESP,ESP,Mikel Oyarzabal,Marc Cucurella,goal,36,,1H,1,0,"Goal! Spain 1, Austria 0. Mikel Oyarzabal (Spain) left footed shot from the centre of the box to the centre of the goal. Assisted by Marc Cucurella with a cross.",ESPN public summary API,82
+M084,AUT,AUT,Carney Chukwuemeka,Nicolas Seiwald,sub_in,45,,2H,,,"Substitution, Austria. Carney Chukwuemeka replaces Nicolas Seiwald.",ESPN public summary API,82
+M084,AUT,AUT,Florian Grillitsch,Xaver Schlager,sub_in,45,,2H,,,"Substitution, Austria. Florian Grillitsch replaces Xaver Schlager.",ESPN public summary API,82
+M084,AUT,AUT,Nicolas Seiwald,Carney Chukwuemeka,sub_out,45,,2H,,,"Substitution, Austria. Carney Chukwuemeka replaces Nicolas Seiwald.",ESPN public summary API,82
+M084,AUT,AUT,Xaver Schlager,Florian Grillitsch,sub_out,45,,2H,,,"Substitution, Austria. Florian Grillitsch replaces Xaver Schlager.",ESPN public summary API,82
+M084,ESP,ESP,,,hydration_break_end,45,4,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M084,AUT,AUT,Marko Arnautovic,Michael Gregoritsch,sub_in,60,,2H,,,"Substitution, Austria. Marko Arnautovic replaces Michael Gregoritsch.",ESPN public summary API,82
+M084,AUT,AUT,Sasa Kalajdzic,Romano Schmid,sub_in,60,,2H,,,"Substitution, Austria. Sasa Kalajdzic replaces Romano Schmid.",ESPN public summary API,82
+M084,AUT,AUT,Michael Gregoritsch,Marko Arnautovic,sub_out,60,,2H,,,"Substitution, Austria. Marko Arnautovic replaces Michael Gregoritsch.",ESPN public summary API,82
+M084,AUT,AUT,Romano Schmid,Sasa Kalajdzic,sub_out,60,,2H,,,"Substitution, Austria. Sasa Kalajdzic replaces Romano Schmid.",ESPN public summary API,82
+M084,AUT,AUT,,,hydration_break_end,64,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M084,ESP,ESP,Pedro Porro,Álex Baena,goal,66,,2H,2,0,"Goal! Spain 2, Austria 0. Pedro Porro (Spain) header from the centre of the box to the centre of the goal. Assisted by Álex Baena.",ESPN public summary API,82
+M084,AUT,AUT,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M084,ESP,ESP,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M084,ESP,ESP,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M084,ESP,ESP,Ferran Torres,Álex Baena,sub_in,71,,2H,,,"Substitution, Spain. Ferran Torres replaces Álex Baena.",ESPN public summary API,82
+M084,ESP,ESP,Mikel Merino,Dani Olmo,sub_in,71,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M084,ESP,ESP,Dani Olmo,Mikel Merino,sub_out,71,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M084,ESP,ESP,Álex Baena,Ferran Torres,sub_out,71,,2H,,,"Substitution, Spain. Ferran Torres replaces Álex Baena.",ESPN public summary API,82
+M084,AUT,AUT,Stefan Posch,,yellow_card,83,,2H,,,Stefan Posch (Austria) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M084,AUT,AUT,Alexander Prass,Stefan Posch,sub_in,85,,2H,,,"Substitution, Austria. Alexander Prass replaces Stefan Posch.",ESPN public summary API,82
+M084,ESP,ESP,Gavi,Lamine Yamal,sub_in,85,,2H,,,"Substitution, Spain. Gavi replaces Lamine Yamal.",ESPN public summary API,82
+M084,AUT,AUT,Stefan Posch,Alexander Prass,sub_out,85,,2H,,,"Substitution, Austria. Alexander Prass replaces Stefan Posch.",ESPN public summary API,82
+M084,ESP,ESP,Lamine Yamal,Gavi,sub_out,85,,2H,,,"Substitution, Spain. Gavi replaces Lamine Yamal.",ESPN public summary API,82
+M084,ESP,ESP,Mikel Oyarzabal,Marc Cucurella,goal,89,,2H,3,0,"Goal! Spain 3, Austria 0. Mikel Oyarzabal (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Marc Cucurella.",ESPN public summary API,82
+M084,ESP,ESP,Fabián Ruiz,Pedri,sub_in,90,3,2H,,,"Substitution, Spain. Fabián Ruiz replaces Pedri.",ESPN public summary API,82
+M084,ESP,ESP,Marc Pubill,Aymeric Laporte,sub_in,90,3,2H,,,"Substitution, Spain. Marc Pubill replaces Aymeric Laporte.",ESPN public summary API,82
+M084,ESP,ESP,Aymeric Laporte,Marc Pubill,sub_out,90,3,2H,,,"Substitution, Spain. Marc Pubill replaces Aymeric Laporte.",ESPN public summary API,82
+M084,ESP,ESP,Pedri,Fabián Ruiz,sub_out,90,3,2H,,,"Substitution, Spain. Fabián Ruiz replaces Pedri.",ESPN public summary API,82

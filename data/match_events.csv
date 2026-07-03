@@ -1954,3 +1954,37 @@ M084,ESP,ESP,Fabián Ruiz,Pedri,sub_in,90,3,2H,,,"Substitution, Spain. Fabián R
 M084,ESP,ESP,Marc Pubill,Aymeric Laporte,sub_in,90,3,2H,,,"Substitution, Spain. Marc Pubill replaces Aymeric Laporte.",ESPN public summary API,82
 M084,ESP,ESP,Aymeric Laporte,Marc Pubill,sub_out,90,3,2H,,,"Substitution, Spain. Marc Pubill replaces Aymeric Laporte.",ESPN public summary API,82
 M084,ESP,ESP,Pedri,Fabián Ruiz,sub_out,90,3,2H,,,"Substitution, Spain. Fabián Ruiz replaces Pedri.",ESPN public summary API,82
+M085,CHE,CHE,Breel Embolo,Johan Manzambi,goal,10,,1H,1,0,"Goal! Switzerland 1, Algeria 0. Breel Embolo (Switzerland) left footed shot from very close range to the bottom left corner. Assisted by Johan Manzambi following a fast break.",ESPN public summary API,82
+M085,CHE,CHE,,,hydration_break_end,17,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,CHE,CHE,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M085,DZA,DZA,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M085,CHE,CHE,,,hydration_break_end,28,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,DZA,DZA,,,hydration_break_end,28,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,DZA,DZA,Farès Chaïbi,,yellow_card,36,,1H,,,Farès Chaïbi (Algeria) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M085,CHE,CHE,Dan Ndoye,,goal,46,,2H,2,0,"Goal! Switzerland 2, Algeria 0. Dan Ndoye (Switzerland) right footed shot from the centre of the box to the bottom left corner.",ESPN public summary API,82
+M085,DZA,DZA,,,hydration_break_end,51,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,DZA,DZA,Amine Gouiri,Ramiz Zerrouki,sub_in,58,,2H,,,"Substitution, Algeria. Amine Gouiri replaces Ramiz Zerrouki.",ESPN public summary API,82
+M085,DZA,DZA,Jaouen Hadjam,Houssem Aouar,sub_in,58,,2H,,,"Substitution, Algeria. Jaouen Hadjam replaces Houssem Aouar.",ESPN public summary API,82
+M085,DZA,DZA,Houssem Aouar,Jaouen Hadjam,sub_out,58,,2H,,,"Substitution, Algeria. Jaouen Hadjam replaces Houssem Aouar.",ESPN public summary API,82
+M085,DZA,DZA,Ramiz Zerrouki,Amine Gouiri,sub_out,58,,2H,,,"Substitution, Algeria. Amine Gouiri replaces Ramiz Zerrouki.",ESPN public summary API,82
+M085,DZA,DZA,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M085,DZA,DZA,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,CHE,CHE,Fabian Rieder,Rubén Vargas,sub_in,71,,2H,,,"Substitution, Switzerland. Fabian Rieder replaces Rubén Vargas.",ESPN public summary API,82
+M085,CHE,CHE,Noah Okafor,Johan Manzambi,sub_in,71,,2H,,,"Substitution, Switzerland. Noah Okafor replaces Johan Manzambi.",ESPN public summary API,82
+M085,DZA,DZA,Anis Hadj Moussa,Riyad Mahrez,sub_in,71,,2H,,,"Substitution, Algeria. Anis Hadj Moussa replaces Riyad Mahrez.",ESPN public summary API,82
+M085,DZA,DZA,Hicham Boudaoui,Nabil Bentaleb,sub_in,71,,2H,,,"Substitution, Algeria. Hicham Boudaoui replaces Nabil Bentaleb.",ESPN public summary API,82
+M085,CHE,CHE,Johan Manzambi,Noah Okafor,sub_out,71,,2H,,,"Substitution, Switzerland. Noah Okafor replaces Johan Manzambi.",ESPN public summary API,82
+M085,CHE,CHE,Rubén Vargas,Fabian Rieder,sub_out,71,,2H,,,"Substitution, Switzerland. Fabian Rieder replaces Rubén Vargas.",ESPN public summary API,82
+M085,DZA,DZA,Nabil Bentaleb,Hicham Boudaoui,sub_out,71,,2H,,,"Substitution, Algeria. Hicham Boudaoui replaces Nabil Bentaleb.",ESPN public summary API,82
+M085,DZA,DZA,Riyad Mahrez,Anis Hadj Moussa,sub_out,71,,2H,,,"Substitution, Algeria. Anis Hadj Moussa replaces Riyad Mahrez.",ESPN public summary API,82
+M085,DZA,DZA,Hicham Boudaoui,,yellow_card,72,,2H,,,Hicham Boudaoui (Algeria) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M085,CHE,CHE,,,hydration_break_end,73,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,DZA,DZA,Adil Boulbina,Rafik Belghali,sub_in,82,,2H,,,"Substitution, Algeria. Adil Boulbina replaces Rafik Belghali because of an injury.",ESPN public summary API,82
+M085,DZA,DZA,Rafik Belghali,Adil Boulbina,sub_out,82,,2H,,,"Substitution, Algeria. Adil Boulbina replaces Rafik Belghali because of an injury.",ESPN public summary API,82
+M085,CHE,CHE,Zeki Amdouni,Breel Embolo,sub_in,83,,2H,,,"Substitution, Switzerland. Zeki Amdouni replaces Breel Embolo.",ESPN public summary API,82
+M085,CHE,CHE,Breel Embolo,Zeki Amdouni,sub_out,83,,2H,,,"Substitution, Switzerland. Zeki Amdouni replaces Breel Embolo.",ESPN public summary API,82
+M085,CHE,CHE,,,hydration_break_end,86,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M085,CHE,CHE,Michel Aebischer,Dan Ndoye,sub_in,87,,2H,,,"Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye.",ESPN public summary API,82
+M085,CHE,CHE,Silvan Widmer,Denis Zakaria,sub_in,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury.",ESPN public summary API,82
+M085,CHE,CHE,Dan Ndoye,Michel Aebischer,sub_out,87,,2H,,,"Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye.",ESPN public summary API,82
+M085,CHE,CHE,Denis Zakaria,Silvan Widmer,sub_out,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury.",ESPN public summary API,82

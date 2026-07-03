@@ -7,11 +7,14 @@ import csv
 import datetime as dt
 import json
 import re
+import signal
 from collections import defaultdict
+from contextlib import contextmanager
 from pathlib import Path
 from typing import Any
 
 OPENFOOTBALL_URL = "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
+NETWORK_HARD_TIMEOUT_SECONDS = 25
 
 TEAM_CODE_MAP = {
     "Algeria": ("DZ", "DZA"),
@@ -92,6 +95,25 @@ def _load_requests():
     return requests
 
 
+@contextmanager
+def _hard_timeout(seconds: int):
+    if seconds <= 0 or not hasattr(signal, "SIGALRM"):
+        yield
+        return
+
+    def _raise_timeout(_signum, _frame):
+        raise TimeoutError(f"OpenFootball fetch exceeded {seconds} seconds")
+
+    previous_handler = signal.getsignal(signal.SIGALRM)
+    signal.signal(signal.SIGALRM, _raise_timeout)
+    signal.alarm(seconds)
+    try:
+        yield
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous_handler)
+
+
 def _parse_time(date_value: str, time_value: str) -> tuple[str, str, str]:
     match = re.fullmatch(r"(\d{2}:\d{2}) UTC([+-]\d+)", time_value)
     if not match:
@@ -158,9 +180,10 @@ def _score(match: dict[str, Any]) -> tuple[int | None, int | None, str]:
 
 def fetch_openfootball_json(url: str = OPENFOOTBALL_URL) -> dict[str, Any]:
     requests = _load_requests()
-    response = requests.get(url, timeout=30)
-    response.raise_for_status()
-    return response.json()
+    with _hard_timeout(NETWORK_HARD_TIMEOUT_SECONDS):
+        response = requests.get(url, timeout=(5, 20))
+        response.raise_for_status()
+        return response.json()
 
 
 def normalize_schedule(data: dict[str, Any]) -> list[dict[str, Any]]:
@@ -227,7 +250,16 @@ def main(argv: list[str] | None = None) -> int:
     except Exception as exc:  # noqa: BLE001
         cached_output = Path(args.output)
         if cached_output.exists():
-            print({"output": args.output, "matches": len(list(csv.DictReader(cached_output.open(encoding="utf-8")))), "warning": str(exc), "used_cached_output": True})
+            with cached_output.open(encoding="utf-8") as handle:
+                cached_matches = len(list(csv.DictReader(handle)))
+            print(
+                {
+                    "output": args.output,
+                    "matches": cached_matches,
+                    "warning": str(exc),
+                    "used_cached_output": True,
+                }
+            )
             return 0
         print(f"OpenFootball schedule fetch not completed: {exc}")
         return 1

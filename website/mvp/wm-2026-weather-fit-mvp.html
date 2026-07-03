@@ -1808,6 +1808,61 @@
     padding: 12px 10px 18px;
   }
 
+  .schedule-toolbar {
+    top: 112px;
+    gap: 8px;
+    padding: 8px 0 10px;
+  }
+
+  .schedule-jumpbar {
+    display: grid;
+    gap: 8px;
+  }
+
+  .schedule-view-toggle {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .schedule-view-button {
+    min-height: 38px;
+    font-size: 12px;
+  }
+
+  .schedule-jump-actions {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .schedule-jump-button {
+    min-height: 42px;
+    padding: 8px 10px;
+    white-space: normal;
+  }
+
+  .schedule-jump-button b {
+    display: none;
+  }
+
+  .schedule-jump-button[data-jump-key="recent"],
+  .schedule-jump-button[data-jump-key="start"] {
+    display: none;
+  }
+
+  .schedule-toolbar-status {
+    min-height: auto;
+  }
+
+  .schedule-status-note {
+    gap: 4px 10px;
+  }
+
+  .schedule-status-note b {
+    font-size: 12px;
+    line-height: 1.35;
+  }
+
   .weather-map-section,
   .favorites-section {
     margin: 0;
@@ -2039,6 +2094,10 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
+  .app-nav-utility {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .analysis-tabs {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -2046,6 +2105,14 @@
   .hero .status {
     max-width: 92px;
     font-size: 9px;
+  }
+
+  .schedule-toolbar {
+    top: 126px;
+  }
+
+  .schedule-jump-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero-actions button,
@@ -2253,6 +2320,17 @@ h2 {
   backdrop-filter: blur(14px);
 }
 
+.mobile-nav-shell {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.app-nav-utility,
+.mobile-focus-nav {
+  display: none;
+}
+
 .app-nav-item {
   min-height: 42px;
   border: 0;
@@ -2268,6 +2346,25 @@ h2 {
   background: var(--surface);
   color: var(--ink);
   box-shadow: 0 1px 5px rgba(23, 32, 38, 0.13);
+}
+
+.app-nav-utility-item,
+.mobile-focus-button {
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.app-nav-utility-item.is-active,
+.mobile-focus-button.is-active {
+  border-color: var(--teal);
+  background: #eef9f8;
+  color: var(--ink);
 }
 
 .app-section:not(.is-active) {
@@ -5118,10 +5215,22 @@ select:focus {
     justify-content: stretch;
   }
 
+  .mobile-nav-shell {
+    position: sticky;
+    top: 0;
+    z-index: 28;
+    margin-bottom: 10px;
+    padding: 6px 10px 8px;
+    background: linear-gradient(180deg, rgba(245, 247, 248, 0.98) 0%, rgba(245, 247, 248, 0.92) 82%, rgba(245, 247, 248, 0) 100%);
+    backdrop-filter: blur(14px);
+  }
+
   .app-nav {
-    display: grid;
+    position: static;
+    margin-bottom: 0;
+    padding: 4px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 6px;
+    gap: 4px;
     overflow: visible;
     scroll-snap-type: none;
   }
@@ -5133,6 +5242,40 @@ select:focus {
     font-size: 12px;
     line-height: 1.15;
     overflow-wrap: anywhere;
+  }
+
+  .app-nav-item.is-utility {
+    display: none;
+  }
+
+  .app-nav-utility {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .app-nav-utility-item {
+    min-width: 0;
+    min-height: 34px;
+    padding: 0 8px;
+    font-size: 11px;
+    line-height: 1.1;
+    overflow-wrap: anywhere;
+  }
+
+  html[data-active-section="matches"] .mobile-focus-nav,
+  html[data-active-section="analysis"] .mobile-focus-nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+  }
+
+  .mobile-focus-button {
+    min-width: 0;
+    min-height: 38px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 1.1;
   }
 
   .status {
@@ -5782,6 +5925,12 @@ select:focus {
     padding-bottom: 4px;
     -webkit-overflow-scrolling: touch;
     scroll-snap-type: x proximity;
+    position: sticky;
+    top: 156px;
+    z-index: 3;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    background: linear-gradient(180deg, rgba(247, 250, 251, 0.98) 0%, rgba(247, 250, 251, 0.92) 78%, rgba(247, 250, 251, 0) 100%);
   }
 
   .knockout-stage-button {
@@ -5922,16 +6071,29 @@ select:focus {
         <div class="hero-signal" id="heroSignal" aria-live="polite"></div>
       </header>
 
-      <nav class="app-nav" aria-label="Hauptnavigation">
-        <button class="app-nav-item is-active" type="button" data-section-target="home" data-i18n="navToday">Heute</button>
-        <button class="app-nav-item" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
-        <button class="app-nav-item" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
-        <button class="app-nav-item" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
-        <button class="app-nav-item" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
-        <button class="app-nav-item" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
-        <button class="app-nav-item" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
-        <button class="app-nav-item" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
-      </nav>
+      <div class="mobile-nav-shell">
+        <nav class="app-nav" aria-label="Hauptnavigation">
+          <button class="app-nav-item nav-action is-core is-active" type="button" data-section-target="home" data-i18n="navToday">Heute</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
+        </nav>
+        <nav class="app-nav-utility" aria-label="Weitere Bereiche">
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
+        </nav>
+        <nav class="mobile-focus-nav" id="mobileFocusNav" aria-label="Schnellwechsel">
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
+        </nav>
+      </div>
 
       <section class="app-section home-section is-active" data-section="home" aria-label="Heute">
         <div id="homeDashboard"></div>
@@ -27087,7 +27249,7 @@ const els = {
   favoritesMatchdayFilter: document.querySelector("#favoritesMatchdayFilter"),
   favoritesSummary: document.querySelector("#favoritesSummary"),
   favoritesList: document.querySelector("#weatherFavorites"),
-  navButtons: [...document.querySelectorAll(".app-nav-item")],
+  navButtons: [...document.querySelectorAll(".nav-action")],
   sections: [...document.querySelectorAll(".app-section")],
   adSlots: [...document.querySelectorAll("[data-ad-slot]")],
   languageToggle: document.querySelector("#languageToggle"),
@@ -29127,7 +29289,7 @@ function renderScheduleJumpbar() {
     <div class="schedule-jump-actions">
       ${jumpButtons.map((item) => {
         const meta = item.match ? `${item.match.match_id} · ${viewerDateTime(item.match).shortDate}` : "";
-        return `<button class="schedule-jump-button${item.emphasis ? " is-emphasis" : ""}" type="button" data-schedule-jump="${item.key}"${item.match ? ` data-match-id="${item.match.match_id}"` : ""}${item.view ? ` data-target-view="${item.view}"` : ""}>
+        return `<button class="schedule-jump-button${item.emphasis ? " is-emphasis" : ""}" type="button" data-jump-key="${item.key}" data-schedule-jump="${item.key}"${item.match ? ` data-match-id="${item.match.match_id}"` : ""}${item.view ? ` data-target-view="${item.view}"` : ""}>
           <span>${item.label}</span>
           ${meta ? `<b>${meta}</b>` : ""}
         </button>`;
@@ -30365,6 +30527,7 @@ function renderTravelSection() {
 }
 
 function syncAnalysisChrome() {
+  document.documentElement.dataset.analysisMode = state.analysisMode;
   if (els.analysisEyebrow) {
     els.analysisEyebrow.textContent = t("tablesEyebrow");
   }
@@ -30381,7 +30544,8 @@ function syncAnalysisChrome() {
 
 function setActiveSection(sectionName) {
   state.activeSection = sectionName;
-  let activeButton = null;
+  document.documentElement.dataset.activeSection = sectionName;
+  const activeButtons = [];
   els.navButtons.forEach((button) => {
     let isActive = button.dataset.sectionTarget === sectionName;
     if (sectionName === "analysis" && button.dataset.sectionTarget === "analysis") {
@@ -30393,15 +30557,19 @@ function setActiveSection(sectionName) {
     }
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-current", isActive ? "page" : "false");
-    if (isActive) activeButton = button;
+    if (isActive) activeButtons.push(button);
   });
   els.sections.forEach((section) => {
     section.classList.toggle("is-active", section.dataset.section === sectionName);
   });
-  const nav = activeButton?.parentElement;
-  if (nav && nav.scrollWidth > nav.clientWidth) {
-    window.requestAnimationFrame(() => activeButton.scrollIntoView({ block: "nearest", inline: "center" }));
-  }
+  window.requestAnimationFrame(() => {
+    activeButtons.forEach((button) => {
+      const nav = button.parentElement;
+      if (nav && nav.scrollWidth > nav.clientWidth) {
+        button.scrollIntoView({ block: "nearest", inline: "center" });
+      }
+    });
+  });
   const activeSection = els.sections.find((section) => section.dataset.section === sectionName);
   if (activeSection && sectionName !== "home") {
     window.requestAnimationFrame(() => activeSection.scrollIntoView({ block: "start", behavior: "smooth" }));

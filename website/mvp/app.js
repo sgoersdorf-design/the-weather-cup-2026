@@ -57,7 +57,7 @@ const els = {
   favoritesMatchdayFilter: document.querySelector("#favoritesMatchdayFilter"),
   favoritesSummary: document.querySelector("#favoritesSummary"),
   favoritesList: document.querySelector("#weatherFavorites"),
-  navButtons: [...document.querySelectorAll(".app-nav-item")],
+  navButtons: [...document.querySelectorAll(".nav-action")],
   sections: [...document.querySelectorAll(".app-section")],
   adSlots: [...document.querySelectorAll("[data-ad-slot]")],
   languageToggle: document.querySelector("#languageToggle"),
@@ -2097,7 +2097,7 @@ function renderScheduleJumpbar() {
     <div class="schedule-jump-actions">
       ${jumpButtons.map((item) => {
         const meta = item.match ? `${item.match.match_id} · ${viewerDateTime(item.match).shortDate}` : "";
-        return `<button class="schedule-jump-button${item.emphasis ? " is-emphasis" : ""}" type="button" data-schedule-jump="${item.key}"${item.match ? ` data-match-id="${item.match.match_id}"` : ""}${item.view ? ` data-target-view="${item.view}"` : ""}>
+        return `<button class="schedule-jump-button${item.emphasis ? " is-emphasis" : ""}" type="button" data-jump-key="${item.key}" data-schedule-jump="${item.key}"${item.match ? ` data-match-id="${item.match.match_id}"` : ""}${item.view ? ` data-target-view="${item.view}"` : ""}>
           <span>${item.label}</span>
           ${meta ? `<b>${meta}</b>` : ""}
         </button>`;
@@ -3335,6 +3335,7 @@ function renderTravelSection() {
 }
 
 function syncAnalysisChrome() {
+  document.documentElement.dataset.analysisMode = state.analysisMode;
   if (els.analysisEyebrow) {
     els.analysisEyebrow.textContent = t("tablesEyebrow");
   }
@@ -3351,7 +3352,8 @@ function syncAnalysisChrome() {
 
 function setActiveSection(sectionName) {
   state.activeSection = sectionName;
-  let activeButton = null;
+  document.documentElement.dataset.activeSection = sectionName;
+  const activeButtons = [];
   els.navButtons.forEach((button) => {
     let isActive = button.dataset.sectionTarget === sectionName;
     if (sectionName === "analysis" && button.dataset.sectionTarget === "analysis") {
@@ -3363,15 +3365,19 @@ function setActiveSection(sectionName) {
     }
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-current", isActive ? "page" : "false");
-    if (isActive) activeButton = button;
+    if (isActive) activeButtons.push(button);
   });
   els.sections.forEach((section) => {
     section.classList.toggle("is-active", section.dataset.section === sectionName);
   });
-  const nav = activeButton?.parentElement;
-  if (nav && nav.scrollWidth > nav.clientWidth) {
-    window.requestAnimationFrame(() => activeButton.scrollIntoView({ block: "nearest", inline: "center" }));
-  }
+  window.requestAnimationFrame(() => {
+    activeButtons.forEach((button) => {
+      const nav = button.parentElement;
+      if (nav && nav.scrollWidth > nav.clientWidth) {
+        button.scrollIntoView({ block: "nearest", inline: "center" });
+      }
+    });
+  });
   const activeSection = els.sections.find((section) => section.dataset.section === sectionName);
   if (activeSection && sectionName !== "home") {
     window.requestAnimationFrame(() => activeSection.scrollIntoView({ block: "start", behavior: "smooth" }));

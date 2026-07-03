@@ -32,16 +32,29 @@
         <div class="hero-signal" id="heroSignal" aria-live="polite"></div>
       </header>
 
-      <nav class="app-nav" aria-label="Hauptnavigation">
-        <button class="app-nav-item is-active" type="button" data-section-target="home" data-i18n="navToday">Heute</button>
-        <button class="app-nav-item" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
-        <button class="app-nav-item" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
-        <button class="app-nav-item" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
-        <button class="app-nav-item" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
-        <button class="app-nav-item" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
-        <button class="app-nav-item" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
-        <button class="app-nav-item" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
-      </nav>
+      <div class="mobile-nav-shell">
+        <nav class="app-nav" aria-label="Hauptnavigation">
+          <button class="app-nav-item nav-action is-core is-active" type="button" data-section-target="home" data-i18n="navToday">Heute</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
+          <button class="app-nav-item nav-action is-core" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
+          <button class="app-nav-item nav-action is-utility" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
+        </nav>
+        <nav class="app-nav-utility" aria-label="Weitere Bereiche">
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="favorites" data-i18n="navFavorites">Wetterfavoriten</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="map" data-i18n="navMap">Karte</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="travel" data-i18n="navTravel">Reisen</button>
+          <button class="app-nav-utility-item nav-action" type="button" data-section-target="faq" data-i18n="navFaq">FAQ</button>
+        </nav>
+        <nav class="mobile-focus-nav" id="mobileFocusNav" aria-label="Schnellwechsel">
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="matches" data-i18n="navSchedule">Spielplan</button>
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="analysis" data-analysis-mode-target="stats" data-i18n="navStats">Stats</button>
+          <button class="mobile-focus-button nav-action" type="button" data-section-target="analysis" data-i18n="navTables">Tabellen</button>
+        </nav>
+      </div>
 
       <section class="app-section home-section is-active" data-section="home" aria-label="Heute">
         <div id="homeDashboard"></div>

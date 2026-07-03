@@ -1263,6 +1263,25 @@
   text-transform: uppercase;
 }
 
+.best-third-summary {
+  display: grid;
+  justify-items: end;
+  gap: 1px;
+  text-align: right;
+}
+
+.best-third-summary b {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.best-third-summary span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .best-third-kpis {
   grid-column: 2 / -1;
   display: flex;
@@ -1423,6 +1442,10 @@
   gap: 12px;
 }
 
+.knockout-card-title {
+  min-width: 0;
+}
+
 .knockout-card-head span,
 .knockout-card-head i {
   color: var(--muted);
@@ -1436,6 +1459,33 @@
   display: block;
   margin-top: 3px;
   font-size: 17px;
+}
+
+.knockout-status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  white-space: nowrap;
+}
+
+.knockout-card.status-live .knockout-status-pill {
+  background: #fff0cf;
+  color: #9b6200;
+}
+
+.knockout-card.status-finished .knockout-status-pill {
+  background: #e5f3ee;
+  color: #245f37;
+}
+
+.knockout-card.status-upcoming .knockout-status-pill,
+.knockout-card.status-today .knockout-status-pill {
+  background: #edf3f6;
+  color: #55636d;
 }
 
 .knockout-card-meta {
@@ -1742,6 +1792,7 @@
 
   .hero-actions button {
     width: 100%;
+    min-height: 38px;
   }
 
   .app-nav {
@@ -1769,6 +1820,27 @@
   .home-preview-panel,
   .methodology-box {
     padding: 14px;
+  }
+
+  .standings-panel {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .standings-panel-head {
+    display: grid;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+
+  .standings-panel-head h3 {
+    font-size: 20px;
+  }
+
+  .standings-panel-head p:last-child {
+    font-size: 13px;
+    line-height: 1.4;
   }
 
   .next-up-carousel,
@@ -1974,6 +2046,26 @@
   .hero .status {
     max-width: 92px;
     font-size: 9px;
+  }
+
+  .hero-actions button,
+  .knockout-open {
+    min-height: 36px;
+    font-size: 12px;
+  }
+
+  .knockout-stage-button {
+    flex-basis: 110px;
+    min-width: 110px;
+    padding: 8px 9px;
+  }
+
+  .knockout-stage-button span {
+    font-size: 10px;
+  }
+
+  .knockout-stage-button b {
+    font-size: 13px;
   }
 }
 
@@ -5040,11 +5132,19 @@ select:focus {
     padding: 0 8px;
     font-size: 12px;
     line-height: 1.15;
+    overflow-wrap: anywhere;
   }
 
   .status {
     min-width: 0;
     text-align: left;
+  }
+
+  .language-toggle {
+    min-width: 46px;
+    min-height: 36px;
+    border-radius: 7px;
+    font-size: 12px;
   }
 
   .site-footer {
@@ -5655,6 +5755,14 @@ select:focus {
     font-size: 9px;
   }
 
+  .best-third-summary b {
+    font-size: 18px;
+  }
+
+  .best-third-summary span {
+    font-size: 9px;
+  }
+
   .best-third-kpis {
     grid-column: 2 / -1;
     gap: 4px 6px;
@@ -5709,6 +5817,7 @@ select:focus {
     gap: 7px;
     padding: 10px;
     border-radius: 12px;
+    box-shadow: 0 5px 16px rgba(23, 32, 38, 0.05);
   }
 
   .knockout-card-head b {
@@ -5719,6 +5828,10 @@ select:focus {
   .knockout-card-head i,
   .knockout-card-meta {
     font-size: 10px;
+  }
+
+  .knockout-card-title b {
+    margin-top: 1px;
   }
 
   .knockout-team-row {
@@ -5738,10 +5851,16 @@ select:focus {
 
   .knockout-team-main b {
     font-size: 13px;
+    line-height: 1.15;
   }
 
   .knockout-team-main small {
     font-size: 10px;
+  }
+
+  .knockout-team-row strong {
+    font-size: 18px;
+    line-height: 1;
   }
 
   .knockout-open {
@@ -26738,11 +26857,11 @@ function knockoutCard(match) {
   const metaBits = [viewer.shortLabel, match.host_city].filter(Boolean).join(" · ");
   return `<article class="knockout-card status-${status}">
     <div class="knockout-card-head">
-      <div>
+      <div class="knockout-card-title">
         <span>${match.match_id}</span>
         <b>${stageLabel}</b>
       </div>
-      <i>${statusLabel(status)}</i>
+      <i class="knockout-status-pill">${statusLabel(status)}</i>
     </div>
     <div class="knockout-card-meta">${escapeHtml(metaBits)}</div>
     <div class="knockout-team-list">

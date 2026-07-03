@@ -783,11 +783,11 @@ function knockoutCard(match) {
   const metaBits = [viewer.shortLabel, match.host_city].filter(Boolean).join(" · ");
   return `<article class="knockout-card status-${status}">
     <div class="knockout-card-head">
-      <div>
+      <div class="knockout-card-title">
         <span>${match.match_id}</span>
         <b>${stageLabel}</b>
       </div>
-      <i>${statusLabel(status)}</i>
+      <i class="knockout-status-pill">${statusLabel(status)}</i>
     </div>
     <div class="knockout-card-meta">${escapeHtml(metaBits)}</div>
     <div class="knockout-team-list">

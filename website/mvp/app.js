@@ -65,6 +65,7 @@ const els = {
   predictionDialog: document.querySelector("#predictionDialog"),
   predictionDialogContent: document.querySelector("#predictionDialogContent"),
   legalLinks: [...document.querySelectorAll("[data-legal-target]")],
+  mobileDetailScrim: document.querySelector("#mobileDetailScrim"),
 };
 
 const I18N = {
@@ -1967,11 +1968,21 @@ function syncMatchControls() {
   els.modeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.mode === state.mode));
 }
 
+function isCompactViewport() {
+  return window.matchMedia("(max-width: 720px)").matches;
+}
+
+function syncMatchDetailState() {
+  const isOpen = Boolean(state.selectedId);
+  document.documentElement.dataset.matchDetailOpen = isOpen ? "true" : "false";
+  document.body.classList.toggle("match-detail-open", isOpen && isCompactViewport());
+}
+
 function scrollSelectedMatchIntoView(matchId) {
   const selectedCard = [...els.list.querySelectorAll(".quick-match-card")].find((item) => item.dataset.matchId === matchId);
   const inlineDetail = els.list.querySelector(`.inline-match-detail[data-match-id="${matchId}"]`);
   if (selectedCard) {
-    selectedCard.scrollIntoView({ block: "start", behavior: "smooth" });
+    selectedCard.scrollIntoView({ block: isCompactViewport() ? "center" : "start", behavior: "smooth" });
     if (selectedCard) selectedCard.focus({ preventScroll: true });
     return;
   }
@@ -2217,6 +2228,7 @@ function renderList() {
     renderMatchdaySummary(matches);
     els.list.innerHTML = `<div class="active-empty">${t("noMatches")}</div>`;
     if (els.detail) els.detail.innerHTML = "";
+    syncMatchDetailState();
     return;
   }
   if (state.selectedId && !matches.some((match) => match.match_id === state.selectedId)) {
@@ -2225,6 +2237,7 @@ function renderList() {
   renderMatchdaySummary(matches);
   els.list.innerHTML = renderMatchGroups(matches);
   renderDetail(matches.find((match) => match.match_id === state.selectedId));
+  syncMatchDetailState();
 }
 
 function renderMatchdaySummary(matches) {
@@ -3546,6 +3559,11 @@ function bindEvents() {
     });
   }
   els.list.addEventListener("click", (event) => {
+    if (event.target.closest("[data-close-match-detail]")) {
+      state.selectedId = null;
+      renderList();
+      return;
+    }
     const prediction = event.target.closest("[data-predict-match]");
     if (prediction) {
       openPredictionDialog(prediction.dataset.predictMatch);
@@ -3566,6 +3584,16 @@ function bindEvents() {
     state.selectedId = cardEl.dataset.matchId;
     renderList();
     window.requestAnimationFrame(() => scrollSelectedMatchIntoView(state.selectedId));
+  });
+  els.mobileDetailScrim?.addEventListener("click", () => {
+    state.selectedId = null;
+    renderList();
+  });
+  window.addEventListener("resize", syncMatchDetailState);
+  window.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape" || !state.selectedId) return;
+    state.selectedId = null;
+    renderList();
   });
   els.analysisButtons.forEach((button) => {
     button.addEventListener("click", () => {
@@ -3595,8 +3623,12 @@ function bindEvents() {
       if (stageJumpButton?.dataset.bracketStageTarget) {
         state.knockoutStage = stageJumpButton.dataset.bracketStageTarget;
         renderAnalysis();
-        const target = els.analysisContent.querySelector(`[data-bracket-stage="${stageJumpButton.dataset.bracketStageTarget}"]`);
-        target?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+        window.requestAnimationFrame(() => {
+          const activeButton = els.analysisContent.querySelector(".knockout-stage-button.is-active");
+          activeButton?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+          const target = els.analysisContent.querySelector(`[data-bracket-stage="${stageJumpButton.dataset.bracketStageTarget}"]`);
+          target?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+        });
       }
     });
     els.analysisContent.addEventListener("change", (event) => {

@@ -312,7 +312,10 @@ function expandedMatchDetailsMarkup(match) {
         <p class="eyebrow">${match.match_id} · ${groupMatchdayLabel(match.matchday)} · ${t("group")} ${match.group_name || "–"}</p>
         <h2>${teamLabel(match, "a")} vs. ${teamLabel(match, "b")}</h2>
       </div>
-      ${statusBadgeMarkup(match)}
+      <div class="expanded-match-head-actions">
+        ${statusBadgeMarkup(match)}
+        <button class="match-sheet-close" type="button" data-close-match-detail aria-label="${t("close")}">×</button>
+      </div>
     </div>
     ${finalResultMarkup(match)}
     ${weatherBalanceMarkup(match)}

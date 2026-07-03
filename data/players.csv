@@ -25,7 +25,7 @@ ARG,Nicolás Tagliafico,N. Tagliafico,3,LB,,false,ESPN public summary API,82
 ARG,Rodrigo De Paul,R. De Paul,7,SUB,,false,ESPN public summary API,82
 ARG,Thiago Almada,T. Almada,16,SUB,,false,ESPN public summary API,82
 ARG,Valentín Barco,V. Barco,8,SUB,,false,ESPN public summary API,82
-AUS,Aiden O'Neill,A. O'Neill,13,CM-R,,false,ESPN public summary API,82
+AUS,Aiden O'Neill,A. O'Neill,13,CM-L,,false,ESPN public summary API,82
 AUS,Ajdin Hrustic,A. Hrustic,10,SUB,,false,ESPN public summary API,82
 AUS,Alessandro Circati,A. Circati,3,CD-R,,false,ESPN public summary API,82
 AUS,Awer Mabil,A. Mabil,11,SUB,,false,ESPN public summary API,82
@@ -35,7 +35,7 @@ AUS,Cameron Devlin,C. Devlin,14,SUB,,false,ESPN public summary API,82
 AUS,Connor Metcalfe,C. Metcalfe,8,CF-L,,false,ESPN public summary API,82
 AUS,Cristian Volpato,C. Volpato,20,CF-R,,false,ESPN public summary API,82
 AUS,Harry Souttar,H. Souttar,19,CD,,false,ESPN public summary API,82
-AUS,Jackson Irvine,J. Irvine,22,CM-L,,false,ESPN public summary API,82
+AUS,Jackson Irvine,J. Irvine,22,CM-R,,false,ESPN public summary API,82
 AUS,Jacob Italiano,J. Italiano,4,RB,,false,ESPN public summary API,82
 AUS,Jason Geria,J. Geria,6,SUB,,false,ESPN public summary API,82
 AUS,Jordan Bos,J. Bos,5,RM,,false,ESPN public summary API,82
@@ -389,30 +389,30 @@ ECU,Willian Pacho,W. Pacho,6,CD-L,,false,ESPN public summary API,82
 ECU,Yaimar Medina,Y. Medina,26,SUB,,false,ESPN public summary API,82
 ECU,Ángelo Preciado,Á. Preciado,17,SUB,,false,ESPN public summary API,82
 EGY,Ahmed Fatouh,A. Fatouh,13,LB,,false,ESPN public summary API,82
-EGY,Emam Ashour,E. Ashour,8,AM-R,,false,ESPN public summary API,82
+EGY,Emam Ashour,E. Ashour,8,RM,,false,ESPN public summary API,82
 EGY,Haissem Hassan,H. Hassan,12,SUB,,false,ESPN public summary API,82
-EGY,Hamdy Fathy,H. Fathy,14,CD-L,,false,ESPN public summary API,82
+EGY,Hamdy Fathy,H. Fathy,14,CM-R,,false,ESPN public summary API,82
 EGY,Hamza Abdelkarim,H. Abdelkarim,9,SUB,,false,ESPN public summary API,82
 EGY,Hossam Abdelmaguid,H. Abdelmaguid,4,SUB,,false,ESPN public summary API,82
 EGY,Ibrahim Adel,I. Adel,20,SUB,,false,ESPN public summary API,82
-EGY,Karim Hafez,K. Hafez,15,SUB,,false,ESPN public summary API,82
+EGY,Karim Hafez,K. Hafez,15,LB,,false,ESPN public summary API,82
 EGY,Mahdy Soliman,M. Soliman,16,SUB,,false,ESPN public summary API,82
-EGY,Mahmoud Saber,M. Saber,21,LM,,false,ESPN public summary API,82
-EGY,Marawan Attia,M. Attia,19,SUB,,false,ESPN public summary API,82
+EGY,Mahmoud Saber,M. Saber,21,SUB,,false,ESPN public summary API,82
+EGY,Marawan Attia,M. Attia,19,CM-L,,false,ESPN public summary API,82
 EGY,Mohamed Abdelmoneim,M. Abdelmoneim,6,CD-L,,false,ESPN public summary API,82
 EGY,Mohamed Alaa,M. Alaa,26,SUB,,false,ESPN public summary API,82
 EGY,Mohamed El Shenawy,M. El Shenawy,1,SUB,,false,ESPN public summary API,82
 EGY,Mohamed Hany,M. Hany,3,RB,,false,ESPN public summary API,82
-EGY,Mohamed Salah,M. Salah,10,AM,,false,ESPN public summary API,82
+EGY,Mohamed Salah,M. Salah,10,CF-R,,false,ESPN public summary API,82
 EGY,Mohanad Lashin,M. Lashin,17,RM,,false,ESPN public summary API,82
 EGY,Mostafa Shoubir,M. Shoubir,23,G,,false,ESPN public summary API,82
-EGY,Mostafa Zico,M. Zico,11,F,,false,ESPN public summary API,82
+EGY,Mostafa Zico,M. Zico,11,CF-L,,false,ESPN public summary API,82
 EGY,Nabil Donga,N. Donga,18,SUB,,false,ESPN public summary API,82
-EGY,Omar Marmoush,O. Marmoush,22,SUB,,false,ESPN public summary API,82
-EGY,Ramy Rabia,R. Rabia,5,CD-R,,false,ESPN public summary API,82
+EGY,Omar Marmoush,O. Marmoush,22,LM,,false,ESPN public summary API,82
+EGY,Ramy Rabia,R. Rabia,5,CD-L,,false,ESPN public summary API,82
 EGY,Tarek Alaa,T. Alaa,24,SUB,,false,ESPN public summary API,82
-EGY,Trézéguet,Trézéguet,7,AM-L,,false,ESPN public summary API,82
-EGY,Yasser Ibrahim,Y. Ibrahim,2,SUB,,false,ESPN public summary API,82
+EGY,Trézéguet,Trézéguet,7,SUB,,false,ESPN public summary API,82
+EGY,Yasser Ibrahim,Y. Ibrahim,2,CD-R,,false,ESPN public summary API,82
 EGY,Zizo,Zizo,25,SUB,,false,ESPN public summary API,82
 ENG,Anthony Gordon,A. Gordon,18,SUB,,false,ESPN public summary API,82
 ENG,Bukayo Saka,B. Saka,7,SUB,,false,ESPN public summary API,82

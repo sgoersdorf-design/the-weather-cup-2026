@@ -27275,9 +27275,9 @@ function renderEnhancedStandings(standings) {
   const groups = groupStandingKeys(standings);
   if (!groups.length) return `<div class="active-empty">${t("standingsEmpty")}</div>`;
   return `<div class="standings-layout">
-    ${renderBestThirdRace(standings)}
     ${renderKnockoutBracket()}
     ${renderGroupStandings(standings)}
+    ${renderBestThirdRace(standings)}
   </div>`;
 }
 

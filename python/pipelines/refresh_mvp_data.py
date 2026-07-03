@@ -5,9 +5,10 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import selectors
+import queue
 import subprocess
 import sys
+import threading
 import time
 from datetime import datetime
 from pathlib import Path
@@ -120,10 +121,20 @@ def _stream_process_output(
     )
     assert process.stdout is not None
 
-    selector = selectors.DefaultSelector()
-    selector.register(process.stdout, selectors.EVENT_READ)
     output_lines: list[str] = []
     last_output_at = time.monotonic()
+    output_queue: queue.Queue[str | None] = queue.Queue()
+
+    def _reader() -> None:
+        assert process.stdout is not None
+        try:
+            for line in process.stdout:
+                output_queue.put(line)
+        finally:
+            output_queue.put(None)
+
+    reader = threading.Thread(target=_reader, name=f"{name}-stream-reader", daemon=True)
+    reader.start()
 
     try:
         while True:
@@ -133,39 +144,32 @@ def _stream_process_output(
                 process.wait()
                 raise subprocess.TimeoutExpired(command, timeout_seconds, output="".join(output_lines), stderr="")
 
-            events = selector.select(timeout=1)
-            if events:
-                for key, _ in events:
-                    line = key.fileobj.readline()
-                    if line:
-                        clean_line = line.rstrip()
-                        output_lines.append(line)
-                        last_output_at = time.monotonic()
-                        if clean_line:
-                            _print_progress(f"{name}: {clean_line}")
-                    elif process.poll() is not None:
-                        remainder = key.fileobj.read()
-                        if remainder:
-                            output_lines.append(remainder)
-                            for remainder_line in remainder.splitlines():
-                                if remainder_line.strip():
-                                    _print_progress(f"{name}: {remainder_line}")
-                        duration_seconds = round(time.monotonic() - started, 2)
-                        return process.returncode or 0, "".join(output_lines).strip(), "", duration_seconds
-            elif process.poll() is not None:
-                remainder = process.stdout.read()
-                if remainder:
-                    output_lines.append(remainder)
-                    for remainder_line in remainder.splitlines():
-                        if remainder_line.strip():
-                            _print_progress(f"{name}: {remainder_line}")
+            try:
+                line = output_queue.get(timeout=1)
+            except queue.Empty:
+                if process.poll() is not None:
+                    duration_seconds = round(time.monotonic() - started, 2)
+                    return process.returncode or 0, "".join(output_lines).strip(), "", duration_seconds
+                if time.monotonic() - last_output_at >= STEP_HEARTBEAT_SECONDS:
+                    _print_progress(f"{name}: still running ({int(elapsed)}s elapsed)")
+                    last_output_at = time.monotonic()
+                continue
+
+            if line is None:
+                process.wait()
                 duration_seconds = round(time.monotonic() - started, 2)
                 return process.returncode or 0, "".join(output_lines).strip(), "", duration_seconds
-            elif time.monotonic() - last_output_at >= STEP_HEARTBEAT_SECONDS:
+
+            clean_line = line.rstrip()
+            output_lines.append(line)
+            last_output_at = time.monotonic()
+            if clean_line:
+                _print_progress(f"{name}: {clean_line}")
+
+            if time.monotonic() - last_output_at >= STEP_HEARTBEAT_SECONDS:
                 _print_progress(f"{name}: still running ({int(elapsed)}s elapsed)")
-                last_output_at = time.monotonic()
     finally:
-        selector.close()
+        reader.join(timeout=1)
         if process.stdout and not process.stdout.closed:
             process.stdout.close()
 
@@ -190,6 +194,7 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
         except subprocess.TimeoutExpired as exc:
             stdout = (exc.stdout or "").strip()
             stderr = (exc.stderr or "").strip()
+            duration_seconds = round(float(timeout_seconds), 2)
             _print_progress(f"Step {name} timed out after {timeout_seconds}s")
             attempts.append(
                 {

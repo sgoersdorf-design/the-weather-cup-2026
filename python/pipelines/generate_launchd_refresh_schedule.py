@@ -10,9 +10,11 @@ from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-DEFAULT_PROJECT_DIR = Path("/Users/steffengorsdorf/Documents/wm-projekt")
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_PROJECT_DIR = REPO_ROOT
 DEFAULT_SCHEDULE = DEFAULT_PROJECT_DIR / "data/full_schedule_openfootball.csv"
 DEFAULT_OUTPUT = DEFAULT_PROJECT_DIR / "automation/com.wmprojekt.refresh-mvp.plist"
+DEFAULT_LOG_DIR = Path("/Users/steffengorsdorf/Library/Logs/wm-projekt")
 DEFAULT_TIMEZONE = "Europe/Berlin"
 JOB_LABEL = "com.wmprojekt.refresh-mvp"
 
@@ -76,21 +78,24 @@ def build_triggers(schedule_rows: list[dict[str, str]], timezone_name: str = DEF
 def build_launchd_plist(
     schedule_rows: list[dict[str, str]],
     project_dir: Path = DEFAULT_PROJECT_DIR,
+    log_dir: Path = DEFAULT_LOG_DIR,
     timezone_name: str = DEFAULT_TIMEZONE,
 ) -> dict[str, object]:
     triggers = build_triggers(schedule_rows, timezone_name=timezone_name)
     project_dir_str = str(project_dir)
+    log_dir_str = str(log_dir)
     return {
         "Label": JOB_LABEL,
         "ProgramArguments": [
+            "/bin/zsh",
             f"{project_dir_str}/scripts/refresh_mvp.command",
             "--auto-publish",
         ],
         "WorkingDirectory": project_dir_str,
         "StartCalendarInterval": [trigger.to_launchd() for trigger in triggers],
         "RunAtLoad": True,
-        "StandardOutPath": f"{project_dir_str}/logs/refresh_mvp.out.log",
-        "StandardErrorPath": f"{project_dir_str}/logs/refresh_mvp.err.log",
+        "StandardOutPath": f"{log_dir_str}/refresh_mvp.out.log",
+        "StandardErrorPath": f"{log_dir_str}/refresh_mvp.err.log",
     }
 
 
@@ -105,15 +110,18 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--schedule", default=str(DEFAULT_SCHEDULE))
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
     parser.add_argument("--project-dir", default=str(DEFAULT_PROJECT_DIR))
+    parser.add_argument("--log-dir", default=str(DEFAULT_LOG_DIR))
     parser.add_argument("--timezone", default=DEFAULT_TIMEZONE)
     args = parser.parse_args(argv)
 
     schedule_path = Path(args.schedule)
     output_path = Path(args.output)
     project_dir = Path(args.project_dir)
+    log_dir = Path(args.log_dir)
 
     rows = _read_schedule(schedule_path)
-    payload = build_launchd_plist(rows, project_dir=project_dir, timezone_name=args.timezone)
+    payload = build_launchd_plist(rows, project_dir=project_dir, log_dir=log_dir, timezone_name=args.timezone)
+    log_dir.mkdir(parents=True, exist_ok=True)
     write_plist(output_path, payload)
 
     triggers = payload["StartCalendarInterval"]

@@ -6,11 +6,12 @@
 	<string>com.wmprojekt.refresh-mvp</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Users/steffengorsdorf/Documents/wm-projekt/scripts/refresh_mvp.command</string>
+		<string>/bin/zsh</string>
+		<string>/Users/steffengorsdorf/Projects/wm-projekt/scripts/refresh_mvp.command</string>
 		<string>--auto-publish</string>
 	</array>
 	<key>WorkingDirectory</key>
-	<string>/Users/steffengorsdorf/Documents/wm-projekt</string>
+	<string>/Users/steffengorsdorf/Projects/wm-projekt</string>
 	<key>StartCalendarInterval</key>
 	<array>
 		<dict>
@@ -943,8 +944,8 @@
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StandardOutPath</key>
-	<string>/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.out.log</string>
+	<string>/Users/steffengorsdorf/Library/Logs/wm-projekt/refresh_mvp.out.log</string>
 	<key>StandardErrorPath</key>
-	<string>/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.err.log</string>
+	<string>/Users/steffengorsdorf/Library/Logs/wm-projekt/refresh_mvp.err.log</string>
 </dict>
 </plist>

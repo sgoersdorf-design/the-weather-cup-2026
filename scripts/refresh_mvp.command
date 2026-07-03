@@ -1,9 +1,18 @@
 #!/bin/zsh
 set -euo pipefail
 
-PROJECT_DIR="/Users/steffengorsdorf/Documents/wm-projekt"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$PROJECT_DIR"
 mkdir -p logs
+mkdir -p .run
+
+LOCK_DIR="$PROJECT_DIR/.run/refresh_mvp.lock"
+if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+  echo "WM MVP refresh skipped: another run is already active ($(date))"
+  exit 0
+fi
+trap 'rmdir "$LOCK_DIR"' EXIT
 
 auto_publish=0
 refresh_args=()

@@ -81,9 +81,9 @@ M079,round_of_32,,,Sechzehntelfinale,,,2026-07-01T01:00:00Z,2026-06-30,19:00,Ame
 M080,round_of_32,,,Sechzehntelfinale,,,2026-07-01T16:00:00Z,2026-07-01,12:00,America/New_York,ENG,COD,Atlanta Stadium,Atlanta,2,1,finished,OpenFootball worldcup.json CC0,90
 M081,round_of_32,,,Sechzehntelfinale,,,2026-07-02T00:00:00Z,2026-07-01,17:00,America/Los_Angeles,USA,BIH,San Francisco Bay Area Stadium,Santa Clara,2,0,finished,OpenFootball worldcup.json CC0,90
 M082,round_of_32,,,Sechzehntelfinale,,,2026-07-01T20:00:00Z,2026-07-01,13:00,America/Los_Angeles,BEL,SEN,Seattle Stadium,Seattle,2,2,finished,OpenFootball worldcup.json CC0,90
-M083,round_of_32,,,Sechzehntelfinale,,,2026-07-02T23:00:00Z,2026-07-02,19:00,America/Toronto,PRT,HRV,Toronto Stadium,Toronto,,,scheduled,OpenFootball worldcup.json CC0,90
+M083,round_of_32,,,Sechzehntelfinale,,,2026-07-02T23:00:00Z,2026-07-02,19:00,America/Toronto,PRT,HRV,Toronto Stadium,Toronto,2,1,finished,OpenFootball worldcup.json CC0,90
 M084,round_of_32,,,Sechzehntelfinale,,,2026-07-02T19:00:00Z,2026-07-02,12:00,America/Los_Angeles,ESP,AUT,Los Angeles Stadium,Inglewood,3,0,finished,OpenFootball worldcup.json CC0,90
-M085,round_of_32,,,Sechzehntelfinale,,,2026-07-03T03:00:00Z,2026-07-02,20:00,America/Vancouver,CHE,DZA,BC Place Vancouver,Vancouver,,,scheduled,OpenFootball worldcup.json CC0,90
+M085,round_of_32,,,Sechzehntelfinale,,,2026-07-03T03:00:00Z,2026-07-02,20:00,America/Vancouver,CHE,DZA,BC Place Vancouver,Vancouver,2,0,finished,OpenFootball worldcup.json CC0,90
 M086,round_of_32,,,Sechzehntelfinale,,,2026-07-03T22:00:00Z,2026-07-03,18:00,America/New_York,ARG,CPV,Miami Stadium,Miami Gardens,,,scheduled,OpenFootball worldcup.json CC0,90
 M087,round_of_32,,,Sechzehntelfinale,,,2026-07-04T01:30:00Z,2026-07-03,20:30,America/Chicago,COL,GHA,Kansas City Stadium,Kansas City,,,scheduled,OpenFootball worldcup.json CC0,90
 M088,round_of_32,,,Sechzehntelfinale,,,2026-07-03T18:00:00Z,2026-07-03,13:00,America/Chicago,AUS,EGY,Dallas Stadium,Arlington,,,scheduled,OpenFootball worldcup.json CC0,90

@@ -32,7 +32,7 @@ Im Projektordner:
 Oder per Doppelklick auf:
 
 ```text
-/Users/steffengorsdorf/Documents/wm-projekt/scripts/refresh_mvp.command
+/Users/steffengorsdorf/Projects/wm-projekt/scripts/refresh_mvp.command
 ```
 
 Wenn du nur testen willst, welche Schritte laufen würden:
@@ -84,7 +84,7 @@ macOS kann den Refresh mit `launchd` automatisch ausführen.
 2. Gehe zu deinem Projektordner:
 
 ```text
-/Users/steffengorsdorf/Documents/wm-projekt
+/Users/steffengorsdorf/Projects/wm-projekt
 ```
 
 3. Kopiere diese Datei:
@@ -114,8 +114,8 @@ launchctl kickstart gui/$(id -u)/com.wmprojekt.refresh-mvp
 Die Logs liegen danach hier:
 
 ```text
-/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.out.log
-/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.err.log
+/Users/steffengorsdorf/Library/Logs/wm-projekt/refresh_mvp.out.log
+/Users/steffengorsdorf/Library/Logs/wm-projekt/refresh_mvp.err.log
 ```
 
 Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:

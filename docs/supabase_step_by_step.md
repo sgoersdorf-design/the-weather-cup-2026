@@ -37,7 +37,7 @@ Wichtig: Der Publishable Key reicht nicht aus, um Tabellen anzulegen oder CSV-Da
 Ich habe lokal diese Datei angelegt:
 
 ```text
-/Users/steffengorsdorf/Documents/WM Projekt/.env
+/Users/steffengorsdorf/Projects/wm-projekt/.env
 ```
 
 Darin stehen deine Supabase-Projektwerte bereits drin. Nur das Datenbank-Passwort fehlt noch:
@@ -113,7 +113,7 @@ Wenn die Verbindung funktioniert, legen wir die Tabellen an:
 Das fuehrt die Datei aus:
 
 ```text
-/Users/steffengorsdorf/Documents/WM Projekt/sql/001_schema.sql
+/Users/steffengorsdorf/Projects/wm-projekt/sql/001_schema.sql
 ```
 
 Danach existieren in Supabase die Tabellen fuer Teams, Matches, Wetter, Scores, Prognosen, Texte und Post-Match-Auswertungen.

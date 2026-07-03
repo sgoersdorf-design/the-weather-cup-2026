@@ -1,7 +1,8 @@
 #!/bin/zsh
 set -euo pipefail
 
-PROJECT_DIR="/Users/steffengorsdorf/Documents/wm-projekt"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$PROJECT_DIR"
 
 commit_message="${1:-Automated WM refresh $(date '+%Y-%m-%d %H:%M:%S')}"

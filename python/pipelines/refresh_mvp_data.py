@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
+import selectors
 import subprocess
 import sys
 import time
@@ -69,6 +71,7 @@ SUPABASE_DNS_HOSTS = [
     "aws-0-eu-west-1.pooler.supabase.com",
     "db.srcwznnkbhrtstqbkijx.supabase.co",
 ]
+STEP_HEARTBEAT_SECONDS = 15
 
 
 def _command(module: str, *args: str) -> list[str]:
@@ -90,6 +93,83 @@ def _should_retry(name: str, stderr: str, stdout: str) -> bool:
     return name in {"fetch_schedule", "fetch_weather_forecast", "fetch_event_data"} and "timed out" in combined
 
 
+def _timestamp() -> str:
+    return datetime.now().strftime("%H:%M:%S")
+
+
+def _print_progress(message: str) -> None:
+    print(f"[{_timestamp()}] {message}", flush=True)
+
+
+def _stream_process_output(
+    name: str,
+    command: list[str],
+    timeout_seconds: int,
+) -> tuple[int, str, str, float]:
+    started = time.monotonic()
+    env = os.environ.copy()
+    env["PYTHONUNBUFFERED"] = "1"
+    process = subprocess.Popen(
+        command,
+        cwd=ROOT_DIR,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        bufsize=1,
+        env=env,
+    )
+    assert process.stdout is not None
+
+    selector = selectors.DefaultSelector()
+    selector.register(process.stdout, selectors.EVENT_READ)
+    output_lines: list[str] = []
+    last_output_at = time.monotonic()
+
+    try:
+        while True:
+            elapsed = time.monotonic() - started
+            if elapsed >= timeout_seconds:
+                process.kill()
+                process.wait()
+                raise subprocess.TimeoutExpired(command, timeout_seconds, output="".join(output_lines), stderr="")
+
+            events = selector.select(timeout=1)
+            if events:
+                for key, _ in events:
+                    line = key.fileobj.readline()
+                    if line:
+                        clean_line = line.rstrip()
+                        output_lines.append(line)
+                        last_output_at = time.monotonic()
+                        if clean_line:
+                            _print_progress(f"{name}: {clean_line}")
+                    elif process.poll() is not None:
+                        remainder = key.fileobj.read()
+                        if remainder:
+                            output_lines.append(remainder)
+                            for remainder_line in remainder.splitlines():
+                                if remainder_line.strip():
+                                    _print_progress(f"{name}: {remainder_line}")
+                        duration_seconds = round(time.monotonic() - started, 2)
+                        return process.returncode or 0, "".join(output_lines).strip(), "", duration_seconds
+            elif process.poll() is not None:
+                remainder = process.stdout.read()
+                if remainder:
+                    output_lines.append(remainder)
+                    for remainder_line in remainder.splitlines():
+                        if remainder_line.strip():
+                            _print_progress(f"{name}: {remainder_line}")
+                duration_seconds = round(time.monotonic() - started, 2)
+                return process.returncode or 0, "".join(output_lines).strip(), "", duration_seconds
+            elif time.monotonic() - last_output_at >= STEP_HEARTBEAT_SECONDS:
+                _print_progress(f"{name}: still running ({int(elapsed)}s elapsed)")
+                last_output_at = time.monotonic()
+    finally:
+        selector.close()
+        if process.stdout and not process.stdout.closed:
+            process.stdout.close()
+
+
 def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]:
     if dry_run:
         return {"name": name, "status": "dry_run", "command": command}
@@ -98,20 +178,19 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
     attempts: list[dict[str, Any]] = []
     started_at = datetime.now().isoformat(timespec="seconds")
     for attempt in range(1, max_attempts + 1):
-        started = time.monotonic()
+        _print_progress(
+            f"Starting step {name} (attempt {attempt}/{max_attempts}, timeout {timeout_seconds}s)"
+        )
         try:
-            completed = subprocess.run(
+            returncode, stdout, stderr, duration_seconds = _stream_process_output(
+                name,
                 command,
-                cwd=ROOT_DIR,
-                text=True,
-                capture_output=True,
-                check=False,
-                timeout=timeout_seconds,
+                timeout_seconds,
             )
         except subprocess.TimeoutExpired as exc:
-            duration_seconds = round(time.monotonic() - started, 2)
             stdout = (exc.stdout or "").strip()
             stderr = (exc.stderr or "").strip()
+            _print_progress(f"Step {name} timed out after {timeout_seconds}s")
             attempts.append(
                 {
                     "attempt": attempt,
@@ -123,6 +202,7 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
                 }
             )
             if attempt < max_attempts:
+                _print_progress(f"Retrying step {name} after timeout")
                 continue
             return {
                 "name": name,
@@ -136,25 +216,23 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
                 "timeout_seconds": timeout_seconds,
                 "started_at": started_at,
             }
-
-        duration_seconds = round(time.monotonic() - started, 2)
-        stdout = completed.stdout.strip()
-        stderr = completed.stderr.strip()
-        status = "ok" if completed.returncode == 0 else "failed"
+        status = "ok" if returncode == 0 else "failed"
         attempts.append(
             {
                 "attempt": attempt,
                 "status": status,
-                "returncode": completed.returncode,
+                "returncode": returncode,
                 "stdout": stdout,
                 "stderr": stderr,
                 "duration_seconds": duration_seconds,
             }
         )
-        if completed.returncode == 0:
+        _print_progress(f"Finished step {name} with status {status} in {duration_seconds}s")
+        if returncode == 0:
             break
         if attempt >= max_attempts or not _should_retry(name, stderr, stdout):
             break
+        _print_progress(f"Retrying step {name} after detected transient failure")
     return {
         "name": name,
         "status": attempts[-1]["status"],
@@ -197,12 +275,16 @@ def refresh_mvp_data(
     skip_weather_fetch: bool = False,
     skip_event_fetch: bool = False,
     with_event_db_import: bool = False,
+    only_steps: set[str] | None = None,
     dry_run: bool = False,
     continue_on_error: bool = False,
 ) -> dict[str, Any]:
     """Refresh external data where possible and rebuild DB/UI derived outputs."""
 
-    results = [_dns_health_result(dry_run=dry_run)]
+    _print_progress("WM refresh pipeline started")
+    results: list[dict[str, Any]] = []
+    if only_steps is None or "dns_health" in only_steps:
+        results.append(_dns_health_result(dry_run=dry_run))
     steps: list[tuple[str, list[str]]] = []
     if not skip_schedule_fetch:
         steps.append(
@@ -272,8 +354,12 @@ def refresh_mvp_data(
         insert_at = next(index for index, step in enumerate(steps) if step[0] == "context_metrics")
         steps.insert(insert_at, ("import_match_event_data", _command("python.pipelines.import_match_event_data", *event_import_args)))
 
+    if only_steps is not None:
+        steps = [step for step in steps if step[0] in only_steps]
+
     for name, command in steps:
-        if name == "import_match_event_data" and not dry_run and not _supabase_dns_available(results[0]):
+        dns_health_result = next((result for result in results if result["name"] == "dns_health"), None)
+        if name == "import_match_event_data" and not dry_run and dns_health_result is not None and not _supabase_dns_available(dns_health_result):
             results.append(
                 {
                     "name": name,
@@ -292,6 +378,7 @@ def refresh_mvp_data(
         result = _run(name, command, dry_run=dry_run)
         results.append(result)
         if result["status"] == "failed" and not continue_on_error and name not in NON_BLOCKING_FAILURE_STEPS:
+            _print_progress(f"Stopping pipeline after blocking failure in {name}")
             break
 
     failed = [result for result in results if result["status"] == "failed" and result["name"] not in NON_BLOCKING_FAILURE_STEPS]
@@ -300,12 +387,14 @@ def refresh_mvp_data(
         for result in results
         if (result["status"] == "failed" and result["name"] in NON_BLOCKING_FAILURE_STEPS) or result["status"] == "skipped"
     ]
-    return {
+    output = {
         "started_at": datetime.now().isoformat(timespec="seconds"),
         "status": "failed" if failed else "ok",
         "steps": results,
         "warnings": warnings,
     }
+    _print_progress(f"WM refresh pipeline finished with status {output['status']}")
+    return output
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -314,14 +403,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--skip-weather-fetch", action="store_true")
     parser.add_argument("--skip-event-fetch", action="store_true")
     parser.add_argument("--with-event-db-import", action="store_true")
+    parser.add_argument("--only-step", action="append", default=[])
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--continue-on-error", action="store_true")
     args = parser.parse_args(argv)
+    only_steps = set(args.only_step) or None
     output = refresh_mvp_data(
         skip_schedule_fetch=args.skip_schedule_fetch,
         skip_weather_fetch=args.skip_weather_fetch,
         skip_event_fetch=args.skip_event_fetch,
         with_event_db_import=args.with_event_db_import,
+        only_steps=only_steps,
         dry_run=args.dry_run,
         continue_on_error=args.continue_on_error,
     )

@@ -16,7 +16,7 @@ for arg in "$@"; do
 done
 
 echo "WM MVP refresh started: $(date)"
-.venv/bin/python -m python.pipelines.refresh_mvp_data "${refresh_args[@]}"
+.venv/bin/python -u -m python.pipelines.refresh_mvp_data "${refresh_args[@]}"
 if [[ "$auto_publish" -eq 1 ]]; then
   echo "WM MVP publish started: $(date)"
   scripts/publish_repo_update.command

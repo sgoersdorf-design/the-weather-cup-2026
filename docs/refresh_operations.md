@@ -32,13 +32,19 @@ Im Projektordner:
 Oder per Doppelklick auf:
 
 ```text
-/Users/steffengorsdorf/Documents/WM Projekt/scripts/refresh_mvp.command
+/Users/steffengorsdorf/Documents/wm-projekt/scripts/refresh_mvp.command
 ```
 
 Wenn du nur testen willst, welche Schritte laufen würden:
 
 ```bash
 .venv/bin/python -m python.pipelines.refresh_mvp_data --dry-run
+```
+
+Wenn du einen einzelnen problematischen Schritt gezielt testen willst:
+
+```bash
+.venv/bin/python -m python.pipelines.refresh_mvp_data --only-step dns_health
 ```
 
 Wenn du externe Abrufe überspringen und nur aus vorhandenen CSV-/DB-Daten neu rechnen willst:
@@ -78,7 +84,7 @@ macOS kann den Refresh mit `launchd` automatisch ausführen.
 2. Gehe zu deinem Projektordner:
 
 ```text
-/Users/steffengorsdorf/Documents/WM Projekt
+/Users/steffengorsdorf/Documents/wm-projekt
 ```
 
 3. Kopiere diese Datei:
@@ -108,13 +114,14 @@ launchctl kickstart gui/$(id -u)/com.wmprojekt.refresh-mvp
 Die Logs liegen danach hier:
 
 ```text
-/Users/steffengorsdorf/Documents/WM Projekt/logs/refresh_mvp.out.log
-/Users/steffengorsdorf/Documents/WM Projekt/logs/refresh_mvp.err.log
+/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.out.log
+/Users/steffengorsdorf/Documents/wm-projekt/logs/refresh_mvp.err.log
 ```
 
 Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 
 - Netzwerk-Schritte haben feste Timeouts statt endlos zu hängen.
+- Jeder Schritt schreibt seinen Fortschritt jetzt sofort in die Konsole und in die Launchd-Logs; bei stillen Schritten gibt es Heartbeat-Meldungen statt minutenlanger Funkstille.
 - DNS-/Hostfehler werden vorab sichtbar gemacht.
 - Ein optionaler Event-DB-Import wird bei Supabase-DNS-Problemen sauber übersprungen, damit Export und HTML-Build trotzdem fertig werden.
 - Der lokale Browser-Check prüft die in die Standalone-Datei eingebetteten Daten und die Schedule-UX-Elemente direkt im Build.

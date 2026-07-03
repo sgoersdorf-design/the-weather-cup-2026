@@ -743,10 +743,13 @@ function renderBestThirdRace(standings) {
           <b>${team.flag || ""} ${escapeHtml(teamDisplayNameByIso(team.iso3))}</b>
           <small>${t("group")} ${escapeHtml(team.group)} · ${displayIso3(team.iso3)}</small>
         </div>
+        <div class="best-third-summary">
+          <b>${numberLabel(team.points)}</b>
+          <span>Pts</span>
+        </div>
         <div class="best-third-kpis">
           <span>${team.played} ${t("playedShort")}</span>
           <span>GD ${numberLabel(team.goal_difference)}</span>
-          <span>${numberLabel(team.points)} Pts</span>
         </div>
         ${index < 8 ? `<em>${t("standingsQualified")}</em>` : ""}
       </article>`).join("")}

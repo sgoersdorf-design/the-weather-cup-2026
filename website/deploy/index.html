@@ -745,6 +745,109 @@
   margin-top: 4px;
 }
 
+.weather-coverage-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.weather-coverage-head {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #c9e8e1;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #f8fffd 0%, #eff8f5 100%);
+}
+
+.weather-coverage-head span,
+.weather-coverage-available span,
+.weather-status-card span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.weather-coverage-head b {
+  display: block;
+  margin-top: 6px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.weather-coverage-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.weather-coverage-tags i,
+.weather-coverage-available b {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: rgba(15, 139, 141, 0.08);
+  color: var(--teal);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.weather-status-section {
+  display: grid;
+  gap: 8px;
+}
+
+.weather-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.weather-status-card {
+  display: grid;
+  gap: 6px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.weather-status-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.weather-status-card.is-soon {
+  border-color: #e5c15a;
+  background: #fff9e9;
+  color: #5e4a18;
+}
+
+.weather-status-card.is-pending {
+  border-color: #c7d7df;
+  background: #f7fafc;
+}
+
+.weather-status-card.is-muted {
+  border-style: dashed;
+  color: var(--muted);
+}
+
+.weather-coverage-available {
+  display: grid;
+  gap: 8px;
+}
+
+.weather-coverage-available > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .probability-bars > div {
   display: grid;
   grid-template-columns: 42px minmax(0, 1fr) 44px;
@@ -1232,6 +1335,10 @@
   scroll-snap-align: start;
 }
 
+.knockout-column.is-active {
+  display: grid;
+}
+
 .knockout-column-head {
   display: grid;
   gap: 4px;
@@ -1244,6 +1351,10 @@
 .knockout-column-head.is-current {
   border-color: var(--teal);
   background: #e8f7f5;
+}
+
+.knockout-column-head.is-active {
+  box-shadow: inset 0 0 0 1px rgba(15, 139, 141, 0.08);
 }
 
 .knockout-column-head span {
@@ -5435,13 +5546,103 @@ select:focus {
     grid-template-columns: 1fr;
   }
 
+  .best-third-card {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 8px 10px;
+    padding: 12px 10px;
+  }
+
+  .best-third-rank {
+    width: 38px;
+    height: 38px;
+    font-size: 12px;
+  }
+
+  .best-third-team b {
+    font-size: 14px;
+    line-height: 1.25;
+  }
+
+  .best-third-team small {
+    font-size: 10px;
+  }
+
+  .best-third-kpis {
+    grid-column: 2 / -1;
+    gap: 6px;
+    font-size: 10px;
+  }
+
+  .best-third-card em {
+    grid-column: 2 / -1;
+    padding: 5px 8px;
+  }
+
   .knockout-stage-nav {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(138px, 1fr);
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
   }
 
   .knockout-stage-button {
     min-width: 0;
+    padding: 10px;
+  }
+
+  .knockout-stage-button b {
+    font-size: 15px;
+  }
+
+  .knockout-scroll-hint {
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+
+  .knockout-board {
+    display: block;
+    overflow: visible;
+  }
+
+  .knockout-column {
+    display: none;
+  }
+
+  .knockout-column.is-active {
+    display: grid;
+  }
+
+  .knockout-card {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .knockout-card-head b {
+    font-size: 14px;
+  }
+
+  .knockout-open {
+    min-height: 44px;
+  }
+
+  .weather-coverage-head {
+    padding: 12px;
+  }
+
+  .weather-coverage-head b {
+    font-size: 16px;
+  }
+
+  .weather-status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .weather-coverage-available > div {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .prediction-dialog {
@@ -25856,6 +26057,62 @@ function forecastFactsMarkup(match, actual = false) {
   </div>`;
 }
 
+function weatherCoverageItems(match) {
+  const items = [];
+  if (match.host_city) items.push(match.host_city);
+  if (match.stadium_name) items.push(match.stadium_name);
+  if (match.elevation_m !== null && match.elevation_m !== undefined) items.push(`${numberLabel(match.elevation_m)} m`);
+  const travel = matchTravelDistance(match);
+  if (travel !== null && travel !== undefined) items.push(`${numberLabel(travel)} km ${t("travelShort")}`);
+  return items;
+}
+
+function weatherStatusCard(title, copy, tone = "pending") {
+  return `<article class="weather-status-card is-${tone}">
+    <span>${escapeHtml(title)}</span>
+    <p>${escapeHtml(copy)}</p>
+  </article>`;
+}
+
+function weatherCoverageMarkup(match) {
+  const available = weatherCoverageItems(match);
+  const forecastReady = hasForecast(match);
+  const actualReady = match.actual_temp !== null && match.actual_temp !== undefined;
+  const forecastBlock = forecastReady
+    ? `<section class="weather-status-section">
+        <h3>${t("forecastWeather")}</h3>
+        ${forecastFactsMarkup(match)}
+      </section>`
+    : "";
+  const actualBlock = actualReady
+    ? `<section class="weather-status-section">
+        <h3>${t("actualWeatherLabel")}</h3>
+        ${forecastFactsMarkup(match, true)}
+      </section>`
+    : "";
+
+  return `<div class="weather-coverage-panel">
+    <div class="weather-coverage-head">
+      <div>
+        <span>${t("weatherCoverageTitle")}</span>
+        <b>${forecastReady ? t("forecastWeather") : t("forecastHelpfulEmpty")}</b>
+      </div>
+      ${available.length ? `<div class="weather-coverage-tags">${available.map((item) => `<i>${escapeHtml(item)}</i>`).join("")}</div>` : ""}
+    </div>
+    ${forecastBlock}
+    ${actualBlock}
+    ${!forecastReady || !actualReady ? `<div class="weather-status-grid">
+      ${!forecastReady ? weatherStatusCard(t("forecastWeather"), t("weatherCoverageForecastSoon"), "soon") : ""}
+      ${!actualReady ? weatherStatusCard(t("actualWeatherLabel"), t("weatherCoverageActualSoon"), "pending") : ""}
+      ${weatherStatusCard(t("historicalWeather"), t("weatherCoverageHistoricalSoon"), "muted")}
+    </div>` : ""}
+    ${available.length ? `<div class="weather-coverage-available">
+      <span>${t("weatherCoverageAvailable")}</span>
+      <div>${available.map((item) => `<b>${escapeHtml(item)}</b>`).join("")}</div>
+    </div>` : ""}
+  </div>`;
+}
+
 function probabilityBarsMarkup(match) {
   const items = [
     [match.team_a_iso3, match.probability_team_a_win],
@@ -25912,12 +26169,7 @@ function expandedMatchDetailsMarkup(match) {
     <details class="detail-accordion">
       <summary>${t("detailWeather")}</summary>
       <div class="accordion-content">
-        <h3>${t("forecastWeather")}</h3>
-        ${forecastFactsMarkup(match)}
-        <h3>${t("historicalWeather")}</h3>
-        <div class="active-empty">${t("historicalWeatherPending")}</div>
-        <h3>${t("actualWeatherLabel")}</h3>
-        ${forecastFactsMarkup(match, true)}
+        ${weatherCoverageMarkup(match)}
       </div>
     </details>
     <details class="detail-accordion">
@@ -26291,8 +26543,8 @@ function inferredResolvedSide(match) {
   return null;
 }
 
-function knockoutStageButton(summary, focusStage) {
-  const active = summary.stage === focusStage ? " is-active" : "";
+function knockoutStageButton(summary, activeStage) {
+  const active = summary.stage === activeStage ? " is-active" : "";
   return `<button class="knockout-stage-button${active}" type="button" data-bracket-stage-target="${summary.stage}" aria-label="${t("standingsBubbleHint")}">
     <span>${phaseLabel(summary.stage)}</span>
     <b>${summary.completed}/${summary.matches.length}</b>
@@ -26381,6 +26633,9 @@ function renderKnockoutBracket() {
   const focusStage = knockoutFocusStage();
   const stageSummaries = KNOCKOUT_STAGE_ORDER.map(knockoutStageSummary).filter((summary) => summary.matches.length);
   if (!stageSummaries.length) return "";
+  const activeStage = stageSummaries.some((summary) => summary.stage === state.knockoutStage)
+    ? state.knockoutStage
+    : focusStage;
   const thirdPlaceMatches = knockoutStageMatches("third_place");
   return `<section class="standings-panel knockout-panel">
     <div class="standings-panel-head">
@@ -26391,12 +26646,12 @@ function renderKnockoutBracket() {
       <p>${t("standingsKnockoutIntro")}</p>
     </div>
     <div class="knockout-stage-nav">
-      ${stageSummaries.map((summary) => knockoutStageButton(summary, focusStage)).join("")}
+      ${stageSummaries.map((summary) => knockoutStageButton(summary, activeStage)).join("")}
     </div>
-    <p class="knockout-scroll-hint">${t("standingsBracketSwipe")}</p>
-    <div class="knockout-board">
-      ${stageSummaries.map((summary) => `<section class="knockout-column" data-bracket-stage="${summary.stage}">
-        <div class="knockout-column-head${summary.stage === focusStage ? " is-current" : ""}">
+    <p class="knockout-scroll-hint">${t("standingsKnockoutMobileIntro")}</p>
+    <div class="knockout-board" data-active-stage="${activeStage || ""}">
+      ${stageSummaries.map((summary) => `<section class="knockout-column${summary.stage === activeStage ? " is-active" : ""}" data-bracket-stage="${summary.stage}">
+        <div class="knockout-column-head${summary.stage === focusStage ? " is-current" : ""}${summary.stage === activeStage ? " is-active" : ""}">
           <span>${phaseLabel(summary.stage)}</span>
           <b>${summary.completed}/${summary.matches.length} ${summary.remaining ? t("standingsBracketScheduled") : t("standingsBracketFinished")}</b>
         </div>
@@ -26551,6 +26806,7 @@ const state = {
   mapSelectedMatchId: null,
   mapView: "venues",
   mapSheetOpen: false,
+  knockoutStage: null,
   selectedScorer: "Lionel Messi",
 };
 
@@ -26678,6 +26934,11 @@ const I18N = {
     teamStrength: "Basis-Teamstärke",
     modelMethodNote: "Alle Werte sind Kontextindikatoren. Sie erklären Bedingungen, nicht das Ergebnis, und sind kein Wettmodell.",
     forecastHelpfulEmpty: "Forecast noch nicht aktiv. Historische Wetterdaten, Spielort und Reiseindikatoren sind bereits verfügbar.",
+    weatherCoverageTitle: "Wetterstatus",
+    weatherCoverageAvailable: "Bereits verfügbar",
+    weatherCoverageForecastSoon: "Forecast startet automatisch näher am Anpfiff.",
+    weatherCoverageActualSoon: "Ist-Wetter folgt nach Spielende, sobald Messdaten vorliegen.",
+    weatherCoverageHistoricalSoon: "Historische Vergleichswerte werden ergänzt, sobald genug Referenzspiele vorliegen.",
     predictionDialogTitle: "Dein Tipp",
     predictionQuestion: "Wie endet die Partie?",
     contextQuestion: "Spielt der Kontext sichtbar eine Rolle?",
@@ -26758,6 +27019,7 @@ const I18N = {
     tablesTitle: "Turnierstand & Tabellen",
     standingsKnockoutTitle: "KO-Baum",
     standingsKnockoutIntro: "Die KO-Runde folgt dem festen FIFA-Matchpfad. Offene Slots bleiben als Sieger- oder Verliererpfad sichtbar, bis ein Match entschieden ist.",
+    standingsKnockoutMobileIntro: "Auf Mobilgeräten wird jeweils eine KO-Runde fokussiert angezeigt. Wechsle oben zwischen den Runden.",
     standingsGroupsTitle: "Gruppenstände",
     standingsGroupsIntro: "Alle zwölf Gruppen bleiben separat lesbar. Die KO-Runde steht darüber als eigener Bracket-Bereich.",
     standingsBestThirdTitle: "Beste Gruppendritte",
@@ -27128,6 +27390,11 @@ const I18N = {
     teamStrength: "Basic team strength",
     modelMethodNote: "All values are context indicators. They describe conditions, not outcomes, and are not a betting model.",
     forecastHelpfulEmpty: "Forecast not active yet. Historical weather, venue and travel indicators are already available.",
+    weatherCoverageTitle: "Weather status",
+    weatherCoverageAvailable: "Already available",
+    weatherCoverageForecastSoon: "Forecast unlocks automatically closer to kickoff.",
+    weatherCoverageActualSoon: "Actual weather is added after the match once observations are available.",
+    weatherCoverageHistoricalSoon: "Historical comparison values are added once enough reference matches exist.",
     predictionDialogTitle: "Your pick",
     predictionQuestion: "How will the match end?",
     contextQuestion: "Will context play a visible role?",
@@ -27208,6 +27475,7 @@ const I18N = {
     tablesTitle: "Standings & tables",
     standingsKnockoutTitle: "Knockout bracket",
     standingsKnockoutIntro: "The knockout stage follows the fixed FIFA match path. Open slots stay visible as winner or loser paths until the upstream match is decided.",
+    standingsKnockoutMobileIntro: "On mobile, one knockout round is focused at a time. Use the buttons above to switch rounds.",
     standingsGroupsTitle: "Group standings",
     standingsGroupsIntro: "All twelve groups remain readable on their own. The knockout stage lives above them as a dedicated bracket.",
     standingsBestThirdTitle: "Best third-placed teams",
@@ -30106,6 +30374,8 @@ function bindEvents() {
       }
       const stageJumpButton = event.target.closest("[data-bracket-stage-target]");
       if (stageJumpButton?.dataset.bracketStageTarget) {
+        state.knockoutStage = stageJumpButton.dataset.bracketStageTarget;
+        renderAnalysis();
         const target = els.analysisContent.querySelector(`[data-bracket-stage="${stageJumpButton.dataset.bracketStageTarget}"]`);
         target?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
       }

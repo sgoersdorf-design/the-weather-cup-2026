@@ -223,6 +223,62 @@ function forecastFactsMarkup(match, actual = false) {
   </div>`;
 }
 
+function weatherCoverageItems(match) {
+  const items = [];
+  if (match.host_city) items.push(match.host_city);
+  if (match.stadium_name) items.push(match.stadium_name);
+  if (match.elevation_m !== null && match.elevation_m !== undefined) items.push(`${numberLabel(match.elevation_m)} m`);
+  const travel = matchTravelDistance(match);
+  if (travel !== null && travel !== undefined) items.push(`${numberLabel(travel)} km ${t("travelShort")}`);
+  return items;
+}
+
+function weatherStatusCard(title, copy, tone = "pending") {
+  return `<article class="weather-status-card is-${tone}">
+    <span>${escapeHtml(title)}</span>
+    <p>${escapeHtml(copy)}</p>
+  </article>`;
+}
+
+function weatherCoverageMarkup(match) {
+  const available = weatherCoverageItems(match);
+  const forecastReady = hasForecast(match);
+  const actualReady = match.actual_temp !== null && match.actual_temp !== undefined;
+  const forecastBlock = forecastReady
+    ? `<section class="weather-status-section">
+        <h3>${t("forecastWeather")}</h3>
+        ${forecastFactsMarkup(match)}
+      </section>`
+    : "";
+  const actualBlock = actualReady
+    ? `<section class="weather-status-section">
+        <h3>${t("actualWeatherLabel")}</h3>
+        ${forecastFactsMarkup(match, true)}
+      </section>`
+    : "";
+
+  return `<div class="weather-coverage-panel">
+    <div class="weather-coverage-head">
+      <div>
+        <span>${t("weatherCoverageTitle")}</span>
+        <b>${forecastReady ? t("forecastWeather") : t("forecastHelpfulEmpty")}</b>
+      </div>
+      ${available.length ? `<div class="weather-coverage-tags">${available.map((item) => `<i>${escapeHtml(item)}</i>`).join("")}</div>` : ""}
+    </div>
+    ${forecastBlock}
+    ${actualBlock}
+    ${!forecastReady || !actualReady ? `<div class="weather-status-grid">
+      ${!forecastReady ? weatherStatusCard(t("forecastWeather"), t("weatherCoverageForecastSoon"), "soon") : ""}
+      ${!actualReady ? weatherStatusCard(t("actualWeatherLabel"), t("weatherCoverageActualSoon"), "pending") : ""}
+      ${weatherStatusCard(t("historicalWeather"), t("weatherCoverageHistoricalSoon"), "muted")}
+    </div>` : ""}
+    ${available.length ? `<div class="weather-coverage-available">
+      <span>${t("weatherCoverageAvailable")}</span>
+      <div>${available.map((item) => `<b>${escapeHtml(item)}</b>`).join("")}</div>
+    </div>` : ""}
+  </div>`;
+}
+
 function probabilityBarsMarkup(match) {
   const items = [
     [match.team_a_iso3, match.probability_team_a_win],
@@ -279,12 +335,7 @@ function expandedMatchDetailsMarkup(match) {
     <details class="detail-accordion">
       <summary>${t("detailWeather")}</summary>
       <div class="accordion-content">
-        <h3>${t("forecastWeather")}</h3>
-        ${forecastFactsMarkup(match)}
-        <h3>${t("historicalWeather")}</h3>
-        <div class="active-empty">${t("historicalWeatherPending")}</div>
-        <h3>${t("actualWeatherLabel")}</h3>
-        ${forecastFactsMarkup(match, true)}
+        ${weatherCoverageMarkup(match)}
       </div>
     </details>
     <details class="detail-accordion">
@@ -658,8 +709,8 @@ function inferredResolvedSide(match) {
   return null;
 }
 
-function knockoutStageButton(summary, focusStage) {
-  const active = summary.stage === focusStage ? " is-active" : "";
+function knockoutStageButton(summary, activeStage) {
+  const active = summary.stage === activeStage ? " is-active" : "";
   return `<button class="knockout-stage-button${active}" type="button" data-bracket-stage-target="${summary.stage}" aria-label="${t("standingsBubbleHint")}">
     <span>${phaseLabel(summary.stage)}</span>
     <b>${summary.completed}/${summary.matches.length}</b>
@@ -748,6 +799,9 @@ function renderKnockoutBracket() {
   const focusStage = knockoutFocusStage();
   const stageSummaries = KNOCKOUT_STAGE_ORDER.map(knockoutStageSummary).filter((summary) => summary.matches.length);
   if (!stageSummaries.length) return "";
+  const activeStage = stageSummaries.some((summary) => summary.stage === state.knockoutStage)
+    ? state.knockoutStage
+    : focusStage;
   const thirdPlaceMatches = knockoutStageMatches("third_place");
   return `<section class="standings-panel knockout-panel">
     <div class="standings-panel-head">
@@ -758,12 +812,12 @@ function renderKnockoutBracket() {
       <p>${t("standingsKnockoutIntro")}</p>
     </div>
     <div class="knockout-stage-nav">
-      ${stageSummaries.map((summary) => knockoutStageButton(summary, focusStage)).join("")}
+      ${stageSummaries.map((summary) => knockoutStageButton(summary, activeStage)).join("")}
     </div>
-    <p class="knockout-scroll-hint">${t("standingsBracketSwipe")}</p>
-    <div class="knockout-board">
-      ${stageSummaries.map((summary) => `<section class="knockout-column" data-bracket-stage="${summary.stage}">
-        <div class="knockout-column-head${summary.stage === focusStage ? " is-current" : ""}">
+    <p class="knockout-scroll-hint">${t("standingsKnockoutMobileIntro")}</p>
+    <div class="knockout-board" data-active-stage="${activeStage || ""}">
+      ${stageSummaries.map((summary) => `<section class="knockout-column${summary.stage === activeStage ? " is-active" : ""}" data-bracket-stage="${summary.stage}">
+        <div class="knockout-column-head${summary.stage === focusStage ? " is-current" : ""}${summary.stage === activeStage ? " is-active" : ""}">
           <span>${phaseLabel(summary.stage)}</span>
           <b>${summary.completed}/${summary.matches.length} ${summary.remaining ? t("standingsBracketScheduled") : t("standingsBracketFinished")}</b>
         </div>

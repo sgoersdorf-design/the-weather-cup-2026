@@ -19,6 +19,7 @@ const state = {
   mapSelectedMatchId: null,
   mapView: "venues",
   mapSheetOpen: false,
+  knockoutStage: null,
   selectedScorer: "Lionel Messi",
 };
 
@@ -146,6 +147,11 @@ const I18N = {
     teamStrength: "Basis-Teamstärke",
     modelMethodNote: "Alle Werte sind Kontextindikatoren. Sie erklären Bedingungen, nicht das Ergebnis, und sind kein Wettmodell.",
     forecastHelpfulEmpty: "Forecast noch nicht aktiv. Historische Wetterdaten, Spielort und Reiseindikatoren sind bereits verfügbar.",
+    weatherCoverageTitle: "Wetterstatus",
+    weatherCoverageAvailable: "Bereits verfügbar",
+    weatherCoverageForecastSoon: "Forecast startet automatisch näher am Anpfiff.",
+    weatherCoverageActualSoon: "Ist-Wetter folgt nach Spielende, sobald Messdaten vorliegen.",
+    weatherCoverageHistoricalSoon: "Historische Vergleichswerte werden ergänzt, sobald genug Referenzspiele vorliegen.",
     predictionDialogTitle: "Dein Tipp",
     predictionQuestion: "Wie endet die Partie?",
     contextQuestion: "Spielt der Kontext sichtbar eine Rolle?",
@@ -226,6 +232,7 @@ const I18N = {
     tablesTitle: "Turnierstand & Tabellen",
     standingsKnockoutTitle: "KO-Baum",
     standingsKnockoutIntro: "Die KO-Runde folgt dem festen FIFA-Matchpfad. Offene Slots bleiben als Sieger- oder Verliererpfad sichtbar, bis ein Match entschieden ist.",
+    standingsKnockoutMobileIntro: "Auf Mobilgeräten wird jeweils eine KO-Runde fokussiert angezeigt. Wechsle oben zwischen den Runden.",
     standingsGroupsTitle: "Gruppenstände",
     standingsGroupsIntro: "Alle zwölf Gruppen bleiben separat lesbar. Die KO-Runde steht darüber als eigener Bracket-Bereich.",
     standingsBestThirdTitle: "Beste Gruppendritte",
@@ -596,6 +603,11 @@ const I18N = {
     teamStrength: "Basic team strength",
     modelMethodNote: "All values are context indicators. They describe conditions, not outcomes, and are not a betting model.",
     forecastHelpfulEmpty: "Forecast not active yet. Historical weather, venue and travel indicators are already available.",
+    weatherCoverageTitle: "Weather status",
+    weatherCoverageAvailable: "Already available",
+    weatherCoverageForecastSoon: "Forecast unlocks automatically closer to kickoff.",
+    weatherCoverageActualSoon: "Actual weather is added after the match once observations are available.",
+    weatherCoverageHistoricalSoon: "Historical comparison values are added once enough reference matches exist.",
     predictionDialogTitle: "Your pick",
     predictionQuestion: "How will the match end?",
     contextQuestion: "Will context play a visible role?",
@@ -676,6 +688,7 @@ const I18N = {
     tablesTitle: "Standings & tables",
     standingsKnockoutTitle: "Knockout bracket",
     standingsKnockoutIntro: "The knockout stage follows the fixed FIFA match path. Open slots stay visible as winner or loser paths until the upstream match is decided.",
+    standingsKnockoutMobileIntro: "On mobile, one knockout round is focused at a time. Use the buttons above to switch rounds.",
     standingsGroupsTitle: "Group standings",
     standingsGroupsIntro: "All twelve groups remain readable on their own. The knockout stage lives above them as a dedicated bracket.",
     standingsBestThirdTitle: "Best third-placed teams",
@@ -3574,6 +3587,8 @@ function bindEvents() {
       }
       const stageJumpButton = event.target.closest("[data-bracket-stage-target]");
       if (stageJumpButton?.dataset.bracketStageTarget) {
+        state.knockoutStage = stageJumpButton.dataset.bracketStageTarget;
+        renderAnalysis();
         const target = els.analysisContent.querySelector(`[data-bracket-stage="${stageJumpButton.dataset.bracketStageTarget}"]`);
         target?.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
       }

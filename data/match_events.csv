@@ -1988,6 +1988,39 @@ M085,CHE,CHE,Michel Aebischer,Dan Ndoye,sub_in,87,,2H,,,"Substitution, Switzerla
 M085,CHE,CHE,Silvan Widmer,Denis Zakaria,sub_in,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury.",ESPN public summary API,82
 M085,CHE,CHE,Dan Ndoye,Michel Aebischer,sub_out,87,,2H,,,"Substitution, Switzerland. Michel Aebischer replaces Dan Ndoye.",ESPN public summary API,82
 M085,CHE,CHE,Denis Zakaria,Silvan Widmer,sub_out,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria because of an injury.",ESPN public summary API,82
+M086,ARG,ARG,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M086,ARG,ARG,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M086,ARG,ARG,Lionel Messi,Lisandro Martínez,goal,29,,1H,1,0,"Goal! Argentina 1, Cabo Verde 0. Lionel Messi (Argentina) left footed shot from the right side of the six yard box to the top right corner. Assisted by Lisandro Martínez with a through ball.",ESPN public summary API,82
+M086,CPV,CPV,Deroy Duarte,Ryan Mendes,goal,59,,2H,1,1,"Goal! Argentina 1, Cabo Verde 1. Deroy Duarte (Cabo Verde) right footed shot from a difficult angle on the right to the bottom left corner. Assisted by Ryan Mendes.",ESPN public summary API,82
+M086,ARG,ARG,Julián Álvarez,Lautaro Martínez,sub_in,63,,2H,,,"Substitution, Argentina. Julián Alvarez replaces Lautaro Martínez.",ESPN public summary API,82
+M086,ARG,ARG,Lautaro Martínez,Julián Álvarez,sub_out,63,,2H,,,"Substitution, Argentina. Julián Alvarez replaces Lautaro Martínez.",ESPN public summary API,82
+M086,ARG,ARG,Nico González,Thiago Almada,sub_in,64,,2H,,,"Substitution, Argentina. Nico González replaces Thiago Almada.",ESPN public summary API,82
+M086,ARG,ARG,Thiago Almada,Nico González,sub_out,64,,2H,,,"Substitution, Argentina. Nico González replaces Thiago Almada.",ESPN public summary API,82
+M086,CPV,CPV,Dailon Livramento,Nuno da Costa,sub_in,67,,2H,,,"Substitution, Cabo Verde. Dailon Livramento replaces Nuno da Costa.",ESPN public summary API,82
+M086,CPV,CPV,Jamiro Monteiro,Laros Duarte,sub_in,67,,2H,,,"Substitution, Cabo Verde. Jamiro Monteiro replaces Laros Duarte.",ESPN public summary API,82
+M086,CPV,CPV,Laros Duarte,Jamiro Monteiro,sub_out,67,,2H,,,"Substitution, Cabo Verde. Jamiro Monteiro replaces Laros Duarte.",ESPN public summary API,82
+M086,CPV,CPV,Nuno da Costa,Dailon Livramento,sub_out,67,,2H,,,"Substitution, Cabo Verde. Dailon Livramento replaces Nuno da Costa.",ESPN public summary API,82
+M086,CPV,CPV,Kevin Pina,,yellow_card,68,,2H,,,Kevin Pina (Cabo Verde) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M086,ARG,ARG,,,hydration_break_start,73,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M086,ARG,ARG,,,hydration_break_end,76,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M086,CPV,CPV,Hélio Varela,Jovane Cabral,sub_in,80,,2H,,,"Substitution, Cabo Verde. Hélio Varela replaces Jovane Cabral.",ESPN public summary API,82
+M086,CPV,CPV,Willy Semedo,Ryan Mendes,sub_in,80,,2H,,,"Substitution, Cabo Verde. Willy Semedo replaces Ryan Mendes.",ESPN public summary API,82
+M086,CPV,CPV,Jovane Cabral,Hélio Varela,sub_out,80,,2H,,,"Substitution, Cabo Verde. Hélio Varela replaces Jovane Cabral.",ESPN public summary API,82
+M086,CPV,CPV,Ryan Mendes,Willy Semedo,sub_out,80,,2H,,,"Substitution, Cabo Verde. Willy Semedo replaces Ryan Mendes.",ESPN public summary API,82
+M086,ARG,ARG,Leandro Paredes,Rodrigo De Paul,sub_in,84,,2H,,,"Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul.",ESPN public summary API,82
+M086,ARG,ARG,Rodrigo De Paul,Leandro Paredes,sub_out,84,,2H,,,"Substitution, Argentina. Leandro Paredes replaces Rodrigo De Paul.",ESPN public summary API,82
+M086,ARG,ARG,Nicolás Tagliafico,Facundo Medina,sub_in,86,,2H,,,"Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina because of an injury.",ESPN public summary API,82
+M086,ARG,ARG,Facundo Medina,Nicolás Tagliafico,sub_out,86,,2H,,,"Substitution, Argentina. Nicolás Tagliafico replaces Facundo Medina because of an injury.",ESPN public summary API,82
+M086,ARG,ARG,Lisandro Martínez,Alexis Mac Allister,goal,92,,ET1,2,1,"Goal! Argentina 2, Cabo Verde 1. Lisandro Martínez (Argentina) left footed shot from the right side of the box to the top right corner. Assisted by Alexis Mac Allister with a headed pass following a corner.",ESPN public summary API,82
+M086,CPV,CPV,Gilson Benchimol,Kevin Pina,sub_in,100,,ET1,,,"Substitution, Cabo Verde. Gilson Benchimol replaces Kevin Pina.",ESPN public summary API,82
+M086,CPV,CPV,Yannick Semedo,Deroy Duarte,sub_in,100,,ET1,,,"Substitution, Cabo Verde. Yannick Semedo replaces Deroy Duarte.",ESPN public summary API,82
+M086,CPV,CPV,Deroy Duarte,Yannick Semedo,sub_out,100,,ET1,,,"Substitution, Cabo Verde. Yannick Semedo replaces Deroy Duarte.",ESPN public summary API,82
+M086,CPV,CPV,Kevin Pina,Gilson Benchimol,sub_out,100,,ET1,,,"Substitution, Cabo Verde. Gilson Benchimol replaces Kevin Pina.",ESPN public summary API,82
+M086,CPV,CPV,Sidny Lopes Cabral,Yannick Semedo,goal,103,,ET1,2,2,"Goal! Argentina 2, Cabo Verde 2. Sidny Cabral (Cabo Verde) right footed shot from the left side of the box to the top right corner. Assisted by Yannick Semedo.",ESPN public summary API,82
+M086,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_in,104,,ET1,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M086,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_out,104,,ET1,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M086,ARG,ARG,Diney Borges,,goal,111,,ET2,3,2,"Own Goal by Diney Borges, Cabo Verde. Argentina 3, Cabo Verde 2.",ESPN public summary API,82
+M086,ARG,ARG,Gonzalo Montiel,,yellow_card,115,,ET2,,,Gonzalo Montiel (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M088,EGY,EGY,Emam Ashour,Karim Hafez,goal,13,,1H,0,1,"Goal! Australia 0, Egypt 1. Emam Ashour (Egypt) header from the centre of the box to the bottom left corner. Assisted by Karim Hafez with a cross following a set piece situation.",ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82

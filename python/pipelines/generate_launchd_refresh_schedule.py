@@ -11,7 +11,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_PROJECT_DIR = REPO_ROOT
+CANONICAL_PROJECT_DIR = Path("/Users/steffengorsdorf/Projects/wm-projekt")
+DEFAULT_PROJECT_DIR = CANONICAL_PROJECT_DIR if CANONICAL_PROJECT_DIR.exists() else REPO_ROOT
 DEFAULT_SCHEDULE = DEFAULT_PROJECT_DIR / "data/full_schedule_openfootball.csv"
 DEFAULT_OUTPUT = DEFAULT_PROJECT_DIR / "automation/com.wmprojekt.refresh-mvp.plist"
 DEFAULT_LOG_DIR = Path("/Users/steffengorsdorf/Library/Logs/wm-projekt")
@@ -128,6 +129,7 @@ def main(argv: list[str] | None = None) -> int:
     print(
         {
             "output": str(output_path),
+            "project_dir": str(project_dir),
             "trigger_count": len(triggers),
             "daily_trigger": {"Hour": 6, "Minute": 0},
             "first_match_trigger": triggers[1] if len(triggers) > 1 else None,

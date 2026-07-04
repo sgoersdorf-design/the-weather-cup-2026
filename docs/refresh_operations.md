@@ -2,6 +2,16 @@
 
 Diese Anleitung beschreibt, wie die Website-Daten manuell, halbautomatisch oder automatisch alle 24 Stunden aktualisiert werden.
 
+## Verbindlicher Projektpfad
+
+Für alle lokalen Läufe, Builds, Git-Pushes, Launchd-Jobs und Codex-Änderungen gilt ab jetzt ausschließlich:
+
+```text
+/Users/steffengorsdorf/Projects/wm-projekt
+```
+
+Der frühere Documents-Pfad ist nicht mehr der produktive Arbeitsstand.
+
 ## Was wird aktualisiert?
 
 Der Refresh-Lauf führt diese Schritte aus:

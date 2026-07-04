@@ -40,6 +40,18 @@ prompts/             Entwicklungs-Prompts
 
 ## Setup
 
+Kanonischer Projektpfad auf diesem Mac:
+
+```text
+/Users/steffengorsdorf/Projects/wm-projekt
+```
+
+Wichtig:
+
+- Dieser Pfad ist der produktive GitHub-/Netlify-/Launchd-Arbeitsstand.
+- Der frühere Documents-Pfad soll nicht mehr für Entwicklung, Builds, Refreshes oder Deploys verwendet werden.
+- Shell-Skripte und die Launchd-Generierung priorisieren deshalb ab jetzt automatisch diesen kanonischen Pfad.
+
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
@@ -177,6 +189,7 @@ Kartenquellen und Lizenznotizen liegen in `docs/map_sources.md`.
 Die Trennung zwischen Gruppenspieltag und Turniertag ist in `docs/matchday_logic.md` dokumentiert.
 Die Entscheidung, Reisekontext ohne bestätigte Team-Basislager nicht sichtbar auszuspielen, liegt in `docs/basecamp_travel_decision.md`.
 Der Leitfaden für Werbeflächen, Dienstleister und Kampagnenpflege liegt in `docs/ad_operations_guide.md`. Die öffentliche Darstellung ist derzeit per Feature-Schalter deaktiviert; Datenmodell und Aktivierungsweg bleiben vorbereitet.
+Die verbindliche Pfadregel für lokale Entwicklung und Automatisierung ist in `docs/repo_path_policy.md` dokumentiert.
 
 ## Netlify-Deploy
 

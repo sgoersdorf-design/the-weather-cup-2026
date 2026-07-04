@@ -2021,6 +2021,39 @@ M086,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_in,104,,ET1,,,"Substitution, Arge
 M086,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_out,104,,ET1,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
 M086,ARG,ARG,Diney Borges,,goal,111,,ET2,3,2,"Own Goal by Diney Borges, Cabo Verde. Argentina 3, Cabo Verde 2.",ESPN public summary API,82
 M086,ARG,ARG,Gonzalo Montiel,,yellow_card,115,,ET2,,,Gonzalo Montiel (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M087,COL,COL,Luis Suárez,Jhon Córdoba,sub_in,8,,1H,,,"Substitution, Colombia. Luis Suárez replaces Jhon Córdoba because of an injury.",ESPN public summary API,82
+M087,COL,COL,Jhon Córdoba,Luis Suárez,sub_out,8,,1H,,,"Substitution, Colombia. Luis Suárez replaces Jhon Córdoba because of an injury.",ESPN public summary API,82
+M087,GHA,GHA,,,hydration_break_end,10,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,COL,COL,Jhon Arias,,yellow_card,12,,1H,,,Jhon Arias (Colombia) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M087,GHA,GHA,,,hydration_break_end,13,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,GHA,GHA,Alidu Seidu,Marvin Senaya,sub_in,13,,1H,,,"Substitution, Ghana. Alidu Seidu replaces Marvin Senaya because of an injury.",ESPN public summary API,82
+M087,GHA,GHA,Marvin Senaya,Alidu Seidu,sub_out,13,,1H,,,"Substitution, Ghana. Alidu Seidu replaces Marvin Senaya because of an injury.",ESPN public summary API,82
+M087,COL,COL,Jhon Arias,Luis Suárez,goal,14,,1H,1,0,"Goal! Colombia 1, Ghana 0. Jhon Arias (Colombia) right footed shot from the centre of the box to the bottom right corner. Assisted by Luis Suárez with a cross.",ESPN public summary API,82
+M087,COL,COL,,,hydration_break_start,24,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M087,COL,COL,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,COL,COL,Richard Ríos,James Rodríguez,sub_in,45,,2H,,,"Substitution, Colombia. Richard Ríos replaces James Rodríguez.",ESPN public summary API,82
+M087,COL,COL,James Rodríguez,Richard Ríos,sub_out,45,,2H,,,"Substitution, Colombia. Richard Ríos replaces James Rodríguez.",ESPN public summary API,82
+M087,GHA,GHA,,,hydration_break_end,45,3,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,GHA,GHA,Caleb Yirenkyi,,yellow_card,49,,2H,,,Caleb Yirenkyi (Ghana) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M087,GHA,GHA,Elisha Owusu,Kwasi Sibo,sub_in,62,,2H,,,"Substitution, Ghana. Elisha Owusu replaces Kwasi Sibo because of an injury.",ESPN public summary API,82
+M087,GHA,GHA,Fatawu Issahaku,Iñaki Williams,sub_in,62,,2H,,,"Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams.",ESPN public summary API,82
+M087,GHA,GHA,Iñaki Williams,Fatawu Issahaku,sub_out,62,,2H,,,"Substitution, Ghana. Abdul Fatawu replaces Iñaki Williams.",ESPN public summary API,82
+M087,GHA,GHA,Kwasi Sibo,Elisha Owusu,sub_out,62,,2H,,,"Substitution, Ghana. Elisha Owusu replaces Kwasi Sibo because of an injury.",ESPN public summary API,82
+M087,GHA,GHA,,,hydration_break_end,66,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,GHA,GHA,Fatawu Issahaku,,yellow_card,66,,2H,,,Abdul Fatawu (Ghana) is shown the yellow card.,ESPN public summary API,82
+M087,COL,COL,,,hydration_break_start,69,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M087,COL,COL,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M087,COL,COL,Juan Fernando Quintero,Jhon Arias,sub_in,73,,2H,,,"Substitution, Colombia. Juan Fernando Quintero replaces Jhon Arias.",ESPN public summary API,82
+M087,COL,COL,Jhon Arias,Juan Fernando Quintero,sub_out,73,,2H,,,"Substitution, Colombia. Juan Fernando Quintero replaces Jhon Arias.",ESPN public summary API,82
+M087,GHA,GHA,Alidu Seidu,,yellow_card,76,,2H,,,Alidu Seidu (Ghana) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M087,COL,COL,Richard Ríos,,yellow_card,78,,2H,,,Richard Ríos (Colombia) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M087,GHA,GHA,Ernest Nuamah,Jordan Ayew,sub_in,79,,2H,,,"Substitution, Ghana. Ernest Nuamah replaces Jordan Ayew.",ESPN public summary API,82
+M087,GHA,GHA,Prince Adu,Caleb Yirenkyi,sub_in,79,,2H,,,"Substitution, Ghana. Prince Adu replaces Caleb Yirenkyi.",ESPN public summary API,82
+M087,GHA,GHA,Caleb Yirenkyi,Prince Adu,sub_out,79,,2H,,,"Substitution, Ghana. Prince Adu replaces Caleb Yirenkyi.",ESPN public summary API,82
+M087,GHA,GHA,Jordan Ayew,Ernest Nuamah,sub_out,79,,2H,,,"Substitution, Ghana. Ernest Nuamah replaces Jordan Ayew.",ESPN public summary API,82
+M087,COL,COL,Jáminton Campaz,Luis Díaz,sub_in,90,,2H,,,"Substitution, Colombia. Jaminton Campaz replaces Luis Díaz.",ESPN public summary API,82
+M087,COL,COL,Luis Díaz,Jáminton Campaz,sub_out,90,,2H,,,"Substitution, Colombia. Jaminton Campaz replaces Luis Díaz.",ESPN public summary API,82
+M087,COL,COL,,,hydration_break_end,90,3,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M088,EGY,EGY,Emam Ashour,Karim Hafez,goal,13,,1H,0,1,"Goal! Australia 0, Egypt 1. Emam Ashour (Egypt) header from the centre of the box to the bottom left corner. Assisted by Karim Hafez with a cross following a set piece situation.",ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82

@@ -269,7 +269,7 @@ COL,Gustavo Puerta,G. Puerta,14,RM,,false,ESPN public summary API,82
 COL,James Rodríguez,J. Rodríguez,10,RF,,false,ESPN public summary API,82
 COL,Jefferson Lerma,J. Lerma,16,CM,,false,ESPN public summary API,82
 COL,Jhon Arias,J. Arias,11,LM,,false,ESPN public summary API,82
-COL,Jhon Córdoba,J. Córdoba,9,SUB,,false,ESPN public summary API,82
+COL,Jhon Córdoba,J. Córdoba,9,F,,false,ESPN public summary API,82
 COL,Jhon Lucumí,J. Lucumí,3,CD-L,,false,ESPN public summary API,82
 COL,Johan Mojica,J. Mojica,17,LB,,false,ESPN public summary API,82
 COL,Jorge Carrascal,J. Carrascal,8,SUB,,false,ESPN public summary API,82
@@ -278,7 +278,7 @@ COL,Juan Portilla,J. Portilla,15,SUB,,false,ESPN public summary API,82
 COL,Jáminton Campaz,J. Campaz,21,SUB,,false,ESPN public summary API,82
 COL,Kevin Castaño,K. Castaño,5,SUB,,false,ESPN public summary API,82
 COL,Luis Díaz,L. Díaz,7,LF,,false,ESPN public summary API,82
-COL,Luis Suárez,L. Suárez,25,F,,false,ESPN public summary API,82
+COL,Luis Suárez,L. Suárez,25,SUB,,false,ESPN public summary API,82
 COL,Richard Ríos,R. Ríos,6,SUB,,false,ESPN public summary API,82
 COL,Santiago Arias,S. Arias,4,SUB,,false,ESPN public summary API,82
 COL,Willer Ditta,W. Ditta,18,SUB,,false,ESPN public summary API,82
@@ -494,27 +494,27 @@ FRA,Warren Zaïre-Emery,W. Zaïre-Emery,18,SUB,,false,ESPN public summary API,82
 FRA,William Saliba,W. Saliba,17,CD-L,,false,ESPN public summary API,82
 GHA,Abdul Mumin,A. Mumin,6,SUB,,false,ESPN public summary API,82
 GHA,Alidu Seidu,A. Seidu,2,SUB,,false,ESPN public summary API,82
-GHA,Antoine Semenyo,A. Semenyo,11,RM,,false,ESPN public summary API,82
+GHA,Antoine Semenyo,A. Semenyo,11,LM,,false,ESPN public summary API,82
 GHA,Augustine Boakye,A. Boakye,20,SUB,,false,ESPN public summary API,82
 GHA,Baba Rahman,B. Rahman,17,SUB,,false,ESPN public summary API,82
-GHA,Benjamin Asare,B. Asare,16,G,,false,ESPN public summary API,82
+GHA,Benjamin Asare,B. Asare,16,SUB,,false,ESPN public summary API,82
 GHA,Brandon Thomas-Asante,B. Thomas-Asante,10,SUB,,false,ESPN public summary API,82
-GHA,Caleb Yirenkyi,C. Yirenkyi,3,SUB,,false,ESPN public summary API,82
+GHA,Caleb Yirenkyi,C. Yirenkyi,3,CM-R,,false,ESPN public summary API,82
 GHA,Christopher Bonsu Baah,C. Baah,13,SUB,,false,ESPN public summary API,82
-GHA,Derrick Luckassen,D. Luckassen,23,CD-L,,false,ESPN public summary API,82
-GHA,Elisha Owusu,E. Owusu,15,CM-R,,false,ESPN public summary API,82
+GHA,Derrick Luckassen,D. Luckassen,23,CD-R,,false,ESPN public summary API,82
+GHA,Elisha Owusu,E. Owusu,15,SUB,,false,ESPN public summary API,82
 GHA,Ernest Nuamah,E. Nuamah,24,SUB,,false,ESPN public summary API,82
 GHA,Fatawu Issahaku,F. Issahaku,7,SUB,,false,ESPN public summary API,82
 GHA,Gideon Mensah,G. Mensah,14,LB,,false,ESPN public summary API,82
-GHA,Iñaki Williams,I. Williams,19,SUB,,false,ESPN public summary API,82
-GHA,Jerome Opoku,J. Opoku,18,SUB,,false,ESPN public summary API,82
-GHA,Jonas Adjetey,J. Adjetey,4,CD-R,,false,ESPN public summary API,82
+GHA,Iñaki Williams,I. Williams,19,RM,,false,ESPN public summary API,82
+GHA,Jerome Opoku,J. Opoku,18,CD-L,,false,ESPN public summary API,82
+GHA,Jonas Adjetey,J. Adjetey,4,SUB,,false,ESPN public summary API,82
 GHA,Jordan Ayew,J. Ayew,9,F,,false,ESPN public summary API,82
 GHA,Joseph Anang,J. Anang,12,SUB,,false,ESPN public summary API,82
-GHA,Kamaldeen Sulemana,K. Sulemana,22,LM,,false,ESPN public summary API,82
+GHA,Kamaldeen Sulemana,K. Sulemana,22,SUB,,false,ESPN public summary API,82
 GHA,Kojo Peprah Oppong,K. Oppong,21,SUB,,false,ESPN public summary API,82
 GHA,Kwasi Sibo,K. Sibo,8,CM-L,,false,ESPN public summary API,82
-GHA,Lawrence Ati Zigi,L. Zigi,1,SUB,,false,ESPN public summary API,82
+GHA,Lawrence Ati Zigi,L. Zigi,1,G,,false,ESPN public summary API,82
 GHA,Marvin Senaya,M. Senaya,26,RB,,false,ESPN public summary API,82
 GHA,Prince Adu,P. Adu,25,SUB,,false,ESPN public summary API,82
 GHA,Thomas Partey,T. Partey,5,DM,,false,ESPN public summary API,82

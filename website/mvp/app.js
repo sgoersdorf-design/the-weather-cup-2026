@@ -443,6 +443,11 @@ const I18N = {
     status: "Status",
     weatherEdge: "Wettervorteil",
     finalScore: "Endstand",
+    decisionExtraTimeShort: "n.V.",
+    decisionPenaltiesShort: "i.E.",
+    decisionExtraTimeWon: "gewinnt n.V.",
+    decisionPenaltiesWon: "gewinnt i.E.",
+    decisionPenaltiesWonWithScore: "gewinnt {score} i.E.",
     weatherFavouriteWon: "Wetterfavorit gewann",
     weatherBalance: "Wetterbilanz",
     weatherConfirmed: "Wettervorteil bestätigt",
@@ -899,6 +904,11 @@ const I18N = {
     status: "Status",
     weatherEdge: "Weather advantage",
     finalScore: "Full time",
+    decisionExtraTimeShort: "AET",
+    decisionPenaltiesShort: "PENS",
+    decisionExtraTimeWon: "win after extra time",
+    decisionPenaltiesWon: "win on penalties",
+    decisionPenaltiesWonWithScore: "win {score} on penalties",
     weatherFavouriteWon: "Weather favourite won",
     weatherBalance: "Weather record",
     weatherConfirmed: "Weather advantage confirmed",
@@ -1296,12 +1306,61 @@ function isFinished(match) {
     && match.result_team_b !== undefined;
 }
 
+function knockoutResolutionType(match) {
+  const value = String(match.result_resolution || "").trim().toLowerCase();
+  return ["regular", "extra_time", "penalties"].includes(value) ? value : null;
+}
+
+function decisionWinnerSide(match) {
+  if (!isFinished(match)) return null;
+  const explicit = String(match.advanced_team_side || "").trim().toLowerCase();
+  if (explicit === "a" || explicit === "b") return explicit;
+  const shootoutA = Number(match.shootout_score_team_a);
+  const shootoutB = Number(match.shootout_score_team_b);
+  if (Number.isFinite(shootoutA) && Number.isFinite(shootoutB) && shootoutA !== shootoutB) {
+    return shootoutA > shootoutB ? "a" : "b";
+  }
+  const teamAResult = Number(match.result_team_a);
+  const teamBResult = Number(match.result_team_b);
+  if (teamAResult === teamBResult) return null;
+  return teamAResult > teamBResult ? "a" : "b";
+}
+
 function resultWinnerSide(match) {
   if (!isFinished(match)) return null;
   const teamAResult = Number(match.result_team_a);
   const teamBResult = Number(match.result_team_b);
-  if (teamAResult === teamBResult) return "draw";
+  if (teamAResult === teamBResult) return decisionWinnerSide(match) || "draw";
   return teamAResult > teamBResult ? "a" : "b";
+}
+
+function shootoutResultLabel(match) {
+  const scoreA = Number(match.shootout_score_team_a);
+  const scoreB = Number(match.shootout_score_team_b);
+  if (!Number.isFinite(scoreA) || !Number.isFinite(scoreB)) return "";
+  return `${scoreA}:${scoreB}`;
+}
+
+function resultDecisionShortLabel(match) {
+  const resolution = knockoutResolutionType(match);
+  if (resolution === "extra_time") return t("decisionExtraTimeShort");
+  if (resolution === "penalties") return t("decisionPenaltiesShort");
+  return "";
+}
+
+function resultDecisionSummary(match) {
+  const resolution = knockoutResolutionType(match);
+  const side = decisionWinnerSide(match);
+  if (!resolution || !side) return "";
+  const winner = teamName(match, side);
+  if (resolution === "extra_time") {
+    return `${winner} ${t("decisionExtraTimeWon")}`;
+  }
+  const score = shootoutResultLabel(match);
+  if (score) {
+    return `${winner} ${t("decisionPenaltiesWonWithScore").replace("{score}", score)}`;
+  }
+  return `${winner} ${t("decisionPenaltiesWon")}`;
 }
 
 function weatherLeaderSide(match) {
@@ -2204,9 +2263,12 @@ function finalResultMarkup(match, compact = false) {
     ? `<span class="weather-result-hit"><span aria-hidden="true">✓</span> ${t("weatherFavouriteWon")}</span>`
     : "";
   const context = !compact && weatherHit ? `<small>${t("weatherResultContext")}</small>` : "";
+  const decisionShort = resultDecisionShortLabel(match);
+  const decisionSummary = resultDecisionSummary(match);
   return `<div class="final-result${compact ? " is-compact" : ""}">
     <span>${t("finalScore")}</span>
-    <b>${match.result_team_a}:${match.result_team_b}</b>
+    <b>${match.result_team_a}:${match.result_team_b}</b>${decisionShort ? `<i class="result-resolution-chip">${decisionShort}</i>` : ""}
+    ${decisionSummary ? `<small class="final-result-note">${escapeHtml(decisionSummary)}</small>` : ""}
     ${weatherHit}
     ${context}
   </div>`;

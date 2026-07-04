@@ -33,6 +33,44 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+.result-resolution-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #eef6f4;
+  color: var(--teal);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.final-result-note {
+  width: 100%;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.quick-result-resolution,
+.knockout-card-resolution {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  min-width: 0;
+}
+
+.quick-result-resolution b,
+.knockout-card-resolution b {
+  min-width: 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
 .prediction-confirm {
   width: 100%;
   margin-top: 2px;
@@ -26532,6 +26570,8 @@ function quickMatchCard(match, options = {}) {
   const actionLabel = status === "live" ? t("liveContext") : t("viewGame");
   const scoreA = isFinished(match) ? `<b class="quick-score">${match.result_team_a}</b>` : "";
   const scoreB = isFinished(match) ? `<b class="quick-score">${match.result_team_b}</b>` : "";
+  const decisionSummary = resultDecisionSummary(match);
+  const decisionShort = resultDecisionShortLabel(match);
   return `<article class="quick-match-card status-${status}${selected}${emphasis}${compact}" data-match-id="${match.match_id}" tabindex="0">
     <header class="quick-card-head">
       <div>${statusBadgeMarkup(match)}<span class="quick-match-id">${match.match_id}</span></div>
@@ -26541,6 +26581,7 @@ function quickMatchCard(match, options = {}) {
       <div><span class="quick-flag">${match.team_a_flag || ""}</span><b>${escapeHtml(teamName(match, "a"))}</b><small>${match.team_a_iso3}</small>${scoreA}</div>
       <div><span class="quick-flag">${match.team_b_flag || ""}</span><b>${escapeHtml(teamName(match, "b"))}</b><small>${match.team_b_iso3}</small>${scoreB}</div>
     </div>
+    ${decisionSummary ? `<div class="quick-result-resolution"><i class="result-resolution-chip">${decisionShort}</i><b>${escapeHtml(decisionSummary)}</b></div>` : ""}
     <div class="quick-venue"><b>${escapeHtml(match.host_city || "")}</b><span>${escapeHtml(match.stadium_name || "")} · ${t("venueTime")} ${host.time}</span></div>
     <div class="context-signal"><span>${t("topContextSignal")}</span><b>${topContextSignal(match)}</b></div>
     <div class="quick-metrics">
@@ -27055,6 +27096,8 @@ function knockoutSlotInfo(match, side) {
 }
 
 function inferredResolvedSide(match) {
+  const explicit = decisionWinnerSide(match);
+  if (explicit) return explicit;
   if (!isFinished(match)) return null;
   const scoreA = Number(match.result_team_a);
   const scoreB = Number(match.result_team_b);
@@ -27151,6 +27194,8 @@ function knockoutCard(match) {
   const stageLabel = match.tournament_stage === "third_place" ? t("standingsBracketThirdPlace") : phaseLabel(match.tournament_stage);
   const viewer = viewerDateTime(match);
   const metaBits = [viewer.shortLabel, match.host_city].filter(Boolean).join(" · ");
+  const decisionSummary = resultDecisionSummary(match);
+  const decisionShort = resultDecisionShortLabel(match);
   return `<article class="knockout-card status-${status}">
     <div class="knockout-card-head">
       <div class="knockout-card-title">
@@ -27164,6 +27209,7 @@ function knockoutCard(match) {
       ${knockoutTeamRow(match, "a")}
       ${knockoutTeamRow(match, "b")}
     </div>
+    ${decisionSummary ? `<div class="knockout-card-resolution"><i class="result-resolution-chip">${decisionShort}</i><b>${escapeHtml(decisionSummary)}</b></div>` : ""}
     <button class="knockout-open" type="button" data-open-match="${match.match_id}">${t("standingsBracketOpen")}</button>
   </article>`;
 }
@@ -27769,6 +27815,11 @@ const I18N = {
     status: "Status",
     weatherEdge: "Wettervorteil",
     finalScore: "Endstand",
+    decisionExtraTimeShort: "n.V.",
+    decisionPenaltiesShort: "i.E.",
+    decisionExtraTimeWon: "gewinnt n.V.",
+    decisionPenaltiesWon: "gewinnt i.E.",
+    decisionPenaltiesWonWithScore: "gewinnt {score} i.E.",
     weatherFavouriteWon: "Wetterfavorit gewann",
     weatherBalance: "Wetterbilanz",
     weatherConfirmed: "Wettervorteil bestätigt",
@@ -28225,6 +28276,11 @@ const I18N = {
     status: "Status",
     weatherEdge: "Weather advantage",
     finalScore: "Full time",
+    decisionExtraTimeShort: "AET",
+    decisionPenaltiesShort: "PENS",
+    decisionExtraTimeWon: "win after extra time",
+    decisionPenaltiesWon: "win on penalties",
+    decisionPenaltiesWonWithScore: "win {score} on penalties",
     weatherFavouriteWon: "Weather favourite won",
     weatherBalance: "Weather record",
     weatherConfirmed: "Weather advantage confirmed",
@@ -28622,12 +28678,61 @@ function isFinished(match) {
     && match.result_team_b !== undefined;
 }
 
+function knockoutResolutionType(match) {
+  const value = String(match.result_resolution || "").trim().toLowerCase();
+  return ["regular", "extra_time", "penalties"].includes(value) ? value : null;
+}
+
+function decisionWinnerSide(match) {
+  if (!isFinished(match)) return null;
+  const explicit = String(match.advanced_team_side || "").trim().toLowerCase();
+  if (explicit === "a" || explicit === "b") return explicit;
+  const shootoutA = Number(match.shootout_score_team_a);
+  const shootoutB = Number(match.shootout_score_team_b);
+  if (Number.isFinite(shootoutA) && Number.isFinite(shootoutB) && shootoutA !== shootoutB) {
+    return shootoutA > shootoutB ? "a" : "b";
+  }
+  const teamAResult = Number(match.result_team_a);
+  const teamBResult = Number(match.result_team_b);
+  if (teamAResult === teamBResult) return null;
+  return teamAResult > teamBResult ? "a" : "b";
+}
+
 function resultWinnerSide(match) {
   if (!isFinished(match)) return null;
   const teamAResult = Number(match.result_team_a);
   const teamBResult = Number(match.result_team_b);
-  if (teamAResult === teamBResult) return "draw";
+  if (teamAResult === teamBResult) return decisionWinnerSide(match) || "draw";
   return teamAResult > teamBResult ? "a" : "b";
+}
+
+function shootoutResultLabel(match) {
+  const scoreA = Number(match.shootout_score_team_a);
+  const scoreB = Number(match.shootout_score_team_b);
+  if (!Number.isFinite(scoreA) || !Number.isFinite(scoreB)) return "";
+  return `${scoreA}:${scoreB}`;
+}
+
+function resultDecisionShortLabel(match) {
+  const resolution = knockoutResolutionType(match);
+  if (resolution === "extra_time") return t("decisionExtraTimeShort");
+  if (resolution === "penalties") return t("decisionPenaltiesShort");
+  return "";
+}
+
+function resultDecisionSummary(match) {
+  const resolution = knockoutResolutionType(match);
+  const side = decisionWinnerSide(match);
+  if (!resolution || !side) return "";
+  const winner = teamName(match, side);
+  if (resolution === "extra_time") {
+    return `${winner} ${t("decisionExtraTimeWon")}`;
+  }
+  const score = shootoutResultLabel(match);
+  if (score) {
+    return `${winner} ${t("decisionPenaltiesWonWithScore").replace("{score}", score)}`;
+  }
+  return `${winner} ${t("decisionPenaltiesWon")}`;
 }
 
 function weatherLeaderSide(match) {
@@ -29530,9 +29635,12 @@ function finalResultMarkup(match, compact = false) {
     ? `<span class="weather-result-hit"><span aria-hidden="true">✓</span> ${t("weatherFavouriteWon")}</span>`
     : "";
   const context = !compact && weatherHit ? `<small>${t("weatherResultContext")}</small>` : "";
+  const decisionShort = resultDecisionShortLabel(match);
+  const decisionSummary = resultDecisionSummary(match);
   return `<div class="final-result${compact ? " is-compact" : ""}">
     <span>${t("finalScore")}</span>
-    <b>${match.result_team_a}:${match.result_team_b}</b>
+    <b>${match.result_team_a}:${match.result_team_b}</b>${decisionShort ? `<i class="result-resolution-chip">${decisionShort}</i>` : ""}
+    ${decisionSummary ? `<small class="final-result-note">${escapeHtml(decisionSummary)}</small>` : ""}
     ${weatherHit}
     ${context}
   </div>`;

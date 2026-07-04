@@ -165,6 +165,8 @@ function quickMatchCard(match, options = {}) {
   const actionLabel = status === "live" ? t("liveContext") : t("viewGame");
   const scoreA = isFinished(match) ? `<b class="quick-score">${match.result_team_a}</b>` : "";
   const scoreB = isFinished(match) ? `<b class="quick-score">${match.result_team_b}</b>` : "";
+  const decisionSummary = resultDecisionSummary(match);
+  const decisionShort = resultDecisionShortLabel(match);
   return `<article class="quick-match-card status-${status}${selected}${emphasis}${compact}" data-match-id="${match.match_id}" tabindex="0">
     <header class="quick-card-head">
       <div>${statusBadgeMarkup(match)}<span class="quick-match-id">${match.match_id}</span></div>
@@ -174,6 +176,7 @@ function quickMatchCard(match, options = {}) {
       <div><span class="quick-flag">${match.team_a_flag || ""}</span><b>${escapeHtml(teamName(match, "a"))}</b><small>${match.team_a_iso3}</small>${scoreA}</div>
       <div><span class="quick-flag">${match.team_b_flag || ""}</span><b>${escapeHtml(teamName(match, "b"))}</b><small>${match.team_b_iso3}</small>${scoreB}</div>
     </div>
+    ${decisionSummary ? `<div class="quick-result-resolution"><i class="result-resolution-chip">${decisionShort}</i><b>${escapeHtml(decisionSummary)}</b></div>` : ""}
     <div class="quick-venue"><b>${escapeHtml(match.host_city || "")}</b><span>${escapeHtml(match.stadium_name || "")} · ${t("venueTime")} ${host.time}</span></div>
     <div class="context-signal"><span>${t("topContextSignal")}</span><b>${topContextSignal(match)}</b></div>
     <div class="quick-metrics">
@@ -688,6 +691,8 @@ function knockoutSlotInfo(match, side) {
 }
 
 function inferredResolvedSide(match) {
+  const explicit = decisionWinnerSide(match);
+  if (explicit) return explicit;
   if (!isFinished(match)) return null;
   const scoreA = Number(match.result_team_a);
   const scoreB = Number(match.result_team_b);
@@ -784,6 +789,8 @@ function knockoutCard(match) {
   const stageLabel = match.tournament_stage === "third_place" ? t("standingsBracketThirdPlace") : phaseLabel(match.tournament_stage);
   const viewer = viewerDateTime(match);
   const metaBits = [viewer.shortLabel, match.host_city].filter(Boolean).join(" · ");
+  const decisionSummary = resultDecisionSummary(match);
+  const decisionShort = resultDecisionShortLabel(match);
   return `<article class="knockout-card status-${status}">
     <div class="knockout-card-head">
       <div class="knockout-card-title">
@@ -797,6 +804,7 @@ function knockoutCard(match) {
       ${knockoutTeamRow(match, "a")}
       ${knockoutTeamRow(match, "b")}
     </div>
+    ${decisionSummary ? `<div class="knockout-card-resolution"><i class="result-resolution-chip">${decisionShort}</i><b>${escapeHtml(decisionSummary)}</b></div>` : ""}
     <button class="knockout-open" type="button" data-open-match="${match.match_id}">${t("standingsBracketOpen")}</button>
   </article>`;
 }

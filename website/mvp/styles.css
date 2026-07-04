@@ -26,6 +26,44 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+.result-resolution-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #eef6f4;
+  color: var(--teal);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.final-result-note {
+  width: 100%;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.quick-result-resolution,
+.knockout-card-resolution {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  min-width: 0;
+}
+
+.quick-result-resolution b,
+.knockout-card-resolution b {
+  min-width: 0;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
 .prediction-confirm {
   width: 100%;
   margin-top: 2px;

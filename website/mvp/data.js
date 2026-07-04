@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-04T07:47:10",
+    "exported_at": "2026-07-04T08:45:17",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -121,7 +121,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇲🇽 MEX vs. 🇿🇦 ZAF: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: MEX 75.44/100, ZAF 80.42/100. Vorteil: ZAF.",
       "weather_body_de": "Suedafrika wirkt für diese Wettersituation etwas besser eingeordnet als Mexiko: Weather Fit 80.42/100 gegen 75.44/100 bei 22.4 Grad und 55.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "MEX vs. ZAF: Bei 22.4 Grad und 55.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell."
+      "weather_social_hook_de": "MEX vs. ZAF: Bei 22.4 Grad und 55.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M002",
@@ -236,7 +241,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇰🇷 KOR vs. 🇨🇿 CZE: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: KOR 69.73/100, CZE 63.95/100. Vorteil: KOR.",
       "weather_body_de": "Suedkorea wirkt für diese Wettersituation etwas besser eingeordnet als Tschechien: Weather Fit 69.73/100 gegen 63.95/100 bei 24.7 Grad und 59.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "KOR vs. CZE: Bei 24.7 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich KOR vorne. Kein Wettmodell."
+      "weather_social_hook_de": "KOR vs. CZE: Bei 24.7 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich KOR vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M007",
@@ -351,7 +361,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇦 CAN vs. 🇧🇦 BIH: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CAN 55.14/100, BIH 56.8/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CAN vs. BIH: Bei 27.3 Grad und 40.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CAN vs. BIH: Bei 27.3 Grad und 40.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M019",
@@ -466,7 +481,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇸 USA vs. 🇵🇾 PRY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: USA 72.77/100, PRY 78.38/100. Vorteil: PRY.",
       "weather_body_de": "Paraguay wirkt für diese Wettersituation etwas besser eingeordnet als USA: Weather Fit 78.38/100 gegen 72.77/100 bei 21.0 Grad und 86.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "USA vs. PRY: Bei 21.0 Grad und 86.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell."
+      "weather_social_hook_de": "USA vs. PRY: Bei 21.0 Grad und 86.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M008",
@@ -581,7 +601,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇶🇦 QAT vs. 🇨🇭 CHE: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: QAT 72.04/100, CHE 61.46/100. Vorteil: QAT.",
       "weather_body_de": "Katar wirkt für diese Wettersituation etwas besser eingeordnet als Schweiz: Weather Fit 72.04/100 gegen 61.46/100 bei 25.7 Grad und 49.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "QAT vs. CHE: Bei 25.7 Grad und 49.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell."
+      "weather_social_hook_de": "QAT vs. CHE: Bei 25.7 Grad und 49.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M013",
@@ -696,7 +721,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇷 BRA vs. 🇲🇦 MAR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BRA 64.63/100, MAR 55.47/100. Vorteil: BRA.",
       "weather_body_de": "Brasilien wirkt für diese Wettersituation etwas besser eingeordnet als Marokko: Weather Fit 64.63/100 gegen 55.47/100 bei 32.4 Grad und 25.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "BRA vs. MAR: Bei 32.4 Grad und 25.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "BRA vs. MAR: Bei 32.4 Grad und 25.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M014",
@@ -811,7 +841,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇭🇹 HTI vs. 🇬🇧 SCO: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: HTI 66.09/100, SCO 52.78/100. Vorteil: HTI.",
       "weather_body_de": "Haiti wirkt für diese Wettersituation etwas besser eingeordnet als Schottland: Weather Fit 66.09/100 gegen 52.78/100 bei 30.6 Grad und 26.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "HTI vs. SCO: Bei 30.6 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich HTI vorne. Kein Wettmodell."
+      "weather_social_hook_de": "HTI vs. SCO: Bei 30.6 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich HTI vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M020",
@@ -926,7 +961,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇺 AUS vs. 🇹🇷 TUR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: AUS 63.79/100, TUR 60.54/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "AUS vs. TUR: Bei 26.0 Grad und 38.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "AUS vs. TUR: Bei 26.0 Grad und 38.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M025",
@@ -1041,7 +1081,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇩🇪 DEU vs. 🇨🇼 CUW: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: DEU 52.78/100, CUW 76.55/100. Vorteil: CUW.",
       "weather_body_de": "Curacao wirkt für diese Wettersituation etwas besser eingeordnet als Deutschland: Weather Fit 76.55/100 gegen 52.78/100 bei 31.8 Grad und 65.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "DEU vs. CUW: Bei 31.8 Grad und 65.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CUW vorne. Kein Wettmodell."
+      "weather_social_hook_de": "DEU vs. CUW: Bei 31.8 Grad und 65.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CUW vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M031",
@@ -1156,7 +1201,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇱 NLD vs. 🇯🇵 JPN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NLD 53.85/100, JPN 65.52/100. Vorteil: JPN.",
       "weather_body_de": "Japan wirkt für diese Wettersituation etwas besser eingeordnet als Niederlande: Weather Fit 65.52/100 gegen 53.85/100 bei 27.3 Grad und 77.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "NLD vs. JPN: Bei 27.3 Grad und 77.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich JPN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "NLD vs. JPN: Bei 27.3 Grad und 77.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich JPN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M026",
@@ -1271,7 +1321,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇮 CIV vs. 🇪🇨 ECU: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CIV 70.03/100, ECU 74.61/100. Vorteil: ECU.",
       "weather_body_de": "Ecuador wirkt für diese Wettersituation etwas besser eingeordnet als Elfenbeinkueste: Weather Fit 74.61/100 gegen 70.03/100 bei 33.9 Grad und 32.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CIV vs. ECU: Bei 33.9 Grad und 32.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell."
+      "weather_social_hook_de": "CIV vs. ECU: Bei 33.9 Grad und 32.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M032",
@@ -1386,7 +1441,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇸🇪 SWE vs. 🇹🇳 TUN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: SWE 52.78/100, TUN 54.76/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "SWE vs. TUN: Bei 32.6 Grad und 50.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "SWE vs. TUN: Bei 32.6 Grad und 50.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M043",
@@ -1501,7 +1561,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇸 ESP vs. 🇨🇻 CPV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ESP 57.09/100, CPV 76.73/100. Vorteil: CPV.",
       "weather_body_de": "Cabo Verde wirkt für diese Wettersituation etwas besser eingeordnet als Spanien: Weather Fit 76.73/100 gegen 57.09/100 bei 28.9 Grad und 46.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ESP vs. CPV: Bei 28.9 Grad und 46.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ESP vs. CPV: Bei 28.9 Grad und 46.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M037",
@@ -1616,7 +1681,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇪 BEL vs. 🇪🇬 EGY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BEL 52.78/100, EGY 56.47/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "BEL vs. EGY: Bei 31.1 Grad und 28.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "BEL vs. EGY: Bei 31.1 Grad und 28.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M044",
@@ -1731,7 +1801,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇸🇦 SAU vs. 🇺🇾 URY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: SAU 66.34/100, URY 57.38/100. Vorteil: SAU.",
       "weather_body_de": "Saudi-Arabien wirkt für diese Wettersituation etwas besser eingeordnet als Uruguay: Weather Fit 66.34/100 gegen 57.38/100 bei 32.7 Grad und 59.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "SAU vs. URY: Bei 32.7 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SAU vorne. Kein Wettmodell."
+      "weather_social_hook_de": "SAU vs. URY: Bei 32.7 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SAU vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M038",
@@ -1846,7 +1921,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇮🇷 IRN vs. 🇳🇿 NZL: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: IRN 75.84/100, NZL 72.13/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "IRN vs. NZL: Bei 22.0 Grad und 75.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "IRN vs. NZL: Bei 22.0 Grad und 75.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M049",
@@ -1961,7 +2041,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇫🇷 FRA vs. 🇸🇳 SEN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: FRA 52.78/100, SEN 76.77/100. Vorteil: SEN.",
       "weather_body_de": "Senegal wirkt für diese Wettersituation etwas besser eingeordnet als Frankreich: Weather Fit 76.77/100 gegen 52.78/100 bei 26.2 Grad und 26.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "FRA vs. SEN: Bei 26.2 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SEN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "FRA vs. SEN: Bei 26.2 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SEN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M050",
@@ -2076,7 +2161,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇮🇶 IRQ vs. 🇳🇴 NOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: IRQ 64.1/100, NOR 53.21/100. Vorteil: IRQ.",
       "weather_body_de": "Irak wirkt für diese Wettersituation etwas besser eingeordnet als Norwegen: Weather Fit 64.1/100 gegen 53.21/100 bei 25.2 Grad und 31.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "IRQ vs. NOR: Bei 25.2 Grad und 31.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRQ vorne. Kein Wettmodell."
+      "weather_social_hook_de": "IRQ vs. NOR: Bei 25.2 Grad und 31.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRQ vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M055",
@@ -2191,7 +2281,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇷 ARG vs. 🇩🇿 DZA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ARG 60.94/100, DZA 59.44/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "ARG vs. DZA: Bei 28.3 Grad und 41.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "ARG vs. DZA: Bei 28.3 Grad und 41.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M056",
@@ -2306,7 +2401,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇹 AUT vs. 🇯🇴 JOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: AUT 70.29/100, JOR 79.3/100. Vorteil: JOR.",
       "weather_body_de": "Jordanien wirkt für diese Wettersituation etwas besser eingeordnet als Oesterreich: Weather Fit 79.3/100 gegen 70.29/100 bei 22.0 Grad und 67.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "AUT vs. JOR: Bei 22.0 Grad und 67.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich JOR vorne. Kein Wettmodell."
+      "weather_social_hook_de": "AUT vs. JOR: Bei 22.0 Grad und 67.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich JOR vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M061",
@@ -2421,7 +2521,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇹 PRT vs. 🇨🇩 COD: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRT 59.54/100, COD 88.5/100. Vorteil: COD.",
       "weather_body_de": "DR Kongo wirkt für diese Wettersituation etwas besser eingeordnet als Portugal: Weather Fit 88.5/100 gegen 59.54/100 bei 28.3 Grad und 85.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "PRT vs. COD: Bei 28.3 Grad und 85.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell."
+      "weather_social_hook_de": "PRT vs. COD: Bei 28.3 Grad und 85.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M067",
@@ -2536,7 +2641,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇧 ENG vs. 🇭🇷 HRV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ENG 52.78/100, HRV 53.55/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "ENG vs. HRV: Bei 33.3 Grad und 54.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "ENG vs. HRV: Bei 33.3 Grad und 54.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M068",
@@ -2651,7 +2761,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇭 GHA vs. 🇵🇦 PAN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: GHA 70.52/100, PAN 72.07/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "GHA vs. PAN: Bei 20.5 Grad und 66.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "GHA vs. PAN: Bei 20.5 Grad und 66.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M062",
@@ -2766,7 +2881,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇿 UZB vs. 🇨🇴 COL: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: UZB 67.93/100, COL 69.7/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "UZB vs. COL: Bei 23.2 Grad und 49.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "UZB vs. COL: Bei 23.2 Grad und 49.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M003",
@@ -2881,7 +3001,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇿 CZE vs. 🇿🇦 ZAF: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CZE 52.78/100, ZAF 66.53/100. Vorteil: ZAF.",
       "weather_body_de": "Suedafrika wirkt für diese Wettersituation etwas besser eingeordnet als Tschechien: Weather Fit 66.53/100 gegen 52.78/100 bei 31.1 Grad und 58.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CZE vs. ZAF: Bei 31.1 Grad und 58.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell."
+      "weather_social_hook_de": "CZE vs. ZAF: Bei 31.1 Grad und 58.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M009",
@@ -2996,7 +3121,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇭 CHE vs. 🇧🇦 BIH: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CHE 70.17/100, BIH 72.02/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CHE vs. BIH: Bei 21.0 Grad und 76.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CHE vs. BIH: Bei 21.0 Grad und 76.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M010",
@@ -3111,7 +3241,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇦 CAN vs. 🇶🇦 QAT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CAN 68.65/100, QAT 77.78/100. Vorteil: QAT.",
       "weather_body_de": "Katar wirkt für diese Wettersituation etwas besser eingeordnet als Kanada: Weather Fit 77.78/100 gegen 68.65/100 bei 22.3 Grad und 56.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CAN vs. QAT: Bei 22.3 Grad und 56.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell."
+      "weather_social_hook_de": "CAN vs. QAT: Bei 22.3 Grad und 56.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M004",
@@ -3226,7 +3361,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇲🇽 MEX vs. 🇰🇷 KOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: MEX 75.25/100, KOR 65.49/100. Vorteil: MEX.",
       "weather_body_de": "Mexiko wirkt für diese Wettersituation etwas besser eingeordnet als Suedkorea: Weather Fit 75.25/100 gegen 65.49/100 bei 25.8 Grad und 50.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "MEX vs. KOR: Bei 25.8 Grad und 50.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MEX vorne. Kein Wettmodell."
+      "weather_social_hook_de": "MEX vs. KOR: Bei 25.8 Grad und 50.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MEX vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M021",
@@ -3341,7 +3481,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇸 USA vs. 🇦🇺 AUS: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: USA 62.17/100, AUS 64.7/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "USA vs. AUS: Bei 26.2 Grad und 43.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "USA vs. AUS: Bei 26.2 Grad und 43.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M015",
@@ -3456,7 +3601,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇧 SCO vs. 🇲🇦 MAR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: SCO 58.8/100, MAR 66.53/100. Vorteil: MAR.",
       "weather_body_de": "Marokko wirkt für diese Wettersituation etwas besser eingeordnet als Schottland: Weather Fit 66.53/100 gegen 58.8/100 bei 24.7 Grad und 44.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "SCO vs. MAR: Bei 24.7 Grad und 44.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MAR vorne. Kein Wettmodell."
+      "weather_social_hook_de": "SCO vs. MAR: Bei 24.7 Grad und 44.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MAR vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M016",
@@ -3571,7 +3721,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇷 BRA vs. 🇭🇹 HTI: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BRA 70.18/100, HTI 68.39/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "BRA vs. HTI: Bei 28.7 Grad und 33.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "BRA vs. HTI: Bei 28.7 Grad und 33.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M022",
@@ -3686,7 +3841,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇹🇷 TUR vs. 🇵🇾 PRY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: TUR 66.23/100, PRY 73.64/100. Vorteil: PRY.",
       "weather_body_de": "Paraguay wirkt für diese Wettersituation etwas besser eingeordnet als Tuerkei: Weather Fit 73.64/100 gegen 66.23/100 bei 25.0 Grad und 48.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "TUR vs. PRY: Bei 25.0 Grad und 48.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell."
+      "weather_social_hook_de": "TUR vs. PRY: Bei 25.0 Grad und 48.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M033",
@@ -3801,7 +3961,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇱 NLD vs. 🇸🇪 SWE: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NLD 54.68/100, SWE 53.13/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "NLD vs. SWE: Bei 25.9 Grad und 88.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "NLD vs. SWE: Bei 25.9 Grad und 88.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M027",
@@ -3916,7 +4081,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇩🇪 DEU vs. 🇨🇮 CIV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: DEU 56.6/100, CIV 71.63/100. Vorteil: CIV.",
       "weather_body_de": "Elfenbeinkueste wirkt für diese Wettersituation etwas besser eingeordnet als Deutschland: Weather Fit 71.63/100 gegen 56.6/100 bei 24.5 Grad und 34.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "DEU vs. CIV: Bei 24.5 Grad und 34.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CIV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "DEU vs. CIV: Bei 24.5 Grad und 34.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CIV vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M028",
@@ -4031,7 +4201,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇨 ECU vs. 🇨🇼 CUW: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ECU 82.14/100, CUW 73.8/100. Vorteil: ECU.",
       "weather_body_de": "Ecuador wirkt für diese Wettersituation etwas besser eingeordnet als Curacao: Weather Fit 82.14/100 gegen 73.8/100 bei 31.1 Grad und 42.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ECU vs. CUW: Bei 31.1 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ECU vs. CUW: Bei 31.1 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M034",
@@ -4146,7 +4321,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇹🇳 TUN vs. 🇯🇵 JPN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: TUN 63.25/100, JPN 64.06/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "TUN vs. JPN: Bei 28.4 Grad und 75.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "TUN vs. JPN: Bei 28.4 Grad und 75.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M045",
@@ -4261,7 +4441,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇸 ESP vs. 🇸🇦 SAU: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ESP 57.77/100, SAU 70.56/100. Vorteil: SAU.",
       "weather_body_de": "Saudi-Arabien wirkt für diese Wettersituation etwas besser eingeordnet als Spanien: Weather Fit 70.56/100 gegen 57.77/100 bei 29.5 Grad und 53.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ESP vs. SAU: Bei 29.5 Grad und 53.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SAU vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ESP vs. SAU: Bei 29.5 Grad und 53.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SAU vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M039",
@@ -4376,7 +4561,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇪 BEL vs. 🇮🇷 IRN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BEL 69.12/100, IRN 78.89/100. Vorteil: IRN.",
       "weather_body_de": "Iran wirkt für diese Wettersituation etwas besser eingeordnet als Belgien: Weather Fit 78.89/100 gegen 69.12/100 bei 21.0 Grad und 70.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "BEL vs. IRN: Bei 21.0 Grad und 70.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "BEL vs. IRN: Bei 21.0 Grad und 70.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M046",
@@ -4491,7 +4681,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇾 URY vs. 🇨🇻 CPV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: URY 59.64/100, CPV 75.46/100. Vorteil: CPV.",
       "weather_body_de": "Cabo Verde wirkt für diese Wettersituation etwas besser eingeordnet als Uruguay: Weather Fit 75.46/100 gegen 59.64/100 bei 32.0 Grad und 63.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "URY vs. CPV: Bei 32.0 Grad und 63.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "URY vs. CPV: Bei 32.0 Grad und 63.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M040",
@@ -4606,7 +4801,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇿 NZL vs. 🇪🇬 EGY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NZL 65.06/100, EGY 71.29/100. Vorteil: EGY.",
       "weather_body_de": "Aegypten wirkt für diese Wettersituation etwas besser eingeordnet als Neuseeland: Weather Fit 71.29/100 gegen 65.06/100 bei 23.9 Grad und 41.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "NZL vs. EGY: Bei 23.9 Grad und 41.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich EGY vorne. Kein Wettmodell."
+      "weather_social_hook_de": "NZL vs. EGY: Bei 23.9 Grad und 41.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich EGY vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M057",
@@ -4721,7 +4921,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇷 ARG vs. 🇦🇹 AUT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ARG 65.14/100, AUT 55.09/100. Vorteil: ARG.",
       "weather_body_de": "Argentinien wirkt für diese Wettersituation etwas besser eingeordnet als Oesterreich: Weather Fit 65.14/100 gegen 55.09/100 bei 28.8 Grad und 71.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ARG vs. AUT: Bei 28.8 Grad und 71.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ARG vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ARG vs. AUT: Bei 28.8 Grad und 71.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ARG vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M051",
@@ -4836,7 +5041,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇫🇷 FRA vs. 🇮🇶 IRQ: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: FRA 52.78/100, IRQ 58.79/100. Vorteil: IRQ.",
       "weather_body_de": "Irak wirkt für diese Wettersituation etwas besser eingeordnet als Frankreich: Weather Fit 58.79/100 gegen 52.78/100 bei 30.9 Grad und 47.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "FRA vs. IRQ: Bei 30.9 Grad und 47.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRQ vorne. Kein Wettmodell."
+      "weather_social_hook_de": "FRA vs. IRQ: Bei 30.9 Grad und 47.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich IRQ vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M052",
@@ -4951,7 +5161,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇴 NOR vs. 🇸🇳 SEN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NOR 60.91/100, SEN 80.26/100. Vorteil: SEN.",
       "weather_body_de": "Senegal wirkt für diese Wettersituation etwas besser eingeordnet als Norwegen: Weather Fit 80.26/100 gegen 60.91/100 bei 23.5 Grad und 61.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "NOR vs. SEN: Bei 23.5 Grad und 61.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SEN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "NOR vs. SEN: Bei 23.5 Grad und 61.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich SEN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M058",
@@ -5066,7 +5281,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇯🇴 JOR vs. 🇩🇿 DZA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: JOR 78.34/100, DZA 76.03/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "JOR vs. DZA: Bei 21.2 Grad und 62.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "JOR vs. DZA: Bei 21.2 Grad und 62.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M063",
@@ -5181,7 +5401,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇹 PRT vs. 🇺🇿 UZB: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRT 54.29/100, UZB 53.63/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "PRT vs. UZB: Bei 33.9 Grad und 53.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "PRT vs. UZB: Bei 33.9 Grad und 53.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M069",
@@ -5296,7 +5521,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇧 ENG vs. 🇬🇭 GHA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ENG 62.45/100, GHA 76.22/100. Vorteil: GHA.",
       "weather_body_de": "Ghana wirkt für diese Wettersituation etwas besser eingeordnet als England: Weather Fit 76.22/100 gegen 62.45/100 bei 22.8 Grad und 85.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ENG vs. GHA: Bei 22.8 Grad und 85.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich GHA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ENG vs. GHA: Bei 22.8 Grad und 85.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich GHA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M070",
@@ -5411,7 +5641,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇦 PAN vs. 🇭🇷 HRV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PAN 74.05/100, HRV 62.46/100. Vorteil: PAN.",
       "weather_body_de": "Panama wirkt für diese Wettersituation etwas besser eingeordnet als Kroatien: Weather Fit 74.05/100 gegen 62.46/100 bei 24.5 Grad und 42.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "PAN vs. HRV: Bei 24.5 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PAN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "PAN vs. HRV: Bei 24.5 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PAN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M064",
@@ -5526,7 +5761,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇴 COL vs. 🇨🇩 COD: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: COL 75.62/100, COD 75.44/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "COL vs. COD: Bei 25.8 Grad und 54.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "COL vs. COD: Bei 25.8 Grad und 54.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M011",
@@ -5641,7 +5881,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇭 CHE vs. 🇨🇦 CAN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CHE 66.44/100, CAN 66.1/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CHE vs. CAN: Bei 22.5 Grad und 46.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CHE vs. CAN: Bei 22.5 Grad und 46.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M012",
@@ -5756,7 +6001,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇦 BIH vs. 🇶🇦 QAT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BIH 52.98/100, QAT 62.32/100. Vorteil: QAT.",
       "weather_body_de": "Katar wirkt für diese Wettersituation etwas besser eingeordnet als Bosnien und Herzegowina: Weather Fit 62.32/100 gegen 52.98/100 bei 29.1 Grad und 26.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "BIH vs. QAT: Bei 29.1 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell."
+      "weather_social_hook_de": "BIH vs. QAT: Bei 29.1 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich QAT vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M017",
@@ -5871,7 +6121,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇧 SCO vs. 🇧🇷 BRA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: SCO 52.78/100, BRA 68.81/100. Vorteil: BRA.",
       "weather_body_de": "Brasilien wirkt für diese Wettersituation etwas besser eingeordnet als Schottland: Weather Fit 68.81/100 gegen 52.78/100 bei 33.3 Grad und 48.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "SCO vs. BRA: Bei 33.3 Grad und 48.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "SCO vs. BRA: Bei 33.3 Grad und 48.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M018",
@@ -5986,7 +6241,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇲🇦 MAR vs. 🇭🇹 HTI: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: MAR 55.47/100, HTI 62.29/100. Vorteil: HTI.",
       "weather_body_de": "Haiti wirkt für diese Wettersituation etwas besser eingeordnet als Marokko: Weather Fit 62.29/100 gegen 55.47/100 bei 32.9 Grad und 24.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "MAR vs. HTI: Bei 32.9 Grad und 24.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich HTI vorne. Kein Wettmodell."
+      "weather_social_hook_de": "MAR vs. HTI: Bei 32.9 Grad und 24.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich HTI vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M005",
@@ -6101,7 +6361,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇿 CZE vs. 🇲🇽 MEX: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CZE 73.99/100, MEX 75.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CZE vs. MEX: Bei 19.7 Grad und 65.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CZE vs. MEX: Bei 19.7 Grad und 65.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M006",
@@ -6216,7 +6481,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇿🇦 ZAF vs. 🇰🇷 KOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ZAF 56.22/100, KOR 54.19/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "ZAF vs. KOR: Bei 34.5 Grad und 29.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "ZAF vs. KOR: Bei 34.5 Grad und 29.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M029",
@@ -6331,7 +6601,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇼 CUW vs. 🇨🇮 CIV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CUW 72.53/100, CIV 76.3/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CUW vs. CIV: Bei 30.4 Grad und 32.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CUW vs. CIV: Bei 30.4 Grad und 32.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M030",
@@ -6446,7 +6721,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇨 ECU vs. 🇩🇪 DEU: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ECU 84.11/100, DEU 52.78/100. Vorteil: ECU.",
       "weather_body_de": "Ecuador wirkt für diese Wettersituation etwas besser eingeordnet als Deutschland: Weather Fit 84.11/100 gegen 52.78/100 bei 29.3 Grad und 37.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ECU vs. DEU: Bei 29.3 Grad und 37.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ECU vs. DEU: Bei 29.3 Grad und 37.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ECU vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M035",
@@ -6561,7 +6841,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇯🇵 JPN vs. 🇸🇪 SWE: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: JPN 55.05/100, SWE 52.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "JPN vs. SWE: Bei 34.0 Grad und 41.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "JPN vs. SWE: Bei 34.0 Grad und 41.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M036",
@@ -6676,7 +6961,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇹🇳 TUN vs. 🇳🇱 NLD: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: TUN 62.44/100, NLD 53.28/100. Vorteil: TUN.",
       "weather_body_de": "Tunesien wirkt für diese Wettersituation etwas besser eingeordnet als Niederlande: Weather Fit 62.44/100 gegen 53.28/100 bei 29.0 Grad und 58.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "TUN vs. NLD: Bei 29.0 Grad und 58.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich TUN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "TUN vs. NLD: Bei 29.0 Grad und 58.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich TUN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M023",
@@ -6791,7 +7081,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇹🇷 TUR vs. 🇺🇸 USA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: TUR 74.98/100, USA 75.69/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "TUR vs. USA: Bei 21.2 Grad und 73.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "TUR vs. USA: Bei 21.2 Grad und 73.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M024",
@@ -6906,7 +7201,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇾 PRY vs. 🇦🇺 AUS: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRY 79.22/100, AUS 78.07/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "PRY vs. AUS: Bei 21.6 Grad und 61.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "PRY vs. AUS: Bei 21.6 Grad und 61.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M053",
@@ -7021,7 +7321,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇴 NOR vs. 🇫🇷 FRA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NOR 56.39/100, FRA 63.6/100. Vorteil: FRA.",
       "weather_body_de": "Frankreich wirkt für diese Wettersituation etwas besser eingeordnet als Norwegen: Weather Fit 63.6/100 gegen 56.39/100 bei 25.3 Grad und 66.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "NOR vs. FRA: Bei 25.3 Grad und 66.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich FRA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "NOR vs. FRA: Bei 25.3 Grad und 66.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich FRA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M054",
@@ -7136,7 +7441,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇸🇳 SEN vs. 🇮🇶 IRQ: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: SEN 79.55/100, IRQ 80.09/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "SEN vs. IRQ: Bei 20.8 Grad und 73.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "SEN vs. IRQ: Bei 20.8 Grad und 73.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M047",
@@ -7251,7 +7561,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇻 CPV vs. 🇸🇦 SAU: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CPV 68.6/100, SAU 61.74/100. Vorteil: CPV.",
       "weather_body_de": "Cabo Verde wirkt für diese Wettersituation etwas besser eingeordnet als Saudi-Arabien: Weather Fit 68.6/100 gegen 61.74/100 bei 34.0 Grad und 50.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CPV vs. SAU: Bei 34.0 Grad und 50.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "CPV vs. SAU: Bei 34.0 Grad und 50.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M048",
@@ -7366,7 +7681,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇾 URY vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: URY 72.36/100, ESP 69.92/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "URY vs. ESP: Bei 25.1 Grad und 59.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "URY vs. ESP: Bei 25.1 Grad und 59.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M041",
@@ -7481,7 +7801,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇬 EGY vs. 🇮🇷 IRN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: EGY 77.2/100, IRN 79.14/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "EGY vs. IRN: Bei 19.0 Grad und 55.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "EGY vs. IRN: Bei 19.0 Grad und 55.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M042",
@@ -7596,7 +7921,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇿 NZL vs. 🇧🇪 BEL: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NZL 80.91/100, BEL 75.97/100. Vorteil: NZL.",
       "weather_body_de": "Neuseeland wirkt für diese Wettersituation etwas besser eingeordnet als Belgien: Weather Fit 80.91/100 gegen 75.97/100 bei 18.2 Grad und 66.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "NZL vs. BEL: Bei 18.2 Grad und 66.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich NZL vorne. Kein Wettmodell."
+      "weather_social_hook_de": "NZL vs. BEL: Bei 18.2 Grad und 66.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich NZL vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M071",
@@ -7711,7 +8041,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇦 PAN vs. 🇬🇧 ENG: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PAN 76.43/100, ENG 65.01/100. Vorteil: PAN.",
       "weather_body_de": "Panama wirkt für diese Wettersituation etwas besser eingeordnet als England: Weather Fit 76.43/100 gegen 65.01/100 bei 21.2 Grad und 83.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "PAN vs. ENG: Bei 21.2 Grad und 83.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PAN vorne. Kein Wettmodell."
+      "weather_social_hook_de": "PAN vs. ENG: Bei 21.2 Grad und 83.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PAN vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M072",
@@ -7826,7 +8161,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇭🇷 HRV vs. 🇬🇭 GHA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: HRV 64.98/100, GHA 78.95/100. Vorteil: GHA.",
       "weather_body_de": "Ghana wirkt für diese Wettersituation etwas besser eingeordnet als Kroatien: Weather Fit 78.95/100 gegen 64.98/100 bei 23.9 Grad und 82.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "HRV vs. GHA: Bei 23.9 Grad und 82.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich GHA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "HRV vs. GHA: Bei 23.9 Grad und 82.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich GHA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M065",
@@ -7941,7 +8281,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇴 COL vs. 🇵🇹 PRT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: COL 71.32/100, PRT 54.75/100. Vorteil: COL.",
       "weather_body_de": "Kolumbien wirkt für diese Wettersituation etwas besser eingeordnet als Portugal: Weather Fit 71.32/100 gegen 54.75/100 bei 33.9 Grad und 47.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "COL vs. PRT: Bei 33.9 Grad und 47.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COL vorne. Kein Wettmodell."
+      "weather_social_hook_de": "COL vs. PRT: Bei 33.9 Grad und 47.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COL vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M066",
@@ -8056,7 +8401,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇩 COD vs. 🇺🇿 UZB: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: COD 68.07/100, UZB 53.63/100. Vorteil: COD.",
       "weather_body_de": "DR Kongo wirkt für diese Wettersituation etwas besser eingeordnet als Usbekistan: Weather Fit 68.07/100 gegen 53.63/100 bei 35.7 Grad und 30.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "COD vs. UZB: Bei 35.7 Grad und 30.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell."
+      "weather_social_hook_de": "COD vs. UZB: Bei 35.7 Grad und 30.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M059",
@@ -8171,7 +8521,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇩🇿 DZA vs. 🇦🇹 AUT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: DZA 62.24/100, AUT 54.78/100. Vorteil: DZA.",
       "weather_body_de": "Algerien wirkt für diese Wettersituation etwas besser eingeordnet als Oesterreich: Weather Fit 62.24/100 gegen 54.78/100 bei 28.2 Grad und 79.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "DZA vs. AUT: Bei 28.2 Grad und 79.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich DZA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "DZA vs. AUT: Bei 28.2 Grad und 79.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich DZA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M060",
@@ -8286,7 +8641,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇯🇴 JOR vs. 🇦🇷 ARG: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: JOR 55.13/100, ARG 54.69/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "JOR vs. ARG: Bei 36.5 Grad und 32.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "JOR vs. ARG: Bei 36.5 Grad und 32.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M073",
@@ -8401,7 +8761,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇿🇦 ZAF vs. 🇨🇦 CAN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ZAF 82.32/100, CAN 71.03/100. Vorteil: ZAF.",
       "weather_body_de": "Suedafrika wirkt für diese Wettersituation etwas besser eingeordnet als Kanada: Weather Fit 82.32/100 gegen 71.03/100 bei 22.0 Grad und 62.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ZAF vs. CAN: Bei 22.0 Grad und 62.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ZAF vs. CAN: Bei 22.0 Grad und 62.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ZAF vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M076",
@@ -8516,7 +8881,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇷 BRA vs. 🇯🇵 JPN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BRA 65.51/100, JPN 54.51/100. Vorteil: BRA.",
       "weather_body_de": "Brasilien wirkt für diese Wettersituation etwas besser eingeordnet als Japan: Weather Fit 65.51/100 gegen 54.51/100 bei 34.4 Grad und 55.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "BRA vs. JPN: Bei 34.4 Grad und 55.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "BRA vs. JPN: Bei 34.4 Grad und 55.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M074",
@@ -8631,7 +9001,13 @@ window.WM_MVP_DATA = {
       "weather_headline_de": null,
       "weather_teaser_de": null,
       "weather_body_de": null,
-      "weather_social_hook_de": null
+      "weather_social_hook_de": null,
+      "result_resolution": "penalties",
+      "advanced_team_side": "b",
+      "shootout_score_team_a": 3,
+      "shootout_score_team_b": 4,
+      "event_periods": [],
+      "result_resolution_source_note": "AP + Guardian verified on 2026-07-04"
     },
     {
       "match_id": "M075",
@@ -8746,7 +9122,13 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇱 NLD vs. 🇲🇦 MAR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NLD 52.78/100, MAR 54.79/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "NLD vs. MAR: Bei 35.7 Grad und 38.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "NLD vs. MAR: Bei 35.7 Grad und 38.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": "penalties",
+      "advanced_team_side": "b",
+      "shootout_score_team_a": 2,
+      "shootout_score_team_b": 3,
+      "event_periods": [],
+      "result_resolution_source_note": "Guardian verified on 2026-07-04"
     },
     {
       "match_id": "M078",
@@ -8861,7 +9243,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇮 CIV vs. 🇳🇴 NOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CIV 68.35/100, NOR 52.78/100. Vorteil: CIV.",
       "weather_body_de": "Elfenbeinkueste wirkt für diese Wettersituation etwas besser eingeordnet als Norwegen: Weather Fit 68.35/100 gegen 52.78/100 bei 35.4 Grad und 36.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CIV vs. NOR: Bei 35.4 Grad und 36.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CIV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "CIV vs. NOR: Bei 35.4 Grad und 36.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CIV vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M077",
@@ -8976,7 +9363,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇫🇷 FRA vs. 🇸🇪 SWE: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: FRA 52.78/100, SWE 52.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "FRA vs. SWE: Bei 34.0 Grad und 33.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "FRA vs. SWE: Bei 34.0 Grad und 33.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M079",
@@ -9091,7 +9483,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇲🇽 MEX vs. 🇪🇨 ECU: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: MEX 74.23/100, ECU 66.21/100. Vorteil: MEX.",
       "weather_body_de": "Mexiko wirkt für diese Wettersituation etwas besser eingeordnet als Ecuador: Weather Fit 74.23/100 gegen 66.21/100 bei 22.0 Grad und 53.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "MEX vs. ECU: Bei 22.0 Grad und 53.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MEX vorne. Kein Wettmodell."
+      "weather_social_hook_de": "MEX vs. ECU: Bei 22.0 Grad und 53.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich MEX vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M080",
@@ -9206,7 +9603,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇬🇧 ENG vs. 🇨🇩 COD: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ENG 52.78/100, COD 70.74/100. Vorteil: COD.",
       "weather_body_de": "DR Kongo wirkt für diese Wettersituation etwas besser eingeordnet als England: Weather Fit 70.74/100 gegen 52.78/100 bei 35.9 Grad und 42.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ENG vs. COD: Bei 35.9 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ENG vs. COD: Bei 35.9 Grad und 42.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COD vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M082",
@@ -9321,7 +9723,18 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇪 BEL vs. 🇸🇳 SEN: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BEL 70.8/100, SEN 71.62/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "BEL vs. SEN: Bei 19.8 Grad und 53.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "BEL vs. SEN: Bei 19.8 Grad und 53.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": "extra_time",
+      "advanced_team_side": "a",
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ],
+      "result_resolution_source_note": "Guardian + ESPN event data verified on 2026-07-04"
     },
     {
       "match_id": "M081",
@@ -9436,7 +9849,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇸 USA vs. 🇧🇦 BIH: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: USA 65.56/100, BIH 64.02/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "USA vs. BIH: Bei 24.9 Grad und 47.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "USA vs. BIH: Bei 24.9 Grad und 47.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M084",
@@ -9551,7 +9969,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇪🇸 ESP vs. 🇦🇹 AUT: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ESP 74.65/100, AUT 69.52/100. Vorteil: ESP.",
       "weather_body_de": "Spanien wirkt für diese Wettersituation etwas besser eingeordnet als Oesterreich: Weather Fit 74.65/100 gegen 69.52/100 bei 22.1 Grad und 67.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ESP vs. AUT: Bei 22.1 Grad und 67.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ESP vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ESP vs. AUT: Bei 22.1 Grad und 67.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ESP vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M083",
@@ -9666,7 +10089,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇹 PRT vs. 🇭🇷 HRV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRT 58.59/100, HRV 53.8/100. Vorteil: PRT.",
       "weather_body_de": "Portugal wirkt für diese Wettersituation etwas besser eingeordnet als Kroatien: Weather Fit 58.59/100 gegen 53.8/100 bei 31.0 Grad und 62.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "PRT vs. HRV: Bei 31.0 Grad und 62.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRT vorne. Kein Wettmodell."
+      "weather_social_hook_de": "PRT vs. HRV: Bei 31.0 Grad und 62.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRT vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M085",
@@ -9781,7 +10209,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇭 CHE vs. 🇩🇿 DZA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CHE 73.07/100, DZA 69.21/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CHE vs. DZA: Bei 14.5 Grad und 94.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CHE vs. DZA: Bei 14.5 Grad und 94.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M088",
@@ -9896,7 +10329,18 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇺 AUS vs. 🇪🇬 EGY: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: AUS 55.14/100, EGY 56.47/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "AUS vs. EGY: Bei 35.9 Grad und 35.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "AUS vs. EGY: Bei 35.9 Grad und 35.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": "penalties",
+      "advanced_team_side": "b",
+      "shootout_score_team_a": 2,
+      "shootout_score_team_b": 4,
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ],
+      "result_resolution_source_note": "Guardian verified on 2026-07-04"
     },
     {
       "match_id": "M086",
@@ -10011,7 +10455,18 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇦🇷 ARG vs. 🇨🇻 CPV: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: ARG 56.7/100, CPV 72.3/100. Vorteil: CPV.",
       "weather_body_de": "Cabo Verde wirkt für diese Wettersituation etwas besser eingeordnet als Argentinien: Weather Fit 72.3/100 gegen 56.7/100 bei 33.2 Grad und 59.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ARG vs. CPV: Bei 33.2 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell."
+      "weather_social_hook_de": "ARG vs. CPV: Bei 33.2 Grad und 59.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich CPV vorne. Kein Wettmodell.",
+      "result_resolution": "extra_time",
+      "advanced_team_side": "a",
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ],
+      "result_resolution_source_note": "Guardian + ESPN event data verified on 2026-07-04"
     },
     {
       "match_id": "M087",
@@ -10126,7 +10581,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇴 COL vs. 🇬🇭 GHA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: COL 69.42/100, GHA 68.73/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "COL vs. GHA: Bei 35.5 Grad und 35.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "COL vs. GHA: Bei 35.5 Grad und 35.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M090",
@@ -10241,7 +10701,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇨🇦 CAN vs. 🇲🇦 MAR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: CAN 52.49/100, MAR 55.2/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "CAN vs. MAR: Bei 36.0 Grad und 43.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "CAN vs. MAR: Bei 36.0 Grad und 43.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M089",
@@ -10356,7 +10821,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇾 PRY vs. 🇫🇷 FRA: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRY 57.65/100, FRA 52.78/100. Vorteil: PRY.",
       "weather_body_de": "Paraguay wirkt für diese Wettersituation etwas besser eingeordnet als Frankreich: Weather Fit 57.65/100 gegen 52.78/100 bei 38.9 Grad und 26.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "PRY vs. FRA: Bei 38.9 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell."
+      "weather_social_hook_de": "PRY vs. FRA: Bei 38.9 Grad und 26.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich PRY vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M091",
@@ -10471,7 +10941,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇧🇷 BRA vs. 🇳🇴 NOR: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: BRA 79.11/100, NOR 52.78/100. Vorteil: BRA.",
       "weather_body_de": "Brasilien wirkt für diese Wettersituation etwas besser eingeordnet als Norwegen: Weather Fit 79.11/100 gegen 52.78/100 bei 28.9 Grad und 68.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "BRA vs. NOR: Bei 28.9 Grad und 68.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell."
+      "weather_social_hook_de": "BRA vs. NOR: Bei 28.9 Grad und 68.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich BRA vorne. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M092",
@@ -10586,7 +11061,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇲🇽 MEX vs. 🇬🇧 ENG: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: MEX 75.16/100, ENG 71.33/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "MEX vs. ENG: Bei 21.4 Grad und 61.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "MEX vs. ENG: Bei 21.4 Grad und 61.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M093",
@@ -10701,7 +11181,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇹 PRT vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRT 54.29/100, ESP 53.87/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "PRT vs. ESP: Bei 38.6 Grad und 30.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "PRT vs. ESP: Bei 38.6 Grad und 30.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M094",
@@ -10816,7 +11301,12 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇺🇸 USA vs. 🇧🇪 BEL: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: USA 54.23/100, BEL 52.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "USA vs. BEL: Bei 28.0 Grad und 23.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell."
+      "weather_social_hook_de": "USA vs. BEL: Bei 28.0 Grad und 23.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": []
     },
     {
       "match_id": "M095",
@@ -10832,6 +11322,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-07T16:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Atlanta Stadium",
       "host_city": "Atlanta",
@@ -10947,6 +11442,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-07T20:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "BC Place Vancouver",
       "host_city": "Vancouver",
@@ -11062,6 +11562,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-09T20:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Boston Stadium",
       "host_city": "Foxborough",
@@ -11177,6 +11682,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-10T19:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Los Angeles Stadium",
       "host_city": "Inglewood",
@@ -11292,6 +11802,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-11T21:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Miami Stadium",
       "host_city": "Miami Gardens",
@@ -11407,6 +11922,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-12T01:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Kansas City Stadium",
       "host_city": "Kansas City",
@@ -11522,6 +12042,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-14T19:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Dallas Stadium",
       "host_city": "Arlington",
@@ -11637,6 +12162,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-15T19:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Atlanta Stadium",
       "host_city": "Atlanta",
@@ -11752,6 +12282,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-18T21:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "Miami Stadium",
       "host_city": "Miami Gardens",
@@ -11867,6 +12402,11 @@ window.WM_MVP_DATA = {
       "date_utc": "2026-07-19T19:00:00Z",
       "result_team_a": null,
       "result_team_b": null,
+      "result_resolution": null,
+      "advanced_team_side": null,
+      "shootout_score_team_a": null,
+      "shootout_score_team_b": null,
+      "event_periods": [],
       "match_status": "scheduled",
       "stadium_name": "New York New Jersey Stadium",
       "host_city": "East Rutherford",
@@ -13298,6 +13838,9 @@ window.WM_MVP_DATA = {
         "host_city": "Mexico City",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ZAF Edge",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -13316,6 +13859,9 @@ window.WM_MVP_DATA = {
         "host_city": "Guadalajara",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "KOR Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13334,6 +13880,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13352,6 +13901,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "4:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PRY Edge",
         "weather_load_score": 22.0,
         "forecast_available": false,
@@ -13370,6 +13922,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "QAT Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13388,6 +13943,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "BRA Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13406,6 +13964,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "HTI Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13424,6 +13985,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13442,6 +14006,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "7:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CUW Edge",
         "weather_load_score": 49.0,
         "forecast_available": false,
@@ -13460,6 +14027,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "2:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "JPN Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13478,6 +14048,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ECU Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13496,6 +14069,9 @@ window.WM_MVP_DATA = {
         "host_city": "Monterrey",
         "status": "finished",
         "result": "5:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13514,6 +14090,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CPV Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13532,6 +14111,9 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13550,6 +14132,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "SAU Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -13568,6 +14153,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "2:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -13586,6 +14174,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "3:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "SEN Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13604,6 +14195,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "1:4",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "IRQ Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13622,6 +14216,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "finished",
         "result": "3:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13640,6 +14237,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "3:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "JOR Edge",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -13658,6 +14258,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "COD Edge",
         "weather_load_score": 50.0,
         "forecast_available": false,
@@ -13676,6 +14279,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "4:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -13694,6 +14300,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -13712,6 +14321,9 @@ window.WM_MVP_DATA = {
         "host_city": "Mexico City",
         "status": "finished",
         "result": "1:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -13730,6 +14342,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ZAF Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13748,6 +14363,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "4:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -13766,6 +14384,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "6:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "QAT Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13784,6 +14405,9 @@ window.WM_MVP_DATA = {
         "host_city": "Guadalajara",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "MEX Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13802,6 +14426,9 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13820,6 +14447,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "MAR Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13838,6 +14468,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "finished",
         "result": "3:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13856,6 +14489,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PRY Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13874,6 +14510,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "5:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 22.0,
         "forecast_available": false,
@@ -13892,6 +14531,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CIV Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -13910,6 +14552,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ECU Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13928,6 +14573,9 @@ window.WM_MVP_DATA = {
         "host_city": "Monterrey",
         "status": "finished",
         "result": "0:4",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -13946,6 +14594,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "4:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "SAU Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -13964,6 +14615,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "IRN Edge",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -13982,6 +14636,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "finished",
         "result": "2:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CPV Edge",
         "weather_load_score": 49.0,
         "forecast_available": false,
@@ -14000,6 +14657,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "1:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "EGY Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -14018,6 +14678,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ARG Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14036,6 +14699,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "finished",
         "result": "3:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "IRQ Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14054,6 +14720,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "3:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "SEN Edge",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14072,6 +14741,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "1:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14090,6 +14762,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "5:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14108,6 +14783,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "GHA Edge",
         "weather_load_score": 29.0,
         "forecast_available": false,
@@ -14126,6 +14804,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PAN Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -14144,6 +14825,9 @@ window.WM_MVP_DATA = {
         "host_city": "Guadalajara",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14162,6 +14846,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -14180,6 +14867,9 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "finished",
         "result": "3:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "QAT Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -14198,6 +14888,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "finished",
         "result": "0:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "BRA Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14216,6 +14909,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "4:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "HTI Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14234,6 +14930,9 @@ window.WM_MVP_DATA = {
         "host_city": "Mexico City",
         "status": "finished",
         "result": "0:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 21.0,
         "forecast_available": false,
@@ -14252,6 +14951,9 @@ window.WM_MVP_DATA = {
         "host_city": "Monterrey",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 40.0,
         "forecast_available": false,
@@ -14270,6 +14972,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "finished",
         "result": "0:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14288,6 +14993,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ECU Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -14306,6 +15014,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14324,6 +15035,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "finished",
         "result": "1:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "TUN Edge",
         "weather_load_score": 18.0,
         "forecast_available": false,
@@ -14342,6 +15056,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "3:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -14360,6 +15077,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 15.0,
         "forecast_available": false,
@@ -14378,6 +15098,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "1:4",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "FRA Edge",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14396,6 +15119,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "5:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -14414,6 +15140,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CPV Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14432,6 +15161,9 @@ window.WM_MVP_DATA = {
         "host_city": "Guadalajara",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14450,6 +15182,9 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14468,6 +15203,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "1:5",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "NZL Edge",
         "weather_load_score": 21.0,
         "forecast_available": false,
@@ -14486,6 +15224,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "0:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PAN Edge",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -14504,6 +15245,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "GHA Edge",
         "weather_load_score": 21.0,
         "forecast_available": false,
@@ -14522,6 +15266,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "finished",
         "result": "0:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "COL Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14540,6 +15287,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "3:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "COD Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14558,6 +15308,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "finished",
         "result": "3:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "DZA Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14576,6 +15329,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "1:3",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 50.0,
         "forecast_available": false,
@@ -14594,6 +15350,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "0:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ZAF Edge",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14612,6 +15371,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "BRA Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14630,11 +15392,14 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": "penalties",
+        "advanced_team_side": "b",
+        "shootout_result": "3:4",
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "DEU 1:1 PRY. Forecast-Edge: Forecast offen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
+        "note_de": "DEU 1:1 PRY (PRY gewinnt 3:4 i.E.). Forecast-Edge: Forecast offen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M075",
@@ -14648,11 +15413,14 @@ window.WM_MVP_DATA = {
         "host_city": "Monterrey",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": "penalties",
+        "advanced_team_side": "b",
+        "shootout_result": "2:3",
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "NLD 1:1 MAR. Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
+        "note_de": "NLD 1:1 MAR (MAR gewinnt 2:3 i.E.). Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M078",
@@ -14666,6 +15434,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "1:2",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "CIV Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14684,6 +15455,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "finished",
         "result": "3:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": false,
@@ -14702,6 +15476,9 @@ window.WM_MVP_DATA = {
         "host_city": "Mexico City",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "MEX Edge",
         "weather_load_score": 14.0,
         "forecast_available": false,
@@ -14720,6 +15497,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "COD Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14738,11 +15518,14 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "finished",
         "result": "2:2",
+        "result_resolution": "extra_time",
+        "advanced_team_side": "a",
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 0.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "BEL 2:2 SEN. Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
+        "note_de": "BEL 2:2 SEN (BEL gewinnt n.V.). Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M081",
@@ -14756,6 +15539,9 @@ window.WM_MVP_DATA = {
         "host_city": "Santa Clara",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 0.0,
         "forecast_available": false,
@@ -14774,6 +15560,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "finished",
         "result": "3:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "ESP Edge",
         "weather_load_score": 7.0,
         "forecast_available": false,
@@ -14792,6 +15581,9 @@ window.WM_MVP_DATA = {
         "host_city": "Toronto",
         "status": "finished",
         "result": "2:1",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PRT Edge",
         "weather_load_score": 49.0,
         "forecast_available": false,
@@ -14810,6 +15602,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "finished",
         "result": "2:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 36.0,
         "forecast_available": false,
@@ -14828,11 +15623,14 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": "penalties",
+        "advanced_team_side": "b",
+        "shootout_result": "2:4",
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "AUS 1:1 EGY. Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
+        "note_de": "AUS 1:1 EGY (EGY gewinnt 2:4 i.E.). Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M086",
@@ -14846,11 +15644,14 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "finished",
         "result": "1:1",
+        "result_resolution": "extra_time",
+        "advanced_team_side": "a",
+        "shootout_result": null,
         "weather_edge": "CPV Edge",
         "weather_load_score": 42.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "ARG 1:1 CPV. Forecast-Edge: CPV Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
+        "note_de": "ARG 1:1 CPV (ARG gewinnt n.V.). Forecast-Edge: CPV Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M087",
@@ -14864,6 +15665,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "finished",
         "result": "1:0",
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
@@ -14882,6 +15686,9 @@ window.WM_MVP_DATA = {
         "host_city": "Houston",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 52.0,
         "forecast_available": true,
@@ -14900,6 +15707,9 @@ window.WM_MVP_DATA = {
         "host_city": "Philadelphia",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "PRY Edge",
         "weather_load_score": 42.0,
         "forecast_available": true,
@@ -14918,6 +15728,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "BRA Edge",
         "weather_load_score": 32.0,
         "forecast_available": true,
@@ -14936,6 +15749,9 @@ window.WM_MVP_DATA = {
         "host_city": "Mexico City",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 21.0,
         "forecast_available": true,
@@ -14954,6 +15770,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": true,
@@ -14972,6 +15791,9 @@ window.WM_MVP_DATA = {
         "host_city": "Seattle",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 18.0,
         "forecast_available": true,
@@ -14990,6 +15812,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15008,6 +15833,9 @@ window.WM_MVP_DATA = {
         "host_city": "Vancouver",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15026,6 +15854,9 @@ window.WM_MVP_DATA = {
         "host_city": "Foxborough",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15044,6 +15875,9 @@ window.WM_MVP_DATA = {
         "host_city": "Inglewood",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15062,6 +15896,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15080,6 +15917,9 @@ window.WM_MVP_DATA = {
         "host_city": "Kansas City",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15098,6 +15938,9 @@ window.WM_MVP_DATA = {
         "host_city": "Arlington",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15116,6 +15959,9 @@ window.WM_MVP_DATA = {
         "host_city": "Atlanta",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15134,6 +15980,9 @@ window.WM_MVP_DATA = {
         "host_city": "Miami Gardens",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": true,
@@ -15152,6 +16001,9 @@ window.WM_MVP_DATA = {
         "host_city": "East Rutherford",
         "status": "scheduled",
         "result": null,
+        "result_resolution": null,
+        "advanced_team_side": null,
+        "shootout_result": null,
         "weather_edge": "Forecast offen",
         "weather_load_score": null,
         "forecast_available": false,
@@ -19343,7 +20195,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-04T07:47:10",
+      "generated_at": "2026-07-04T08:45:17",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",

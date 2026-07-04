@@ -41,6 +41,44 @@ def _has_result(row: dict[str, Any]) -> bool:
     return row.get("result_team_a") is not None and row.get("result_team_b") is not None
 
 
+def _knockout_resolution_type(row: dict[str, Any]) -> str | None:
+    value = str(row.get("result_resolution") or "").strip().lower()
+    if value in {"regular", "extra_time", "penalties"}:
+        return value
+    return None
+
+
+def _advanced_side(row: dict[str, Any]) -> str | None:
+    value = str(row.get("advanced_team_side") or "").strip().lower()
+    if value in {"a", "b"}:
+        return value
+    return None
+
+
+def _shootout_result_label(row: dict[str, Any]) -> str | None:
+    score_a = row.get("shootout_score_team_a")
+    score_b = row.get("shootout_score_team_b")
+    if score_a is None or score_b is None:
+        return None
+    return f"{score_a}:{score_b}"
+
+
+def _decision_note(row: dict[str, Any]) -> str | None:
+    resolution = _knockout_resolution_type(row)
+    if resolution not in {"extra_time", "penalties"}:
+        return None
+    side = _advanced_side(row)
+    if side is None:
+        return "nach Verlängerung entschieden" if resolution == "extra_time" else "im Elfmeterschießen entschieden"
+    winner = row[f"team_{side}_iso3"]
+    if resolution == "extra_time":
+        return f"{winner} gewinnt n.V."
+    shootout = _shootout_result_label(row)
+    if shootout:
+        return f"{winner} gewinnt {shootout} i.E."
+    return f"{winner} gewinnt i.E."
+
+
 def _normalize_stage_key(value: Any) -> str:
     normalized = str(value or "").strip().lower()
     aliases = {
@@ -133,6 +171,9 @@ def _analysis_note(row: dict[str, Any]) -> str:
     edge = _weather_edge(row)
     if _has_result(row):
         result = f"{row['team_a_iso3']} {row['result_team_a']}:{row['result_team_b']} {row['team_b_iso3']}"
+        decision = _decision_note(row)
+        if decision:
+            result = f"{result} ({decision})"
         return f"{result}. Forecast-Edge: {edge}. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
     if row.get("forecast_temp") is not None:
         return f"Noch nicht gespielt. Forecast-Edge: {edge}; Weather Load {row.get('weather_load_score') or '–'}/100."
@@ -181,6 +222,9 @@ def build_analysis(rows: list[dict[str, Any]]) -> dict[str, Any]:
             "host_city": row.get("host_city"),
             "status": "finished" if _has_result(row) else row.get("match_status") or "scheduled",
             "result": f"{row['result_team_a']}:{row['result_team_b']}" if _has_result(row) else None,
+            "result_resolution": _knockout_resolution_type(row),
+            "advanced_team_side": _advanced_side(row),
+            "shootout_result": _shootout_result_label(row),
             "weather_edge": _weather_edge(row),
             "weather_load_score": row.get("weather_load_score"),
             "forecast_available": row.get("forecast_temp") is not None,
@@ -430,6 +474,43 @@ def _schedule_overlay_rows() -> dict[str, dict[str, str]]:
         return {row["match_id"]: row for row in csv.DictReader(handle)}
 
 
+def _knockout_resolution_override_rows() -> dict[str, dict[str, str]]:
+    candidate = Path("data/knockout_resolution_overrides.csv")
+    if not candidate.exists():
+        return {}
+    with candidate.open(newline="", encoding="utf-8") as handle:
+        return {row["match_id"]: row for row in csv.DictReader(handle)}
+
+
+def _knockout_event_resolution_rows() -> dict[str, dict[str, Any]]:
+    candidate = Path("data/match_events.csv")
+    if not candidate.exists():
+        return {}
+    periods_by_match: dict[str, set[str]] = {}
+    with candidate.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            match_id = row.get("match_id") or ""
+            period = str(row.get("period") or "").strip()
+            if not match_id or not period:
+                continue
+            periods_by_match.setdefault(match_id, set()).add(period)
+    derived: dict[str, dict[str, Any]] = {}
+    for match_id, periods in periods_by_match.items():
+        has_extra_time = bool({"ET1", "ET2"} & periods)
+        has_penalties = "PEN" in periods
+        resolution = None
+        if has_penalties:
+            resolution = "penalties"
+        elif has_extra_time:
+            resolution = "extra_time"
+        if resolution:
+            derived[match_id] = {
+                "result_resolution": resolution,
+                "event_periods": sorted(periods),
+            }
+    return derived
+
+
 def _as_int_or_none(value: Any) -> int | None:
     if value in ("", None):
         return None
@@ -455,6 +536,37 @@ def _apply_schedule_overlay(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             row["calendar_day"] = _as_int_or_none(schedule_row.get("calendar_day"))
         if schedule_row.get("matchday") not in ("", None):
             row["matchday"] = _as_int_or_none(schedule_row.get("matchday"))
+    return rows
+
+
+def _apply_knockout_resolution_overlay(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    event_rows = _knockout_event_resolution_rows()
+    override_rows = _knockout_resolution_override_rows()
+    for row in rows:
+        row.setdefault("result_resolution", None)
+        row.setdefault("advanced_team_side", None)
+        row.setdefault("shootout_score_team_a", None)
+        row.setdefault("shootout_score_team_b", None)
+        row.setdefault("event_periods", [])
+        event_row = event_rows.get(str(row.get("match_id") or ""))
+        if event_row:
+            row["result_resolution"] = event_row.get("result_resolution") or row.get("result_resolution")
+            row["event_periods"] = event_row.get("event_periods") or row.get("event_periods") or []
+        if _has_result(row) and row.get("result_resolution") == "extra_time" and row.get("advanced_team_side") is None:
+            if int(row["result_team_a"]) != int(row["result_team_b"]):
+                row["advanced_team_side"] = "a" if int(row["result_team_a"]) > int(row["result_team_b"]) else "b"
+        override_row = override_rows.get(str(row.get("match_id") or ""))
+        if override_row:
+            row["result_resolution"] = override_row.get("result_resolution") or row.get("result_resolution")
+            row["advanced_team_side"] = override_row.get("advanced_team_side") or row.get("advanced_team_side")
+            row["shootout_score_team_a"] = _as_int_or_none(override_row.get("shootout_score_team_a"))
+            row["shootout_score_team_b"] = _as_int_or_none(override_row.get("shootout_score_team_b"))
+            row["result_resolution_source_note"] = override_row.get("source_note") or None
+        if _has_result(row) and row.get("result_resolution") == "penalties" and row.get("advanced_team_side") is None:
+            shootout_a = row.get("shootout_score_team_a")
+            shootout_b = row.get("shootout_score_team_b")
+            if shootout_a is not None and shootout_b is not None and shootout_a != shootout_b:
+                row["advanced_team_side"] = "a" if int(shootout_a) > int(shootout_b) else "b"
     return rows
 
 
@@ -561,6 +673,11 @@ def _append_missing_schedule_matches(rows: list[dict[str, Any]]) -> list[dict[st
                 "date_utc": schedule_row.get("date_utc") or "",
                 "result_team_a": _as_int_or_none(schedule_row.get("result_team_a")),
                 "result_team_b": _as_int_or_none(schedule_row.get("result_team_b")),
+                "result_resolution": None,
+                "advanced_team_side": None,
+                "shootout_score_team_a": None,
+                "shootout_score_team_b": None,
+                "event_periods": [],
                 "match_status": schedule_row.get("match_status") or "scheduled",
                 "stadium_name": schedule_row.get("stadium_name") or "",
                 "host_city": schedule_row.get("host_city") or "",
@@ -671,7 +788,9 @@ def _offline_payload_from_existing_export(output: str) -> dict[str, Any]:
     output_path = Path(output)
     fallback_path = output_path if output_path.exists() else Path("website/mvp/data.js")
     payload = _read_existing_export_payload(fallback_path)
-    rows = _append_missing_schedule_matches(_apply_schedule_overlay([_clean_row(dict(row)) for row in payload.get("matches", [])]))
+    rows = _apply_knockout_resolution_overlay(
+        _append_missing_schedule_matches(_apply_schedule_overlay([_clean_row(dict(row)) for row in payload.get("matches", [])]))
+    )
     ads = payload.get("ads", [])
     event_stats = load_event_stats_from_csv(rows)
     offline_payload = {
@@ -846,7 +965,7 @@ def export_website_mvp_data(output: str = "website/mvp/data.js") -> dict[str, An
                     )
                 ).mappings()
             ]
-            rows = _append_missing_schedule_matches(_apply_schedule_overlay(rows))
+            rows = _apply_knockout_resolution_overlay(_append_missing_schedule_matches(_apply_schedule_overlay(rows)))
             ads = load_ads(conn, text)
             event_stats = load_event_stats(conn, text, rows)
     except Exception:  # noqa: BLE001

@@ -2090,3 +2090,40 @@ M088,EGY,EGY,Yasser Ibrahim,,yellow_card,120,,ET2,,,Yasser Ibrahim (Egypt) is sh
 M088,EGY,EGY,Mahmoud Saber,Marawan Attia,sub_in,120,1,ET2,,,"Substitution, Egypt. Mahmoud Saber replaces Marwan Attia.",ESPN public summary API,82
 M088,EGY,EGY,Marawan Attia,Mahmoud Saber,sub_out,120,1,ET2,,,"Substitution, Egypt. Mahmoud Saber replaces Marwan Attia.",ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_end,120,3,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M090,MAR,MAR,Redouane Halhal,,yellow_card,20,,1H,,,Redouane Halhal (Morocco) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_end,22,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M090,MAR,MAR,Soufiane Rahimi,Ismael Saibari,sub_in,22,,1H,,,"Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury.",ESPN public summary API,82
+M090,MAR,MAR,Ismael Saibari,Soufiane Rahimi,sub_out,22,,1H,,,"Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury.",ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_start,24,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M090,CAN,CAN,Richie Laryea,,yellow_card,40,,1H,,,Richie Laryea (Canada) is shown the yellow card.,ESPN public summary API,82
+M090,MAR,MAR,Achraf Hakimi,,yellow_card,40,,1H,,,Achraf Hakimi (Morocco) is shown the yellow card.,ESPN public summary API,82
+M090,CAN,CAN,Jonathan David,,yellow_card,43,,1H,,,Jonathan David (Canada) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,MAR,MAR,Azzedine Ounahi,,yellow_card,45,,1H,,,Azzedine Ounahi (Morocco) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,MAR,MAR,Bilal El Khannouss,,yellow_card,45,6,1H,,,Bilal El Khannouss (Morocco) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,CAN,CAN,Luc de Fougerolles,,yellow_card,49,,2H,,,Luc De Fougerolles (Canada) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,MAR,MAR,Azzedine Ounahi,Achraf Hakimi,goal,50,,2H,0,1,"Goal! Canada 0, Morocco 1. Azzedine Ounahi (Morocco) right footed shot from outside the box to the bottom right corner. Assisted by Achraf Hakimi following a set piece situation.",ESPN public summary API,82
+M090,CAN,CAN,Cyle Larin,Tani Oluwaseyi,sub_in,63,,2H,,,"Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi.",ESPN public summary API,82
+M090,MAR,MAR,Chemsdine Talbi,Bilal El Khannouss,sub_in,63,,2H,,,"Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss.",ESPN public summary API,82
+M090,MAR,MAR,Sofyan Amrabat,Ayyoub Bouaddi,sub_in,63,,2H,,,"Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi.",ESPN public summary API,82
+M090,CAN,CAN,Tani Oluwaseyi,Cyle Larin,sub_out,63,,2H,,,"Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi.",ESPN public summary API,82
+M090,MAR,MAR,Ayyoub Bouaddi,Sofyan Amrabat,sub_out,63,,2H,,,"Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi.",ESPN public summary API,82
+M090,MAR,MAR,Bilal El Khannouss,Chemsdine Talbi,sub_out,63,,2H,,,"Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss.",ESPN public summary API,82
+M090,CAN,CAN,Cyle Larin,,yellow_card,67,,2H,,,Cyle Larin (Canada) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M090,CAN,CAN,Jacob Shaffelburg,Richie Laryea,sub_in,78,,2H,,,"Substitution, Canada. Jacob Shaffelburg replaces Richie Laryea.",ESPN public summary API,82
+M090,CAN,CAN,Promise David,Ali Ahmed,sub_in,78,,2H,,,"Substitution, Canada. Promise David replaces Ali Ahmed.",ESPN public summary API,82
+M090,CAN,CAN,Ali Ahmed,Promise David,sub_out,78,,2H,,,"Substitution, Canada. Promise David replaces Ali Ahmed.",ESPN public summary API,82
+M090,CAN,CAN,Richie Laryea,Jacob Shaffelburg,sub_out,78,,2H,,,"Substitution, Canada. Jacob Shaffelburg replaces Richie Laryea.",ESPN public summary API,82
+M090,MAR,MAR,Azzedine Ounahi,Brahim Díaz,goal,82,,2H,0,2,"Goal! Canada 0, Morocco 2. Azzedine Ounahi (Morocco) right footed shot from the centre of the box to the top right corner. Assisted by Brahim Díaz following a fast break.",ESPN public summary API,82
+M090,CAN,CAN,Jayden Nelson,Tajon Buchanan,sub_in,87,,2H,,,"Substitution, Canada. Jayden Nelson replaces Tajon Buchanan.",ESPN public summary API,82
+M090,CAN,CAN,Jonathan Osorio,Niko Sigur,sub_in,87,,2H,,,"Substitution, Canada. Jonathan Osorio replaces Niko Sigur.",ESPN public summary API,82
+M090,MAR,MAR,Marwane Saadane,Issa Diop,sub_in,87,,2H,,,"Substitution, Morocco. Marwane Saadane replaces Issa Diop.",ESPN public summary API,82
+M090,MAR,MAR,Samir El Mourabet,Azzedine Ounahi,sub_in,87,,2H,,,"Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi.",ESPN public summary API,82
+M090,CAN,CAN,Niko Sigur,Jonathan Osorio,sub_out,87,,2H,,,"Substitution, Canada. Jonathan Osorio replaces Niko Sigur.",ESPN public summary API,82
+M090,CAN,CAN,Tajon Buchanan,Jayden Nelson,sub_out,87,,2H,,,"Substitution, Canada. Jayden Nelson replaces Tajon Buchanan.",ESPN public summary API,82
+M090,MAR,MAR,Azzedine Ounahi,Samir El Mourabet,sub_out,87,,2H,,,"Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi.",ESPN public summary API,82
+M090,MAR,MAR,Issa Diop,Marwane Saadane,sub_out,87,,2H,,,"Substitution, Morocco. Marwane Saadane replaces Issa Diop.",ESPN public summary API,82
+M090,MAR,MAR,,,hydration_break_end,89,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M090,MAR,MAR,Soufiane Rahimi,Brahim Díaz,goal,90,8,2H,0,3,"Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break.",ESPN public summary API,82

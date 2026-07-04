@@ -155,25 +155,25 @@ BRA,Vinícius Júnior,Vinícius Júnior,7,LF,,false,ESPN public summary API,82
 BRA,Weverton,Weverton,12,SUB,,false,ESPN public summary API,82
 BRA,Éderson,Éderson,2,SUB,,false,ESPN public summary API,82
 CAN,Alfie Jones,A. Jones,3,SUB,,false,ESPN public summary API,82
-CAN,Ali Ahmed,A. Ahmed,20,SUB,,false,ESPN public summary API,82
+CAN,Ali Ahmed,A. Ahmed,20,LM,,false,ESPN public summary API,82
 CAN,Alistair Johnston,A. Johnston,2,RB,,false,ESPN public summary API,82
 CAN,Alphonso Davies,A. Davies,19,SUB,,false,ESPN public summary API,82
 CAN,Cyle Larin,C. Larin,9,SUB,,false,ESPN public summary API,82
 CAN,Dayne St. Clair,D. St. Clair,1,SUB,,false,ESPN public summary API,82
-CAN,Derek Cornelius,D. Cornelius,13,CD-L,,false,ESPN public summary API,82
+CAN,Derek Cornelius,D. Cornelius,13,SUB,,false,ESPN public summary API,82
 CAN,Ismaël Koné,I. Koné,8,CM-R,,false,ESPN public summary API,82
 CAN,Jacob Shaffelburg,J. Shaffelburg,14,SUB,,false,ESPN public summary API,82
 CAN,Jayden Nelson,J. Nelson,26,SUB,,false,ESPN public summary API,82
 CAN,Joel Waterman,J. Waterman,5,SUB,,false,ESPN public summary API,82
 CAN,Jonathan David,J. David,10,CF-R,,false,ESPN public summary API,82
 CAN,Jonathan Osorio,J. Osorio,21,SUB,,false,ESPN public summary API,82
-CAN,Liam Millar,L. Millar,11,LM,,false,ESPN public summary API,82
-CAN,Luc de Fougerolles,L. de Fougerolles,4,SUB,,false,ESPN public summary API,82
+CAN,Liam Millar,L. Millar,11,SUB,,false,ESPN public summary API,82
+CAN,Luc de Fougerolles,L. de Fougerolles,4,CD-L,,false,ESPN public summary API,82
 CAN,Mathieu Choinière,M. Choinière,6,SUB,,false,ESPN public summary API,82
 CAN,Maxime Crépeau,M. Crépeau,16,G,,false,ESPN public summary API,82
 CAN,Moïse Bombito,M. Bombito,15,CD-R,,false,ESPN public summary API,82
-CAN,Nathan Saliba,N. Saliba,25,CM-R,,false,ESPN public summary API,82
-CAN,Niko Sigur,N. Sigur,23,SUB,,false,ESPN public summary API,82
+CAN,Nathan Saliba,N. Saliba,25,SUB,,false,ESPN public summary API,82
+CAN,Niko Sigur,N. Sigur,23,CM-R,,false,ESPN public summary API,82
 CAN,Owen Goodman,O. Goodman,18,SUB,,false,ESPN public summary API,82
 CAN,Promise David,P. David,24,SUB,,false,ESPN public summary API,82
 CAN,Richie Laryea,R. Laryea,22,LB,,false,ESPN public summary API,82
@@ -703,25 +703,25 @@ KOR,Yang Hyun-Jun,Y. Hyun-Jun,20,SUB,,false,ESPN public summary API,82
 MAR,Achraf Hakimi,A. Hakimi,2,RB,,false,ESPN public summary API,82
 MAR,Ahmed Reda Tagnaouti,A. Tagnaouti,22,SUB,,false,ESPN public summary API,82
 MAR,Amine Sbaï,A. Sbaï,17,SUB,,false,ESPN public summary API,82
-MAR,Anass Salah-Eddine,A. Salah-Eddine,26,LB,,false,ESPN public summary API,82
-MAR,Ayoub El Kaabi,A. El Kaabi,20,F,,false,ESPN public summary API,82
+MAR,Anass Salah-Eddine,A. Salah-Eddine,26,SUB,,false,ESPN public summary API,82
+MAR,Ayoub El Kaabi,A. El Kaabi,20,SUB,,false,ESPN public summary API,82
 MAR,Ayoube Amaimouni,A. Amaimouni,21,SUB,,false,ESPN public summary API,82
-MAR,Ayyoub Bouaddi,A. Bouaddi,6,SUB,,false,ESPN public summary API,82
-MAR,Azzedine Ounahi,A. Ounahi,8,SUB,,false,ESPN public summary API,82
+MAR,Ayyoub Bouaddi,A. Bouaddi,6,RM,,false,ESPN public summary API,82
+MAR,Azzedine Ounahi,A. Ounahi,8,AM,,false,ESPN public summary API,82
 MAR,Bilal El Khannouss,B. El Khannouss,23,AM-L,,false,ESPN public summary API,82
 MAR,Brahim Díaz,B. Díaz,10,AM-R,,false,ESPN public summary API,82
-MAR,Chadi Riad,C. Riad,18,CD-L,,false,ESPN public summary API,82
+MAR,Chadi Riad,C. Riad,18,SUB,,false,ESPN public summary API,82
 MAR,Chemsdine Talbi,C. Talbi,7,SUB,,false,ESPN public summary API,82
 MAR,Gessime Yassine,G. Yassine,16,SUB,,false,ESPN public summary API,82
-MAR,Ismael Saibari,I. Saibari,11,AM,,false,ESPN public summary API,82
-MAR,Issa Diop,I. Diop,14,SUB,,false,ESPN public summary API,82
+MAR,Ismael Saibari,I. Saibari,11,F,,false,ESPN public summary API,82
+MAR,Issa Diop,I. Diop,14,CD-R,,false,ESPN public summary API,82
 MAR,Marwane Saadane,M. Saadane,5,SUB,,false,ESPN public summary API,82
 MAR,Munir El Kajoui,M. El Kajoui,12,SUB,,false,ESPN public summary API,82
-MAR,Neil El Aynaoui,N. El Aynaoui,24,RM,,false,ESPN public summary API,82
-MAR,Noussair Mazraoui,N. Mazraoui,3,SUB,,false,ESPN public summary API,82
-MAR,Redouane Halhal,R. Halhal,25,CD-R,,false,ESPN public summary API,82
+MAR,Neil El Aynaoui,N. El Aynaoui,24,LM,,false,ESPN public summary API,82
+MAR,Noussair Mazraoui,N. Mazraoui,3,LB,,false,ESPN public summary API,82
+MAR,Redouane Halhal,R. Halhal,25,CD-L,,false,ESPN public summary API,82
 MAR,Samir El Mourabet,S. El Mourabet,15,SUB,,false,ESPN public summary API,82
-MAR,Sofyan Amrabat,S. Amrabat,4,LM,,false,ESPN public summary API,82
+MAR,Sofyan Amrabat,S. Amrabat,4,SUB,,false,ESPN public summary API,82
 MAR,Soufiane Rahimi,S. Rahimi,9,SUB,,false,ESPN public summary API,82
 MAR,Yassine Bounou,Y. Bounou,1,G,,false,ESPN public summary API,82
 MAR,Youssef Belammari,Y. Belammari,19,SUB,,false,ESPN public summary API,82

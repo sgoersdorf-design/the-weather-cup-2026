@@ -2149,3 +2149,27 @@ M090,MAR,MAR,Azzedine Ounahi,Samir El Mourabet,sub_out,87,,2H,,,"Substitution, M
 M090,MAR,MAR,Issa Diop,Marwane Saadane,sub_out,87,,2H,,,"Substitution, Morocco. Marwane Saadane replaces Issa Diop.",ESPN public summary API,82
 M090,MAR,MAR,,,hydration_break_end,89,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M090,MAR,MAR,Soufiane Rahimi,Brahim Díaz,goal,90,8,2H,0,3,"Goal! Canada 0, Morocco 3. Soufiane Rahimi (Morocco) left footed shot from the centre of the box to the bottom right corner. Assisted by Brahim Díaz following a fast break.",ESPN public summary API,82
+M091,NOR,NOR,,,hydration_break_start,27,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M091,NOR,NOR,,,hydration_break_end,29,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M091,NOR,NOR,Andreas Schjelderup,Antonio Nusa,sub_in,45,,2H,,,"Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa.",ESPN public summary API,82
+M091,NOR,NOR,Oscar Bobb,Alexander Sørloth,sub_in,45,,2H,,,"Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",ESPN public summary API,82
+M091,NOR,NOR,Alexander Sørloth,Oscar Bobb,sub_out,45,,2H,,,"Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",ESPN public summary API,82
+M091,NOR,NOR,Antonio Nusa,Andreas Schjelderup,sub_out,45,,2H,,,"Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa.",ESPN public summary API,82
+M091,BRA,BRA,Endrick,Matheus Cunha,sub_in,58,,2H,,,"Substitution, Brazil. Endrick replaces Matheus Cunha.",ESPN public summary API,82
+M091,BRA,BRA,Matheus Cunha,Endrick,sub_out,58,,2H,,,"Substitution, Brazil. Endrick replaces Matheus Cunha.",ESPN public summary API,82
+M091,NOR,NOR,Fredrik Aursnes,Julian Ryerson,sub_in,63,,2H,,,"Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson.",ESPN public summary API,82
+M091,NOR,NOR,Julian Ryerson,Fredrik Aursnes,sub_out,63,,2H,,,"Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson.",ESPN public summary API,82
+M091,BRA,BRA,Danilo Santos,Rayan,sub_in,67,,2H,,,"Substitution, Brazil. Danilo Santos replaces Rayan.",ESPN public summary API,82
+M091,BRA,BRA,Neymar,Gabriel Martinelli,sub_in,67,,2H,,,"Substitution, Brazil. Neymar replaces Gabriel Martinelli.",ESPN public summary API,82
+M091,BRA,BRA,Gabriel Martinelli,Neymar,sub_out,67,,2H,,,"Substitution, Brazil. Neymar replaces Gabriel Martinelli.",ESPN public summary API,82
+M091,BRA,BRA,Rayan,Danilo Santos,sub_out,67,,2H,,,"Substitution, Brazil. Danilo Santos replaces Rayan.",ESPN public summary API,82
+M091,NOR,NOR,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M091,NOR,NOR,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M091,NOR,NOR,Erling Haaland,Andreas Schjelderup,goal,79,,2H,0,1,"Goal! Brazil 0, Norway 1. Erling Haaland (Norway) header from the centre of the box to the bottom right corner. Assisted by Andreas Schjelderup with a cross.",ESPN public summary API,82
+M091,BRA,BRA,Éderson,Bruno Guimarães,sub_in,79,,2H,,,"Substitution, Brazil. Éderson Silva replaces Bruno Guimarães.",ESPN public summary API,82
+M091,BRA,BRA,Bruno Guimarães,Éderson,sub_out,79,,2H,,,"Substitution, Brazil. Éderson Silva replaces Bruno Guimarães.",ESPN public summary API,82
+M091,NOR,NOR,Erling Haaland,Andreas Schjelderup,goal,90,,2H,0,2,"Goal! Brazil 0, Norway 2. Erling Haaland (Norway) left footed shot from outside the box to the bottom right corner. Assisted by Andreas Schjelderup.",ESPN public summary API,82
+M091,NOR,NOR,Leo Østigard,David Møller Wolfe,sub_in,90,5,2H,,,"Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury.",ESPN public summary API,82
+M091,NOR,NOR,David Møller Wolfe,Leo Østigard,sub_out,90,5,2H,,,"Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury.",ESPN public summary API,82
+M091,BRA,BRA,Neymar,,yellow_card,90,6,2H,,,Neymar (Brazil) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M091,BRA,BRA,Neymar,,goal,90,10,2H,1,2,"Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner.",ESPN public summary API,82

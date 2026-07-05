@@ -3581,3 +3581,53 @@ M090,MAR,Sofyan Amrabat,bench,4,SUB,0,63,,,false,false,ESPN public summary API,8
 M090,MAR,Soufiane Rahimi,bench,9,SUB,0,22,,,false,false,ESPN public summary API,82
 M090,MAR,Youssef Belammari,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
 M090,MAR,Zakaria El Ouahdi,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Alisson Becker,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M091,BRA,Bruno Guimarães,starter,8,CM-R,4,0,79,,false,false,ESPN public summary API,82
+M091,BRA,Casemiro,starter,5,CM-L,8,0,,,false,false,ESPN public summary API,82
+M091,BRA,Danilo,starter,13,RB,2,0,,,false,false,ESPN public summary API,82
+M091,BRA,Douglas Santos,starter,16,LB,3,0,,,false,false,ESPN public summary API,82
+M091,BRA,Gabriel Magalhães,starter,3,CD-L,6,0,,,false,false,ESPN public summary API,82
+M091,BRA,Gabriel Martinelli,starter,22,LM,11,0,67,,false,false,ESPN public summary API,82
+M091,BRA,Marquinhos,starter,4,CD-R,5,0,,,false,false,ESPN public summary API,82
+M091,BRA,Matheus Cunha,starter,9,CF-R,10,0,58,,false,false,ESPN public summary API,82
+M091,BRA,Rayan,starter,26,RM,7,0,67,,false,false,ESPN public summary API,82
+M091,BRA,Vinícius Júnior,starter,7,CF-L,9,0,,,false,false,ESPN public summary API,82
+M091,BRA,Alex Sandro,unused,6,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Bremer,unused,14,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Danilo Santos,bench,18,SUB,0,67,,,false,false,ESPN public summary API,82
+M091,BRA,Ederson,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Endrick,bench,19,SUB,0,58,,,false,false,ESPN public summary API,82
+M091,BRA,Fabinho,unused,17,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Igor Thiago,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Luiz Henrique,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Léo Pereira,unused,15,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Neymar,bench,10,SUB,0,67,,,false,false,ESPN public summary API,82
+M091,BRA,Raphinha,unused,11,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Roger Ibañez,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Weverton,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M091,BRA,Éderson,bench,2,SUB,0,79,,,false,false,ESPN public summary API,82
+M091,NOR,Alexander Sørloth,starter,7,RF,10,0,45,,false,false,ESPN public summary API,82
+M091,NOR,Antonio Nusa,starter,20,LF,11,0,45,,false,false,ESPN public summary API,82
+M091,NOR,David Møller Wolfe,starter,5,LB,3,0,90,,false,false,ESPN public summary API,82
+M091,NOR,Erling Haaland,starter,9,F,9,0,,,false,false,ESPN public summary API,82
+M091,NOR,Julian Ryerson,starter,26,RB,2,0,63,,false,false,ESPN public summary API,82
+M091,NOR,Kristoffer Ajer,starter,3,CD-R,5,0,,,false,false,ESPN public summary API,82
+M091,NOR,Martin Ødegaard,starter,10,RM,7,0,,,false,false,ESPN public summary API,82
+M091,NOR,Patrick Berg,starter,6,LM,8,0,,,false,false,ESPN public summary API,82
+M091,NOR,Sander Berge,starter,8,CM,4,0,,,false,false,ESPN public summary API,82
+M091,NOR,Torbjørn Heggem,starter,17,CD-L,6,0,,,false,false,ESPN public summary API,82
+M091,NOR,Ørjan Nyland,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M091,NOR,Andreas Schjelderup,bench,21,SUB,0,45,,,false,false,ESPN public summary API,82
+M091,NOR,Egil Selvik,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Fredrik André Bjørkan,unused,15,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Fredrik Aursnes,bench,14,SUB,0,63,,,false,false,ESPN public summary API,82
+M091,NOR,Henrik Falchener,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Jens Petter Hauge,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Jørgen Strand Larsen,unused,11,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Kristian Thorstvedt,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Leo Østigard,bench,4,SUB,0,90,,,false,false,ESPN public summary API,82
+M091,NOR,Morten Thorsby,unused,2,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Oscar Bobb,bench,22,SUB,0,45,,,false,false,ESPN public summary API,82
+M091,NOR,Sander Tangvik,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Sondre Langas,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
+M091,NOR,Thelo Aasgaard,unused,19,SUB,0,,,,false,false,ESPN public summary API,82

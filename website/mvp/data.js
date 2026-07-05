@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-06T00:09:00",
+    "exported_at": "2026-07-06T01:03:53",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -10840,9 +10840,9 @@ window.WM_MVP_DATA = {
       "local_time": "16:00",
       "local_timezone": "America/New_York",
       "date_utc": "2026-07-05T20:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 1,
+      "result_team_b": 2,
+      "match_status": "finished",
       "stadium_name": "New York New Jersey Stadium",
       "host_city": "East Rutherford",
       "host_country": "United States",
@@ -11118,7 +11118,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 8.6,
       "forecast_precipitation_probability": 5.0,
       "forecast_heat_index": 38.3,
-      "forecast_last_updated": "2026-07-05T22:05:53.198223+00:00",
+      "forecast_last_updated": "2026-07-05T23:00:48.236556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11238,7 +11238,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 13.3,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 26.3,
-      "forecast_last_updated": "2026-07-05T22:05:53.198223+00:00",
+      "forecast_last_updated": "2026-07-05T23:00:48.236556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11358,7 +11358,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 17.8,
       "forecast_precipitation_probability": 26.0,
       "forecast_heat_index": 36.0,
-      "forecast_last_updated": "2026-07-05T22:05:53.198223+00:00",
+      "forecast_last_updated": "2026-07-05T23:00:48.236556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11478,7 +11478,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 8.9,
       "forecast_precipitation_probability": 2.0,
       "forecast_heat_index": 20.9,
-      "forecast_last_updated": "2026-07-05T22:05:53.198223+00:00",
+      "forecast_last_updated": "2026-07-05T23:00:48.236556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11598,7 +11598,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 23.5,
       "forecast_precipitation_probability": 5.0,
       "forecast_heat_index": 31.63,
-      "forecast_last_updated": "2026-07-05T22:05:53.198223+00:00",
+      "forecast_last_updated": "2026-07-05T23:00:48.236556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -13173,6 +13173,19 @@ window.WM_MVP_DATA = {
         "points": 6
       },
       {
+        "iso3": "NOR",
+        "name_de": "Norwegen",
+        "flag": "🇳🇴",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 4,
+        "goals_against": 2,
+        "goal_difference": 2,
+        "points": 6
+      },
+      {
         "iso3": "MAR",
         "name_de": "Marokko",
         "flag": "🇲🇦",
@@ -13238,35 +13251,9 @@ window.WM_MVP_DATA = {
         "points": 3
       },
       {
-        "iso3": "BRA",
-        "name_de": "Brasilien",
-        "flag": "🇧🇷",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 2,
-        "goals_against": 1,
-        "goal_difference": 1,
-        "points": 3
-      },
-      {
         "iso3": "ENG",
         "name_de": "England",
         "flag": "🇬🇧",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 2,
-        "goals_against": 1,
-        "goal_difference": 1,
-        "points": 3
-      },
-      {
-        "iso3": "NOR",
-        "name_de": "Norwegen",
-        "flag": "🇳🇴",
         "played": 1,
         "wins": 1,
         "draws": 0,
@@ -13300,6 +13287,19 @@ window.WM_MVP_DATA = {
         "goals_for": 1,
         "goals_against": 0,
         "goal_difference": 1,
+        "points": 3
+      },
+      {
+        "iso3": "BRA",
+        "name_de": "Brasilien",
+        "flag": "🇧🇷",
+        "played": 2,
+        "wins": 1,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 3,
+        "goals_against": 3,
+        "goal_difference": 0,
         "points": 3
       },
       {
@@ -15661,8 +15661,8 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "BRA vs. NOR",
         "host_city": "East Rutherford",
-        "status": "scheduled",
-        "result": null,
+        "status": "finished",
+        "result": "1:2",
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
@@ -15670,7 +15670,7 @@ window.WM_MVP_DATA = {
         "weather_load_score": 32.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
+        "note_de": "BRA 1:2 NOR. Forecast-Edge: BRA Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M092",
@@ -15949,7 +15949,7 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 90,
+        "finished": 91,
         "forecast_matches": 12,
         "actual_weather_matches": 0,
         "weather_fit_matches": 96,
@@ -15991,7 +15991,7 @@ window.WM_MVP_DATA = {
       },
       "round_of_16": {
         "matches": 8,
-        "finished": 2,
+        "finished": 3,
         "forecast_matches": 4,
         "actual_weather_matches": 0,
         "weather_fit_matches": 8,
@@ -16032,7 +16032,7 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 90,
+      "finished": 91,
       "forecast_matches": 12,
       "actual_weather_matches": 0,
       "weather_fit_matches": 96,
@@ -16044,13 +16044,13 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 90,
+      "finished_matches": 91,
       "matches_with_goal_events": 40,
       "matches_with_complete_lineups": 43,
       "matches_with_substitutions": 43,
       "matches_with_hydration_markers": 43,
       "last_event_update": "2026-06-25T05:05:00.945473+00:00",
-      "goal_event_coverage_share": 0.444
+      "goal_event_coverage_share": 0.44
     },
     "goal_rows": 124,
     "goals_by_15min_bucket": [
@@ -20130,7 +20130,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-06T00:09:00",
+      "generated_at": "2026-07-06T01:03:53",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -20162,11 +20162,11 @@ window.WM_MVP_DATA = {
         "last_event_update": "2026-06-25T05:05:00.945473+00:00"
       },
       "knockout_readiness": {
-        "upcoming_matches": 14,
+        "upcoming_matches": 13,
         "forecast_matches": 12,
-        "weather_fit_matches": 7,
-        "forecast_share": 0.857,
-        "weather_fit_share": 0.5
+        "weather_fit_matches": 6,
+        "forecast_share": 0.923,
+        "weather_fit_share": 0.462
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

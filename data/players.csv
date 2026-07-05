@@ -131,8 +131,8 @@ BIH,Tarik Muharemovic,T. Muharemovic,4,CD,,false,ESPN public summary API,82
 BRA,Alex Sandro,Alex Sandro,6,SUB,,false,ESPN public summary API,82
 BRA,Alisson Becker,A. Becker,1,G,,false,ESPN public summary API,82
 BRA,Bremer,Bremer,14,SUB,,false,ESPN public summary API,82
-BRA,Bruno Guimarães,B. Guimarães,8,RM,,false,ESPN public summary API,82
-BRA,Casemiro,Casemiro,5,CM,,false,ESPN public summary API,82
+BRA,Bruno Guimarães,B. Guimarães,8,CM-R,,false,ESPN public summary API,82
+BRA,Casemiro,Casemiro,5,CM-L,,false,ESPN public summary API,82
 BRA,Danilo,Danilo,13,RB,,false,ESPN public summary API,82
 BRA,Danilo Santos,D. Santos,18,SUB,,false,ESPN public summary API,82
 BRA,Douglas Santos,D. Santos,16,LB,,false,ESPN public summary API,82
@@ -140,18 +140,18 @@ BRA,Ederson,Ederson,23,SUB,,false,ESPN public summary API,82
 BRA,Endrick,Endrick,19,SUB,,false,ESPN public summary API,82
 BRA,Fabinho,Fabinho,17,SUB,,false,ESPN public summary API,82
 BRA,Gabriel Magalhães,G. Magalhães,3,CD-L,,false,ESPN public summary API,82
-BRA,Gabriel Martinelli,G. Martinelli,22,SUB,,false,ESPN public summary API,82
+BRA,Gabriel Martinelli,G. Martinelli,22,LM,,false,ESPN public summary API,82
 BRA,Igor Thiago,I. Thiago,25,SUB,,false,ESPN public summary API,82
 BRA,Lucas Paquetá,L. Paquetá,20,LM,,false,ESPN public summary API,82
 BRA,Luiz Henrique,L. Henrique,21,SUB,,false,ESPN public summary API,82
 BRA,Léo Pereira,L. Pereira,15,SUB,,false,ESPN public summary API,82
 BRA,Marquinhos,Marquinhos,4,CD-R,,false,ESPN public summary API,82
-BRA,Matheus Cunha,M. Cunha,9,F,,false,ESPN public summary API,82
+BRA,Matheus Cunha,M. Cunha,9,CF-R,,false,ESPN public summary API,82
 BRA,Neymar,Neymar,10,SUB,,false,ESPN public summary API,82
-BRA,Raphinha,Raphinha,11,RF,,false,ESPN public summary API,82
-BRA,Rayan,Rayan,26,RF,,false,ESPN public summary API,82
+BRA,Raphinha,Raphinha,11,SUB,,false,ESPN public summary API,82
+BRA,Rayan,Rayan,26,RM,,false,ESPN public summary API,82
 BRA,Roger Ibañez,R. Ibañez,24,SUB,,false,ESPN public summary API,82
-BRA,Vinícius Júnior,Vinícius Júnior,7,LF,,false,ESPN public summary API,82
+BRA,Vinícius Júnior,Vinícius Júnior,7,CF-L,,false,ESPN public summary API,82
 BRA,Weverton,Weverton,12,SUB,,false,ESPN public summary API,82
 BRA,Éderson,Éderson,2,SUB,,false,ESPN public summary API,82
 CAN,Alfie Jones,A. Jones,3,SUB,,false,ESPN public summary API,82
@@ -762,7 +762,7 @@ NOR,Fredrik André Bjørkan,F. Bjørkan,15,SUB,,false,ESPN public summary API,82
 NOR,Fredrik Aursnes,F. Aursnes,14,SUB,,false,ESPN public summary API,82
 NOR,Henrik Falchener,H. Falchener,25,SUB,,false,ESPN public summary API,82
 NOR,Jens Petter Hauge,J. Hauge,23,SUB,,false,ESPN public summary API,82
-NOR,Julian Ryerson,J. Ryerson,26,SUB,,false,ESPN public summary API,82
+NOR,Julian Ryerson,J. Ryerson,26,RB,,false,ESPN public summary API,82
 NOR,Jørgen Strand Larsen,J. Larsen,11,SUB,,false,ESPN public summary API,82
 NOR,Kristian Thorstvedt,K. Thorstvedt,18,SUB,,false,ESPN public summary API,82
 NOR,Kristoffer Ajer,K. Ajer,3,CD-R,,false,ESPN public summary API,82

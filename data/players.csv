@@ -467,7 +467,7 @@ ESP,Víctor Muñoz,V. Muñoz,25,SUB,,false,ESPN public summary API,82
 ESP,Yéremy Pino,Y. Pino,11,SUB,,false,ESPN public summary API,82
 ESP,Álex Baena,Á. Baena,15,AM-L,,false,ESPN public summary API,82
 FRA,Adrien Rabiot,A. Rabiot,14,LM,,false,ESPN public summary API,82
-FRA,Aurélien Tchouaméni,A. Tchouaméni,8,RM,,false,ESPN public summary API,82
+FRA,Aurélien Tchouaméni,A. Tchouaméni,8,SUB,,false,ESPN public summary API,82
 FRA,Bradley Barcola,B. Barcola,12,AM-L,,false,ESPN public summary API,82
 FRA,Brice Samba,B. Samba,1,SUB,,false,ESPN public summary API,82
 FRA,Dayot Upamecano,D. Upamecano,4,CD-R,,false,ESPN public summary API,82
@@ -480,7 +480,7 @@ FRA,Lucas Digne,L. Digne,3,LB,,false,ESPN public summary API,82
 FRA,Lucas Hernández,L. Hernández,21,SUB,,false,ESPN public summary API,82
 FRA,Maghnes Akliouche,M. Akliouche,25,SUB,,false,ESPN public summary API,82
 FRA,Malo Gusto,M. Gusto,2,SUB,,false,ESPN public summary API,82
-FRA,Manu Koné,M. Koné,6,SUB,,false,ESPN public summary API,82
+FRA,Manu Koné,M. Koné,6,RM,,false,ESPN public summary API,82
 FRA,Marcus Thuram,M. Thuram,9,SUB,,false,ESPN public summary API,82
 FRA,Maxence Lacroix,M. Lacroix,26,SUB,,false,ESPN public summary API,82
 FRA,Michael Olise,M. Olise,11,AM,,false,ESPN public summary API,82
@@ -832,14 +832,14 @@ PAN,Édgar Yoel Bárcenas,É. Bárcenas,11,CM-L,,false,ESPN public summary API,8
 PAN,Éric Davis,É. Davis,15,SUB,,false,ESPN public summary API,82
 PRY,Alejandro Romero Gamarra,A. Romero Gamarra,17,SUB,,false,ESPN public summary API,82
 PRY,Alex Arce,A. Arce,18,SUB,,false,ESPN public summary API,82
-PRY,Alexandro Maidana,A. Maidana,26,LB,,false,ESPN public summary API,82
-PRY,Andrés Cubas,A. Cubas,14,CM,,false,ESPN public summary API,82
+PRY,Alexandro Maidana,A. Maidana,26,SUB,,false,ESPN public summary API,82
+PRY,Andrés Cubas,A. Cubas,14,CM-L,,false,ESPN public summary API,82
 PRY,Antonio Sanabria,A. Sanabria,9,SUB,,false,ESPN public summary API,82
 PRY,Braian Ojeda,B. Ojeda,20,SUB,,false,ESPN public summary API,82
 PRY,Damián Bobadilla,D. Bobadilla,16,SUB,,false,ESPN public summary API,82
 PRY,Diego Gómez,D. Gómez,8,CM-R,,false,ESPN public summary API,82
 PRY,Fabián Balbuena,F. Balbuena,5,SUB,,false,ESPN public summary API,82
-PRY,Gabriel Ávalos,G. Ávalos,21,CF-R,,false,ESPN public summary API,82
+PRY,Gabriel Ávalos,G. Ávalos,21,SUB,,false,ESPN public summary API,82
 PRY,Gastón Olveira,G. Olveira,22,SUB,,false,ESPN public summary API,82
 PRY,Gatito Fernández,G. Fernández,1,SUB,,false,ESPN public summary API,82
 PRY,Gustavo Caballero,G. Caballero,24,SUB,,false,ESPN public summary API,82
@@ -848,11 +848,11 @@ PRY,Gustavo Velázquez,G. Velázquez,2,CD-R,,false,ESPN public summary API,82
 PRY,Isidro Pitta,I. Pitta,25,SUB,,false,ESPN public summary API,82
 PRY,José Canale,J. Canale,13,SUB,,false,ESPN public summary API,82
 PRY,Juan Jose Cáceres,J. Cáceres,4,RB,,false,ESPN public summary API,82
-PRY,Julio Enciso,J. Enciso,19,CF-L,,false,ESPN public summary API,82
-PRY,Júnior Alonso,J. Alonso,6,SUB,,false,ESPN public summary API,82
-PRY,Matías Galarza,M. Galarza,23,CM-L,,false,ESPN public summary API,82
+PRY,Julio Enciso,J. Enciso,19,F,,false,ESPN public summary API,82
+PRY,Júnior Alonso,J. Alonso,6,LB,,false,ESPN public summary API,82
+PRY,Matías Galarza,M. Galarza,23,LM,,false,ESPN public summary API,82
 PRY,Maurício,Maurício,11,SUB,,false,ESPN public summary API,82
-PRY,Miguel Almirón,M. Almirón,10,LM,,false,ESPN public summary API,82
+PRY,Miguel Almirón,M. Almirón,10,RM,,false,ESPN public summary API,82
 PRY,Omar Alderete,O. Alderete,3,CD-L,,false,ESPN public summary API,82
 PRY,Orlando Gill,O. Gill,12,G,,false,ESPN public summary API,82
 PRY,Ramón Sosa,R. Sosa,7,SUB,,false,ESPN public summary API,82

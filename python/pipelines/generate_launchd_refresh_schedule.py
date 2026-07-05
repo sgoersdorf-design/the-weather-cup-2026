@@ -1,4 +1,4 @@
-"""Generate a launchd plist with daily and post-match WM refresh triggers."""
+"""Generate a launchd plist with recurring and post-match WM refresh triggers."""
 
 from __future__ import annotations
 
@@ -18,6 +18,8 @@ DEFAULT_OUTPUT = DEFAULT_PROJECT_DIR / "automation/com.wmprojekt.refresh-mvp.pli
 DEFAULT_LOG_DIR = Path("/Users/steffengorsdorf/Library/Logs/wm-projekt")
 DEFAULT_TIMEZONE = "Europe/Berlin"
 JOB_LABEL = "com.wmprojekt.refresh-mvp"
+DEFAULT_HEARTBEAT_INTERVAL_HOURS = 2
+DEFAULT_HEARTBEAT_MINUTE = 5
 
 POST_MATCH_BUFFER_MINUTES = {
     "group_stage": 135,
@@ -66,9 +68,25 @@ def _post_match_trigger(row: dict[str, str], timezone: ZoneInfo) -> Trigger | No
     return Trigger(month=scheduled.month, day=scheduled.day, hour=scheduled.hour, minute=scheduled.minute)
 
 
-def build_triggers(schedule_rows: list[dict[str, str]], timezone_name: str = DEFAULT_TIMEZONE) -> list[Trigger]:
+def _recurring_triggers(interval_hours: int, minute: int) -> set[Trigger]:
+    if interval_hours <= 0 or 24 % interval_hours != 0:
+        raise ValueError("interval_hours must be a positive divisor of 24")
+    if minute < 0 or minute > 59:
+        raise ValueError("minute must be between 0 and 59")
+    return {
+        Trigger(month=None, day=None, hour=hour, minute=minute)
+        for hour in range(0, 24, interval_hours)
+    }
+
+
+def build_triggers(
+    schedule_rows: list[dict[str, str]],
+    timezone_name: str = DEFAULT_TIMEZONE,
+    interval_hours: int = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
+    minute: int = DEFAULT_HEARTBEAT_MINUTE,
+) -> list[Trigger]:
     timezone = ZoneInfo(timezone_name)
-    triggers = {Trigger(month=None, day=None, hour=6, minute=0)}
+    triggers = _recurring_triggers(interval_hours=interval_hours, minute=minute)
     for row in schedule_rows:
         trigger = _post_match_trigger(row, timezone)
         if trigger is not None:
@@ -81,8 +99,15 @@ def build_launchd_plist(
     project_dir: Path = DEFAULT_PROJECT_DIR,
     log_dir: Path = DEFAULT_LOG_DIR,
     timezone_name: str = DEFAULT_TIMEZONE,
+    interval_hours: int = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
+    minute: int = DEFAULT_HEARTBEAT_MINUTE,
 ) -> dict[str, object]:
-    triggers = build_triggers(schedule_rows, timezone_name=timezone_name)
+    triggers = build_triggers(
+        schedule_rows,
+        timezone_name=timezone_name,
+        interval_hours=interval_hours,
+        minute=minute,
+    )
     project_dir_str = str(project_dir)
     log_dir_str = str(log_dir)
     return {
@@ -113,6 +138,8 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--project-dir", default=str(DEFAULT_PROJECT_DIR))
     parser.add_argument("--log-dir", default=str(DEFAULT_LOG_DIR))
     parser.add_argument("--timezone", default=DEFAULT_TIMEZONE)
+    parser.add_argument("--interval-hours", type=int, default=DEFAULT_HEARTBEAT_INTERVAL_HOURS)
+    parser.add_argument("--minute", type=int, default=DEFAULT_HEARTBEAT_MINUTE)
     args = parser.parse_args(argv)
 
     schedule_path = Path(args.schedule)
@@ -121,19 +148,34 @@ def main(argv: list[str] | None = None) -> int:
     log_dir = Path(args.log_dir)
 
     rows = _read_schedule(schedule_path)
-    payload = build_launchd_plist(rows, project_dir=project_dir, log_dir=log_dir, timezone_name=args.timezone)
+    payload = build_launchd_plist(
+        rows,
+        project_dir=project_dir,
+        log_dir=log_dir,
+        timezone_name=args.timezone,
+        interval_hours=args.interval_hours,
+        minute=args.minute,
+    )
     log_dir.mkdir(parents=True, exist_ok=True)
     write_plist(output_path, payload)
 
     triggers = payload["StartCalendarInterval"]
+    recurring_triggers = [
+        trigger for trigger in triggers if "Month" not in trigger and "Day" not in trigger
+    ]
+    match_triggers = [
+        trigger for trigger in triggers if "Month" in trigger and "Day" in trigger
+    ]
     print(
         {
             "output": str(output_path),
             "project_dir": str(project_dir),
             "trigger_count": len(triggers),
-            "daily_trigger": {"Hour": 6, "Minute": 0},
-            "first_match_trigger": triggers[1] if len(triggers) > 1 else None,
-            "last_match_trigger": triggers[-1] if triggers else None,
+            "heartbeat_interval_hours": args.interval_hours,
+            "heartbeat_trigger_minute": args.minute,
+            "recurring_triggers": recurring_triggers,
+            "first_match_trigger": match_triggers[0] if match_triggers else None,
+            "last_match_trigger": match_triggers[-1] if match_triggers else None,
         }
     )
     return 0

@@ -3478,6 +3478,58 @@ M088,EGY,Nabil Donga,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
 M088,EGY,Tarek Alaa,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
 M088,EGY,Trézéguet,bench,7,SUB,0,80,,,false,false,ESPN public summary API,82
 M088,EGY,Zizo,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Adrien Rabiot,starter,14,LM,4,0,,,false,false,ESPN public summary API,82
+M089,FRA,Bradley Barcola,starter,12,AM-L,11,0,61,,false,false,ESPN public summary API,82
+M089,FRA,Dayot Upamecano,starter,4,CD-R,5,0,,,false,false,ESPN public summary API,82
+M089,FRA,Jules Koundé,starter,5,RB,2,0,,,false,false,ESPN public summary API,82
+M089,FRA,Kylian Mbappé,starter,10,F,9,0,,,false,false,ESPN public summary API,82
+M089,FRA,Lucas Digne,starter,3,LB,3,0,,,false,false,ESPN public summary API,82
+M089,FRA,Manu Koné,starter,6,RM,8,0,,,false,false,ESPN public summary API,82
+M089,FRA,Michael Olise,starter,11,AM,10,0,,,false,false,ESPN public summary API,82
+M089,FRA,Mike Maignan,starter,16,G,1,0,,,false,false,ESPN public summary API,82
+M089,FRA,Ousmane Dembélé,starter,7,AM-R,7,0,84,,false,false,ESPN public summary API,82
+M089,FRA,William Saliba,starter,17,CD-L,6,0,,,false,false,ESPN public summary API,82
+M089,FRA,Aurélien Tchouaméni,unused,8,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Brice Samba,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Désiré Doué,bench,20,SUB,0,61,,,false,false,ESPN public summary API,82
+M089,FRA,Ibrahima Konaté,unused,15,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Jean-Philippe Mateta,unused,22,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Lucas Hernández,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Maghnes Akliouche,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Malo Gusto,unused,2,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Marcus Thuram,unused,9,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Maxence Lacroix,unused,26,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,N'Golo Kanté,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Rayan Cherki,bench,24,SUB,0,84,,,false,false,ESPN public summary API,82
+M089,FRA,Robin Risser,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Theo Hernández,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M089,FRA,Warren Zaïre-Emery,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Andrés Cubas,starter,14,CM-L,10,0,,,false,false,ESPN public summary API,82
+M089,PRY,Diego Gómez,starter,8,CM-R,8,0,71,,false,false,ESPN public summary API,82
+M089,PRY,Gustavo Gómez,starter,15,CD,5,0,,,false,false,ESPN public summary API,82
+M089,PRY,Gustavo Velázquez,starter,2,CD-R,6,0,,,false,false,ESPN public summary API,82
+M089,PRY,Juan Jose Cáceres,starter,4,RB,2,0,,,false,false,ESPN public summary API,82
+M089,PRY,Julio Enciso,starter,19,F,9,0,61,,false,false,ESPN public summary API,82
+M089,PRY,Júnior Alonso,starter,6,LB,3,0,,,false,false,ESPN public summary API,82
+M089,PRY,Matías Galarza,starter,23,LM,11,0,,,false,false,ESPN public summary API,82
+M089,PRY,Miguel Almirón,starter,10,RM,7,0,71,,false,false,ESPN public summary API,82
+M089,PRY,Omar Alderete,starter,3,CD-L,4,0,58,,false,false,ESPN public summary API,82
+M089,PRY,Orlando Gill,starter,12,G,1,0,,,false,false,ESPN public summary API,82
+M089,PRY,Alejandro Romero Gamarra,unused,17,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Alex Arce,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Alexandro Maidana,unused,26,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Antonio Sanabria,unused,9,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Braian Ojeda,unused,20,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Damián Bobadilla,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Fabián Balbuena,unused,5,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Gabriel Ávalos,bench,21,SUB,0,71,,,false,false,ESPN public summary API,82
+M089,PRY,Gastón Olveira,unused,22,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Gatito Fernández,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,Gustavo Caballero,bench,24,SUB,0,61,,,false,false,ESPN public summary API,82
+M089,PRY,Isidro Pitta,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M089,PRY,José Canale,bench,13,SUB,0,58,,,false,false,ESPN public summary API,82
+M089,PRY,Maurício,bench,11,SUB,0,71,,,false,false,ESPN public summary API,82
+M089,PRY,Ramón Sosa,unused,7,SUB,0,,,,false,false,ESPN public summary API,82
 M090,CAN,Ali Ahmed,starter,20,LM,11,0,78,,false,false,ESPN public summary API,82
 M090,CAN,Alistair Johnston,starter,2,RB,2,0,,,false,false,ESPN public summary API,82
 M090,CAN,Jonathan David,starter,10,CF-R,10,0,,,false,false,ESPN public summary API,82

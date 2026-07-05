@@ -86,7 +86,7 @@ Nach erfolgreichem Lauf:
 - `website/deploy/index.html` ist die uploadfertige Startdatei für das Hosting.
 - Browser neu laden.
 
-## Täglich um 06:00 Uhr automatisch aktualisieren
+## Automatisch alle 2 Stunden aktualisieren
 
 macOS kann den Refresh mit `launchd` automatisch ausführen.
 
@@ -121,6 +121,12 @@ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.wmprojekt.refresh-mv
 launchctl kickstart gui/$(id -u)/com.wmprojekt.refresh-mvp
 ```
 
+Der Job läuft danach automatisch:
+
+- alle 2 Stunden als Sicherheits-Refresh
+- zusätzlich kurz nach den geplanten Match-Enden
+- mit Auto-Publish nach GitHub, sodass Netlify den neuen Stand direkt deployt
+
 Die Logs liegen danach hier:
 
 ```text
@@ -136,7 +142,7 @@ Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 - Ein optionaler Event-DB-Import wird bei Supabase-DNS-Problemen sauber übersprungen, damit Export und HTML-Build trotzdem fertig werden.
 - Der lokale Browser-Check prüft die in die Standalone-Datei eingebetteten Daten und die Schedule-UX-Elemente direkt im Build.
 - Für die Vollautomatik kann `scripts/refresh_mvp.command --auto-publish` nach erfolgreichem Lauf automatisch committen und nach GitHub pushen, wodurch Netlify direkt neu deployed.
-- Mit `python -m python.pipelines.generate_launchd_refresh_schedule` wird die LaunchAgent-Datei zusätzlich an den Turnierplan angepasst: täglicher Lauf um 06:00 Uhr plus weitere Läufe kurz nach dem geplanten Match-Ende jeder Partie.
+- Mit `python -m python.pipelines.generate_launchd_refresh_schedule` wird die LaunchAgent-Datei an den Turnierplan angepasst: fester 2-Stunden-Rhythmus plus weitere Läufe kurz nach dem geplanten Match-Ende jeder Partie.
 
 ## Automatik wieder deaktivieren
 

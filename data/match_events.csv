@@ -2090,6 +2090,28 @@ M088,EGY,EGY,Yasser Ibrahim,,yellow_card,120,,ET2,,,Yasser Ibrahim (Egypt) is sh
 M088,EGY,EGY,Mahmoud Saber,Marawan Attia,sub_in,120,1,ET2,,,"Substitution, Egypt. Mahmoud Saber replaces Marwan Attia.",ESPN public summary API,82
 M088,EGY,EGY,Marawan Attia,Mahmoud Saber,sub_out,120,1,ET2,,,"Substitution, Egypt. Mahmoud Saber replaces Marwan Attia.",ESPN public summary API,82
 M088,EGY,EGY,,,hydration_break_end,120,3,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M089,FRA,FRA,Bradley Barcola,,yellow_card,19,,1H,,,Bradley Barcola (France) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M089,FRA,FRA,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M089,FRA,FRA,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M089,PRY,PRY,,,hydration_break_end,53,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M089,PRY,PRY,José Canale,Omar Alderete,sub_in,58,,2H,,,"Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury.",ESPN public summary API,82
+M089,PRY,PRY,Omar Alderete,José Canale,sub_out,58,,2H,,,"Substitution, Paraguay. José Canale replaces Omar Alderete because of an injury.",ESPN public summary API,82
+M089,FRA,FRA,Désiré Doué,Bradley Barcola,sub_in,61,,2H,,,"Substitution, France. Désiré Doué replaces Bradley Barcola.",ESPN public summary API,82
+M089,PRY,PRY,Gustavo Caballero,Julio Enciso,sub_in,61,,2H,,,"Substitution, Paraguay. Gustavo Caballero replaces Julio Enciso because of an injury.",ESPN public summary API,82
+M089,FRA,FRA,Bradley Barcola,Désiré Doué,sub_out,61,,2H,,,"Substitution, France. Désiré Doué replaces Bradley Barcola.",ESPN public summary API,82
+M089,PRY,PRY,Julio Enciso,Gustavo Caballero,sub_out,61,,2H,,,"Substitution, Paraguay. Gustavo Caballero replaces Julio Enciso because of an injury.",ESPN public summary API,82
+M089,FRA,FRA,,,hydration_break_end,67,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M089,FRA,FRA,Kylian Mbappé,,goal,70,,2H,0,1,"Goal! Paraguay 0, France 1. Kylian Mbappé (France) converts the penalty with a right footed shot to the bottom right corner.",ESPN public summary API,82
+M089,PRY,PRY,Gabriel Ávalos,Miguel Almirón,sub_in,71,,2H,,,"Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón.",ESPN public summary API,82
+M089,PRY,PRY,Maurício,Diego Gómez,sub_in,71,,2H,,,"Substitution, Paraguay. Mauricio replaces Diego Gómez.",ESPN public summary API,82
+M089,PRY,PRY,Diego Gómez,Maurício,sub_out,71,,2H,,,"Substitution, Paraguay. Mauricio replaces Diego Gómez.",ESPN public summary API,82
+M089,PRY,PRY,Miguel Almirón,Gabriel Ávalos,sub_out,71,,2H,,,"Substitution, Paraguay. Gabriel Ávalos replaces Miguel Almirón.",ESPN public summary API,82
+M089,FRA,FRA,,,hydration_break_start,73,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M089,FRA,FRA,,,hydration_break_end,76,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M089,FRA,FRA,Manu Koné,,yellow_card,81,,2H,,,Manu Koné (France) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M089,FRA,FRA,Rayan Cherki,Ousmane Dembélé,sub_in,84,,2H,,,"Substitution, France. Rayan Cherki replaces Ousmane Dembélé.",ESPN public summary API,82
+M089,FRA,FRA,Ousmane Dembélé,Rayan Cherki,sub_out,84,,2H,,,"Substitution, France. Rayan Cherki replaces Ousmane Dembélé.",ESPN public summary API,82
+M089,FRA,FRA,Michael Olise,,yellow_card,90,7,2H,,,Michael Olise (France) is shown the yellow card.,ESPN public summary API,82
 M090,MAR,MAR,Redouane Halhal,,yellow_card,20,,1H,,,Redouane Halhal (Morocco) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M090,MAR,MAR,,,hydration_break_end,22,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M090,MAR,MAR,Soufiane Rahimi,Ismael Saibari,sub_in,22,,1H,,,"Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari because of an injury.",ESPN public summary API,82

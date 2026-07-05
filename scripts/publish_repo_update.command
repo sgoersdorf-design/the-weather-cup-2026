@@ -27,4 +27,4 @@ git commit -m "$commit_message"
 git push origin main
 
 echo "Verifying Netlify live deploy..."
-.venv/bin/python -u -m python.pipelines.verify_live_deploy
+.venv/bin/python -u -m python.pipelines.run_and_verify_live_deploy

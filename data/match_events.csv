@@ -2173,3 +2173,39 @@ M091,NOR,NOR,Leo Østigard,David Møller Wolfe,sub_in,90,5,2H,,,"Substitution, N
 M091,NOR,NOR,David Møller Wolfe,Leo Østigard,sub_out,90,5,2H,,,"Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury.",ESPN public summary API,82
 M091,BRA,BRA,Neymar,,yellow_card,90,6,2H,,,Neymar (Brazil) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M091,BRA,BRA,Neymar,,goal,90,10,2H,1,2,"Goal! Brazil 1, Norway 2. Neymar (Brazil) converts the penalty with a right footed shot to the bottom right corner.",ESPN public summary API,82
+M092,ENG,ENG,Declan Rice,,yellow_card,1,,1H,,,Declan Rice (England) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M092,MEX,MEX,,,hydration_break_end,3,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M092,MEX,MEX,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M092,MEX,MEX,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M092,ENG,ENG,Jude Bellingham,Bukayo Saka,goal,36,,1H,0,1,"Goal! Mexico 0, England 1. Jude Bellingham (England) header from very close range to the bottom left corner. Assisted by Bukayo Saka with a cross.",ESPN public summary API,82
+M092,ENG,ENG,Jude Bellingham,Harry Kane,goal,38,,1H,0,2,"Goal! Mexico 0, England 2. Jude Bellingham (England) right footed shot from very close range to the top left corner. Assisted by Harry Kane.",ESPN public summary API,82
+M092,MEX,MEX,Julián Quiñones,,goal,42,,1H,1,2,"Goal! Mexico 1, England 2. Julián Quiñones (Mexico) right footed shot from the centre of the box to the high centre of the goal following a set piece situation.",ESPN public summary API,82
+M092,MEX,MEX,Edson Álvarez,César Montes,sub_in,45,,2H,,,"Substitution, Mexico. Edson Álvarez replaces César Montes.",ESPN public summary API,82
+M092,MEX,MEX,César Montes,Edson Álvarez,sub_out,45,,2H,,,"Substitution, Mexico. Edson Álvarez replaces César Montes.",ESPN public summary API,82
+M092,ENG,ENG,Jarell Quansah,,red_card,54,,2H,,,Jarell Quansah (England) is shown the red card.,ESPN public summary API,82
+M092,ENG,ENG,John Stones,Bukayo Saka,sub_in,57,,2H,,,"Substitution, England. John Stones replaces Bukayo Saka.",ESPN public summary API,82
+M092,ENG,ENG,Bukayo Saka,John Stones,sub_out,57,,2H,,,"Substitution, England. John Stones replaces Bukayo Saka.",ESPN public summary API,82
+M092,ENG,ENG,Harry Kane,,goal,60,,2H,1,3,"Goal! Mexico 1, England 3. Harry Kane (England) converts the penalty with a right footed shot to the bottom left corner.",ESPN public summary API,82
+M092,MEX,MEX,Brian Gutiérrez,Luis Romo,sub_in,61,,2H,,,"Substitution, Mexico. Brian Gutiérrez replaces Luis Romo.",ESPN public summary API,82
+M092,MEX,MEX,Santiago Gimenez,Gilberto Mora,sub_in,61,,2H,,,"Substitution, Mexico. Santiago Giménez replaces Gilberto Mora.",ESPN public summary API,82
+M092,MEX,MEX,Gilberto Mora,Santiago Gimenez,sub_out,61,,2H,,,"Substitution, Mexico. Santiago Giménez replaces Gilberto Mora.",ESPN public summary API,82
+M092,MEX,MEX,Luis Romo,Brian Gutiérrez,sub_out,61,,2H,,,"Substitution, Mexico. Brian Gutiérrez replaces Luis Romo.",ESPN public summary API,82
+M092,ENG,ENG,Marc Guéhi,,yellow_card,68,,2H,,,Marc Guéhi (England) is shown the yellow card.,ESPN public summary API,82
+M092,MEX,MEX,Raúl Jiménez,,goal,69,,2H,2,3,"Goal! Mexico 2, England 3. Raúl Jiménez (Mexico) converts the penalty with a right footed shot to the bottom left corner.",ESPN public summary API,82
+M092,ENG,ENG,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M092,MEX,MEX,,,hydration_break_start,71,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M092,MEX,MEX,Jorge Sánchez,,yellow_card,71,,2H,,,Jorge Sánchez (Mexico) is shown the yellow card.,ESPN public summary API,82
+M092,ENG,ENG,Nico O'Reilly,,yellow_card,72,,2H,,,Nico O'Reilly (England) is shown the yellow card.,ESPN public summary API,82
+M092,MEX,MEX,,,hydration_break_end,74,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M092,ENG,ENG,Djed Spence,Nico O'Reilly,sub_in,74,,2H,,,"Substitution, England. Djed Spence replaces Nico O'Reilly.",ESPN public summary API,82
+M092,ENG,ENG,Nico O'Reilly,Djed Spence,sub_out,74,,2H,,,"Substitution, England. Djed Spence replaces Nico O'Reilly.",ESPN public summary API,82
+M092,ENG,ENG,Dan Burn,Elliot Anderson,sub_in,75,,2H,,,"Substitution, England. Dan Burn replaces Elliot Anderson.",ESPN public summary API,82
+M092,ENG,ENG,Elliot Anderson,Dan Burn,sub_out,75,,2H,,,"Substitution, England. Dan Burn replaces Elliot Anderson.",ESPN public summary API,82
+M092,MEX,MEX,Álvaro Fidalgo,Jorge Sánchez,sub_in,79,,2H,,,"Substitution, Mexico. Álvaro Fidalgo replaces Jorge Sánchez.",ESPN public summary API,82
+M092,MEX,MEX,Jorge Sánchez,Álvaro Fidalgo,sub_out,79,,2H,,,"Substitution, Mexico. Álvaro Fidalgo replaces Jorge Sánchez.",ESPN public summary API,82
+M092,MEX,MEX,Guillermo Martínez,Julián Quiñones,sub_in,81,,2H,,,"Substitution, Mexico. Guillermo Martínez replaces Julián Quiñones.",ESPN public summary API,82
+M092,MEX,MEX,Julián Quiñones,Guillermo Martínez,sub_out,81,,2H,,,"Substitution, Mexico. Guillermo Martínez replaces Julián Quiñones.",ESPN public summary API,82
+M092,ENG,ENG,Morgan Rogers,Harry Kane,sub_in,90,,2H,,,"Substitution, England. Morgan Rogers replaces Harry Kane.",ESPN public summary API,82
+M092,ENG,ENG,Harry Kane,Morgan Rogers,sub_out,90,,2H,,,"Substitution, England. Morgan Rogers replaces Harry Kane.",ESPN public summary API,82
+M092,ENG,ENG,Jordan Henderson,,yellow_card,90,8,2H,,,Jordan Henderson (England) is shown the yellow card.,ESPN public summary API,82
+M092,MEX,MEX,Johan Vásquez,,yellow_card,90,8,2H,,,Johan Vásquez (Mexico) is shown the yellow card.,ESPN public summary API,82

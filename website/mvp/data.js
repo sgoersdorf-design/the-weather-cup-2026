@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-06T05:03:49",
+    "exported_at": "2026-07-06T06:08:54",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -10960,9 +10960,9 @@ window.WM_MVP_DATA = {
       "local_time": "18:00",
       "local_timezone": "America/Mexico_City",
       "date_utc": "2026-07-06T00:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 2,
+      "result_team_b": 3,
+      "match_status": "finished",
       "stadium_name": "Mexico City Stadium",
       "host_city": "Mexico City",
       "host_country": "Mexico",
@@ -11113,12 +11113,12 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Spanien",
       "team_b_name_en": "Spain",
       "team_b_flag": "🇪🇸",
-      "forecast_temp": 37.7,
-      "forecast_humidity": 31.0,
-      "forecast_wind_speed": 8.4,
-      "forecast_precipitation_probability": 4.0,
-      "forecast_heat_index": 37.7,
-      "forecast_last_updated": "2026-07-06T03:00:55.350325+00:00",
+      "forecast_temp": 36.6,
+      "forecast_humidity": 37.0,
+      "forecast_wind_speed": 9.6,
+      "forecast_precipitation_probability": 8.0,
+      "forecast_heat_index": 36.6,
+      "forecast_last_updated": "2026-07-06T04:05:56.210152+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11126,13 +11126,13 @@ window.WM_MVP_DATA = {
       "actual_wind_speed": null,
       "actual_heat_index": null,
       "team_a_weather_fit_score": 54.29,
-      "team_a_weather_familiarity_score": 29.7,
+      "team_a_weather_familiarity_score": 32.4,
       "team_a_weather_tolerance_score": 55.1,
       "team_a_effective_weather_load_score": 29.14,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
       "team_b_weather_fit_score": 53.87,
-      "team_b_weather_familiarity_score": 29.84,
+      "team_b_weather_familiarity_score": 32.53,
       "team_b_weather_tolerance_score": 53.7,
       "team_b_effective_weather_load_score": 29.47,
       "team_b_weather_fit_label": "neutral_fit",
@@ -11181,7 +11181,7 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇵🇹 PRT vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: PRT 54.29/100, ESP 53.87/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "PRT vs. ESP: Bei 37.7 Grad und 31.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "weather_social_hook_de": "PRT vs. ESP: Bei 36.6 Grad und 37.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11238,7 +11238,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 12.0,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 27.4,
-      "forecast_last_updated": "2026-07-06T03:00:55.350325+00:00",
+      "forecast_last_updated": "2026-07-06T04:05:56.210152+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11358,7 +11358,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 13.7,
       "forecast_precipitation_probability": 11.0,
       "forecast_heat_index": 32.84,
-      "forecast_last_updated": "2026-07-06T03:00:55.350325+00:00",
+      "forecast_last_updated": "2026-07-06T04:05:56.210152+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11478,7 +11478,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 9.0,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 23.0,
-      "forecast_last_updated": "2026-07-06T03:00:55.350325+00:00",
+      "forecast_last_updated": "2026-07-06T04:05:56.210152+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11598,7 +11598,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 16.3,
       "forecast_precipitation_probability": 1.0,
       "forecast_heat_index": 32.0,
-      "forecast_last_updated": "2026-07-06T03:00:55.350325+00:00",
+      "forecast_last_updated": "2026-07-06T04:05:56.210152+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -13173,6 +13173,19 @@ window.WM_MVP_DATA = {
         "points": 6
       },
       {
+        "iso3": "ENG",
+        "name_de": "England",
+        "flag": "🇬🇧",
+        "played": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "goals_for": 5,
+        "goals_against": 3,
+        "goal_difference": 2,
+        "points": 6
+      },
+      {
         "iso3": "NOR",
         "name_de": "Norwegen",
         "flag": "🇳🇴",
@@ -13212,19 +13225,6 @@ window.WM_MVP_DATA = {
         "points": 3
       },
       {
-        "iso3": "MEX",
-        "name_de": "Mexiko",
-        "flag": "🇲🇽",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 2,
-        "goals_against": 0,
-        "goal_difference": 2,
-        "points": 3
-      },
-      {
         "iso3": "CHE",
         "name_de": "Schweiz",
         "flag": "🇨🇭",
@@ -13251,15 +13251,15 @@ window.WM_MVP_DATA = {
         "points": 3
       },
       {
-        "iso3": "ENG",
-        "name_de": "England",
-        "flag": "🇬🇧",
-        "played": 1,
+        "iso3": "MEX",
+        "name_de": "Mexiko",
+        "flag": "🇲🇽",
+        "played": 2,
         "wins": 1,
         "draws": 0,
-        "losses": 0,
-        "goals_for": 2,
-        "goals_against": 1,
+        "losses": 1,
+        "goals_for": 4,
+        "goals_against": 3,
         "goal_difference": 1,
         "points": 3
       },
@@ -15682,8 +15682,8 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "MEX vs. ENG",
         "host_city": "Mexico City",
-        "status": "scheduled",
-        "result": null,
+        "status": "finished",
+        "result": "2:3",
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
@@ -15691,7 +15691,7 @@ window.WM_MVP_DATA = {
         "weather_load_score": 14.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
+        "note_de": "MEX 2:3 ENG. Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M093",
@@ -15949,7 +15949,7 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 91,
+        "finished": 92,
         "forecast_matches": 12,
         "actual_weather_matches": 0,
         "weather_fit_matches": 96,
@@ -15991,7 +15991,7 @@ window.WM_MVP_DATA = {
       },
       "round_of_16": {
         "matches": 8,
-        "finished": 3,
+        "finished": 4,
         "forecast_matches": 4,
         "actual_weather_matches": 0,
         "weather_fit_matches": 8,
@@ -16032,7 +16032,7 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 91,
+      "finished": 92,
       "forecast_matches": 12,
       "actual_weather_matches": 0,
       "weather_fit_matches": 96,
@@ -16044,13 +16044,13 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 91,
+      "finished_matches": 92,
       "matches_with_goal_events": 40,
       "matches_with_complete_lineups": 43,
       "matches_with_substitutions": 43,
       "matches_with_hydration_markers": 43,
       "last_event_update": "2026-06-25T05:05:00.945473+00:00",
-      "goal_event_coverage_share": 0.44
+      "goal_event_coverage_share": 0.435
     },
     "goal_rows": 124,
     "goals_by_15min_bucket": [
@@ -20130,7 +20130,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-06T05:03:49",
+      "generated_at": "2026-07-06T06:08:54",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -20162,11 +20162,11 @@ window.WM_MVP_DATA = {
         "last_event_update": "2026-06-25T05:05:00.945473+00:00"
       },
       "knockout_readiness": {
-        "upcoming_matches": 13,
+        "upcoming_matches": 12,
         "forecast_matches": 12,
-        "weather_fit_matches": 6,
-        "forecast_share": 0.923,
-        "weather_fit_share": 0.462
+        "weather_fit_matches": 5,
+        "forecast_share": 1.0,
+        "weather_fit_share": 0.417
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

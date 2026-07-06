@@ -90,7 +90,7 @@ M088,round_of_32,,,Sechzehntelfinale,,,2026-07-03T18:00:00Z,2026-07-03,13:00,Ame
 M089,round_of_16,,,Achtelfinale,,,2026-07-04T21:00:00Z,2026-07-04,17:00,America/New_York,PRY,FRA,Philadelphia Stadium,Philadelphia,0,1,finished,OpenFootball worldcup.json CC0,90
 M090,round_of_16,,,Achtelfinale,,,2026-07-04T17:00:00Z,2026-07-04,12:00,America/Chicago,CAN,MAR,Houston Stadium,Houston,0,3,finished,OpenFootball worldcup.json CC0,90
 M091,round_of_16,,,Achtelfinale,,,2026-07-05T20:00:00Z,2026-07-05,16:00,America/New_York,BRA,NOR,New York New Jersey Stadium,East Rutherford,1,2,finished,OpenFootball worldcup.json CC0,90
-M092,round_of_16,,,Achtelfinale,,,2026-07-06T00:00:00Z,2026-07-05,18:00,America/Mexico_City,MEX,ENG,Mexico City Stadium,Mexico City,,,scheduled,OpenFootball worldcup.json CC0,90
+M092,round_of_16,,,Achtelfinale,,,2026-07-06T00:00:00Z,2026-07-05,18:00,America/Mexico_City,MEX,ENG,Mexico City Stadium,Mexico City,2,3,finished,OpenFootball worldcup.json CC0,90
 M093,round_of_16,,,Achtelfinale,,,2026-07-06T19:00:00Z,2026-07-06,14:00,America/Chicago,PRT,ESP,Dallas Stadium,Arlington,,,scheduled,OpenFootball worldcup.json CC0,90
 M094,round_of_16,,,Achtelfinale,,,2026-07-07T00:00:00Z,2026-07-06,17:00,America/Los_Angeles,USA,BEL,Seattle Stadium,Seattle,,,scheduled,OpenFootball worldcup.json CC0,90
 M095,round_of_16,,,Achtelfinale,,,2026-07-07T16:00:00Z,2026-07-07,12:00,America/New_York,ARG,EGY,Atlanta Stadium,Atlanta,,,scheduled,OpenFootball worldcup.json CC0,90

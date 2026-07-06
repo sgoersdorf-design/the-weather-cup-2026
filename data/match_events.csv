@@ -2178,7 +2178,7 @@ M092,MEX,MEX,,,hydration_break_end,3,,1H,,,Delay over. They are ready to continu
 M092,MEX,MEX,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
 M092,MEX,MEX,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M092,ENG,ENG,Jude Bellingham,Bukayo Saka,goal,36,,1H,0,1,"Goal! Mexico 0, England 1. Jude Bellingham (England) header from very close range to the bottom left corner. Assisted by Bukayo Saka with a cross.",ESPN public summary API,82
-M092,ENG,ENG,Jude Bellingham,Harry Kane,goal,38,,1H,0,2,"Goal! Mexico 0, England 2. Jude Bellingham (England) right footed shot from very close range to the top left corner. Assisted by Harry Kane.",ESPN public summary API,82
+M092,ENG,ENG,Jude Bellingham,Harry Kane,goal,38,,1H,0,2,"Goal! Mexico 0, England 2. Jude Bellingham (England) right footed shot from very close range to the bottom left corner. Assisted by Harry Kane.",ESPN public summary API,82
 M092,MEX,MEX,Julián Quiñones,,goal,42,,1H,1,2,"Goal! Mexico 1, England 2. Julián Quiñones (Mexico) right footed shot from the centre of the box to the high centre of the goal following a set piece situation.",ESPN public summary API,82
 M092,MEX,MEX,Edson Álvarez,César Montes,sub_in,45,,2H,,,"Substitution, Mexico. Edson Álvarez replaces César Montes.",ESPN public summary API,82
 M092,MEX,MEX,César Montes,Edson Álvarez,sub_out,45,,2H,,,"Substitution, Mexico. Edson Álvarez replaces César Montes.",ESPN public summary API,82

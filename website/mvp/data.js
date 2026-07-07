@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-07T20:08:04",
+    "exported_at": "2026-07-07T21:04:15",
     "source": "Local offline export with schedule/result overlay",
     "language": "de",
     "matches": 104,
@@ -22014,7 +22014,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-07T20:08:04",
+      "generated_at": "2026-07-07T21:04:15",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",

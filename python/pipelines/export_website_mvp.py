@@ -455,6 +455,37 @@ def load_event_stats(conn, text, match_rows: list[dict[str, Any]]) -> dict[str, 
     }
 
 
+def _coverage_value(event_stats: dict[str, Any], key: str) -> int:
+    coverage = event_stats.get("coverage") or {}
+    value = coverage.get(key)
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0
+
+
+def prefer_richer_event_stats(
+    match_rows: list[dict[str, Any]],
+    primary_event_stats: dict[str, Any],
+) -> dict[str, Any]:
+    """Prefer local CSV-derived event stats when they cover more matches than the DB export."""
+
+    local_event_stats = load_event_stats_from_csv(match_rows)
+    comparison_keys = (
+        "matches_with_goal_events",
+        "matches_with_complete_lineups",
+        "matches_with_substitutions",
+        "matches_with_hydration_markers",
+    )
+    primary_score = sum(_coverage_value(primary_event_stats, key) for key in comparison_keys)
+    local_score = sum(_coverage_value(local_event_stats, key) for key in comparison_keys)
+    if local_score > primary_score:
+        local_event_stats["source"] = "local_csv_preferred"
+        return local_event_stats
+    primary_event_stats["source"] = "database"
+    return primary_event_stats
+
+
 def _read_existing_export_payload(path: Path) -> dict[str, Any]:
     raw = path.read_text(encoding="utf-8").strip()
     prefix = "window.WM_MVP_DATA = "
@@ -521,6 +552,7 @@ def _apply_schedule_overlay(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     schedule_rows = _schedule_overlay_rows()
     if not schedule_rows:
         return rows
+    teams = _team_lookup()
     for row in rows:
         schedule_row = schedule_rows.get(str(row.get("match_id") or ""))
         if schedule_row is None:
@@ -536,6 +568,20 @@ def _apply_schedule_overlay(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             row["calendar_day"] = _as_int_or_none(schedule_row.get("calendar_day"))
         if schedule_row.get("matchday") not in ("", None):
             row["matchday"] = _as_int_or_none(schedule_row.get("matchday"))
+        team_a_iso3 = schedule_row.get("team_a_iso3") or row.get("team_a_iso3")
+        team_b_iso3 = schedule_row.get("team_b_iso3") or row.get("team_b_iso3")
+        if team_a_iso3:
+            team_a = _team_stub(team_a_iso3, teams)
+            row["team_a_iso3"] = team_a["iso3"]
+            row["team_a_name_de"] = team_a["name_de"]
+            row["team_a_name_en"] = team_a["name_en"]
+            row["team_a_flag"] = team_a["flag"]
+        if team_b_iso3:
+            team_b = _team_stub(team_b_iso3, teams)
+            row["team_b_iso3"] = team_b["iso3"]
+            row["team_b_name_de"] = team_b["name_de"]
+            row["team_b_name_en"] = team_b["name_en"]
+            row["team_b_flag"] = team_b["flag"]
     return rows
 
 
@@ -967,7 +1013,7 @@ def export_website_mvp_data(output: str = "website/mvp/data.js") -> dict[str, An
             ]
             rows = _apply_knockout_resolution_overlay(_append_missing_schedule_matches(_apply_schedule_overlay(rows)))
             ads = load_ads(conn, text)
-            event_stats = load_event_stats(conn, text, rows)
+            event_stats = prefer_richer_event_stats(rows, load_event_stats(conn, text, rows))
     except Exception:  # noqa: BLE001
         return _offline_payload_from_existing_export(output)
 
@@ -979,6 +1025,7 @@ def export_website_mvp_data(output: str = "website/mvp/data.js") -> dict[str, An
             "matches": len(rows),
             "forecast_matches": len([row for row in rows if row.get("forecast_temp") is not None]),
             "weather_fit_matches": len([row for row in rows if row.get("team_a_weather_fit_score") is not None]),
+            "event_stats_source": event_stats.get("source") or "database",
         },
         "matches": rows,
         "standings": build_group_standings(rows),

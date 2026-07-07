@@ -3,13 +3,17 @@
 from __future__ import annotations
 
 import argparse
-import json
+import contextlib
+import io
 import os
+import json
 import queue
+import runpy
 import subprocess
 import sys
 import threading
 import time
+import traceback
 from datetime import datetime
 from pathlib import Path
 from typing import Any
@@ -174,6 +178,47 @@ def _stream_process_output(
             process.stdout.close()
 
 
+@contextlib.contextmanager
+def _working_directory(path: Path):
+    previous = Path.cwd()
+    os.chdir(path)
+    try:
+        yield
+    finally:
+        os.chdir(previous)
+
+
+def _run_python_module_in_process(command: list[str]) -> tuple[int, str, str, float]:
+    started = time.monotonic()
+    module = command[2]
+    argv = [module, *command[3:]]
+    stdout_buffer = io.StringIO()
+    stderr_buffer = io.StringIO()
+    exit_code = 0
+    with _working_directory(ROOT_DIR):
+        previous_argv = sys.argv[:]
+        previous_module = sys.modules.pop(module, None)
+        try:
+            sys.argv = argv
+            with contextlib.redirect_stdout(stdout_buffer), contextlib.redirect_stderr(stderr_buffer):
+                try:
+                    runpy.run_module(module, run_name="__main__", alter_sys=True)
+                except SystemExit as exc:
+                    if isinstance(exc.code, int):
+                        exit_code = exc.code
+                    elif exc.code is None:
+                        exit_code = 0
+                    else:
+                        exit_code = 1
+                        print(exc.code, file=sys.stderr)
+        finally:
+            sys.argv = previous_argv
+            if previous_module is not None:
+                sys.modules[module] = previous_module
+    duration_seconds = round(time.monotonic() - started, 2)
+    return exit_code, stdout_buffer.getvalue().strip(), stderr_buffer.getvalue().strip(), duration_seconds
+
+
 def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]:
     if dry_run:
         return {"name": name, "status": "dry_run", "command": command}
@@ -186,11 +231,24 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
             f"Starting step {name} (attempt {attempt}/{max_attempts}, timeout {timeout_seconds}s)"
         )
         try:
-            returncode, stdout, stderr, duration_seconds = _stream_process_output(
-                name,
-                command,
-                timeout_seconds,
-            )
+            if len(command) >= 3 and command[0] == sys.executable and command[1] == "-m":
+                returncode, stdout, stderr, duration_seconds = _run_python_module_in_process(command)
+                if stdout:
+                    for line in stdout.splitlines():
+                        clean_line = line.rstrip()
+                        if clean_line:
+                            _print_progress(f"{name}: {clean_line}")
+                if stderr:
+                    for line in stderr.splitlines():
+                        clean_line = line.rstrip()
+                        if clean_line:
+                            _print_progress(f"{name} [stderr]: {clean_line}")
+            else:
+                returncode, stdout, stderr, duration_seconds = _stream_process_output(
+                    name,
+                    command,
+                    timeout_seconds,
+                )
         except subprocess.TimeoutExpired as exc:
             stdout = (exc.stdout or "").strip()
             stderr = (exc.stderr or "").strip()
@@ -221,6 +279,27 @@ def _run(name: str, command: list[str], dry_run: bool = False) -> dict[str, Any]
                 "timeout_seconds": timeout_seconds,
                 "started_at": started_at,
             }
+        except Exception as exc:  # noqa: BLE001
+            duration_seconds = 0.0
+            stdout = ""
+            stderr = "".join(
+                traceback.format_exception(type(exc), exc, exc.__traceback__)
+            ).strip()
+            _print_progress(f"Step {name} raised an unexpected exception: {exc}")
+            attempts.append(
+                {
+                    "attempt": attempt,
+                    "status": "failed",
+                    "returncode": 1,
+                    "stdout": stdout,
+                    "stderr": stderr,
+                    "duration_seconds": duration_seconds,
+                }
+            )
+            if attempt >= max_attempts or not _should_retry(name, stderr, stdout):
+                break
+            _print_progress(f"Retrying step {name} after detected transient failure")
+            continue
         status = "ok" if returncode == 0 else "failed"
         attempts.append(
             {

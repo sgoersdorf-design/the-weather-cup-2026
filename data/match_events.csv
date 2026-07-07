@@ -2209,3 +2209,38 @@ M092,ENG,ENG,Morgan Rogers,Harry Kane,sub_in,90,,2H,,,"Substitution, England. Mo
 M092,ENG,ENG,Harry Kane,Morgan Rogers,sub_out,90,,2H,,,"Substitution, England. Morgan Rogers replaces Harry Kane.",ESPN public summary API,82
 M092,ENG,ENG,Jordan Henderson,,yellow_card,90,8,2H,,,Jordan Henderson (England) is shown the yellow card.,ESPN public summary API,82
 M092,MEX,MEX,Johan Vásquez,,yellow_card,90,8,2H,,,Johan Vásquez (Mexico) is shown the yellow card.,ESPN public summary API,82
+M094,BEL,BEL,Charles De Ketelaere,Nicolas Raskin,goal,9,,1H,0,1,"Goal! USA 0, Belgium 1. Charles De Ketelaere (Belgium) right footed shot from very close range to the centre of the goal. Assisted by Nicolas Raskin.",ESPN public summary API,82
+M094,USA,USA,,,hydration_break_end,13,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,BEL,BEL,,,hydration_break_end,18,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,BEL,BEL,,,hydration_break_end,21,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,BEL,BEL,Hans Vanaken,Amadou Onana,sub_in,21,,1H,,,"Substitution, Belgium. Hans Vanaken replaces Amadou Onana because of an injury.",ESPN public summary API,82
+M094,BEL,BEL,Amadou Onana,Hans Vanaken,sub_out,21,,1H,,,"Substitution, Belgium. Hans Vanaken replaces Amadou Onana because of an injury.",ESPN public summary API,82
+M094,BEL,BEL,,,hydration_break_start,24,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M094,BEL,BEL,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,USA,USA,Malik Tillman,,goal,31,,1H,1,1,"Goal! USA 1, Belgium 1. Malik Tillman (USA) from a free kick with a right footed shot to the high centre of the goal.",ESPN public summary API,82
+M094,BEL,BEL,Charles De Ketelaere,Leandro Trossard,goal,33,,1H,1,2,"Goal! USA 1, Belgium 2. Charles De Ketelaere (Belgium) header from very close range to the top right corner. Assisted by Leandro Trossard with a cross.",ESPN public summary API,82
+M094,USA,USA,Weston McKennie,,yellow_card,35,,1H,,,Weston McKennie (USA) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M094,USA,USA,Giovanni Reyna,Sergiño Dest,sub_in,45,,2H,,,"Substitution, USA. Giovanni Reyna replaces Sergiño Dest.",ESPN public summary API,82
+M094,USA,USA,Sergiño Dest,Giovanni Reyna,sub_out,45,,2H,,,"Substitution, USA. Giovanni Reyna replaces Sergiño Dest.",ESPN public summary API,82
+M094,USA,USA,,,hydration_break_end,53,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,BEL,BEL,Hans Vanaken,Charles De Ketelaere,goal,57,,2H,1,3,"Goal! USA 1, Belgium 3. Hans Vanaken (Belgium) right footed shot from outside the box to the bottom right corner. Assisted by Charles De Ketelaere.",ESPN public summary API,82
+M094,USA,USA,Sebastian Berhalter,Christian Pulisic,sub_in,59,,2H,,,"Substitution, USA. Sebastian Berhalter replaces Christian Pulisic because of an injury.",ESPN public summary API,82
+M094,USA,USA,Christian Pulisic,Sebastian Berhalter,sub_out,59,,2H,,,"Substitution, USA. Sebastian Berhalter replaces Christian Pulisic because of an injury.",ESPN public summary API,82
+M094,BEL,BEL,Jérémy Doku,Dodi Lukébakio,sub_in,67,,2H,,,"Substitution, Belgium. Jérémy Doku replaces Dodi Lukébakio.",ESPN public summary API,82
+M094,BEL,BEL,Romelu Lukaku,Charles De Ketelaere,sub_in,67,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",ESPN public summary API,82
+M094,BEL,BEL,Charles De Ketelaere,Romelu Lukaku,sub_out,67,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",ESPN public summary API,82
+M094,BEL,BEL,Dodi Lukébakio,Jérémy Doku,sub_out,67,,2H,,,"Substitution, Belgium. Jérémy Doku replaces Dodi Lukébakio.",ESPN public summary API,82
+M094,USA,USA,,,hydration_break_start,69,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M094,USA,USA,Malik Tillman,,yellow_card,69,,2H,,,Malik Tillman (USA) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M094,USA,USA,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M094,USA,USA,Ricardo Pepi,Tyler Adams,sub_in,72,,2H,,,"Substitution, USA. Ricardo Pepi replaces Tyler Adams.",ESPN public summary API,82
+M094,USA,USA,Tyler Adams,Ricardo Pepi,sub_out,72,,2H,,,"Substitution, USA. Ricardo Pepi replaces Tyler Adams.",ESPN public summary API,82
+M094,BEL,BEL,Alexis Saelemaekers,Leandro Trossard,sub_in,89,,2H,,,"Substitution, Belgium. Alexis Saelemaekers replaces Leandro Trossard.",ESPN public summary API,82
+M094,BEL,BEL,Axel Witsel,Nicolas Raskin,sub_in,89,,2H,,,"Substitution, Belgium. Axel Witsel replaces Nicolas Raskin.",ESPN public summary API,82
+M094,BEL,BEL,Leandro Trossard,Alexis Saelemaekers,sub_out,89,,2H,,,"Substitution, Belgium. Alexis Saelemaekers replaces Leandro Trossard.",ESPN public summary API,82
+M094,BEL,BEL,Nicolas Raskin,Axel Witsel,sub_out,89,,2H,,,"Substitution, Belgium. Axel Witsel replaces Nicolas Raskin.",ESPN public summary API,82
+M094,USA,USA,Haji Wright,Folarin Balogun,sub_in,90,2,2H,,,"Substitution, USA. Haji Wright replaces Folarin Balogun.",ESPN public summary API,82
+M094,USA,USA,Max Arfsten,Antonee Robinson,sub_in,90,2,2H,,,"Substitution, USA. Max Arfsten replaces Antonee Robinson.",ESPN public summary API,82
+M094,USA,USA,Antonee Robinson,Max Arfsten,sub_out,90,2,2H,,,"Substitution, USA. Max Arfsten replaces Antonee Robinson.",ESPN public summary API,82
+M094,USA,USA,Folarin Balogun,Haji Wright,sub_out,90,2,2H,,,"Substitution, USA. Haji Wright replaces Folarin Balogun.",ESPN public summary API,82
+M094,BEL,BEL,Romelu Lukaku,Hans Vanaken,goal,90,3,2H,1,4,"Goal! USA 1, Belgium 4. Romelu Lukaku (Belgium) right footed shot from the left side of the box to the bottom right corner. Assisted by Hans Vanaken.",ESPN public summary API,82

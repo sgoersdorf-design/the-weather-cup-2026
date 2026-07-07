@@ -78,30 +78,31 @@ AUT,Sasa Kalajdzic,S. Kalajdzic,14,SUB,,false,ESPN public summary API,82
 AUT,Stefan Posch,S. Posch,5,RB,,false,ESPN public summary API,82
 AUT,Xaver Schlager,X. Schlager,4,LM,,false,ESPN public summary API,82
 BEL,Alexis Saelemaekers,A. Saelemaekers,22,SUB,,false,ESPN public summary API,82
-BEL,Amadou Onana,A. Onana,24,SUB,,false,ESPN public summary API,82
-BEL,Arthur Theate,A. Theate,3,CD-L,,false,ESPN public summary API,82
+BEL,Amadou Onana,A. Onana,24,RM,,false,ESPN public summary API,82
+BEL,Arthur Theate,A. Theate,3,SUB,,false,ESPN public summary API,82
 BEL,Axel Witsel,A. Witsel,6,SUB,,false,ESPN public summary API,82
-BEL,Brandon Mechele,B. Mechele,4,CD-R,,false,ESPN public summary API,82
+BEL,Brandon Mechele,B. Mechele,4,CD-L,,false,ESPN public summary API,82
 BEL,Charles De Ketelaere,C. De Ketelaere,17,F,,false,ESPN public summary API,82
 BEL,Diego Moreira,D. Moreira,19,SUB,,false,ESPN public summary API,82
-BEL,Dodi Lukébakio,D. Lukébakio,14,SUB,,false,ESPN public summary API,82
-BEL,Hans Vanaken,H. Vanaken,20,LM,,false,ESPN public summary API,82
+BEL,Dodi Lukébakio,D. Lukébakio,14,AM-R,,false,ESPN public summary API,82
+BEL,Hans Vanaken,H. Vanaken,20,SUB,,false,ESPN public summary API,82
 BEL,Joaquin Seys,J. Seys,18,SUB,,false,ESPN public summary API,82
-BEL,Jérémy Doku,J. Doku,11,AM-L,,false,ESPN public summary API,82
-BEL,Kevin De Bruyne,K. De Bruyne,7,AM,,false,ESPN public summary API,82
+BEL,Jérémy Doku,J. Doku,11,SUB,,false,ESPN public summary API,82
+BEL,Kevin De Bruyne,K. De Bruyne,7,SUB,,false,ESPN public summary API,82
 BEL,Koni De Winter,K. De Winter,16,SUB,,false,ESPN public summary API,82
-BEL,Leandro Trossard,L. Trossard,10,AM-R,,false,ESPN public summary API,82
+BEL,Leandro Trossard,L. Trossard,10,AM-L,,false,ESPN public summary API,82
 BEL,Matias Fernandez-Pardo,M. Fernandez-Pardo,26,SUB,,false,ESPN public summary API,82
 BEL,Maxim De Cuyper,M. De Cuyper,5,LB,,false,ESPN public summary API,82
 BEL,Mike Penders,M. Penders,13,SUB,,false,ESPN public summary API,82
-BEL,Nathan Ngoy,N. Ngoy,25,SUB,,false,ESPN public summary API,82
-BEL,Nicolas Raskin,N. Raskin,23,SUB,,false,ESPN public summary API,82
+BEL,Nathan Ngoy,N. Ngoy,25,CD-R,,false,ESPN public summary API,82
+BEL,Nicolas Raskin,N. Raskin,23,LM,,false,ESPN public summary API,82
 BEL,Romelu Lukaku,R. Lukaku,9,SUB,,false,ESPN public summary API,82
 BEL,Senne Lammens,S. Lammens,12,SUB,,false,ESPN public summary API,82
 BEL,Thibaut Courtois,T. Courtois,1,G,,false,ESPN public summary API,82
 BEL,Thomas Meunier,T. Meunier,15,SUB,,false,ESPN public summary API,82
 BEL,Timothy Castagne,T. Castagne,21,RB,,false,ESPN public summary API,82
-BEL,Youri Tielemans,Y. Tielemans,8,RM,,false,ESPN public summary API,82
+BEL,Youri Tielemans,Y. Tielemans,8,AM,,false,ESPN public summary API,82
+BEL,Zeno Debast,Z. Debast,2,SUB,,false,ESPN public summary API,82
 BIH,Amar Dedic,A. Dedic,7,RB,,false,ESPN public summary API,82
 BIH,Amar Memic,A. Memic,15,SUB,,false,ESPN public summary API,82
 BIH,Amir Hadziahmetovic,A. Hadziahmetovic,16,SUB,,false,ESPN public summary API,82

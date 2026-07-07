@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-07T10:23:14",
+    "exported_at": "2026-07-07T12:15:40",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -11354,26 +11354,26 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Aegypten",
       "team_b_name_en": "Egypt",
       "team_b_flag": "🇪🇬",
-      "forecast_temp": 31.9,
-      "forecast_humidity": 51.0,
-      "forecast_wind_speed": 12.4,
+      "forecast_temp": 31.2,
+      "forecast_humidity": 52.0,
+      "forecast_wind_speed": 14.0,
       "forecast_precipitation_probability": 2.0,
-      "forecast_heat_index": 34.42,
-      "forecast_last_updated": "2026-07-07T06:06:18.439120+00:00",
+      "forecast_heat_index": 33.37,
+      "forecast_last_updated": "2026-07-07T10:09:38.654771+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
       "actual_wind_speed": null,
       "actual_heat_index": null,
-      "team_a_weather_fit_score": 57.01,
-      "team_a_weather_familiarity_score": 53.02,
+      "team_a_weather_fit_score": 58.52,
+      "team_a_weather_familiarity_score": 55.71,
       "team_a_weather_tolerance_score": 58.6,
       "team_a_effective_weather_load_score": 21.58,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
-      "team_b_weather_fit_score": 60.29,
-      "team_b_weather_familiarity_score": 56.82,
+      "team_b_weather_fit_score": 61.8,
+      "team_b_weather_familiarity_score": 59.51,
       "team_b_weather_tolerance_score": 62.5,
       "team_b_effective_weather_load_score": 20.89,
       "team_b_weather_fit_label": "moderate_fit",
@@ -11420,9 +11420,9 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Anstoßzeit-/Zeitzonenkontext. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇦🇷 ARG vs. 🇪🇬 EGY: Kontextvorteil team_a, sichtbarer Faktor Anstoßzeit-/Zeitzonenkontext. Kein Wettmodell.",
       "weather_headline_de": "🇦🇷 ARG vs. 🇪🇬 EGY: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: ARG 57.01/100, EGY 60.29/100. Vorteil: ausgeglichen.",
+      "weather_teaser_de": "Weather Fit: ARG 58.52/100, EGY 61.8/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "ARG vs. EGY: Bei 31.9 Grad und 51.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "weather_social_hook_de": "ARG vs. EGY: Bei 31.2 Grad und 52.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11474,32 +11474,32 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Kolumbien",
       "team_b_name_en": "Colombia",
       "team_b_flag": "🇨🇴",
-      "forecast_temp": 23.9,
-      "forecast_humidity": 54.0,
-      "forecast_wind_speed": 8.2,
-      "forecast_precipitation_probability": 2.0,
-      "forecast_heat_index": 23.9,
-      "forecast_last_updated": "2026-07-07T06:06:18.439120+00:00",
+      "forecast_temp": 24.5,
+      "forecast_humidity": 44.0,
+      "forecast_wind_speed": 3.0,
+      "forecast_precipitation_probability": 1.0,
+      "forecast_heat_index": 24.5,
+      "forecast_last_updated": "2026-07-07T10:09:38.654771+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
       "actual_wind_speed": null,
       "actual_heat_index": null,
-      "team_a_weather_fit_score": 65.94,
-      "team_a_weather_familiarity_score": 70.08,
+      "team_a_weather_fit_score": 62.35,
+      "team_a_weather_familiarity_score": 63.66,
       "team_a_weather_tolerance_score": 56.5,
       "team_a_effective_weather_load_score": 0.0,
       "team_a_weather_fit_label": "moderate_fit",
       "team_a_weather_edge_role": "weather_trailing",
-      "team_b_weather_fit_score": 74.61,
-      "team_b_weather_familiarity_score": 77.85,
+      "team_b_weather_fit_score": 73.17,
+      "team_b_weather_familiarity_score": 75.27,
       "team_b_weather_tolerance_score": 71.1,
       "team_b_effective_weather_load_score": 0.0,
       "team_b_weather_fit_label": "moderate_fit",
       "team_b_weather_edge_role": "weather_edge",
       "weather_load_score": 0.0,
-      "weather_fit_edge_gap": 8.67,
+      "weather_fit_edge_gap": 10.82,
       "predicted_result_category": "team_a_win",
       "probability_team_a_win": 34.1,
       "probability_draw": 33.1,
@@ -11540,9 +11540,9 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Anstoßzeit-/Zeitzonenkontext. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇨🇭 CHE vs. 🇨🇴 COL: Kontextvorteil balanced, sichtbarer Faktor Anstoßzeit-/Zeitzonenkontext. Kein Wettmodell.",
       "weather_headline_de": "🇨🇭 CHE vs. 🇨🇴 COL: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: CHE 65.94/100, COL 74.61/100. Vorteil: COL.",
-      "weather_body_de": "Kolumbien wirkt für diese Wettersituation etwas besser eingeordnet als Schweiz: Weather Fit 74.61/100 gegen 65.94/100 bei 23.9 Grad und 54.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "CHE vs. COL: Bei 23.9 Grad und 54.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COL vorne. Kein Wettmodell.",
+      "weather_teaser_de": "Weather Fit: CHE 62.35/100, COL 73.17/100. Vorteil: COL.",
+      "weather_body_de": "Kolumbien wirkt für diese Wettersituation etwas besser eingeordnet als Schweiz: Weather Fit 73.17/100 gegen 62.35/100 bei 24.5 Grad und 44.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
+      "weather_social_hook_de": "CHE vs. COL: Bei 24.5 Grad und 44.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COL vorne. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11599,7 +11599,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 15.7,
       "forecast_precipitation_probability": 6.0,
       "forecast_heat_index": 30.19,
-      "forecast_last_updated": "2026-07-07T06:06:18.439120+00:00",
+      "forecast_last_updated": "2026-07-07T10:09:38.654771+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11826,20 +11826,20 @@ window.WM_MVP_DATA = {
       "maps_url": "https://www.google.com/maps/search/?api=1&query=25.95800%2C-80.23890",
       "coordinate_verified_at": null,
       "venue_data_quality_score": 82.0,
-      "team_a_iso3": "W91",
-      "team_a_name_de": "W91",
-      "team_a_name_en": "W91",
-      "team_a_flag": "",
-      "team_b_iso3": "W92",
-      "team_b_name_de": "W92",
-      "team_b_name_en": "W92",
-      "team_b_flag": "",
+      "team_a_iso3": "NOR",
+      "team_a_name_de": "Norwegen",
+      "team_a_name_en": "Norway",
+      "team_a_flag": "🇳🇴",
+      "team_b_iso3": "ENG",
+      "team_b_name_de": "England",
+      "team_b_name_en": "England",
+      "team_b_flag": "🇬🇧",
       "forecast_temp": 34.7,
       "forecast_humidity": 47.0,
       "forecast_wind_speed": 22.2,
-      "forecast_precipitation_probability": 24.0,
+      "forecast_precipitation_probability": 22.0,
       "forecast_heat_index": 38.89,
-      "forecast_last_updated": "2026-07-07T06:06:18.439120+00:00",
+      "forecast_last_updated": "2026-07-07T10:09:38.654771+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11962,7 +11962,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 31.8,
       "forecast_humidity": 51.0,
       "forecast_wind_speed": 8.6,
-      "forecast_precipitation_probability": 11.0,
+      "forecast_precipitation_probability": 10.0,
       "forecast_heat_index": 34.23,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12202,7 +12202,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 38.9,
       "forecast_humidity": 26.0,
       "forecast_wind_speed": 9.7,
-      "forecast_precipitation_probability": 8.0,
+      "forecast_precipitation_probability": 11.0,
       "forecast_heat_index": 38.9,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12322,7 +12322,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 35.9,
       "forecast_humidity": 39.0,
       "forecast_wind_speed": 20.6,
-      "forecast_precipitation_probability": 28.0,
+      "forecast_precipitation_probability": 16.0,
       "forecast_heat_index": 35.9,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12442,7 +12442,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 29.5,
       "forecast_humidity": 25.0,
       "forecast_wind_speed": 12.1,
-      "forecast_precipitation_probability": 11.0,
+      "forecast_precipitation_probability": 10.0,
       "forecast_heat_index": 29.5,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -13488,32 +13488,6 @@ window.WM_MVP_DATA = {
       {
         "iso3": "W102",
         "name_de": "W102",
-        "flag": "",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 0,
-        "goals_against": 0,
-        "goal_difference": 0,
-        "points": 0
-      },
-      {
-        "iso3": "W91",
-        "name_de": "W91",
-        "flag": "",
-        "played": 0,
-        "wins": 0,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 0,
-        "goals_against": 0,
-        "goal_difference": 0,
-        "points": 0
-      },
-      {
-        "iso3": "W92",
-        "name_de": "W92",
         "flag": "",
         "played": 0,
         "wins": 0,
@@ -15828,7 +15802,7 @@ window.WM_MVP_DATA = {
         "calendar_day_label": null,
         "phase": "quarterfinals",
         "group_name": null,
-        "label": "W91 vs. W92",
+        "label": "NOR vs. ENG",
         "host_city": "Miami Gardens",
         "status": "scheduled",
         "result": null,
@@ -16046,18 +16020,18 @@ window.WM_MVP_DATA = {
     "available": true,
     "coverage": {
       "finished_matches": 94,
-      "matches_with_goal_events": 67,
-      "matches_with_complete_lineups": 72,
-      "matches_with_substitutions": 72,
-      "matches_with_hydration_markers": 72,
-      "last_event_update": "2026-07-07T10:22:54",
-      "goal_event_coverage_share": 0.713
+      "matches_with_goal_events": 68,
+      "matches_with_complete_lineups": 73,
+      "matches_with_substitutions": 73,
+      "matches_with_hydration_markers": 73,
+      "last_event_update": "2026-07-07T12:09:01",
+      "goal_event_coverage_share": 0.723
     },
-    "goal_rows": 210,
+    "goal_rows": 215,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
-        "goals": 23
+        "goals": 24
       },
       {
         "bucket": "16-30",
@@ -16065,11 +16039,11 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "31-45+",
-        "goals": 30
+        "goals": 32
       },
       {
         "bucket": "46-60",
-        "goals": 40
+        "goals": 41
       },
       {
         "bucket": "61-75",
@@ -16081,7 +16055,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "90+X",
-        "goals": 27
+        "goals": 28
       }
     ],
     "teams_most_often_scored_in_bucket": [
@@ -16110,10 +16084,10 @@ window.WM_MVP_DATA = {
         "total": 10
       },
       {
-        "key": "ARG",
-        "bucket": "16-30",
-        "count": 3,
-        "total": 11
+        "key": "USA",
+        "bucket": "31-45+",
+        "count": 4,
+        "total": 9
       }
     ],
     "teams_most_often_conceded_in_bucket": [
@@ -16172,6 +16146,10 @@ window.WM_MVP_DATA = {
     ],
     "crunchtime_scorers": [
       {
+        "key": "BEL",
+        "count": 3
+      },
+      {
         "key": "ARG",
         "count": 3
       },
@@ -16184,10 +16162,6 @@ window.WM_MVP_DATA = {
         "count": 2
       },
       {
-        "key": "BEL",
-        "count": 2
-      },
-      {
         "key": "SEN",
         "count": 2
       }
@@ -16195,7 +16169,7 @@ window.WM_MVP_DATA = {
     "first_half_scoring_teams": [
       {
         "key": "USA",
-        "count": 5
+        "count": 6
       },
       {
         "key": "NOR",
@@ -16216,12 +16190,12 @@ window.WM_MVP_DATA = {
     ],
     "second_half_scoring_teams": [
       {
-        "key": "FRA",
-        "count": 9
+        "key": "BEL",
+        "count": 10
       },
       {
-        "key": "BEL",
-        "count": 8
+        "key": "FRA",
+        "count": 9
       },
       {
         "key": "SEN",
@@ -16290,15 +16264,15 @@ window.WM_MVP_DATA = {
         "count": 3
       },
       {
+        "key": "USA",
+        "count": 2
+      },
+      {
         "key": "JPN",
         "count": 2
       },
       {
         "key": "SEN",
-        "count": 2
-      },
-      {
-        "key": "NOR",
         "count": 2
       }
     ],
@@ -16780,6 +16754,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Romelu Lukaku",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 2
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Elijah Just",
         "team_iso3": "NZL",
         "total_goals": 3,
@@ -16957,43 +16968,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Romelu Lukaku",
-        "team_iso3": "BEL",
-        "total_goals": 2,
-        "top_bucket": "76-90",
-        "top_bucket_goals": 2,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 2
           },
           {
             "bucket": "90+X",
@@ -17224,6 +17198,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Cyle Larin",
         "team_iso3": "CAN",
         "total_goals": 2,
@@ -17401,6 +17412,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Malik Tillman",
+        "team_iso3": "USA",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -18889,6 +18937,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Hans Vanaken",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Hassan Al-Haydos",
         "team_iso3": "QAT",
         "total_goals": 1,
@@ -19584,43 +19669,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Malik Tillman",
-        "team_iso3": "USA",
-        "total_goals": 1,
-        "top_bucket": "76-90",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -21158,6 +21206,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 2
       },
       {
+        "player_name": "Romelu Lukaku",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 2
+      },
+      {
         "player_name": "Elijah Just",
         "team_iso3": "NZL",
         "total_goals": 3,
@@ -21191,13 +21246,6 @@ window.WM_MVP_DATA = {
         "total_goals": 3,
         "top_bucket": "16-30",
         "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Romelu Lukaku",
-        "team_iso3": "BEL",
-        "total_goals": 2,
-        "top_bucket": "76-90",
-        "top_bucket_goals": 2
       },
       {
         "player_name": "Amad Diallo",
@@ -21242,6 +21290,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Cyle Larin",
         "team_iso3": "CAN",
         "total_goals": 2,
@@ -21274,6 +21329,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "BEL",
         "total_goals": 2,
         "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Malik Tillman",
+        "team_iso3": "USA",
+        "total_goals": 2,
+        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
@@ -21557,6 +21619,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Hans Vanaken",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Hassan Al-Haydos",
         "team_iso3": "QAT",
         "total_goals": 1,
@@ -21687,13 +21756,6 @@ window.WM_MVP_DATA = {
         "team_iso3": "EGY",
         "total_goals": 1,
         "top_bucket": "00-15",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Malik Tillman",
-        "team_iso3": "USA",
-        "total_goals": 1,
-        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
@@ -21980,7 +22042,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-07T10:23:14",
+      "generated_at": "2026-07-07T12:15:40",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22009,7 +22071,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-07T10:22:54"
+        "last_event_update": "2026-07-07T12:09:01"
       },
       "knockout_readiness": {
         "upcoming_matches": 10,

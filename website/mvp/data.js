@@ -1,7 +1,7 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-07T08:13:20",
-    "source": "Supabase/PostgreSQL static export",
+    "exported_at": "2026-07-07T10:17:16",
+    "source": "Local offline export with schedule/result overlay",
     "language": "de",
     "matches": 104,
     "forecast_matches": 10,
@@ -16019,106 +16019,106 @@ window.WM_MVP_DATA = {
     "available": true,
     "coverage": {
       "finished_matches": 94,
-      "matches_with_goal_events": 40,
-      "matches_with_complete_lineups": 43,
-      "matches_with_substitutions": 43,
-      "matches_with_hydration_markers": 43,
-      "last_event_update": "2026-06-25T05:05:00.945473+00:00",
-      "goal_event_coverage_share": 0.426
+      "matches_with_goal_events": 68,
+      "matches_with_complete_lineups": 73,
+      "matches_with_substitutions": 73,
+      "matches_with_hydration_markers": 73,
+      "last_event_update": "2026-07-07T08:05:49",
+      "goal_event_coverage_share": 0.723
     },
-    "goal_rows": 124,
+    "goal_rows": 215,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
-        "goals": 14
+        "goals": 24
       },
       {
         "bucket": "16-30",
-        "goals": 13
+        "goals": 22
       },
       {
         "bucket": "31-45+",
-        "goals": 18
+        "goals": 32
       },
       {
         "bucket": "46-60",
-        "goals": 25
+        "goals": 41
       },
       {
         "bucket": "61-75",
-        "goals": 16
+        "goals": 29
       },
       {
         "bucket": "76-90",
-        "goals": 19
+        "goals": 34
       },
       {
         "bucket": "90+X",
-        "goals": 14
+        "goals": 28
       }
     ],
     "teams_most_often_scored_in_bucket": [
       {
-        "key": "BRA",
-        "bucket": "46-60",
-        "count": 3,
-        "total": 7
-      },
-      {
-        "key": "CAN",
-        "bucket": "76-90",
-        "count": 2,
-        "total": 8
-      },
-      {
-        "key": "CHE",
-        "bucket": "76-90",
-        "count": 2,
-        "total": 7
+        "key": "FRA",
+        "bucket": "61-75",
+        "count": 4,
+        "total": 14
       },
       {
         "key": "NOR",
-        "bucket": "31-45+",
-        "count": 2,
-        "total": 7
+        "bucket": "76-90",
+        "count": 4,
+        "total": 12
       },
       {
-        "key": "FRA",
-        "bucket": "61-75",
-        "count": 2,
-        "total": 6
+        "key": "BRA",
+        "bucket": "46-60",
+        "count": 4,
+        "total": 10
+      },
+      {
+        "key": "SEN",
+        "bucket": "46-60",
+        "count": 4,
+        "total": 10
+      },
+      {
+        "key": "USA",
+        "bucket": "31-45+",
+        "count": 4,
+        "total": 9
       }
     ],
     "teams_most_often_conceded_in_bucket": [
       {
-        "key": "QAT",
-        "bucket": "16-30",
-        "count": 3,
-        "total": 7
-      },
-      {
         "key": "BIH",
         "bucket": "76-90",
-        "count": 3,
-        "total": 6
-      },
-      {
-        "key": "TUN",
-        "bucket": "00-15",
-        "count": 2,
-        "total": 9
-      },
-      {
-        "key": "HTI",
-        "bucket": "16-30",
-        "count": 2,
+        "count": 4,
         "total": 8
       },
       {
-        "key": "CZE",
+        "key": "IRQ",
+        "bucket": "46-60",
+        "count": 3,
+        "total": 12
+      },
+      {
+        "key": "NZL",
         "bucket": "61-75",
-        "count": 2,
-        "total": 6
+        "count": 3,
+        "total": 10
+      },
+      {
+        "key": "AUT",
+        "bucket": "31-45+",
+        "count": 3,
+        "total": 9
+      },
+      {
+        "key": "DZA",
+        "bucket": "46-60",
+        "count": 3,
+        "total": 9
       }
     ],
     "early_starters": [
@@ -16131,73 +16131,47 @@ window.WM_MVP_DATA = {
         "count": 2
       },
       {
+        "key": "EGY",
+        "count": 2
+      },
+      {
+        "key": "FRA",
+        "count": 2
+      },
+      {
         "key": "MEX",
-        "count": 1
-      },
-      {
-        "key": "CZE",
-        "count": 1
-      },
-      {
-        "key": "MAR",
         "count": 1
       }
     ],
     "crunchtime_scorers": [
       {
+        "key": "BEL",
+        "count": 3
+      },
+      {
+        "key": "ARG",
+        "count": 3
+      },
+      {
         "key": "CHE",
+        "count": 2
+      },
+      {
+        "key": "CAN",
         "count": 2
       },
       {
         "key": "SEN",
         "count": 2
-      },
-      {
-        "key": "MEX",
-        "count": 1
-      },
-      {
-        "key": "QAT",
-        "count": 1
-      },
-      {
-        "key": "CAN",
-        "count": 1
       }
     ],
     "first_half_scoring_teams": [
       {
-        "key": "BRA",
-        "count": 4
-      },
-      {
         "key": "USA",
-        "count": 4
-      },
-      {
-        "key": "MAR",
-        "count": 3
-      },
-      {
-        "key": "ESP",
-        "count": 3
+        "count": 6
       },
       {
         "key": "NOR",
-        "count": 3
-      }
-    ],
-    "second_half_scoring_teams": [
-      {
-        "key": "CAN",
-        "count": 6
-      },
-      {
-        "key": "CHE",
-        "count": 6
-      },
-      {
-        "key": "MEX",
         "count": 5
       },
       {
@@ -16205,8 +16179,34 @@ window.WM_MVP_DATA = {
         "count": 5
       },
       {
-        "key": "NOR",
+        "key": "ARG",
+        "count": 5
+      },
+      {
+        "key": "MEX",
         "count": 4
+      }
+    ],
+    "second_half_scoring_teams": [
+      {
+        "key": "BEL",
+        "count": 10
+      },
+      {
+        "key": "FRA",
+        "count": 9
+      },
+      {
+        "key": "SEN",
+        "count": 8
+      },
+      {
+        "key": "CAN",
+        "count": 7
+      },
+      {
+        "key": "CHE",
+        "count": 7
       }
     ],
     "first_half_conceding_teams": [
@@ -16219,138 +16219,101 @@ window.WM_MVP_DATA = {
         "count": 4
       },
       {
-        "key": "QAT",
-        "count": 3
+        "key": "IRQ",
+        "count": 4
       },
       {
-        "key": "MAR",
-        "count": 3
+        "key": "NOR",
+        "count": 4
       },
       {
-        "key": "SAU",
-        "count": 3
+        "key": "DZA",
+        "count": 4
       }
     ],
     "second_half_conceding_teams": [
+      {
+        "key": "NZL",
+        "count": 8
+      },
+      {
+        "key": "SEN",
+        "count": 8
+      },
+      {
+        "key": "IRQ",
+        "count": 8
+      },
       {
         "key": "CZE",
         "count": 6
       },
       {
         "key": "BIH",
-        "count": 5
-      },
-      {
-        "key": "TUN",
-        "count": 5
-      },
-      {
-        "key": "SEN",
-        "count": 5
-      },
-      {
-        "key": "QAT",
-        "count": 4
+        "count": 6
       }
     ],
     "hydration_break_post_window_goals": [
+      {
+        "key": "FRA",
+        "count": 4
+      },
       {
         "key": "CAN",
         "count": 3
       },
       {
-        "key": "FRA",
+        "key": "USA",
         "count": 2
       },
       {
-        "key": "NOR",
+        "key": "JPN",
         "count": 2
       },
       {
-        "key": "CHE",
-        "count": 1
-      },
-      {
-        "key": "SCO",
-        "count": 1
+        "key": "SEN",
+        "count": 2
       }
     ],
     "player_level_scoring_buckets": [
       {
         "key": "Erling Haaland",
-        "bucket": "46-60",
-        "count": 2,
-        "total": 4
-      },
-      {
-        "key": "Vinícius Júnior",
-        "bucket": "46-60",
-        "count": 2,
-        "total": 4
-      },
-      {
-        "key": "Mikel Oyarzabal",
-        "bucket": "16-30",
-        "count": 2,
-        "total": 2
-      },
-      {
-        "key": "Lionel Messi",
-        "bucket": "16-30",
-        "count": 1,
-        "total": 5
+        "bucket": "76-90",
+        "count": 3,
+        "total": 7
       },
       {
         "key": "Kylian Mbappé",
         "bucket": "61-75",
-        "count": 1,
+        "count": 3,
+        "total": 7
+      },
+      {
+        "key": "Ismaïla Sarr",
+        "bucket": "46-60",
+        "count": 3,
         "total": 4
+      },
+      {
+        "key": "Lionel Messi",
+        "bucket": "16-30",
+        "count": 2,
+        "total": 7
+      },
+      {
+        "key": "Harry Kane",
+        "bucket": "61-75",
+        "count": 2,
+        "total": 6
       }
     ],
     "player_goal_timing_profiles": [
       {
-        "player_name": "Lionel Messi",
-        "team_iso3": "ARG",
-        "total_goals": 5,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 1
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 1
-          },
-          {
-            "bucket": "90+X",
-            "goals": 1
-          }
-        ]
-      },
-      {
         "player_name": "Erling Haaland",
         "team_iso3": "NOR",
-        "total_goals": 4,
-        "top_bucket": "46-60",
-        "top_bucket_goals": 2,
+        "total_goals": 7,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 3,
         "buckets": [
           {
             "bucket": "00-15",
@@ -16374,7 +16337,229 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "76-90",
+            "goals": 3
+          },
+          {
+            "bucket": "90+X",
             "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Kylian Mbappé",
+        "team_iso3": "FRA",
+        "total_goals": 7,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 3,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 3
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Lionel Messi",
+        "team_iso3": "ARG",
+        "total_goals": 7,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 2
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 2
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Harry Kane",
+        "team_iso3": "ENG",
+        "total_goals": 6,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 2
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Ismaïla Sarr",
+        "team_iso3": "SEN",
+        "total_goals": 4,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 3,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 3
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Jude Bellingham",
+        "team_iso3": "ENG",
+        "total_goals": 4,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 2
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Mikel Oyarzabal",
+        "team_iso3": "ESP",
+        "total_goals": 4,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 2
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -16420,10 +16605,195 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Kylian Mbappé",
+        "player_name": "Julián Quiñones",
+        "team_iso3": "MEX",
+        "total_goals": 4,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 4,
         "top_bucket": "61-75",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Folarin Balogun",
+        "team_iso3": "USA",
+        "total_goals": 3,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 2
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Raúl Jiménez",
+        "team_iso3": "MEX",
+        "total_goals": 3,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 2
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Romelu Lukaku",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 2
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Elijah Just",
+        "team_iso3": "NZL",
+        "total_goals": 3,
+        "top_bucket": "00-15",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -16444,15 +16814,15 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "61-75",
-            "goals": 1
-          },
-          {
-            "bucket": "76-90",
             "goals": 0
           },
           {
-            "bucket": "90+X",
+            "bucket": "76-90",
             "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
           }
         ]
       },
@@ -16605,11 +16975,11 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Mikel Oyarzabal",
-        "team_iso3": "ESP",
+        "player_name": "Amad Diallo",
+        "team_iso3": "CIV",
         "total_goals": 2,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
         "buckets": [
           {
             "bucket": "00-15",
@@ -16617,7 +16987,7 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
-            "goals": 2
+            "goals": 0
           },
           {
             "bucket": "31-45+",
@@ -16629,11 +16999,11 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "61-75",
-            "goals": 0
+            "goals": 1
           },
           {
             "bucket": "76-90",
-            "goals": 0
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -16716,6 +17086,154 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Azzedine Ounahi",
+        "team_iso3": "MAR",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Bradley Barcola",
+        "team_iso3": "FRA",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Breel Embolo",
+        "team_iso3": "CHE",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Cyle Larin",
         "team_iso3": "CAN",
         "total_goals": 2,
@@ -16790,8 +17308,45 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Elijah Just",
-        "team_iso3": "NZL",
+        "player_name": "Emam Ashour",
+        "team_iso3": "EGY",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Habib Diarra",
+        "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "00-15",
         "top_bucket_goals": 1,
@@ -16802,7 +17357,44 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
             "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Leandro Trossard",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
           },
           {
             "bucket": "31-45+",
@@ -16827,51 +17419,162 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Folarin Balogun",
+        "player_name": "Malik Tillman",
         "team_iso3": "USA",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Marko Arnautovic",
+        "team_iso3": "AUT",
+        "total_goals": 2,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Mohamed Hany",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Pape Gueye",
+        "team_iso3": "SEN",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Ramin Rezaeian",
+        "team_iso3": "IRN",
         "total_goals": 2,
         "top_bucket": "31-45+",
         "top_bucket_goals": 1,
         "buckets": [
           {
             "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Harry Kane",
-        "team_iso3": "ENG",
-        "total_goals": 2,
-        "top_bucket": "00-15",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
             "goals": 1
           },
           {
@@ -16901,8 +17604,8 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Ismaïla Sarr",
-        "team_iso3": "SEN",
+        "player_name": "Riyad Mahrez",
+        "team_iso3": "DZA",
         "total_goals": 2,
         "top_bucket": "46-60",
         "top_bucket_goals": 1,
@@ -16934,43 +17637,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 1
-          }
-        ]
-      },
-      {
-        "player_name": "Julián Quiñones",
-        "team_iso3": "MEX",
-        "total_goals": 2,
-        "top_bucket": "00-15",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 1
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 1
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
           }
         ]
       },
@@ -17012,6 +17678,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Soufiane Rahimi",
+        "team_iso3": "MAR",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Yasin Ayari",
         "team_iso3": "SWE",
         "total_goals": 2,
@@ -17041,6 +17744,80 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Yoane Wissa",
+        "team_iso3": "COD",
+        "total_goals": 2,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Youri Tielemans",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -17197,6 +17974,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Alexis Saelemaekers",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Ali Olwan",
         "team_iso3": "JOR",
         "total_goals": 1,
@@ -17226,43 +18040,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Amad Diallo",
-        "team_iso3": "CIV",
-        "total_goals": 1,
-        "top_bucket": "76-90",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -17345,10 +18122,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Bradley Barcola",
-        "team_iso3": "FRA",
+        "player_name": "Anthony Elanga",
+        "team_iso3": "SWE",
         "total_goals": 1,
-        "top_bucket": "76-90",
+        "top_bucket": "61-75",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -17369,11 +18146,11 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "61-75",
-            "goals": 0
+            "goals": 1
           },
           {
             "bucket": "76-90",
-            "goals": 1
+            "goals": 0
           },
           {
             "bucket": "90+X",
@@ -17382,10 +18159,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Breel Embolo",
-        "team_iso3": "CHE",
+        "player_name": "Antonio Nusa",
+        "team_iso3": "NOR",
         "total_goals": 1,
-        "top_bucket": "16-30",
+        "top_bucket": "31-45+",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -17394,7 +18171,44 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
             "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Brian Cipenga",
+        "team_iso3": "COD",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
           },
           {
             "bucket": "31-45+",
@@ -17493,6 +18307,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Casemiro",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Daichi Kamada",
         "team_iso3": "JPN",
         "total_goals": 1,
@@ -17514,6 +18365,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "46-60",
             "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Daizen Maeda",
+        "team_iso3": "JPN",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
           },
           {
             "bucket": "61-75",
@@ -17567,10 +18455,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Emam Ashour",
-        "team_iso3": "EGY",
+        "player_name": "Dan Ndoye",
+        "team_iso3": "CHE",
         "total_goals": 1,
-        "top_bucket": "16-30",
+        "top_bucket": "46-60",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -17579,7 +18467,192 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
             "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Deroy Duarte",
+        "team_iso3": "CPV",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Derrick Luckassen",
+        "team_iso3": "GHA",
+        "total_goals": 1,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Diney Borges",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Désiré Doué",
+        "team_iso3": "FRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Eldor Shomurodov",
+        "team_iso3": "UZB",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
           },
           {
             "bucket": "31-45+",
@@ -17641,6 +18714,80 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Fiston Mayele",
+        "team_iso3": "COD",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Gabriel Martinelli",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Gessime Yassine",
         "team_iso3": "MAR",
         "total_goals": 1,
@@ -17670,6 +18817,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Giovani Lo Celso",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
           },
           {
             "bucket": "90+X",
@@ -17748,6 +18932,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Hans Vanaken",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
           }
         ]
       },
@@ -17900,10 +19121,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "John McGinn",
-        "team_iso3": "SCO",
+        "player_name": "Iliman Ndiaye",
+        "team_iso3": "SEN",
         "total_goals": 1,
-        "top_bucket": "16-30",
+        "top_bucket": "76-90",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -17912,7 +19133,44 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
             "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Jhon Arias",
+        "team_iso3": "COL",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
           },
           {
             "bucket": "31-45+",
@@ -17937,10 +19195,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Jude Bellingham",
-        "team_iso3": "ENG",
+        "player_name": "John McGinn",
+        "team_iso3": "SCO",
         "total_goals": 1,
-        "top_bucket": "46-60",
+        "top_bucket": "16-30",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -17949,7 +19207,7 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "16-30",
-            "goals": 0
+            "goals": 1
           },
           {
             "bucket": "31-45+",
@@ -17957,7 +19215,7 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "46-60",
-            "goals": 1
+            "goals": 0
           },
           {
             "bucket": "61-75",
@@ -18048,6 +19306,80 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Kaishu Sano",
+        "team_iso3": "JPN",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Kevin De Bruyne",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Ladislav Krejcí",
         "team_iso3": "CZE",
         "total_goals": 1,
@@ -18122,6 +19454,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Lautaro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Leo Østigard",
         "team_iso3": "NOR",
         "total_goals": 1,
@@ -18155,6 +19524,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Lisandro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
           }
         ]
       },
@@ -18198,6 +19604,80 @@ window.WM_MVP_DATA = {
       {
         "player_name": "Luis Romo",
         "team_iso3": "MEX",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Mahmoud Saber",
+        "team_iso3": "EGY",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Marcel Sabitzer",
+        "team_iso3": "AUT",
         "total_goals": 1,
         "top_bucket": "46-60",
         "top_bucket_goals": 1,
@@ -18303,43 +19783,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Marko Arnautovic",
-        "team_iso3": "AUT",
-        "total_goals": 1,
-        "top_bucket": "90+X",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 1
           }
         ]
       },
@@ -18566,43 +20009,6 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Mohamed Hany",
-        "team_iso3": "BEL",
-        "total_goals": 1,
-        "top_bucket": "61-75",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 1
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
         "player_name": "Mohamed Manai",
         "team_iso3": "CAN",
         "total_goals": 1,
@@ -18751,6 +20157,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Mousa Al-Tamari",
+        "team_iso3": "JOR",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Nadhir Benbouali",
         "team_iso3": "DZA",
         "total_goals": 1,
@@ -18817,6 +20260,80 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Neymar",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Nikola Vlasic",
+        "team_iso3": "HRV",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -18936,8 +20453,8 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Ousmane Dembélé",
-        "team_iso3": "FRA",
+        "player_name": "Pedro Porro",
+        "team_iso3": "ESP",
         "total_goals": 1,
         "top_bucket": "61-75",
         "top_bucket_goals": 1,
@@ -19010,6 +20527,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Petar Sucic",
+        "team_iso3": "HRV",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Promise David",
         "team_iso3": "CAN",
         "total_goals": 1,
@@ -19047,8 +20601,8 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Ramin Rezaeian",
-        "team_iso3": "IRN",
+        "player_name": "Rafik Belghali",
+        "team_iso3": "DZA",
         "total_goals": 1,
         "top_bucket": "31-45+",
         "top_bucket_goals": 1,
@@ -19072,43 +20626,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "61-75",
             "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Raúl Jiménez",
-        "team_iso3": "MEX",
-        "total_goals": 1,
-        "top_bucket": "61-75",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 1
           },
           {
             "bucket": "76-90",
@@ -19158,10 +20675,10 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Soufiane Rahimi",
-        "team_iso3": "MAR",
+        "player_name": "Sasa Kalajdzic",
+        "team_iso3": "AUT",
         "total_goals": 1,
-        "top_bucket": "76-90",
+        "top_bucket": "90+X",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -19186,11 +20703,85 @@ window.WM_MVP_DATA = {
           },
           {
             "bucket": "76-90",
-            "goals": 1
+            "goals": 0
           },
           {
             "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Sidny Lopes Cabral",
+        "team_iso3": "CPV",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
             "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
+        "player_name": "Stephen Eustáquio",
+        "team_iso3": "CAN",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
           }
         ]
       },
@@ -19257,6 +20848,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "61-75",
             "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Thelo Aasgaard",
+        "team_iso3": "NOR",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
           },
           {
             "bucket": "76-90",
@@ -19493,17 +21121,52 @@ window.WM_MVP_DATA = {
     ],
     "top_scorers": [
       {
-        "player_name": "Lionel Messi",
-        "team_iso3": "ARG",
-        "total_goals": 5,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 1
-      },
-      {
         "player_name": "Erling Haaland",
         "team_iso3": "NOR",
+        "total_goals": 7,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 3
+      },
+      {
+        "player_name": "Kylian Mbappé",
+        "team_iso3": "FRA",
+        "total_goals": 7,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 3
+      },
+      {
+        "player_name": "Lionel Messi",
+        "team_iso3": "ARG",
+        "total_goals": 7,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Harry Kane",
+        "team_iso3": "ENG",
+        "total_goals": 6,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Ismaïla Sarr",
+        "team_iso3": "SEN",
         "total_goals": 4,
         "top_bucket": "46-60",
+        "top_bucket_goals": 3
+      },
+      {
+        "player_name": "Jude Bellingham",
+        "team_iso3": "ENG",
+        "total_goals": 4,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Mikel Oyarzabal",
+        "team_iso3": "ESP",
+        "total_goals": 4,
+        "top_bucket": "16-30",
         "top_bucket_goals": 2
       },
       {
@@ -19514,10 +21177,45 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 2
       },
       {
-        "player_name": "Kylian Mbappé",
+        "player_name": "Julián Quiñones",
+        "team_iso3": "MEX",
+        "total_goals": 4,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 4,
         "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Folarin Balogun",
+        "team_iso3": "USA",
+        "total_goals": 3,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Raúl Jiménez",
+        "team_iso3": "MEX",
+        "total_goals": 3,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Romelu Lukaku",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 2
+      },
+      {
+        "player_name": "Elijah Just",
+        "team_iso3": "NZL",
+        "total_goals": 3,
+        "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
@@ -19549,11 +21247,11 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Mikel Oyarzabal",
-        "team_iso3": "ESP",
+        "player_name": "Amad Diallo",
+        "team_iso3": "CIV",
         "total_goals": 2,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
       },
       {
         "player_name": "Ayase Ueda",
@@ -19567,6 +21265,34 @@ window.WM_MVP_DATA = {
         "team_iso3": "IRQ",
         "total_goals": 2,
         "top_bucket": "31-45+",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Azzedine Ounahi",
+        "team_iso3": "MAR",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Bradley Barcola",
+        "team_iso3": "FRA",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Breel Embolo",
+        "team_iso3": "CHE",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
@@ -19584,38 +21310,66 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Elijah Just",
-        "team_iso3": "NZL",
+        "player_name": "Emam Ashour",
+        "team_iso3": "EGY",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Habib Diarra",
+        "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Folarin Balogun",
+        "player_name": "Leandro Trossard",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Malik Tillman",
         "team_iso3": "USA",
         "total_goals": 2,
-        "top_bucket": "31-45+",
+        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Harry Kane",
-        "team_iso3": "ENG",
+        "player_name": "Marko Arnautovic",
+        "team_iso3": "AUT",
         "total_goals": 2,
-        "top_bucket": "00-15",
+        "top_bucket": "90+X",
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Ismaïla Sarr",
+        "player_name": "Mohamed Hany",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Pape Gueye",
         "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Julián Quiñones",
-        "team_iso3": "MEX",
+        "player_name": "Ramin Rezaeian",
+        "team_iso3": "IRN",
         "total_goals": 2,
-        "top_bucket": "00-15",
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Riyad Mahrez",
+        "team_iso3": "DZA",
+        "total_goals": 2,
+        "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
@@ -19626,10 +21380,31 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Soufiane Rahimi",
+        "team_iso3": "MAR",
+        "total_goals": 2,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Yasin Ayari",
         "team_iso3": "SWE",
         "total_goals": 2,
         "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Yoane Wissa",
+        "team_iso3": "COD",
+        "total_goals": 2,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Youri Tielemans",
+        "team_iso3": "BEL",
+        "total_goals": 2,
+        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
@@ -19661,17 +21436,17 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Alexis Saelemaekers",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Ali Olwan",
         "team_iso3": "JOR",
         "total_goals": 1,
         "top_bucket": "46-60",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Amad Diallo",
-        "team_iso3": "CIV",
-        "total_goals": 1,
-        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
@@ -19689,17 +21464,24 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Bradley Barcola",
-        "team_iso3": "FRA",
+        "player_name": "Anthony Elanga",
+        "team_iso3": "SWE",
         "total_goals": 1,
-        "top_bucket": "76-90",
+        "top_bucket": "61-75",
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Breel Embolo",
-        "team_iso3": "CHE",
+        "player_name": "Antonio Nusa",
+        "team_iso3": "NOR",
         "total_goals": 1,
-        "top_bucket": "16-30",
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Brian Cipenga",
+        "team_iso3": "COD",
+        "total_goals": 1,
+        "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
@@ -19717,10 +21499,24 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Casemiro",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Daichi Kamada",
         "team_iso3": "JPN",
         "total_goals": 1,
         "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Daizen Maeda",
+        "team_iso3": "JPN",
+        "total_goals": 1,
+        "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
@@ -19731,10 +21527,45 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Emam Ashour",
-        "team_iso3": "EGY",
+        "player_name": "Dan Ndoye",
+        "team_iso3": "CHE",
         "total_goals": 1,
-        "top_bucket": "16-30",
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Deroy Duarte",
+        "team_iso3": "CPV",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Derrick Luckassen",
+        "team_iso3": "GHA",
+        "total_goals": 1,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Diney Borges",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Désiré Doué",
+        "team_iso3": "FRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Eldor Shomurodov",
+        "team_iso3": "UZB",
+        "total_goals": 1,
+        "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
@@ -19745,10 +21576,31 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Fiston Mayele",
+        "team_iso3": "COD",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Gabriel Martinelli",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Gessime Yassine",
         "team_iso3": "MAR",
         "total_goals": 1,
         "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Giovani Lo Celso",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "16-30",
         "top_bucket_goals": 1
       },
       {
@@ -19763,6 +21615,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "CHE",
         "total_goals": 1,
         "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Hans Vanaken",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
@@ -19794,17 +21653,24 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Iliman Ndiaye",
+        "team_iso3": "SEN",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Jhon Arias",
+        "team_iso3": "COL",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "John McGinn",
         "team_iso3": "SCO",
         "total_goals": 1,
         "top_bucket": "16-30",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Jude Bellingham",
-        "team_iso3": "ENG",
-        "total_goals": 1,
-        "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
@@ -19822,6 +21688,20 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Kaishu Sano",
+        "team_iso3": "JPN",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Kevin De Bruyne",
+        "team_iso3": "BEL",
+        "total_goals": 1,
+        "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Ladislav Krejcí",
         "team_iso3": "CZE",
         "total_goals": 1,
@@ -19836,10 +21716,24 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Lautaro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Leo Østigard",
         "team_iso3": "NOR",
         "total_goals": 1,
         "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Lisandro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
         "top_bucket_goals": 1
       },
       {
@@ -19857,6 +21751,20 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Mahmoud Saber",
+        "team_iso3": "EGY",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Marcel Sabitzer",
+        "team_iso3": "AUT",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Marcus Holmgren Pedersen",
         "team_iso3": "NOR",
         "total_goals": 1,
@@ -19868,13 +21776,6 @@ window.WM_MVP_DATA = {
         "team_iso3": "ENG",
         "total_goals": 1,
         "top_bucket": "76-90",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Marko Arnautovic",
-        "team_iso3": "AUT",
-        "total_goals": 1,
-        "top_bucket": "90+X",
         "top_bucket_goals": 1
       },
       {
@@ -19920,13 +21821,6 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Mohamed Hany",
-        "team_iso3": "BEL",
-        "total_goals": 1,
-        "top_bucket": "61-75",
-        "top_bucket_goals": 1
-      },
-      {
         "player_name": "Mohamed Manai",
         "team_iso3": "CAN",
         "total_goals": 1,
@@ -19955,6 +21849,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Mousa Al-Tamari",
+        "team_iso3": "JOR",
+        "total_goals": 1,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Nadhir Benbouali",
         "team_iso3": "DZA",
         "total_goals": 1,
@@ -19966,6 +21867,20 @@ window.WM_MVP_DATA = {
         "team_iso3": "CAN",
         "total_goals": 1,
         "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Neymar",
+        "team_iso3": "BRA",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Nikola Vlasic",
+        "team_iso3": "HRV",
+        "total_goals": 1,
+        "top_bucket": "76-90",
         "top_bucket_goals": 1
       },
       {
@@ -19990,8 +21905,8 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Ousmane Dembélé",
-        "team_iso3": "FRA",
+        "player_name": "Pedro Porro",
+        "team_iso3": "ESP",
         "total_goals": 1,
         "top_bucket": "61-75",
         "top_bucket_goals": 1
@@ -20004,6 +21919,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Petar Sucic",
+        "team_iso3": "HRV",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Promise David",
         "team_iso3": "CAN",
         "total_goals": 1,
@@ -20011,17 +21933,10 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Ramin Rezaeian",
-        "team_iso3": "IRN",
+        "player_name": "Rafik Belghali",
+        "team_iso3": "DZA",
         "total_goals": 1,
         "top_bucket": "31-45+",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Raúl Jiménez",
-        "team_iso3": "MEX",
-        "total_goals": 1,
-        "top_bucket": "61-75",
         "top_bucket_goals": 1
       },
       {
@@ -20032,10 +21947,24 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Soufiane Rahimi",
-        "team_iso3": "MAR",
+        "player_name": "Sasa Kalajdzic",
+        "team_iso3": "AUT",
         "total_goals": 1,
-        "top_bucket": "76-90",
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Sidny Lopes Cabral",
+        "team_iso3": "CPV",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Stephen Eustáquio",
+        "team_iso3": "CAN",
+        "total_goals": 1,
+        "top_bucket": "90+X",
         "top_bucket_goals": 1
       },
       {
@@ -20050,6 +21979,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "ZAF",
         "total_goals": 1,
         "top_bucket": "61-75",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Thelo Aasgaard",
+        "team_iso3": "NOR",
+        "total_goals": 1,
+        "top_bucket": "16-30",
         "top_bucket_goals": 1
       },
       {
@@ -20104,7 +22040,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-07T08:13:20",
+      "generated_at": "2026-07-07T10:17:16",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -20133,7 +22069,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-06-25T05:05:00.945473+00:00"
+        "last_event_update": "2026-07-07T08:05:49"
       },
       "knockout_readiness": {
         "upcoming_matches": 10,

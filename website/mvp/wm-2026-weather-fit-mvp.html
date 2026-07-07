@@ -6492,7 +6492,7 @@ select:focus {
     <script>
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-08T00:08:51",
+    "exported_at": "2026-07-08T01:13:06",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -17933,9 +17933,9 @@ window.WM_MVP_DATA = {
       "local_time": "13:00",
       "local_timezone": "America/Vancouver",
       "date_utc": "2026-07-07T20:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 0,
+      "result_team_b": 0,
+      "match_status": "finished",
       "stadium_name": "BC Place Vancouver",
       "host_city": "Vancouver",
       "host_country": "Canada",
@@ -18035,11 +18035,16 @@ window.WM_MVP_DATA = {
       "weather_teaser_de": "Weather Fit: CHE 68.78/100, COL 72.78/100. Vorteil: COL.",
       "weather_body_de": "Kolumbien wirkt für diese Wettersituation etwas besser eingeordnet als Schweiz: Weather Fit 72.78/100 gegen 68.78/100 bei 22.6 Grad und 56.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
       "weather_social_hook_de": "CHE vs. COL: Bei 22.6 Grad und 56.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich COL vorne. Kein Wettmodell.",
-      "result_resolution": null,
+      "result_resolution": "extra_time",
       "advanced_team_side": null,
       "shootout_score_team_a": null,
       "shootout_score_team_b": null,
-      "event_periods": []
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ]
     },
     {
       "match_id": "M097",
@@ -18091,7 +18096,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 14.2,
       "forecast_precipitation_probability": 6.0,
       "forecast_heat_index": 33.3,
-      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
+      "forecast_last_updated": "2026-07-07T23:10:01.248963+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -18211,7 +18216,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 16.2,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 26.4,
-      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
+      "forecast_last_updated": "2026-07-07T23:10:01.248963+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -18331,7 +18336,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 24.5,
       "forecast_precipitation_probability": 13.0,
       "forecast_heat_index": 37.84,
-      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
+      "forecast_last_updated": "2026-07-07T23:10:01.248963+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -19731,6 +19736,19 @@ window.WM_MVP_DATA = {
         "points": 4
       },
       {
+        "iso3": "CHE",
+        "name_de": "Schweiz",
+        "flag": "🇨🇭",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 2,
+        "goals_against": 0,
+        "goal_difference": 2,
+        "points": 4
+      },
+      {
         "iso3": "ARG",
         "name_de": "Argentinien",
         "flag": "🇦🇷",
@@ -19744,17 +19762,17 @@ window.WM_MVP_DATA = {
         "points": 4
       },
       {
-        "iso3": "CHE",
-        "name_de": "Schweiz",
-        "flag": "🇨🇭",
-        "played": 1,
+        "iso3": "COL",
+        "name_de": "Kolumbien",
+        "flag": "🇨🇴",
+        "played": 2,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "goals_for": 2,
+        "goals_for": 1,
         "goals_against": 0,
-        "goal_difference": 2,
-        "points": 3
+        "goal_difference": 1,
+        "points": 4
       },
       {
         "iso3": "MEX",
@@ -19766,19 +19784,6 @@ window.WM_MVP_DATA = {
         "losses": 1,
         "goals_for": 4,
         "goals_against": 3,
-        "goal_difference": 1,
-        "points": 3
-      },
-      {
-        "iso3": "COL",
-        "name_de": "Kolumbien",
-        "flag": "🇨🇴",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 1,
-        "goals_against": 0,
         "goal_difference": 1,
         "points": 3
       },
@@ -22207,16 +22212,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "CHE vs. COL",
         "host_city": "Vancouver",
-        "status": "scheduled",
-        "result": null,
-        "result_resolution": null,
+        "status": "finished",
+        "result": "0:0",
+        "result_resolution": "extra_time",
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "COL Edge",
         "weather_load_score": 0.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
+        "note_de": "CHE 0:0 COL (nach Verlängerung entschieden). Forecast-Edge: COL Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M097",
@@ -22390,7 +22395,7 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 95,
+        "finished": 96,
         "forecast_matches": 8,
         "actual_weather_matches": 0,
         "weather_fit_matches": 98,
@@ -22432,7 +22437,7 @@ window.WM_MVP_DATA = {
       },
       "round_of_16": {
         "matches": 8,
-        "finished": 7,
+        "finished": 8,
         "forecast_matches": 0,
         "actual_weather_matches": 0,
         "weather_fit_matches": 8,
@@ -22473,7 +22478,7 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 95,
+      "finished": 96,
       "forecast_matches": 8,
       "actual_weather_matches": 0,
       "weather_fit_matches": 98,
@@ -22485,13 +22490,13 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 95,
+      "finished_matches": 96,
       "matches_with_goal_events": 69,
-      "matches_with_complete_lineups": 74,
-      "matches_with_substitutions": 74,
-      "matches_with_hydration_markers": 74,
-      "last_event_update": "2026-07-08T00:05:16",
-      "goal_event_coverage_share": 0.726
+      "matches_with_complete_lineups": 75,
+      "matches_with_substitutions": 75,
+      "matches_with_hydration_markers": 75,
+      "last_event_update": "2026-07-08T01:09:47",
+      "goal_event_coverage_share": 0.719
     },
     "goal_rows": 220,
     "goals_by_15min_bucket": [
@@ -28640,7 +28645,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-08T00:08:51",
+      "generated_at": "2026-07-08T01:13:06",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -28669,14 +28674,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-08T00:05:16"
+        "last_event_update": "2026-07-08T01:09:47"
       },
       "knockout_readiness": {
-        "upcoming_matches": 9,
+        "upcoming_matches": 8,
         "forecast_matches": 8,
-        "weather_fit_matches": 4,
-        "forecast_share": 0.889,
-        "weather_fit_share": 0.444
+        "weather_fit_matches": 3,
+        "forecast_share": 1.0,
+        "weather_fit_share": 0.375
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

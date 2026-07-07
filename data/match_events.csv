@@ -2278,3 +2278,37 @@ M095,EGY,EGY,Zizo,Mohanad Lashin,sub_in,90,6,2H,,,"Substitution, Egypt. Zizo rep
 M095,EGY,EGY,Mohanad Lashin,Zizo,sub_out,90,6,2H,,,"Substitution, Egypt. Zizo replaces Mohanad Lasheen.",ESPN public summary API,82
 M095,EGY,EGY,Marawan Attia,,yellow_card,90,8,2H,,,Marwan Attia (Egypt) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M095,EGY,EGY,Haissem Hassan,,yellow_card,90,12,2H,,,Haissem Hassan (Egypt) is shown the yellow card.,ESPN public summary API,82
+M096,COL,COL,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M096,COL,COL,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M096,CHE,CHE,Djibril Sow,Ardon Jashari,sub_in,45,,2H,,,"Substitution, Switzerland. Djibril Sow replaces Ardon Jashari.",ESPN public summary API,82
+M096,CHE,CHE,Ardon Jashari,Djibril Sow,sub_out,45,,2H,,,"Substitution, Switzerland. Djibril Sow replaces Ardon Jashari.",ESPN public summary API,82
+M096,CHE,CHE,Granit Xhaka,,yellow_card,51,,2H,,,Granit Xhaka (Switzerland) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M096,CHE,CHE,Denis Zakaria,,yellow_card,59,,2H,,,Denis Zakaria (Switzerland) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M096,COL,COL,Luis Suárez,,yellow_card,60,,2H,,,Luis Suárez (Colombia) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M096,COL,COL,Juan Fernando Quintero,James Rodríguez,sub_in,66,,2H,,,"Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez.",ESPN public summary API,82
+M096,COL,COL,Jáminton Campaz,Jhon Arias,sub_in,66,,2H,,,"Substitution, Colombia. Jaminton Campaz replaces Jhon Arias.",ESPN public summary API,82
+M096,COL,COL,James Rodríguez,Juan Fernando Quintero,sub_out,66,,2H,,,"Substitution, Colombia. Juan Fernando Quintero replaces James Rodríguez.",ESPN public summary API,82
+M096,COL,COL,Jhon Arias,Jáminton Campaz,sub_out,66,,2H,,,"Substitution, Colombia. Jaminton Campaz replaces Jhon Arias.",ESPN public summary API,82
+M096,CHE,CHE,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M096,CHE,CHE,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M096,CHE,CHE,Miro Muheim,Ricardo Rodríguez,sub_in,71,,2H,,,"Substitution, Switzerland. Miro Muheim replaces Ricardo Rodríguez.",ESPN public summary API,82
+M096,CHE,CHE,Ricardo Rodríguez,Miro Muheim,sub_out,71,,2H,,,"Substitution, Switzerland. Miro Muheim replaces Ricardo Rodríguez.",ESPN public summary API,82
+M096,CHE,CHE,,,hydration_break_end,74,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M096,CHE,CHE,,,hydration_break_end,77,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M096,COL,COL,Cucho Hernández,Luis Suárez,sub_in,82,,2H,,,"Substitution, Colombia. Cucho Hernández replaces Luis Suárez.",ESPN public summary API,82
+M096,COL,COL,Richard Ríos,Jefferson Lerma,sub_in,82,,2H,,,"Substitution, Colombia. Richard Ríos replaces Jefferson Lerma.",ESPN public summary API,82
+M096,COL,COL,Jefferson Lerma,Richard Ríos,sub_out,82,,2H,,,"Substitution, Colombia. Richard Ríos replaces Jefferson Lerma.",ESPN public summary API,82
+M096,COL,COL,Luis Suárez,Cucho Hernández,sub_out,82,,2H,,,"Substitution, Colombia. Cucho Hernández replaces Luis Suárez.",ESPN public summary API,82
+M096,CHE,CHE,Cedric Itten,Breel Embolo,sub_in,87,,2H,,,"Substitution, Switzerland. Cedric Itten replaces Breel Embolo.",ESPN public summary API,82
+M096,CHE,CHE,Silvan Widmer,Denis Zakaria,sub_in,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria.",ESPN public summary API,82
+M096,CHE,CHE,Breel Embolo,Cedric Itten,sub_out,87,,2H,,,"Substitution, Switzerland. Cedric Itten replaces Breel Embolo.",ESPN public summary API,82
+M096,CHE,CHE,Denis Zakaria,Silvan Widmer,sub_out,87,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Denis Zakaria.",ESPN public summary API,82
+M096,CHE,CHE,Rubén Vargas,Dan Ndoye,sub_in,90,2,2H,,,"Substitution, Switzerland. Rubén Vargas replaces Dan Ndoye.",ESPN public summary API,82
+M096,CHE,CHE,Dan Ndoye,Rubén Vargas,sub_out,90,2,2H,,,"Substitution, Switzerland. Rubén Vargas replaces Dan Ndoye.",ESPN public summary API,82
+M096,COL,COL,Davinson Sánchez,,yellow_card,95,,ET1,,,Davinson Sánchez (Colombia) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M096,CHE,CHE,Zeki Amdouni,Fabian Rieder,sub_in,103,,ET1,,,"Substitution, Switzerland. Zeki Amdouni replaces Fabian Rieder.",ESPN public summary API,82
+M096,CHE,CHE,Fabian Rieder,Zeki Amdouni,sub_out,103,,ET1,,,"Substitution, Switzerland. Zeki Amdouni replaces Fabian Rieder.",ESPN public summary API,82
+M096,CHE,CHE,Miro Muheim,,yellow_card,105,,ET1,,,Miro Muheim (Switzerland) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M096,COL,COL,,,hydration_break_end,119,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M096,COL,COL,Yerry Mina,Jhon Lucumí,sub_in,119,,ET2,,,"Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury.",ESPN public summary API,82
+M096,COL,COL,Jhon Lucumí,Yerry Mina,sub_out,119,,ET2,,,"Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury.",ESPN public summary API,82

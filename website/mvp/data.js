@@ -1,11 +1,12 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-07T22:39:31",
-    "source": "Local offline export with schedule/result overlay",
+    "exported_at": "2026-07-08T00:08:51",
+    "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
-    "forecast_matches": 10,
-    "weather_fit_matches": 98
+    "forecast_matches": 8,
+    "weather_fit_matches": 98,
+    "event_stats_source": "local_csv_preferred"
   },
   "matches": [
     {
@@ -11320,9 +11321,9 @@ window.WM_MVP_DATA = {
       "local_time": "12:00",
       "local_timezone": "America/New_York",
       "date_utc": "2026-07-07T16:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 3,
+      "result_team_b": 2,
+      "match_status": "finished",
       "stadium_name": "Atlanta Stadium",
       "host_city": "Atlanta",
       "host_country": "United States",
@@ -11353,13 +11354,13 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Aegypten",
       "team_b_name_en": "Egypt",
       "team_b_flag": "🇪🇬",
-      "forecast_temp": 33.2,
-      "forecast_humidity": 44.0,
-      "forecast_wind_speed": 15.5,
-      "forecast_precipitation_probability": 1.0,
-      "forecast_heat_index": 35.05,
-      "forecast_last_updated": "2026-07-07T16:06:18.451143+00:00",
-      "forecast_quality": 85.0,
+      "forecast_temp": null,
+      "forecast_humidity": null,
+      "forecast_wind_speed": null,
+      "forecast_precipitation_probability": null,
+      "forecast_heat_index": null,
+      "forecast_last_updated": null,
+      "forecast_quality": null,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
@@ -11380,9 +11381,9 @@ window.WM_MVP_DATA = {
       "weather_load_score": 32.0,
       "weather_fit_edge_gap": 1.15,
       "predicted_result_category": "team_a_win",
-      "probability_team_a_win": 38.6,
-      "probability_draw": 32.0,
-      "probability_team_b_win": 29.4,
+      "probability_team_a_win": 38.5,
+      "probability_draw": 32.3,
+      "probability_team_b_win": 29.2,
       "main_context_advantage": "team_a",
       "biggest_load_factor": "circadian_load_gap",
       "uncertainty_level": "low",
@@ -11473,13 +11474,13 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Kolumbien",
       "team_b_name_en": "Colombia",
       "team_b_flag": "🇨🇴",
-      "forecast_temp": 22.6,
-      "forecast_humidity": 56.0,
-      "forecast_wind_speed": 7.4,
-      "forecast_precipitation_probability": 1.0,
-      "forecast_heat_index": 22.6,
-      "forecast_last_updated": "2026-07-07T16:06:18.451143+00:00",
-      "forecast_quality": 85.0,
+      "forecast_temp": null,
+      "forecast_humidity": null,
+      "forecast_wind_speed": null,
+      "forecast_precipitation_probability": null,
+      "forecast_heat_index": null,
+      "forecast_last_updated": null,
+      "forecast_quality": null,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
@@ -11500,9 +11501,9 @@ window.WM_MVP_DATA = {
       "weather_load_score": 0.0,
       "weather_fit_edge_gap": 4.0,
       "predicted_result_category": "team_a_win",
-      "probability_team_a_win": 34.1,
-      "probability_draw": 33.1,
-      "probability_team_b_win": 32.8,
+      "probability_team_a_win": 33.9,
+      "probability_draw": 33.4,
+      "probability_team_b_win": 32.7,
       "main_context_advantage": "balanced",
       "biggest_load_factor": "circadian_load_gap",
       "uncertainty_level": "low",
@@ -11593,32 +11594,32 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Marokko",
       "team_b_name_en": "Morocco",
       "team_b_flag": "🇲🇦",
-      "forecast_temp": 32.3,
-      "forecast_humidity": 41.0,
-      "forecast_wind_speed": 20.0,
-      "forecast_precipitation_probability": 4.0,
-      "forecast_heat_index": 32.91,
-      "forecast_last_updated": "2026-07-07T16:06:18.451143+00:00",
+      "forecast_temp": 33.3,
+      "forecast_humidity": 34.0,
+      "forecast_wind_speed": 14.2,
+      "forecast_precipitation_probability": 6.0,
+      "forecast_heat_index": 33.3,
+      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
       "actual_wind_speed": null,
       "actual_heat_index": null,
-      "team_a_weather_fit_score": 53.03,
-      "team_a_weather_familiarity_score": 35.61,
-      "team_a_weather_tolerance_score": 50.84,
-      "team_a_effective_weather_load_score": 22.96,
+      "team_a_weather_fit_score": 52.78,
+      "team_a_weather_familiarity_score": 31.86,
+      "team_a_weather_tolerance_score": 46.5,
+      "team_a_effective_weather_load_score": 23.73,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
-      "team_b_weather_fit_score": 54.79,
-      "team_b_weather_familiarity_score": 47.84,
-      "team_b_weather_tolerance_score": 56.82,
-      "team_b_effective_weather_load_score": 21.9,
+      "team_b_weather_fit_score": 55.47,
+      "team_b_weather_familiarity_score": 41.48,
+      "team_b_weather_tolerance_score": 59.1,
+      "team_b_effective_weather_load_score": 21.49,
       "team_b_weather_fit_label": "neutral_fit",
       "team_b_weather_edge_role": "balanced",
       "weather_load_score": 32.0,
-      "weather_fit_edge_gap": 1.76,
+      "weather_fit_edge_gap": 2.69,
       "predicted_result_category": "team_a_win",
       "probability_team_a_win": 35.1,
       "probability_draw": 32.9,
@@ -11659,9 +11660,9 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Datenlage offen. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇫🇷 FRA vs. 🇲🇦 MAR: Kontextvorteil balanced, sichtbarer Faktor Datenlage offen. Kein Wettmodell.",
       "weather_headline_de": "🇫🇷 FRA vs. 🇲🇦 MAR: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: FRA 53.03/100, MAR 54.79/100. Vorteil: ausgeglichen.",
+      "weather_teaser_de": "Weather Fit: FRA 52.78/100, MAR 55.47/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "FRA vs. MAR: Bei 32.3 Grad und 41.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "weather_social_hook_de": "FRA vs. MAR: Bei 33.3 Grad und 34.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11713,32 +11714,32 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Belgien",
       "team_b_name_en": "Belgium",
       "team_b_flag": "🇧🇪",
-      "forecast_temp": 26.8,
-      "forecast_humidity": 47.0,
-      "forecast_wind_speed": 15.5,
+      "forecast_temp": 26.4,
+      "forecast_humidity": 48.0,
+      "forecast_wind_speed": 16.2,
       "forecast_precipitation_probability": 0.0,
-      "forecast_heat_index": 27.07,
-      "forecast_last_updated": "2026-07-07T16:06:18.451143+00:00",
+      "forecast_heat_index": 26.4,
+      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
       "actual_wind_speed": null,
       "actual_heat_index": null,
-      "team_a_weather_fit_score": 61.1,
-      "team_a_weather_familiarity_score": 62.91,
+      "team_a_weather_fit_score": 62.07,
+      "team_a_weather_familiarity_score": 64.64,
       "team_a_weather_tolerance_score": 53.7,
       "team_a_effective_weather_load_score": 12.63,
       "team_a_weather_fit_label": "moderate_fit",
       "team_a_weather_edge_role": "weather_edge",
-      "team_b_weather_fit_score": 55.26,
-      "team_b_weather_familiarity_score": 54.44,
+      "team_b_weather_fit_score": 56.24,
+      "team_b_weather_familiarity_score": 56.18,
       "team_b_weather_tolerance_score": 44.8,
       "team_b_effective_weather_load_score": 13.52,
       "team_b_weather_fit_label": "neutral_fit",
       "team_b_weather_edge_role": "weather_trailing",
       "weather_load_score": 18.0,
-      "weather_fit_edge_gap": 5.84,
+      "weather_fit_edge_gap": 5.83,
       "predicted_result_category": "team_b_win",
       "probability_team_a_win": 32.2,
       "probability_draw": 32.9,
@@ -11779,9 +11780,9 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Datenlage offen. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇪🇸 ESP vs. 🇧🇪 BEL: Kontextvorteil balanced, sichtbarer Faktor Datenlage offen. Kein Wettmodell.",
       "weather_headline_de": "🇪🇸 ESP vs. 🇧🇪 BEL: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: ESP 61.1/100, BEL 55.26/100. Vorteil: ESP.",
-      "weather_body_de": "Spanien wirkt für diese Wettersituation etwas besser eingeordnet als Belgien: Weather Fit 61.1/100 gegen 55.26/100 bei 26.8 Grad und 47.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "ESP vs. BEL: Bei 26.8 Grad und 47.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ESP vorne. Kein Wettmodell.",
+      "weather_teaser_de": "Weather Fit: ESP 62.07/100, BEL 56.24/100. Vorteil: ESP.",
+      "weather_body_de": "Spanien wirkt für diese Wettersituation etwas besser eingeordnet als Belgien: Weather Fit 62.07/100 gegen 56.24/100 bei 26.4 Grad und 48.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
+      "weather_social_hook_de": "ESP vs. BEL: Bei 26.4 Grad und 48.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ESP vorne. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11833,12 +11834,12 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "England",
       "team_b_name_en": "England",
       "team_b_flag": "🇬🇧",
-      "forecast_temp": 34.5,
-      "forecast_humidity": 47.0,
-      "forecast_wind_speed": 20.6,
-      "forecast_precipitation_probability": 16.0,
-      "forecast_heat_index": 38.46,
-      "forecast_last_updated": "2026-07-07T16:06:18.451143+00:00",
+      "forecast_temp": 33.3,
+      "forecast_humidity": 53.0,
+      "forecast_wind_speed": 24.5,
+      "forecast_precipitation_probability": 13.0,
+      "forecast_heat_index": 37.84,
+      "forecast_last_updated": "2026-07-07T22:05:28.004166+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11846,18 +11847,18 @@ window.WM_MVP_DATA = {
       "actual_wind_speed": null,
       "actual_heat_index": null,
       "team_a_weather_fit_score": 52.78,
-      "team_a_weather_familiarity_score": 38.61,
+      "team_a_weather_familiarity_score": 41.31,
       "team_a_weather_tolerance_score": 44.46,
-      "team_a_effective_weather_load_score": 24.1,
+      "team_a_effective_weather_load_score": 31.63,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
       "team_b_weather_fit_score": 52.78,
-      "team_b_weather_familiarity_score": 37.94,
+      "team_b_weather_familiarity_score": 40.63,
       "team_b_weather_tolerance_score": 49.28,
-      "team_b_effective_weather_load_score": 23.24,
+      "team_b_effective_weather_load_score": 30.5,
       "team_b_weather_fit_label": "neutral_fit",
       "team_b_weather_edge_role": "balanced",
-      "weather_load_score": 32.0,
+      "weather_load_score": 42.0,
       "weather_fit_edge_gap": 0.0,
       "predicted_result_category": "team_a_win",
       "probability_team_a_win": 36.6,
@@ -11901,7 +11902,7 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇳🇴 NOR vs. 🇬🇧 ENG: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: NOR 52.78/100, ENG 52.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "NOR vs. ENG: Bei 34.5 Grad und 47.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "weather_social_hook_de": "NOR vs. ENG: Bei 33.3 Grad und 53.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -11958,11 +11959,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W96",
       "team_b_name_en": "W96",
       "team_b_flag": "",
-      "forecast_temp": 31.1,
-      "forecast_humidity": 50.0,
-      "forecast_wind_speed": 7.7,
-      "forecast_precipitation_probability": 21.0,
-      "forecast_heat_index": 32.78,
+      "forecast_temp": 30.5,
+      "forecast_humidity": 62.0,
+      "forecast_wind_speed": 10.8,
+      "forecast_precipitation_probability": 32.0,
+      "forecast_heat_index": 34.27,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12078,11 +12079,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W98",
       "team_b_name_en": "W98",
       "team_b_flag": "",
-      "forecast_temp": 39.3,
-      "forecast_humidity": 28.0,
-      "forecast_wind_speed": 14.8,
-      "forecast_precipitation_probability": 10.0,
-      "forecast_heat_index": 39.3,
+      "forecast_temp": 37.0,
+      "forecast_humidity": 31.0,
+      "forecast_wind_speed": 12.9,
+      "forecast_precipitation_probability": 11.0,
+      "forecast_heat_index": 37.0,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12198,11 +12199,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W100",
       "team_b_name_en": "W100",
       "team_b_flag": "",
-      "forecast_temp": 36.5,
-      "forecast_humidity": 27.0,
-      "forecast_wind_speed": 13.4,
-      "forecast_precipitation_probability": 13.0,
-      "forecast_heat_index": 36.5,
+      "forecast_temp": 32.5,
+      "forecast_humidity": 37.0,
+      "forecast_wind_speed": 11.5,
+      "forecast_precipitation_probability": 11.0,
+      "forecast_heat_index": 32.5,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12318,11 +12319,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "L102",
       "team_b_name_en": "L102",
       "team_b_flag": "",
-      "forecast_temp": 35.2,
-      "forecast_humidity": 36.0,
-      "forecast_wind_speed": 22.3,
-      "forecast_precipitation_probability": 7.0,
-      "forecast_heat_index": 35.2,
+      "forecast_temp": 33.8,
+      "forecast_humidity": 47.0,
+      "forecast_wind_speed": 21.6,
+      "forecast_precipitation_probability": 22.0,
+      "forecast_heat_index": 37.01,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12438,11 +12439,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W102",
       "team_b_name_en": "W102",
       "team_b_flag": "",
-      "forecast_temp": 28.0,
-      "forecast_humidity": 26.0,
-      "forecast_wind_speed": 16.9,
-      "forecast_precipitation_probability": 12.0,
-      "forecast_heat_index": 28.0,
+      "forecast_temp": 34.4,
+      "forecast_humidity": 25.0,
+      "forecast_wind_speed": 9.4,
+      "forecast_precipitation_probability": 20.0,
+      "forecast_heat_index": 34.4,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -13238,6 +13239,19 @@ window.WM_MVP_DATA = {
         "points": 4
       },
       {
+        "iso3": "ARG",
+        "name_de": "Argentinien",
+        "flag": "🇦🇷",
+        "played": 2,
+        "wins": 1,
+        "draws": 1,
+        "losses": 0,
+        "goals_for": 4,
+        "goals_against": 3,
+        "goal_difference": 1,
+        "points": 4
+      },
+      {
         "iso3": "CHE",
         "name_de": "Schweiz",
         "flag": "🇨🇭",
@@ -13342,32 +13356,6 @@ window.WM_MVP_DATA = {
         "points": 1
       },
       {
-        "iso3": "EGY",
-        "name_de": "Aegypten",
-        "flag": "🇪🇬",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "goals_for": 1,
-        "goals_against": 1,
-        "goal_difference": 0,
-        "points": 1
-      },
-      {
-        "iso3": "ARG",
-        "name_de": "Argentinien",
-        "flag": "🇦🇷",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "goals_for": 1,
-        "goals_against": 1,
-        "goal_difference": 0,
-        "points": 1
-      },
-      {
         "iso3": "AUS",
         "name_de": "Australien",
         "flag": "🇦🇺",
@@ -13417,6 +13405,19 @@ window.WM_MVP_DATA = {
         "goals_for": 1,
         "goals_against": 1,
         "goal_difference": 0,
+        "points": 1
+      },
+      {
+        "iso3": "EGY",
+        "name_de": "Aegypten",
+        "flag": "🇪🇬",
+        "played": 2,
+        "wins": 0,
+        "draws": 1,
+        "losses": 1,
+        "goals_for": 3,
+        "goals_against": 4,
+        "goal_difference": -1,
         "points": 1
       },
       {
@@ -15693,16 +15694,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "ARG vs. EGY",
         "host_city": "Atlanta",
-        "status": "scheduled",
-        "result": null,
+        "status": "finished",
+        "result": "3:2",
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
-        "forecast_available": true,
+        "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: Ausgeglichen; Weather Load 32.0/100."
+        "note_de": "ARG 3:2 EGY. Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M096",
@@ -15721,9 +15722,9 @@ window.WM_MVP_DATA = {
         "shootout_result": null,
         "weather_edge": "COL Edge",
         "weather_load_score": 0.0,
-        "forecast_available": true,
+        "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: COL Edge; Weather Load –/100."
+        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
       },
       {
         "match_id": "M097",
@@ -15783,10 +15784,10 @@ window.WM_MVP_DATA = {
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "Ausgeglichen",
-        "weather_load_score": 32.0,
+        "weather_load_score": 42.0,
         "forecast_available": true,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: Ausgeglichen; Weather Load 32.0/100."
+        "note_de": "Noch nicht gespielt. Forecast-Edge: Ausgeglichen; Weather Load 42.0/100."
       },
       {
         "match_id": "M100",
@@ -15897,12 +15898,12 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 94,
-        "forecast_matches": 10,
+        "finished": 95,
+        "forecast_matches": 8,
         "actual_weather_matches": 0,
         "weather_fit_matches": 98,
         "weather_fit_edges": 57,
-        "avg_weather_load_score": 23.0,
+        "avg_weather_load_score": 23.1,
         "report_ready_matches": 0
       }
     },
@@ -15934,13 +15935,13 @@ window.WM_MVP_DATA = {
         "actual_weather_matches": 0,
         "weather_fit_matches": 3,
         "weather_fit_edges": 1,
-        "avg_weather_load_score": 27.33,
+        "avg_weather_load_score": 30.67,
         "report_ready_matches": 0
       },
       "round_of_16": {
         "matches": 8,
-        "finished": 6,
-        "forecast_matches": 2,
+        "finished": 7,
+        "forecast_matches": 0,
         "actual_weather_matches": 0,
         "weather_fit_matches": 8,
         "weather_fit_edges": 4,
@@ -15980,31 +15981,31 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 94,
-      "forecast_matches": 10,
+      "finished": 95,
+      "forecast_matches": 8,
       "actual_weather_matches": 0,
       "weather_fit_matches": 98,
       "weather_fit_edges": 57,
-      "avg_weather_load_score": 23.0,
+      "avg_weather_load_score": 23.1,
       "report_ready_matches": 0
     }
   },
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 94,
-      "matches_with_goal_events": 68,
-      "matches_with_complete_lineups": 73,
-      "matches_with_substitutions": 73,
-      "matches_with_hydration_markers": 73,
-      "last_event_update": "2026-07-07T18:05:55",
-      "goal_event_coverage_share": 0.723
+      "finished_matches": 95,
+      "matches_with_goal_events": 69,
+      "matches_with_complete_lineups": 74,
+      "matches_with_substitutions": 74,
+      "matches_with_hydration_markers": 74,
+      "last_event_update": "2026-07-08T00:05:16",
+      "goal_event_coverage_share": 0.726
     },
-    "goal_rows": 215,
+    "goal_rows": 220,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
-        "goals": 24
+        "goals": 25
       },
       {
         "bucket": "16-30",
@@ -16020,18 +16021,24 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "61-75",
-        "goals": 29
+        "goals": 30
       },
       {
         "bucket": "76-90",
-        "goals": 34
+        "goals": 36
       },
       {
         "bucket": "90+X",
-        "goals": 28
+        "goals": 29
       }
     ],
     "teams_most_often_scored_in_bucket": [
+      {
+        "key": "ARG",
+        "bucket": "76-90",
+        "count": 4,
+        "total": 14
+      },
       {
         "key": "FRA",
         "bucket": "61-75",
@@ -16055,12 +16062,6 @@ window.WM_MVP_DATA = {
         "bucket": "46-60",
         "count": 4,
         "total": 10
-      },
-      {
-        "key": "USA",
-        "bucket": "31-45+",
-        "count": 4,
-        "total": 9
       }
     ],
     "teams_most_often_conceded_in_bucket": [
@@ -16097,15 +16098,15 @@ window.WM_MVP_DATA = {
     ],
     "early_starters": [
       {
+        "key": "EGY",
+        "count": 3
+      },
+      {
         "key": "USA",
         "count": 2
       },
       {
         "key": "NZL",
-        "count": 2
-      },
-      {
-        "key": "EGY",
         "count": 2
       },
       {
@@ -16119,11 +16120,11 @@ window.WM_MVP_DATA = {
     ],
     "crunchtime_scorers": [
       {
-        "key": "BEL",
-        "count": 3
+        "key": "ARG",
+        "count": 4
       },
       {
-        "key": "ARG",
+        "key": "BEL",
         "count": 3
       },
       {
@@ -16171,15 +16172,15 @@ window.WM_MVP_DATA = {
         "count": 9
       },
       {
+        "key": "ARG",
+        "count": 9
+      },
+      {
         "key": "SEN",
         "count": 8
       },
       {
         "key": "CAN",
-        "count": 7
-      },
-      {
-        "key": "CHE",
         "count": 7
       }
     ],
@@ -16251,6 +16252,12 @@ window.WM_MVP_DATA = {
     ],
     "player_level_scoring_buckets": [
       {
+        "key": "Lionel Messi",
+        "bucket": "76-90",
+        "count": 3,
+        "total": 8
+      },
+      {
         "key": "Erling Haaland",
         "bucket": "76-90",
         "count": 3,
@@ -16269,12 +16276,6 @@ window.WM_MVP_DATA = {
         "total": 4
       },
       {
-        "key": "Lionel Messi",
-        "bucket": "16-30",
-        "count": 2,
-        "total": 7
-      },
-      {
         "key": "Harry Kane",
         "bucket": "61-75",
         "count": 2,
@@ -16282,6 +16283,43 @@ window.WM_MVP_DATA = {
       }
     ],
     "player_goal_timing_profiles": [
+      {
+        "player_name": "Lionel Messi",
+        "team_iso3": "ARG",
+        "total_goals": 8,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 3,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 2
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 3
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
       {
         "player_name": "Erling Haaland",
         "team_iso3": "NOR",
@@ -16349,43 +16387,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 1
-          }
-        ]
-      },
-      {
-        "player_name": "Lionel Messi",
-        "team_iso3": "ARG",
-        "total_goals": 7,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 2
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 2
           },
           {
             "bucket": "90+X",
@@ -17504,6 +17505,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Mostafa Zico",
+        "team_iso3": "EGY",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Pape Gueye",
         "team_iso3": "SEN",
         "total_goals": 2,
@@ -18318,6 +18356,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Cristian Romero",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Daichi Kamada",
         "team_iso3": "JPN",
         "total_goals": 1,
@@ -18647,6 +18722,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Enzo Fernández",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
           }
         ]
       },
@@ -20094,43 +20206,6 @@ window.WM_MVP_DATA = {
         ]
       },
       {
-        "player_name": "Mostafa Zico",
-        "team_iso3": "EGY",
-        "total_goals": 1,
-        "top_bucket": "46-60",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
         "player_name": "Mousa Al-Tamari",
         "team_iso3": "JOR",
         "total_goals": 1,
@@ -20962,6 +21037,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "31-45+",
             "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Yasser Ibrahim",
+        "team_iso3": "EGY",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
           },
           {
             "bucket": "46-60",
@@ -21095,6 +21207,13 @@ window.WM_MVP_DATA = {
     ],
     "top_scorers": [
       {
+        "player_name": "Lionel Messi",
+        "team_iso3": "ARG",
+        "total_goals": 8,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 3
+      },
+      {
         "player_name": "Erling Haaland",
         "team_iso3": "NOR",
         "total_goals": 7,
@@ -21107,13 +21226,6 @@ window.WM_MVP_DATA = {
         "total_goals": 7,
         "top_bucket": "61-75",
         "top_bucket_goals": 3
-      },
-      {
-        "player_name": "Lionel Messi",
-        "team_iso3": "ARG",
-        "total_goals": 7,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2
       },
       {
         "player_name": "Harry Kane",
@@ -21326,6 +21438,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Mostafa Zico",
+        "team_iso3": "EGY",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Pape Gueye",
         "team_iso3": "SEN",
         "total_goals": 2,
@@ -21480,6 +21599,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Cristian Romero",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Daichi Kamada",
         "team_iso3": "JPN",
         "total_goals": 1,
@@ -21540,6 +21666,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "UZB",
         "total_goals": 1,
         "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Enzo Fernández",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
         "top_bucket_goals": 1
       },
       {
@@ -21816,13 +21949,6 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Mostafa Zico",
-        "team_iso3": "EGY",
-        "total_goals": 1,
-        "top_bucket": "46-60",
-        "top_bucket_goals": 1
-      },
-      {
         "player_name": "Mousa Al-Tamari",
         "team_iso3": "JOR",
         "total_goals": 1,
@@ -21984,6 +22110,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Yasser Ibrahim",
+        "team_iso3": "EGY",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Yassine Bounou",
         "team_iso3": "HTI",
         "total_goals": 1,
@@ -22009,12 +22142,13 @@ window.WM_MVP_DATA = {
       "player_level_possible": true,
       "hydration_break_markers_present": true,
       "note": "Reliable hydration-break and timing analysis requires event rows with minute, period and hydration markers."
-    }
+    },
+    "source": "local_csv_preferred"
   },
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-07T22:39:31",
+      "generated_at": "2026-07-08T00:08:51",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22043,14 +22177,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-07T18:05:55"
+        "last_event_update": "2026-07-08T00:05:16"
       },
       "knockout_readiness": {
-        "upcoming_matches": 10,
-        "forecast_matches": 10,
-        "weather_fit_matches": 5,
-        "forecast_share": 1.0,
-        "weather_fit_share": 0.5
+        "upcoming_matches": 9,
+        "forecast_matches": 8,
+        "weather_fit_matches": 4,
+        "forecast_share": 0.889,
+        "weather_fit_share": 0.444
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

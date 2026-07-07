@@ -2244,3 +2244,37 @@ M094,USA,USA,Max Arfsten,Antonee Robinson,sub_in,90,2,2H,,,"Substitution, USA. M
 M094,USA,USA,Antonee Robinson,Max Arfsten,sub_out,90,2,2H,,,"Substitution, USA. Max Arfsten replaces Antonee Robinson.",ESPN public summary API,82
 M094,USA,USA,Folarin Balogun,Haji Wright,sub_out,90,2,2H,,,"Substitution, USA. Haji Wright replaces Folarin Balogun.",ESPN public summary API,82
 M094,BEL,BEL,Romelu Lukaku,Hans Vanaken,goal,90,3,2H,1,4,"Goal! USA 1, Belgium 4. Romelu Lukaku (Belgium) right footed shot from the left side of the box to the bottom right corner. Assisted by Hans Vanaken.",ESPN public summary API,82
+M095,EGY,EGY,Yasser Ibrahim,Marawan Attia,goal,15,,1H,0,1,"Goal! Argentina 0, Egypt 1. Yasser Ibrahim (Egypt) header from the centre of the box to the bottom right corner. Assisted by Marwan Attia with a cross following a corner.",ESPN public summary API,82
+M095,ARG,ARG,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M095,ARG,ARG,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M095,EGY,EGY,,,hydration_break_end,41,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M095,EGY,EGY,Hamdy Fathy,Emam Ashour,sub_in,45,,2H,,,"Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury.",ESPN public summary API,82
+M095,EGY,EGY,Emam Ashour,Hamdy Fathy,sub_out,45,,2H,,,"Substitution, Egypt. Hamdi Fathy replaces Emam Ashour because of an injury.",ESPN public summary API,82
+M095,EGY,EGY,,,hydration_break_end,45,4,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M095,ARG,ARG,,,hydration_break_end,54,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M095,ARG,ARG,Lautaro Martínez,Rodrigo De Paul,sub_in,66,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul.",ESPN public summary API,82
+M095,ARG,ARG,Nico González,Nicolás Tagliafico,sub_in,66,,2H,,,"Substitution, Argentina. Nico González replaces Nicolás Tagliafico.",ESPN public summary API,82
+M095,ARG,ARG,Nicolás Tagliafico,Nico González,sub_out,66,,2H,,,"Substitution, Argentina. Nico González replaces Nicolás Tagliafico.",ESPN public summary API,82
+M095,ARG,ARG,Rodrigo De Paul,Lautaro Martínez,sub_out,66,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul.",ESPN public summary API,82
+M095,EGY,EGY,Mostafa Zico,Haissem Hassan,goal,67,,2H,0,2,"Goal! Argentina 0, Egypt 2. Mostafa Zico (Egypt) right footed shot from the centre of the box to the centre of the goal. Assisted by Haissem Hassan following a fast break.",ESPN public summary API,82
+M095,ARG,ARG,,,hydration_break_start,71,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M095,ARG,ARG,,,hydration_break_end,73,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M095,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_in,73,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M095,EGY,EGY,Trézéguet,Haissem Hassan,sub_in,73,,2H,,,"Substitution, Egypt. Trezeguet replaces Haissem Hassan because of an injury.",ESPN public summary API,82
+M095,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_out,73,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M095,EGY,EGY,Haissem Hassan,Trézéguet,sub_out,73,,2H,,,"Substitution, Egypt. Trezeguet replaces Haissem Hassan because of an injury.",ESPN public summary API,82
+M095,ARG,ARG,Cristian Romero,Lionel Messi,goal,79,,2H,1,2,"Goal! Argentina 1, Egypt 2. Cristian Romero (Argentina) header from the centre of the box to the top right corner. Assisted by Lionel Messi with a cross.",ESPN public summary API,82
+M095,EGY,EGY,Omar Marmoush,Mostafa Zico,sub_in,80,,2H,,,"Substitution, Egypt. Omar Marmoush replaces Mostafa Zico.",ESPN public summary API,82
+M095,EGY,EGY,Mostafa Zico,Omar Marmoush,sub_out,80,,2H,,,"Substitution, Egypt. Omar Marmoush replaces Mostafa Zico.",ESPN public summary API,82
+M095,ARG,ARG,Lionel Messi,Gonzalo Montiel,goal,83,,2H,2,2,"Goal! Argentina 2, Egypt 2. Lionel Messi (Argentina) left footed shot from the centre of the box to the high centre of the goal. Assisted by Gonzalo Montiel.",ESPN public summary API,82
+M095,ARG,ARG,Enzo Fernández,Lautaro Martínez,goal,90,2,2H,3,2,"Goal! Argentina 3, Egypt 2. Enzo Fernández (Argentina) header from the centre of the box to the bottom right corner. Assisted by Lautaro Martínez with a cross following a fast break.",ESPN public summary API,82
+M095,EGY,EGY,Mostafa Shoubir,,yellow_card,90,3,2H,,,Mostafa Shobeir (Egypt) is shown the yellow card.,ESPN public summary API,82
+M095,EGY,EGY,Hamdy Fathy,,yellow_card,90,4,2H,,,Hamdi Fathy (Egypt) is shown the yellow card.,ESPN public summary API,82
+M095,ARG,ARG,Facundo Medina,Julián Álvarez,sub_in,90,5,2H,,,"Substitution, Argentina. Facundo Medina replaces Julián Alvarez.",ESPN public summary API,82
+M095,ARG,ARG,Nicolás Otamendi,Cristian Romero,sub_in,90,5,2H,,,"Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",ESPN public summary API,82
+M095,ARG,ARG,Cristian Romero,Nicolás Otamendi,sub_out,90,5,2H,,,"Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",ESPN public summary API,82
+M095,ARG,ARG,Julián Álvarez,Facundo Medina,sub_out,90,5,2H,,,"Substitution, Argentina. Facundo Medina replaces Julián Alvarez.",ESPN public summary API,82
+M095,EGY,EGY,Zizo,Mohanad Lashin,sub_in,90,6,2H,,,"Substitution, Egypt. Zizo replaces Mohanad Lasheen.",ESPN public summary API,82
+M095,EGY,EGY,Mohanad Lashin,Zizo,sub_out,90,6,2H,,,"Substitution, Egypt. Zizo replaces Mohanad Lasheen.",ESPN public summary API,82
+M095,EGY,EGY,Marawan Attia,,yellow_card,90,8,2H,,,Marwan Attia (Egypt) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M095,EGY,EGY,Haissem Hassan,,yellow_card,90,12,2H,,,Haissem Hassan (Egypt) is shown the yellow card.,ESPN public summary API,82

@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-08T14:09:16",
+    "exported_at": "2026-07-08T16:09:12",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -11604,7 +11604,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 17.3,
       "forecast_precipitation_probability": 1.0,
       "forecast_heat_index": 32.59,
-      "forecast_last_updated": "2026-07-08T12:05:57.768529+00:00",
+      "forecast_last_updated": "2026-07-08T14:05:55.910269+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11724,7 +11724,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 15.0,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 26.5,
-      "forecast_last_updated": "2026-07-08T12:05:57.768529+00:00",
+      "forecast_last_updated": "2026-07-08T14:05:55.910269+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11844,7 +11844,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 25.0,
       "forecast_precipitation_probability": 12.0,
       "forecast_heat_index": 38.46,
-      "forecast_last_updated": "2026-07-08T12:05:57.768529+00:00",
+      "forecast_last_updated": "2026-07-08T14:05:55.910269+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11964,7 +11964,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 4.7,
       "forecast_precipitation_probability": 26.0,
       "forecast_heat_index": 30.42,
-      "forecast_last_updated": "2026-07-08T12:05:57.768529+00:00",
+      "forecast_last_updated": "2026-07-08T14:05:55.910269+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12447,7 +12447,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 35.8,
       "forecast_humidity": 41.0,
       "forecast_wind_speed": 17.1,
-      "forecast_precipitation_probability": 12.0,
+      "forecast_precipitation_probability": 23.0,
       "forecast_heat_index": 39.09,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -15977,7 +15977,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 75,
       "matches_with_substitutions": 75,
       "matches_with_hydration_markers": 75,
-      "last_event_update": "2026-07-08T14:05:46",
+      "last_event_update": "2026-07-08T16:05:45",
       "goal_event_coverage_share": 0.719
     },
     "goal_rows": 220,
@@ -22127,7 +22127,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-08T14:09:16",
+      "generated_at": "2026-07-08T16:09:12",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22156,7 +22156,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-08T14:05:46"
+        "last_event_update": "2026-07-08T16:05:45"
       },
       "knockout_readiness": {
         "upcoming_matches": 8,

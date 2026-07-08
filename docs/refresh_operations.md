@@ -140,7 +140,8 @@ Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 - Jeder Schritt schreibt seinen Fortschritt jetzt sofort in die Konsole und in die Launchd-Logs; bei stillen Schritten gibt es Heartbeat-Meldungen statt minutenlanger Funkstille.
 - DNS-/Hostfehler werden vorab sichtbar gemacht.
 - Ein optionaler Event-DB-Import wird bei Supabase-DNS-Problemen sauber übersprungen, damit Export und HTML-Build trotzdem fertig werden.
-- Der lokale Browser-Check prüft die in die Standalone-Datei eingebetteten Daten und die Schedule-UX-Elemente direkt im Build.
+- Der lokale Browser-Check prüft die eingebetteten Daten und die Schedule-UX-Elemente direkt offline in `website/mvp/wm-2026-weather-fit-mvp.html` und `website/deploy/index.html`; dafür ist kein lokaler HTTP-Server nötig.
+- Wenn der DNS-Preflight keinen der konfigurierten Abhängigkeitshosts auflösen kann oder alle kritischen Hosts gleichzeitig ausfallen, beendet der Refresh den Lauf jetzt sichtbar mit Fehlerstatus statt mit bloßen Warnungen.
 - Für die Vollautomatik kann `scripts/refresh_mvp.command --auto-publish` nach erfolgreichem Lauf automatisch committen und nach GitHub pushen, wodurch Netlify direkt neu deployed.
 - Nach dem Push prüft `python -m python.pipelines.verify_live_deploy` automatisch, ob die Live-Seite auf Netlify bereits denselben `exported_at`-Stand ausliefert wie `website/deploy/index.html`. Solange das nicht passiert, bleibt der Lauf sichtbar im Fehlerstatus statt still erfolgreich zu enden.
 - Schlägt dieser Live-Abgleich fehl, löst `python -m python.pipelines.run_and_verify_live_deploy` zusätzlich eine lokale macOS-Benachrichtigung aus und schreibt die Details nach `logs/latest_live_verify_failure.json` sowie `logs/refresh_alerts.log`.

@@ -354,6 +354,24 @@ def _supabase_dns_available(dns_health: dict[str, Any]) -> bool:
     return any(host_status.get(host) == "ok" for host in SUPABASE_DNS_HOSTS)
 
 
+def _dns_payload(dns_health: dict[str, Any]) -> dict[str, Any]:
+    try:
+        return json.loads(dns_health.get("stdout") or "{}")
+    except json.JSONDecodeError:
+        return {}
+
+
+def _dns_requires_hard_failure(dns_health: dict[str, Any]) -> tuple[bool, str | None]:
+    payload = _dns_payload(dns_health)
+    if not payload:
+        return False, None
+    if payload.get("global_outage"):
+        return True, "Hard failure: DNS preflight resolved none of the configured dependency hosts."
+    if payload.get("critical_outage"):
+        return True, "Hard failure: all critical refresh hosts failed DNS preflight."
+    return False, None
+
+
 def refresh_mvp_data(
     skip_schedule_fetch: bool = False,
     skip_weather_fetch: bool = False,
@@ -369,6 +387,10 @@ def refresh_mvp_data(
     results: list[dict[str, Any]] = []
     if only_steps is None or "dns_health" in only_steps:
         results.append(_dns_health_result(dry_run=dry_run))
+    dns_health_result = next((result for result in results if result["name"] == "dns_health"), None)
+    dns_hard_failure, dns_hard_failure_reason = (
+        _dns_requires_hard_failure(dns_health_result) if dns_health_result is not None and not dry_run else (False, None)
+    )
     steps: list[tuple[str, list[str]]] = []
     if not skip_schedule_fetch:
         steps.append(
@@ -442,7 +464,6 @@ def refresh_mvp_data(
         steps = [step for step in steps if step[0] in only_steps]
 
     for name, command in steps:
-        dns_health_result = next((result for result in results if result["name"] == "dns_health"), None)
         if name == "import_match_event_data" and not dry_run and dns_health_result is not None and not _supabase_dns_available(dns_health_result):
             results.append(
                 {
@@ -473,10 +494,12 @@ def refresh_mvp_data(
     ]
     output = {
         "started_at": datetime.now().isoformat(timespec="seconds"),
-        "status": "failed" if failed else "ok",
+        "status": "failed" if failed or dns_hard_failure else "ok",
         "steps": results,
         "warnings": warnings,
     }
+    if dns_hard_failure and dns_hard_failure_reason:
+        output["failure_reason"] = dns_hard_failure_reason
     _print_progress(f"WM refresh pipeline finished with status {output['status']}")
     return output
 

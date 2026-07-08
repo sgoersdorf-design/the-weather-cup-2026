@@ -1,4 +1,4 @@
-"""Run a local sanity check for the generated standalone MVP HTML."""
+"""Run offline sanity checks for the generated MVP HTML artifacts."""
 
 from __future__ import annotations
 
@@ -7,6 +7,11 @@ import csv
 import json
 from pathlib import Path
 from typing import Any
+
+DEFAULT_HTML_FILES = [
+    "website/mvp/wm-2026-weather-fit-mvp.html",
+    "website/deploy/index.html",
+]
 
 
 def _extract_payload(html: str) -> dict[str, Any]:
@@ -66,7 +71,7 @@ def _local_event_coverage() -> dict[str, int]:
     }
 
 
-def browser_check_local(path: str = "website/mvp/wm-2026-weather-fit-mvp.html") -> dict[str, Any]:
+def _check_single_html(path: str) -> dict[str, Any]:
     html_path = Path(path)
     html = html_path.read_text(encoding="utf-8")
     payload = _extract_payload(html)
@@ -114,11 +119,24 @@ def browser_check_local(path: str = "website/mvp/wm-2026-weather-fit-mvp.html") 
     }
 
 
+def browser_check_local(paths: list[str] | None = None) -> dict[str, Any]:
+    html_paths = paths or DEFAULT_HTML_FILES
+    artifacts = [_check_single_html(path) for path in html_paths]
+    ok = all(item["status"] == "ok" for item in artifacts)
+    return {
+        "status": "ok" if ok else "failed",
+        "mode": "offline_embedded_html",
+        "browser_runtime_required": False,
+        "artifacts_checked": len(artifacts),
+        "artifacts": artifacts,
+    }
+
+
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Local standalone HTML sanity check")
-    parser.add_argument("--file", default="website/mvp/wm-2026-weather-fit-mvp.html")
+    parser = argparse.ArgumentParser(description="Offline sanity checks for local MVP HTML artifacts")
+    parser.add_argument("--file", action="append", dest="files", default=[])
     args = parser.parse_args(argv)
-    result = browser_check_local(args.file)
+    result = browser_check_local(args.files or None)
     print(json.dumps(result, indent=2, ensure_ascii=False))
     return 0 if result["status"] == "ok" else 1
 

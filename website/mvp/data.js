@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-11T00:04:03",
+    "exported_at": "2026-07-11T00:09:22",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -11844,7 +11844,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 17.0,
       "forecast_precipitation_probability": 12.0,
       "forecast_heat_index": 39.52,
-      "forecast_last_updated": "2026-07-10T22:00:45.139920+00:00",
+      "forecast_last_updated": "2026-07-10T22:05:37.556578+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11964,7 +11964,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 12.5,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 33.62,
-      "forecast_last_updated": "2026-07-10T22:00:45.139920+00:00",
+      "forecast_last_updated": "2026-07-10T22:05:37.556578+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15977,7 +15977,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 77,
       "matches_with_substitutions": 77,
       "matches_with_hydration_markers": 77,
-      "last_event_update": "2026-07-11T00:00:33",
+      "last_event_update": "2026-07-11T00:05:25",
       "goal_event_coverage_share": 0.724
     },
     "goal_rows": 225,
@@ -22215,7 +22215,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-11T00:04:03",
+      "generated_at": "2026-07-11T00:09:22",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22244,7 +22244,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-11T00:00:33"
+        "last_event_update": "2026-07-11T00:05:25"
       },
       "knockout_readiness": {
         "upcoming_matches": 6,

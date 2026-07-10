@@ -1,10 +1,10 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-10T22:09:21",
+    "exported_at": "2026-07-11T00:04:03",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
-    "forecast_matches": 7,
+    "forecast_matches": 6,
     "weather_fit_matches": 99,
     "event_stats_source": "local_csv_preferred"
   },
@@ -11686,9 +11686,9 @@ window.WM_MVP_DATA = {
       "local_time": "12:00",
       "local_timezone": "America/Los_Angeles",
       "date_utc": "2026-07-10T19:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 2,
+      "result_team_b": 1,
+      "match_status": "finished",
       "stadium_name": "Los Angeles Stadium",
       "host_city": "Inglewood",
       "host_country": "United States",
@@ -11719,13 +11719,13 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Belgien",
       "team_b_name_en": "Belgium",
       "team_b_flag": "🇧🇪",
-      "forecast_temp": 24.9,
-      "forecast_humidity": 67.0,
-      "forecast_wind_speed": 15.7,
-      "forecast_precipitation_probability": 0.0,
-      "forecast_heat_index": 24.9,
-      "forecast_last_updated": "2026-07-10T20:05:41.945530+00:00",
-      "forecast_quality": 85.0,
+      "forecast_temp": null,
+      "forecast_humidity": null,
+      "forecast_wind_speed": null,
+      "forecast_precipitation_probability": null,
+      "forecast_heat_index": null,
+      "forecast_last_updated": null,
+      "forecast_quality": null,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
@@ -11746,9 +11746,9 @@ window.WM_MVP_DATA = {
       "weather_load_score": 7.0,
       "weather_fit_edge_gap": 6.74,
       "predicted_result_category": "team_b_win",
-      "probability_team_a_win": 32.2,
-      "probability_draw": 32.9,
-      "probability_team_b_win": 34.9,
+      "probability_team_a_win": 32.1,
+      "probability_draw": 33.2,
+      "probability_team_b_win": 34.7,
       "main_context_advantage": "balanced",
       "biggest_load_factor": "travel_recovery_gap",
       "uncertainty_level": "low",
@@ -11842,9 +11842,9 @@ window.WM_MVP_DATA = {
       "forecast_temp": 33.0,
       "forecast_humidity": 60.0,
       "forecast_wind_speed": 17.0,
-      "forecast_precipitation_probability": 14.0,
+      "forecast_precipitation_probability": 12.0,
       "forecast_heat_index": 39.52,
-      "forecast_last_updated": "2026-07-10T20:05:41.945530+00:00",
+      "forecast_last_updated": "2026-07-10T22:00:45.139920+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -11962,9 +11962,9 @@ window.WM_MVP_DATA = {
       "forecast_temp": 32.1,
       "forecast_humidity": 46.0,
       "forecast_wind_speed": 12.5,
-      "forecast_precipitation_probability": 5.0,
+      "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 33.62,
-      "forecast_last_updated": "2026-07-10T20:05:41.945530+00:00",
+      "forecast_last_updated": "2026-07-10T22:00:45.139920+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12087,7 +12087,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 29.0,
       "forecast_humidity": 60.0,
       "forecast_wind_speed": 11.0,
-      "forecast_precipitation_probability": 19.0,
+      "forecast_precipitation_probability": 21.0,
       "forecast_heat_index": 31.03,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12207,7 +12207,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 34.4,
       "forecast_humidity": 39.0,
       "forecast_wind_speed": 0.5,
-      "forecast_precipitation_probability": 11.0,
+      "forecast_precipitation_probability": 17.0,
       "forecast_heat_index": 34.4,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12327,7 +12327,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 33.7,
       "forecast_humidity": 44.0,
       "forecast_wind_speed": 21.6,
-      "forecast_precipitation_probability": 20.0,
+      "forecast_precipitation_probability": 16.0,
       "forecast_heat_index": 35.95,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12447,7 +12447,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 18.7,
       "forecast_humidity": 90.0,
       "forecast_wind_speed": 16.3,
-      "forecast_precipitation_probability": 26.0,
+      "forecast_precipitation_probability": 29.0,
       "forecast_heat_index": 18.7,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -13182,14 +13182,14 @@ window.WM_MVP_DATA = {
         "iso3": "ESP",
         "name_de": "Spanien",
         "flag": "🇪🇸",
-        "played": 2,
-        "wins": 2,
+        "played": 3,
+        "wins": 3,
         "draws": 0,
         "losses": 0,
-        "goals_for": 4,
-        "goals_against": 0,
-        "goal_difference": 4,
-        "points": 6
+        "goals_for": 6,
+        "goals_against": 1,
+        "goal_difference": 5,
+        "points": 9
       },
       {
         "iso3": "ENG",
@@ -13221,13 +13221,13 @@ window.WM_MVP_DATA = {
         "iso3": "BEL",
         "name_de": "Belgien",
         "flag": "🇧🇪",
-        "played": 2,
+        "played": 3,
         "wins": 1,
         "draws": 1,
-        "losses": 0,
-        "goals_for": 6,
-        "goals_against": 3,
-        "goal_difference": 3,
+        "losses": 1,
+        "goals_for": 7,
+        "goals_against": 5,
+        "goal_difference": 2,
         "points": 4
       },
       {
@@ -15736,16 +15736,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "ESP vs. BEL",
         "host_city": "Inglewood",
-        "status": "scheduled",
-        "result": null,
+        "status": "finished",
+        "result": "2:1",
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "ESP Edge",
         "weather_load_score": 7.0,
-        "forecast_available": true,
+        "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: ESP Edge; Weather Load 7.0/100."
+        "note_de": "ESP 2:1 BEL. Forecast-Edge: ESP Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M099",
@@ -15877,8 +15877,8 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 97,
-        "forecast_matches": 7,
+        "finished": 98,
+        "forecast_matches": 6,
         "actual_weather_matches": 0,
         "weather_fit_matches": 99,
         "weather_fit_edges": 58,
@@ -15909,8 +15909,8 @@ window.WM_MVP_DATA = {
       },
       "quarterfinals": {
         "matches": 4,
-        "finished": 1,
-        "forecast_matches": 3,
+        "finished": 2,
+        "forecast_matches": 2,
         "actual_weather_matches": 0,
         "weather_fit_matches": 4,
         "weather_fit_edges": 2,
@@ -15960,8 +15960,8 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 97,
-      "forecast_matches": 7,
+      "finished": 98,
+      "forecast_matches": 6,
       "actual_weather_matches": 0,
       "weather_fit_matches": 99,
       "weather_fit_edges": 58,
@@ -15972,15 +15972,15 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 97,
-      "matches_with_goal_events": 70,
-      "matches_with_complete_lineups": 76,
-      "matches_with_substitutions": 76,
-      "matches_with_hydration_markers": 76,
-      "last_event_update": "2026-07-10T22:05:29",
-      "goal_event_coverage_share": 0.722
+      "finished_matches": 98,
+      "matches_with_goal_events": 71,
+      "matches_with_complete_lineups": 77,
+      "matches_with_substitutions": 77,
+      "matches_with_hydration_markers": 77,
+      "last_event_update": "2026-07-11T00:00:33",
+      "goal_event_coverage_share": 0.724
     },
-    "goal_rows": 222,
+    "goal_rows": 225,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
@@ -15988,11 +15988,11 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "16-30",
-        "goals": 22
+        "goals": 23
       },
       {
         "bucket": "31-45+",
-        "goals": 32
+        "goals": 33
       },
       {
         "bucket": "46-60",
@@ -16004,7 +16004,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "76-90",
-        "goals": 36
+        "goals": 37
       },
       {
         "bucket": "90+X",
@@ -16125,6 +16125,10 @@ window.WM_MVP_DATA = {
         "count": 6
       },
       {
+        "key": "ESP",
+        "count": 5
+      },
+      {
         "key": "NOR",
         "count": 5
       },
@@ -16135,10 +16139,6 @@ window.WM_MVP_DATA = {
       {
         "key": "ARG",
         "count": 5
-      },
-      {
-        "key": "MEX",
-        "count": 4
       }
     ],
     "second_half_scoring_teams": [
@@ -16173,15 +16173,15 @@ window.WM_MVP_DATA = {
         "count": 4
       },
       {
+        "key": "BEL",
+        "count": 4
+      },
+      {
         "key": "IRQ",
         "count": 4
       },
       {
         "key": "NOR",
-        "count": 4
-      },
-      {
-        "key": "DZA",
         "count": 4
       }
     ],
@@ -16621,6 +16621,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "61-75",
             "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 2
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
           },
           {
             "bucket": "76-90",
@@ -17131,43 +17168,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "31-45+",
             "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Charles De Ketelaere",
-        "team_iso3": "BEL",
-        "total_goals": 2,
-        "top_bucket": "00-15",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 1
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
           },
           {
             "bucket": "46-60",
@@ -18742,6 +18742,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Fabián Ruiz",
+        "team_iso3": "ESP",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 1
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Finn Surman",
         "team_iso3": "NZL",
         "total_goals": 1,
@@ -20029,6 +20066,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Mikel Merino",
+        "team_iso3": "ESP",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
           },
           {
             "bucket": "90+X",
@@ -21256,6 +21330,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Charles De Ketelaere",
+        "team_iso3": "BEL",
+        "total_goals": 3,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 2
+      },
+      {
         "player_name": "Folarin Balogun",
         "team_iso3": "USA",
         "total_goals": 3,
@@ -21351,13 +21432,6 @@ window.WM_MVP_DATA = {
         "team_iso3": "CHE",
         "total_goals": 2,
         "top_bucket": "16-30",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Charles De Ketelaere",
-        "team_iso3": "BEL",
-        "total_goals": 2,
-        "top_bucket": "00-15",
         "top_bucket_goals": 1
       },
       {
@@ -21655,6 +21729,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Fabián Ruiz",
+        "team_iso3": "ESP",
+        "total_goals": 1,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Finn Surman",
         "team_iso3": "NZL",
         "total_goals": 1,
@@ -21900,6 +21981,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Mikel Merino",
+        "team_iso3": "ESP",
+        "total_goals": 1,
+        "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Miro Muheim",
         "team_iso3": "QAT",
         "total_goals": 1,
@@ -22127,7 +22215,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-10T22:09:21",
+      "generated_at": "2026-07-11T00:04:03",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22156,14 +22244,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-10T22:05:29"
+        "last_event_update": "2026-07-11T00:00:33"
       },
       "knockout_readiness": {
-        "upcoming_matches": 7,
-        "forecast_matches": 7,
-        "weather_fit_matches": 3,
+        "upcoming_matches": 6,
+        "forecast_matches": 6,
+        "weather_fit_matches": 2,
         "forecast_share": 1.0,
-        "weather_fit_share": 0.429
+        "weather_fit_share": 0.333
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

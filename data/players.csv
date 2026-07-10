@@ -84,13 +84,13 @@ BEL,Axel Witsel,A. Witsel,6,SUB,,false,ESPN public summary API,82
 BEL,Brandon Mechele,B. Mechele,4,CD-L,,false,ESPN public summary API,82
 BEL,Charles De Ketelaere,C. De Ketelaere,17,F,,false,ESPN public summary API,82
 BEL,Diego Moreira,D. Moreira,19,SUB,,false,ESPN public summary API,82
-BEL,Dodi Lukébakio,D. Lukébakio,14,AM-R,,false,ESPN public summary API,82
-BEL,Hans Vanaken,H. Vanaken,20,SUB,,false,ESPN public summary API,82
+BEL,Dodi Lukébakio,D. Lukébakio,14,SUB,,false,ESPN public summary API,82
+BEL,Hans Vanaken,H. Vanaken,20,RM,,false,ESPN public summary API,82
 BEL,Joaquin Seys,J. Seys,18,SUB,,false,ESPN public summary API,82
-BEL,Jérémy Doku,J. Doku,11,SUB,,false,ESPN public summary API,82
-BEL,Kevin De Bruyne,K. De Bruyne,7,SUB,,false,ESPN public summary API,82
+BEL,Jérémy Doku,J. Doku,11,AM-L,,false,ESPN public summary API,82
+BEL,Kevin De Bruyne,K. De Bruyne,7,AM,,false,ESPN public summary API,82
 BEL,Koni De Winter,K. De Winter,16,SUB,,false,ESPN public summary API,82
-BEL,Leandro Trossard,L. Trossard,10,AM-L,,false,ESPN public summary API,82
+BEL,Leandro Trossard,L. Trossard,10,AM-R,,false,ESPN public summary API,82
 BEL,Matias Fernandez-Pardo,M. Fernandez-Pardo,26,SUB,,false,ESPN public summary API,82
 BEL,Maxim De Cuyper,M. De Cuyper,5,LB,,false,ESPN public summary API,82
 BEL,Mike Penders,M. Penders,13,SUB,,false,ESPN public summary API,82
@@ -447,7 +447,7 @@ ESP,Borja Iglesias,B. Iglesias,26,SUB,,false,ESPN public summary API,82
 ESP,Dani Olmo,D. Olmo,10,AM,,false,ESPN public summary API,82
 ESP,David Raya,D. Raya,1,SUB,,false,ESPN public summary API,82
 ESP,Eric García,E. García,4,SUB,,false,ESPN public summary API,82
-ESP,Fabián Ruiz,F. Ruiz,8,SUB,,false,ESPN public summary API,82
+ESP,Fabián Ruiz,F. Ruiz,8,LM,,false,ESPN public summary API,82
 ESP,Ferran Torres,F. Torres,7,SUB,,false,ESPN public summary API,82
 ESP,Gavi,Gavi,9,SUB,,false,ESPN public summary API,82
 ESP,Joan García,J. García,13,SUB,,false,ESPN public summary API,82
@@ -460,7 +460,7 @@ ESP,Mikel Merino,M. Merino,6,SUB,,false,ESPN public summary API,82
 ESP,Mikel Oyarzabal,M. Oyarzabal,21,F,,false,ESPN public summary API,82
 ESP,Nico Williams,N. Williams,17,SUB,,false,ESPN public summary API,82
 ESP,Pau Cubarsí,P. Cubarsí,22,CD-R,,false,ESPN public summary API,82
-ESP,Pedri,Pedri,20,LM,,false,ESPN public summary API,82
+ESP,Pedri,Pedri,20,SUB,,false,ESPN public summary API,82
 ESP,Pedro Porro,P. Porro,12,RB,,false,ESPN public summary API,82
 ESP,Rodri,Rodri,16,RM,,false,ESPN public summary API,82
 ESP,Unai Simón,U. Simón,23,G,,false,ESPN public summary API,82

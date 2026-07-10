@@ -2340,3 +2340,36 @@ M097,MAR,MAR,Amine Sbaï,Chemsdine Talbi,sub_in,85,,2H,,,"Substitution, Morocco.
 M097,MAR,MAR,Chemsdine Talbi,Amine Sbaï,sub_out,85,,2H,,,"Substitution, Morocco. Amine Sbaï replaces Chemsdine Talbi.",ESPN public summary API,82
 M097,FRA,FRA,Malo Gusto,Jules Koundé,sub_in,87,,2H,,,"Substitution, France. Malo Gusto replaces Jules Koundé.",ESPN public summary API,82
 M097,FRA,FRA,Jules Koundé,Malo Gusto,sub_out,87,,2H,,,"Substitution, France. Malo Gusto replaces Jules Koundé.",ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,ESP,ESP,Fabián Ruiz,,goal,30,,1H,1,0,"Goal! Spain 1, Belgium 0. Fabián Ruiz (Spain) right footed shot from the centre of the box to the high centre of the goal.",ESPN public summary API,82
+M098,BEL,BEL,,,hydration_break_end,32,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_end,36,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,BEL,BEL,Charles De Ketelaere,Timothy Castagne,goal,41,,1H,1,1,"Goal! Spain 1, Belgium 1. Charles De Ketelaere (Belgium) header from the centre of the box to the centre of the goal. Assisted by Timothy Castagne with a cross.",ESPN public summary API,82
+M098,ESP,ESP,Pau Cubarsí,,yellow_card,43,,1H,,,Pau Cubarsí (Spain) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_end,45,4,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,ESP,ESP,Ferran Torres,Álex Baena,sub_in,55,,2H,,,"Substitution, Spain. Ferran Torres replaces Álex Baena.",ESPN public summary API,82
+M098,ESP,ESP,Pedri,Fabián Ruiz,sub_in,55,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M098,ESP,ESP,Fabián Ruiz,Pedri,sub_out,55,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M098,ESP,ESP,Álex Baena,Ferran Torres,sub_out,55,,2H,,,"Substitution, Spain. Ferran Torres replaces Álex Baena.",ESPN public summary API,82
+M098,BEL,BEL,Axel Witsel,Leandro Trossard,sub_in,60,,2H,,,"Substitution, Belgium. Axel Witsel replaces Leandro Trossard.",ESPN public summary API,82
+M098,BEL,BEL,Romelu Lukaku,Hans Vanaken,sub_in,60,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Hans Vanaken.",ESPN public summary API,82
+M098,BEL,BEL,Hans Vanaken,Romelu Lukaku,sub_out,60,,2H,,,"Substitution, Belgium. Romelu Lukaku replaces Hans Vanaken.",ESPN public summary API,82
+M098,BEL,BEL,Leandro Trossard,Axel Witsel,sub_out,60,,2H,,,"Substitution, Belgium. Axel Witsel replaces Leandro Trossard.",ESPN public summary API,82
+M098,BEL,BEL,Joaquin Seys,Maxim De Cuyper,sub_in,61,,2H,,,"Substitution, Belgium. Joaquin Seys replaces Maxim De Cuyper.",ESPN public summary API,82
+M098,BEL,BEL,Maxim De Cuyper,Joaquin Seys,sub_out,61,,2H,,,"Substitution, Belgium. Joaquin Seys replaces Maxim De Cuyper.",ESPN public summary API,82
+M098,BEL,BEL,,,hydration_break_end,67,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M098,ESP,ESP,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M098,BEL,BEL,Senne Lammens,Thibaut Courtois,sub_in,71,,2H,,,"Substitution, Belgium. Senne Lammens replaces Thibaut Courtois because of an injury.",ESPN public summary API,82
+M098,BEL,BEL,Thibaut Courtois,Senne Lammens,sub_out,71,,2H,,,"Substitution, Belgium. Senne Lammens replaces Thibaut Courtois because of an injury.",ESPN public summary API,82
+M098,ESP,ESP,Nico Williams,Mikel Oyarzabal,sub_in,79,,2H,,,"Substitution, Spain. Nico Williams replaces Mikel Oyarzabal.",ESPN public summary API,82
+M098,ESP,ESP,Mikel Oyarzabal,Nico Williams,sub_out,79,,2H,,,"Substitution, Spain. Nico Williams replaces Mikel Oyarzabal.",ESPN public summary API,82
+M098,BEL,BEL,Kevin De Bruyne,,yellow_card,85,,2H,,,Kevin De Bruyne (Belgium) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M098,BEL,BEL,Alexis Saelemaekers,Kevin De Bruyne,sub_in,86,,2H,,,"Substitution, Belgium. Alexis Saelemaekers replaces Kevin De Bruyne.",ESPN public summary API,82
+M098,ESP,ESP,Mikel Merino,Dani Olmo,sub_in,86,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M098,BEL,BEL,Kevin De Bruyne,Alexis Saelemaekers,sub_out,86,,2H,,,"Substitution, Belgium. Alexis Saelemaekers replaces Kevin De Bruyne.",ESPN public summary API,82
+M098,ESP,ESP,Dani Olmo,Mikel Merino,sub_out,86,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M098,ESP,ESP,Mikel Merino,,goal,88,,2H,2,1,"Goal! Spain 2, Belgium 1. Mikel Merino (Spain) left footed shot from very close range to the top left corner.",ESPN public summary API,82
+M098,ESP,ESP,Aymeric Laporte,,yellow_card,90,3,2H,,,Aymeric Laporte (Spain) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M098,BEL,BEL,Axel Witsel,,yellow_card,90,5,2H,,,Axel Witsel (Belgium) is shown the yellow card for a bad foul.,ESPN public summary API,82

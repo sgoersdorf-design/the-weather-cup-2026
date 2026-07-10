@@ -3,10 +3,21 @@
 from __future__ import annotations
 
 import argparse
+import shutil
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parents[2]
 MVP_DIR = ROOT_DIR / "website" / "mvp"
+STATIC_ASSET_NAMES = [
+    "apple-touch-icon.png",
+    "favicon-16.png",
+    "favicon-32.png",
+    "icon-192.png",
+    "icon-512.png",
+    "icon-1024.png",
+    "og-image.png",
+    "site.webmanifest",
+]
 
 
 def _read(name: str) -> str:
@@ -15,6 +26,15 @@ def _read(name: str) -> str:
 
 def _inline_script(source: str) -> str:
     return source.replace("</script", "<\\/script")
+
+
+def _copy_static_assets(output_path: Path) -> None:
+    if output_path.parent == MVP_DIR:
+        return
+    for name in STATIC_ASSET_NAMES:
+        source = MVP_DIR / name
+        if source.exists():
+            shutil.copy2(source, output_path.parent / name)
 
 
 def build_standalone_mvp(output: str = "website/mvp/wm-2026-weather-fit-mvp.html") -> dict[str, str | int]:
@@ -30,6 +50,7 @@ def build_standalone_mvp(output: str = "website/mvp/wm-2026-weather-fit-mvp.html
     output_path = ROOT_DIR / output
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(html, encoding="utf-8")
+    _copy_static_assets(output_path)
     return {"output": str(output_path), "bytes": output_path.stat().st_size}
 
 

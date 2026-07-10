@@ -1,0 +1,21 @@
+{
+  "name": "The Weather Cup 2026",
+  "short_name": "Weather Cup",
+  "description": "Weather, travel and match context for every World Cup game.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f7f8",
+  "theme_color": "#0f8b8d",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

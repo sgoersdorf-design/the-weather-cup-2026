@@ -8,6 +8,7 @@ const mvpDir = resolve(root, "website/mvp");
 const outputPath = resolve(mvpDir, "wm-2026-weather-fit-mvp.html");
 const staticAssetNames = [
   "apple-touch-icon.png",
+  "favicon.ico",
   "favicon-16.png",
   "favicon-32.png",
   "icon-192.png",

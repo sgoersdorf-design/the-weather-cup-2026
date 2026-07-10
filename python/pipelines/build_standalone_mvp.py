@@ -10,6 +10,7 @@ ROOT_DIR = Path(__file__).resolve().parents[2]
 MVP_DIR = ROOT_DIR / "website" / "mvp"
 STATIC_ASSET_NAMES = [
     "apple-touch-icon.png",
+    "favicon.ico",
     "favicon-16.png",
     "favicon-32.png",
     "icon-192.png",

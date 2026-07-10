@@ -3833,3 +3833,55 @@ M096,COL,Santiago Arias,unused,4,SUB,0,,,,false,false,ESPN public summary API,82
 M096,COL,Willer Ditta,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
 M096,COL,Yerry Mina,bench,13,SUB,0,119,,,false,false,ESPN public summary API,82
 M096,COL,Álvaro Montero,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Adrien Rabiot,starter,14,LM,4,0,,,false,false,ESPN public summary API,82
+M097,FRA,Dayot Upamecano,starter,4,CD-R,5,0,,,false,false,ESPN public summary API,82
+M097,FRA,Désiré Doué,starter,20,AM-L,11,0,77,,false,false,ESPN public summary API,82
+M097,FRA,Jules Koundé,starter,5,RB,2,0,87,,false,false,ESPN public summary API,82
+M097,FRA,Kylian Mbappé,starter,10,F,9,0,77,,false,false,ESPN public summary API,82
+M097,FRA,Lucas Digne,starter,3,LB,3,0,,,false,false,ESPN public summary API,82
+M097,FRA,Manu Koné,starter,6,RM,8,0,71,,false,false,ESPN public summary API,82
+M097,FRA,Michael Olise,starter,11,AM,10,0,,,false,false,ESPN public summary API,82
+M097,FRA,Mike Maignan,starter,16,G,1,0,,,false,false,ESPN public summary API,82
+M097,FRA,Ousmane Dembélé,starter,7,AM-R,7,0,,,false,false,ESPN public summary API,82
+M097,FRA,William Saliba,starter,17,CD-L,6,0,,,false,false,ESPN public summary API,82
+M097,FRA,Aurélien Tchouaméni,unused,8,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Bradley Barcola,bench,12,SUB,0,77,,,false,false,ESPN public summary API,82
+M097,FRA,Brice Samba,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Ibrahima Konaté,unused,15,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Jean-Philippe Mateta,bench,22,SUB,0,77,,,false,false,ESPN public summary API,82
+M097,FRA,Lucas Hernández,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Maghnes Akliouche,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Malo Gusto,bench,2,SUB,0,87,,,false,false,ESPN public summary API,82
+M097,FRA,Marcus Thuram,unused,9,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Maxence Lacroix,unused,26,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,N'Golo Kanté,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Rayan Cherki,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Robin Risser,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Theo Hernández,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M097,FRA,Warren Zaïre-Emery,bench,18,SUB,0,71,,,false,false,ESPN public summary API,82
+M097,MAR,Achraf Hakimi,starter,2,RB,2,0,,,false,false,ESPN public summary API,82
+M097,MAR,Anass Salah-Eddine,starter,26,LB,3,0,74,,false,false,ESPN public summary API,82
+M097,MAR,Ayyoub Bouaddi,starter,6,RM,8,0,62,,false,false,ESPN public summary API,82
+M097,MAR,Azzedine Ounahi,starter,8,AM,10,0,,,false,false,ESPN public summary API,82
+M097,MAR,Bilal El Khannouss,starter,23,F,9,0,62,,false,false,ESPN public summary API,82
+M097,MAR,Brahim Díaz,starter,10,AM-R,7,0,74,,false,false,ESPN public summary API,82
+M097,MAR,Chemsdine Talbi,starter,7,AM-L,11,0,85,,false,false,ESPN public summary API,82
+M097,MAR,Issa Diop,starter,14,CD-R,5,0,,,false,false,ESPN public summary API,82
+M097,MAR,Neil El Aynaoui,starter,24,LM,4,0,,,false,false,ESPN public summary API,82
+M097,MAR,Noussair Mazraoui,starter,3,CD-L,6,0,,,false,false,ESPN public summary API,82
+M097,MAR,Yassine Bounou,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M097,MAR,Ahmed Reda Tagnaouti,unused,22,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Amine Sbaï,bench,17,SUB,0,85,,,false,false,ESPN public summary API,82
+M097,MAR,Ayoub El Kaabi,unused,20,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Ayoube Amaimouni,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Chadi Riad,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Gessime Yassine,bench,16,SUB,0,74,,,false,false,ESPN public summary API,82
+M097,MAR,Ismael Saibari,unused,11,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Marwane Saadane,unused,5,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Munir El Kajoui,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Redouane Halhal,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Samir El Mourabet,unused,15,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Sofyan Amrabat,bench,4,SUB,0,62,,,false,false,ESPN public summary API,82
+M097,MAR,Soufiane Rahimi,bench,9,SUB,0,62,,,false,false,ESPN public summary API,82
+M097,MAR,Youssef Belammari,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M097,MAR,Zakaria El Ouahdi,bench,13,SUB,0,74,,,false,false,ESPN public summary API,82

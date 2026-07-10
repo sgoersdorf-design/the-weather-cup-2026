@@ -469,10 +469,10 @@ ESP,Yéremy Pino,Y. Pino,11,SUB,,false,ESPN public summary API,82
 ESP,Álex Baena,Á. Baena,15,AM-L,,false,ESPN public summary API,82
 FRA,Adrien Rabiot,A. Rabiot,14,LM,,false,ESPN public summary API,82
 FRA,Aurélien Tchouaméni,A. Tchouaméni,8,SUB,,false,ESPN public summary API,82
-FRA,Bradley Barcola,B. Barcola,12,AM-L,,false,ESPN public summary API,82
+FRA,Bradley Barcola,B. Barcola,12,SUB,,false,ESPN public summary API,82
 FRA,Brice Samba,B. Samba,1,SUB,,false,ESPN public summary API,82
 FRA,Dayot Upamecano,D. Upamecano,4,CD-R,,false,ESPN public summary API,82
-FRA,Désiré Doué,D. Doué,20,SUB,,false,ESPN public summary API,82
+FRA,Désiré Doué,D. Doué,20,AM-L,,false,ESPN public summary API,82
 FRA,Ibrahima Konaté,I. Konaté,15,SUB,,false,ESPN public summary API,82
 FRA,Jean-Philippe Mateta,J. Mateta,22,SUB,,false,ESPN public summary API,82
 FRA,Jules Koundé,J. Koundé,5,RB,,false,ESPN public summary API,82
@@ -704,23 +704,23 @@ KOR,Yang Hyun-Jun,Y. Hyun-Jun,20,SUB,,false,ESPN public summary API,82
 MAR,Achraf Hakimi,A. Hakimi,2,RB,,false,ESPN public summary API,82
 MAR,Ahmed Reda Tagnaouti,A. Tagnaouti,22,SUB,,false,ESPN public summary API,82
 MAR,Amine Sbaï,A. Sbaï,17,SUB,,false,ESPN public summary API,82
-MAR,Anass Salah-Eddine,A. Salah-Eddine,26,SUB,,false,ESPN public summary API,82
+MAR,Anass Salah-Eddine,A. Salah-Eddine,26,LB,,false,ESPN public summary API,82
 MAR,Ayoub El Kaabi,A. El Kaabi,20,SUB,,false,ESPN public summary API,82
 MAR,Ayoube Amaimouni,A. Amaimouni,21,SUB,,false,ESPN public summary API,82
 MAR,Ayyoub Bouaddi,A. Bouaddi,6,RM,,false,ESPN public summary API,82
 MAR,Azzedine Ounahi,A. Ounahi,8,AM,,false,ESPN public summary API,82
-MAR,Bilal El Khannouss,B. El Khannouss,23,AM-L,,false,ESPN public summary API,82
+MAR,Bilal El Khannouss,B. El Khannouss,23,F,,false,ESPN public summary API,82
 MAR,Brahim Díaz,B. Díaz,10,AM-R,,false,ESPN public summary API,82
 MAR,Chadi Riad,C. Riad,18,SUB,,false,ESPN public summary API,82
-MAR,Chemsdine Talbi,C. Talbi,7,SUB,,false,ESPN public summary API,82
+MAR,Chemsdine Talbi,C. Talbi,7,AM-L,,false,ESPN public summary API,82
 MAR,Gessime Yassine,G. Yassine,16,SUB,,false,ESPN public summary API,82
-MAR,Ismael Saibari,I. Saibari,11,F,,false,ESPN public summary API,82
+MAR,Ismael Saibari,I. Saibari,11,SUB,,false,ESPN public summary API,82
 MAR,Issa Diop,I. Diop,14,CD-R,,false,ESPN public summary API,82
 MAR,Marwane Saadane,M. Saadane,5,SUB,,false,ESPN public summary API,82
 MAR,Munir El Kajoui,M. El Kajoui,12,SUB,,false,ESPN public summary API,82
 MAR,Neil El Aynaoui,N. El Aynaoui,24,LM,,false,ESPN public summary API,82
-MAR,Noussair Mazraoui,N. Mazraoui,3,LB,,false,ESPN public summary API,82
-MAR,Redouane Halhal,R. Halhal,25,CD-L,,false,ESPN public summary API,82
+MAR,Noussair Mazraoui,N. Mazraoui,3,CD-L,,false,ESPN public summary API,82
+MAR,Redouane Halhal,R. Halhal,25,SUB,,false,ESPN public summary API,82
 MAR,Samir El Mourabet,S. El Mourabet,15,SUB,,false,ESPN public summary API,82
 MAR,Sofyan Amrabat,S. Amrabat,4,SUB,,false,ESPN public summary API,82
 MAR,Soufiane Rahimi,S. Rahimi,9,SUB,,false,ESPN public summary API,82

@@ -2312,3 +2312,31 @@ M096,CHE,CHE,Miro Muheim,,yellow_card,105,,ET1,,,Miro Muheim (Switzerland) is sh
 M096,COL,COL,,,hydration_break_end,119,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M096,COL,COL,Yerry Mina,Jhon Lucumí,sub_in,119,,ET2,,,"Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury.",ESPN public summary API,82
 M096,COL,COL,Jhon Lucumí,Yerry Mina,sub_out,119,,ET2,,,"Substitution, Colombia. Yerry Mina replaces Jhon Lucumí because of an injury.",ESPN public summary API,82
+M097,FRA,FRA,,,hydration_break_start,29,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M097,FRA,FRA,,,hydration_break_end,32,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M097,FRA,FRA,Kylian Mbappé,Désiré Doué,goal,60,,2H,1,0,"Goal! France 1, Morocco 0. Kylian Mbappé (France) right footed shot from the left side of the box to the top right corner. Assisted by Désiré Doué.",ESPN public summary API,82
+M097,MAR,MAR,Sofyan Amrabat,Ayyoub Bouaddi,sub_in,62,,2H,,,"Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi.",ESPN public summary API,82
+M097,MAR,MAR,Soufiane Rahimi,Bilal El Khannouss,sub_in,62,,2H,,,"Substitution, Morocco. Soufiane Rahimi replaces Bilal El Khannouss.",ESPN public summary API,82
+M097,MAR,MAR,Ayyoub Bouaddi,Sofyan Amrabat,sub_out,62,,2H,,,"Substitution, Morocco. Sofyan Amrabat replaces Ayyoub Bouaddi.",ESPN public summary API,82
+M097,MAR,MAR,Bilal El Khannouss,Soufiane Rahimi,sub_out,62,,2H,,,"Substitution, Morocco. Soufiane Rahimi replaces Bilal El Khannouss.",ESPN public summary API,82
+M097,MAR,MAR,Issa Diop,,yellow_card,63,,2H,,,Issa Diop (Morocco) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M097,FRA,FRA,Ousmane Dembélé,Kylian Mbappé,goal,66,,2H,2,0,"Goal! France 2, Morocco 0. Ousmane Dembélé (France) right footed shot from outside the box to the bottom right corner. Assisted by Kylian Mbappé.",ESPN public summary API,82
+M097,FRA,FRA,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M097,MAR,MAR,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M097,FRA,FRA,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M097,MAR,MAR,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M097,FRA,FRA,Warren Zaïre-Emery,Manu Koné,sub_in,71,,2H,,,"Substitution, France. Warren Zaïre-Emery replaces Manu Koné.",ESPN public summary API,82
+M097,FRA,FRA,Manu Koné,Warren Zaïre-Emery,sub_out,71,,2H,,,"Substitution, France. Warren Zaïre-Emery replaces Manu Koné.",ESPN public summary API,82
+M097,MAR,MAR,Gessime Yassine,Brahim Díaz,sub_in,74,,2H,,,"Substitution, Morocco. Gessime Yassine replaces Brahim Díaz.",ESPN public summary API,82
+M097,MAR,MAR,Zakaria El Ouahdi,Anass Salah-Eddine,sub_in,74,,2H,,,"Substitution, Morocco. Zakaria El Ouahdi replaces Anass Salah-Eddine.",ESPN public summary API,82
+M097,MAR,MAR,Anass Salah-Eddine,Zakaria El Ouahdi,sub_out,74,,2H,,,"Substitution, Morocco. Zakaria El Ouahdi replaces Anass Salah-Eddine.",ESPN public summary API,82
+M097,MAR,MAR,Brahim Díaz,Gessime Yassine,sub_out,74,,2H,,,"Substitution, Morocco. Gessime Yassine replaces Brahim Díaz.",ESPN public summary API,82
+M097,FRA,FRA,,,hydration_break_end,77,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M097,FRA,FRA,Bradley Barcola,Désiré Doué,sub_in,77,,2H,,,"Substitution, France. Bradley Barcola replaces Désiré Doué.",ESPN public summary API,82
+M097,FRA,FRA,Jean-Philippe Mateta,Kylian Mbappé,sub_in,77,,2H,,,"Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé because of an injury.",ESPN public summary API,82
+M097,FRA,FRA,Désiré Doué,Bradley Barcola,sub_out,77,,2H,,,"Substitution, France. Bradley Barcola replaces Désiré Doué.",ESPN public summary API,82
+M097,FRA,FRA,Kylian Mbappé,Jean-Philippe Mateta,sub_out,77,,2H,,,"Substitution, France. Jean-Philippe Mateta replaces Kylian Mbappé because of an injury.",ESPN public summary API,82
+M097,MAR,MAR,Amine Sbaï,Chemsdine Talbi,sub_in,85,,2H,,,"Substitution, Morocco. Amine Sbaï replaces Chemsdine Talbi.",ESPN public summary API,82
+M097,MAR,MAR,Chemsdine Talbi,Amine Sbaï,sub_out,85,,2H,,,"Substitution, Morocco. Amine Sbaï replaces Chemsdine Talbi.",ESPN public summary API,82
+M097,FRA,FRA,Malo Gusto,Jules Koundé,sub_in,87,,2H,,,"Substitution, France. Malo Gusto replaces Jules Koundé.",ESPN public summary API,82
+M097,FRA,FRA,Jules Koundé,Malo Gusto,sub_out,87,,2H,,,"Substitution, France. Malo Gusto replaces Jules Koundé.",ESPN public summary API,82

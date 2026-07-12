@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-12T04:21:06",
+    "exported_at": "2026-07-12T06:50:05",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -11931,9 +11931,9 @@ window.WM_MVP_DATA = {
       "local_time": "20:00",
       "local_timezone": "America/Chicago",
       "date_utc": "2026-07-12T01:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 1,
+      "result_team_b": 1,
+      "match_status": "finished",
       "stadium_name": "Kansas City Stadium",
       "host_city": "Kansas City",
       "host_country": "United States",
@@ -12033,11 +12033,16 @@ window.WM_MVP_DATA = {
       "weather_teaser_de": "Weather Fit: ARG 59.31/100, CHE 52.78/100. Vorteil: ARG.",
       "weather_body_de": "Argentinien wirkt für diese Wettersituation etwas besser eingeordnet als Schweiz: Weather Fit 59.31/100 gegen 52.78/100 bei 30.9 Grad und 53.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
       "weather_social_hook_de": "ARG vs. CHE: Bei 30.9 Grad und 53.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ARG vorne. Kein Wettmodell.",
-      "result_resolution": null,
+      "result_resolution": "extra_time",
       "advanced_team_side": null,
       "shootout_score_team_a": null,
       "shootout_score_team_b": null,
-      "event_periods": []
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ]
     },
     {
       "match_id": "M101",
@@ -12087,29 +12092,29 @@ window.WM_MVP_DATA = {
       "forecast_temp": 34.1,
       "forecast_humidity": 37.0,
       "forecast_wind_speed": 13.0,
-      "forecast_precipitation_probability": 29.0,
+      "forecast_precipitation_probability": 39.0,
       "forecast_heat_index": 34.1,
-      "forecast_last_updated": "2026-07-12T02:18:13.958556+00:00",
+      "forecast_last_updated": "2026-07-12T04:08:15.132297+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
       "actual_wind_speed": null,
       "actual_heat_index": null,
-      "team_a_weather_fit_score": 52.78,
+      "team_a_weather_fit_score": 53.18,
       "team_a_weather_familiarity_score": 33.21,
-      "team_a_weather_tolerance_score": 46.5,
-      "team_a_effective_weather_load_score": 23.73,
+      "team_a_weather_tolerance_score": 51.35,
+      "team_a_effective_weather_load_score": 22.87,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
-      "team_b_weather_fit_score": 53.87,
+      "team_b_weather_fit_score": 54.76,
       "team_b_weather_familiarity_score": 35.05,
-      "team_b_weather_tolerance_score": 53.7,
-      "team_b_effective_weather_load_score": 22.45,
+      "team_b_weather_tolerance_score": 56.69,
+      "team_b_effective_weather_load_score": 21.92,
       "team_b_weather_fit_label": "neutral_fit",
       "team_b_weather_edge_role": "balanced",
       "weather_load_score": 32.0,
-      "weather_fit_edge_gap": 1.09,
+      "weather_fit_edge_gap": 1.58,
       "predicted_result_category": "team_a_win",
       "probability_team_a_win": 35.2,
       "probability_draw": 32.8,
@@ -12150,7 +12155,7 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Datenlage offen. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Kontextvorteil balanced, sichtbarer Faktor Datenlage offen. Kein Wettmodell.",
       "weather_headline_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: FRA 52.78/100, ESP 53.87/100. Vorteil: ausgeglichen.",
+      "weather_teaser_de": "Weather Fit: FRA 53.18/100, ESP 54.76/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
       "weather_social_hook_de": "FRA vs. ESP: Bei 34.1 Grad und 37.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
@@ -12212,7 +12217,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 27.5,
       "forecast_humidity": 63.0,
       "forecast_wind_speed": 13.3,
-      "forecast_precipitation_probability": 26.0,
+      "forecast_precipitation_probability": 40.0,
       "forecast_heat_index": 29.02,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12332,7 +12337,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 36.0,
       "forecast_humidity": 39.0,
       "forecast_wind_speed": 15.0,
-      "forecast_precipitation_probability": 23.0,
+      "forecast_precipitation_probability": 26.0,
       "forecast_heat_index": 36.0,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12452,7 +12457,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 24.7,
       "forecast_humidity": 39.0,
       "forecast_wind_speed": 21.6,
-      "forecast_precipitation_probability": 35.0,
+      "forecast_precipitation_probability": 30.0,
       "forecast_heat_index": 24.7,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -13223,6 +13228,32 @@ window.WM_MVP_DATA = {
         "points": 7
       },
       {
+        "iso3": "CHE",
+        "name_de": "Schweiz",
+        "flag": "🇨🇭",
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goals_for": 3,
+        "goals_against": 1,
+        "goal_difference": 2,
+        "points": 5
+      },
+      {
+        "iso3": "ARG",
+        "name_de": "Argentinien",
+        "flag": "🇦🇷",
+        "played": 3,
+        "wins": 1,
+        "draws": 2,
+        "losses": 0,
+        "goals_for": 5,
+        "goals_against": 4,
+        "goal_difference": 1,
+        "points": 5
+      },
+      {
         "iso3": "BEL",
         "name_de": "Belgien",
         "flag": "🇧🇪",
@@ -13233,32 +13264,6 @@ window.WM_MVP_DATA = {
         "goals_for": 7,
         "goals_against": 5,
         "goal_difference": 2,
-        "points": 4
-      },
-      {
-        "iso3": "CHE",
-        "name_de": "Schweiz",
-        "flag": "🇨🇭",
-        "played": 2,
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "goals_for": 2,
-        "goals_against": 0,
-        "goal_difference": 2,
-        "points": 4
-      },
-      {
-        "iso3": "ARG",
-        "name_de": "Argentinien",
-        "flag": "🇦🇷",
-        "played": 2,
-        "wins": 1,
-        "draws": 1,
-        "losses": 0,
-        "goals_for": 4,
-        "goals_against": 3,
-        "goal_difference": 1,
         "points": 4
       },
       {
@@ -15757,16 +15762,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "ARG vs. CHE",
         "host_city": "Kansas City",
-        "status": "scheduled",
-        "result": null,
-        "result_resolution": null,
+        "status": "finished",
+        "result": "1:1",
+        "result_resolution": "extra_time",
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "ARG Edge",
         "weather_load_score": 32.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
+        "note_de": "ARG 1:1 CHE (nach Verlängerung entschieden). Forecast-Edge: ARG Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M101",
@@ -15856,7 +15861,7 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 99,
+        "finished": 100,
         "forecast_matches": 4,
         "actual_weather_matches": 0,
         "weather_fit_matches": 100,
@@ -15888,7 +15893,7 @@ window.WM_MVP_DATA = {
       },
       "quarterfinals": {
         "matches": 4,
-        "finished": 3,
+        "finished": 4,
         "forecast_matches": 0,
         "actual_weather_matches": 0,
         "weather_fit_matches": 4,
@@ -15939,7 +15944,7 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 99,
+      "finished": 100,
       "forecast_matches": 4,
       "actual_weather_matches": 0,
       "weather_fit_matches": 100,
@@ -15951,19 +15956,19 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 99,
-      "matches_with_goal_events": 72,
-      "matches_with_complete_lineups": 78,
-      "matches_with_substitutions": 78,
-      "matches_with_hydration_markers": 78,
-      "last_event_update": "2026-07-12T04:18:04",
-      "goal_event_coverage_share": 0.727
+      "finished_matches": 100,
+      "matches_with_goal_events": 73,
+      "matches_with_complete_lineups": 79,
+      "matches_with_substitutions": 79,
+      "matches_with_hydration_markers": 79,
+      "last_event_update": "2026-07-12T06:08:03",
+      "goal_event_coverage_share": 0.73
     },
-    "goal_rows": 228,
+    "goal_rows": 232,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
-        "goals": 25
+        "goals": 26
       },
       {
         "bucket": "16-30",
@@ -15979,7 +15984,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "61-75",
-        "goals": 31
+        "goals": 32
       },
       {
         "bucket": "76-90",
@@ -15987,21 +15992,21 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "90+X",
-        "goals": 30
+        "goals": 32
       }
     ],
     "teams_most_often_scored_in_bucket": [
+      {
+        "key": "ARG",
+        "bucket": "90+X",
+        "count": 6,
+        "total": 17
+      },
       {
         "key": "FRA",
         "bucket": "61-75",
         "count": 5,
         "total": 16
-      },
-      {
-        "key": "ARG",
-        "bucket": "76-90",
-        "count": 4,
-        "total": 14
       },
       {
         "key": "NOR",
@@ -16079,7 +16084,7 @@ window.WM_MVP_DATA = {
     "crunchtime_scorers": [
       {
         "key": "ARG",
-        "count": 4
+        "count": 6
       },
       {
         "key": "BEL",
@@ -16108,15 +16113,15 @@ window.WM_MVP_DATA = {
         "count": 6
       },
       {
+        "key": "ARG",
+        "count": 6
+      },
+      {
         "key": "ESP",
         "count": 5
       },
       {
         "key": "FRA",
-        "count": 5
-      },
-      {
-        "key": "ARG",
         "count": 5
       }
     ],
@@ -16126,19 +16131,19 @@ window.WM_MVP_DATA = {
         "count": 11
       },
       {
-        "key": "BEL",
-        "count": 10
+        "key": "ARG",
+        "count": 11
       },
       {
-        "key": "ARG",
-        "count": 9
+        "key": "BEL",
+        "count": 10
       },
       {
         "key": "ENG",
         "count": 9
       },
       {
-        "key": "SEN",
+        "key": "CHE",
         "count": 8
       }
     ],
@@ -17204,6 +17209,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Dan Ndoye",
+        "team_iso3": "CHE",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Daniel Muñoz",
         "team_iso3": "COL",
         "total_goals": 2,
@@ -17311,6 +17353,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Lautaro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 2,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
           }
         ]
       },
@@ -17944,6 +18023,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Alexis Mac Allister",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 1
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Alexis Saelemaekers",
         "team_iso3": "BEL",
         "total_goals": 1,
@@ -18483,43 +18599,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "46-60",
             "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Dan Ndoye",
-        "team_iso3": "CHE",
-        "total_goals": 1,
-        "top_bucket": "46-60",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
           },
           {
             "bucket": "61-75",
@@ -19350,6 +19429,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Julián Álvarez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Junya Ito",
         "team_iso3": "JPN",
         "total_goals": 1,
@@ -19552,43 +19668,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "31-45+",
             "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Lautaro Martínez",
-        "team_iso3": "ARG",
-        "total_goals": 1,
-        "top_bucket": "31-45+",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
           },
           {
             "bucket": "46-60",
@@ -21458,6 +21537,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Dan Ndoye",
+        "team_iso3": "CHE",
+        "total_goals": 2,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Daniel Muñoz",
         "team_iso3": "COL",
         "total_goals": 2,
@@ -21476,6 +21562,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Lautaro Martínez",
+        "team_iso3": "ARG",
+        "total_goals": 2,
+        "top_bucket": "31-45+",
         "top_bucket_goals": 1
       },
       {
@@ -21598,6 +21691,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Alexis Mac Allister",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "00-15",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Alexis Saelemaekers",
         "team_iso3": "BEL",
         "total_goals": 1,
@@ -21700,13 +21800,6 @@ window.WM_MVP_DATA = {
         "team_iso3": "USA",
         "total_goals": 1,
         "top_bucket": "00-15",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Dan Ndoye",
-        "team_iso3": "CHE",
-        "total_goals": 1,
-        "top_bucket": "46-60",
         "top_bucket_goals": 1
       },
       {
@@ -21864,6 +21957,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
+        "player_name": "Julián Álvarez",
+        "team_iso3": "ARG",
+        "total_goals": 1,
+        "top_bucket": "90+X",
+        "top_bucket_goals": 1
+      },
+      {
         "player_name": "Junya Ito",
         "team_iso3": "JPN",
         "total_goals": 1,
@@ -21903,13 +22003,6 @@ window.WM_MVP_DATA = {
         "team_iso3": "ESP",
         "total_goals": 1,
         "top_bucket": "00-15",
-        "top_bucket_goals": 1
-      },
-      {
-        "player_name": "Lautaro Martínez",
-        "team_iso3": "ARG",
-        "total_goals": 1,
-        "top_bucket": "31-45+",
         "top_bucket_goals": 1
       },
       {
@@ -22238,7 +22331,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-12T04:21:07",
+      "generated_at": "2026-07-12T06:50:06",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22267,14 +22360,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-12T04:18:04"
+        "last_event_update": "2026-07-12T06:08:03"
       },
       "knockout_readiness": {
-        "upcoming_matches": 5,
+        "upcoming_matches": 4,
         "forecast_matches": 4,
-        "weather_fit_matches": 2,
-        "forecast_share": 0.8,
-        "weather_fit_share": 0.4
+        "weather_fit_matches": 1,
+        "forecast_share": 1.0,
+        "weather_fit_share": 0.25
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

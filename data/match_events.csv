@@ -2410,3 +2410,43 @@ M099,ENG,ENG,Dan Burn,Jude Bellingham,sub_in,111,,ET2,,,"Substitution, England. 
 M099,ENG,ENG,Jude Bellingham,Dan Burn,sub_out,111,,ET2,,,"Substitution, England. Dan Burn replaces Jude Bellingham.",ESPN public summary API,82
 M099,NOR,NOR,Kristoffer Ajer,,yellow_card,117,,ET2,,,Kristoffer Ajer (Norway) is shown the yellow card.,ESPN public summary API,82
 M099,ENG,ENG,,,hydration_break_end,118,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,ARG,ARG,Alexis Mac Allister,Lionel Messi,goal,10,,1H,1,0,"Goal! Argentina 1, Switzerland 0. Alexis Mac Allister (Argentina) header from the left side of the six yard box to the bottom right corner. Assisted by Lionel Messi with a cross following a corner.",ESPN public summary API,82
+M100,CHE,CHE,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M100,CHE,CHE,,,hydration_break_end,26,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,CHE,CHE,Breel Embolo,,yellow_card,44,,1H,,,Breel Embolo (Switzerland) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M100,CHE,CHE,,,hydration_break_end,45,5,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,ARG,ARG,,,hydration_break_end,57,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,CHE,CHE,Dan Ndoye,Ricardo Rodríguez,goal,67,,2H,1,1,"Goal! Argentina 1, Switzerland 1. Dan Ndoye (Switzerland) right footed shot from a difficult angle on the left to the centre of the goal. Assisted by Ricardo Rodríguez with a through ball.",ESPN public summary API,82
+M100,CHE,CHE,Breel Embolo,,red_card,72,,2H,,,Second yellow card to Breel Embolo (Switzerland).,ESPN public summary API,82
+M100,CHE,CHE,,,hydration_break_start,75,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M100,CHE,CHE,,,hydration_break_end,78,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,ARG,ARG,Nico González,Nicolás Tagliafico,sub_in,78,,2H,,,"Substitution, Argentina. Nico González replaces Nicolás Tagliafico.",ESPN public summary API,82
+M100,ARG,ARG,Nicolás Tagliafico,Nico González,sub_out,78,,2H,,,"Substitution, Argentina. Nico González replaces Nicolás Tagliafico.",ESPN public summary API,82
+M100,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_in,85,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M100,ARG,ARG,Lautaro Martínez,Rodrigo De Paul,sub_in,85,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul.",ESPN public summary API,82
+M100,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_out,85,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M100,ARG,ARG,Rodrigo De Paul,Lautaro Martínez,sub_out,85,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Rodrigo De Paul.",ESPN public summary API,82
+M100,CHE,CHE,Miro Muheim,Fabian Rieder,sub_in,86,,2H,,,"Substitution, Switzerland. Miro Muheim replaces Fabian Rieder.",ESPN public summary API,82
+M100,CHE,CHE,Silvan Widmer,Djibril Sow,sub_in,86,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Djibril Sow.",ESPN public summary API,82
+M100,CHE,CHE,Zeki Amdouni,Dan Ndoye,sub_in,86,,2H,,,"Substitution, Switzerland. Zeki Amdouni replaces Dan Ndoye.",ESPN public summary API,82
+M100,CHE,CHE,Dan Ndoye,Zeki Amdouni,sub_out,86,,2H,,,"Substitution, Switzerland. Zeki Amdouni replaces Dan Ndoye.",ESPN public summary API,82
+M100,CHE,CHE,Djibril Sow,Silvan Widmer,sub_out,86,,2H,,,"Substitution, Switzerland. Silvan Widmer replaces Djibril Sow.",ESPN public summary API,82
+M100,CHE,CHE,Fabian Rieder,Miro Muheim,sub_out,86,,2H,,,"Substitution, Switzerland. Miro Muheim replaces Fabian Rieder.",ESPN public summary API,82
+M100,ARG,ARG,Thiago Almada,Enzo Fernández,sub_in,90,,ET1,,,"Substitution, Argentina. Thiago Almada replaces Enzo Fernández.",ESPN public summary API,82
+M100,ARG,ARG,Enzo Fernández,Thiago Almada,sub_out,90,,ET1,,,"Substitution, Argentina. Thiago Almada replaces Enzo Fernández.",ESPN public summary API,82
+M100,CHE,CHE,Eray Cömert,Ricardo Rodríguez,sub_in,90,5,2H,,,"Substitution, Switzerland. Eray Cömert replaces Ricardo Rodríguez.",ESPN public summary API,82
+M100,CHE,CHE,Ricardo Rodríguez,Eray Cömert,sub_out,90,5,2H,,,"Substitution, Switzerland. Eray Cömert replaces Ricardo Rodríguez.",ESPN public summary API,82
+M100,CHE,CHE,Ardon Jashari,Denis Zakaria,sub_in,96,,ET1,,,"Substitution, Switzerland. Ardon Jashari replaces Denis Zakaria.",ESPN public summary API,82
+M100,CHE,CHE,Denis Zakaria,Ardon Jashari,sub_out,96,,ET1,,,"Substitution, Switzerland. Ardon Jashari replaces Denis Zakaria.",ESPN public summary API,82
+M100,ARG,ARG,Thiago Almada,,yellow_card,97,,ET1,,,Thiago Almada (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M100,ARG,ARG,Lautaro Martínez,,yellow_card,98,,ET1,,,Lautaro Martínez (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M100,ARG,ARG,Nicolás Otamendi,Cristian Romero,sub_in,105,,ET2,,,"Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",ESPN public summary API,82
+M100,ARG,ARG,Cristian Romero,Nicolás Otamendi,sub_out,105,,ET2,,,"Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",ESPN public summary API,82
+M100,ARG,ARG,José Manuel López,Leandro Paredes,sub_in,110,,ET2,,,"Substitution, Argentina. José Manuel López replaces Leandro Paredes because of an injury.",ESPN public summary API,82
+M100,ARG,ARG,Leandro Paredes,José Manuel López,sub_out,110,,ET2,,,"Substitution, Argentina. José Manuel López replaces Leandro Paredes because of an injury.",ESPN public summary API,82
+M100,ARG,ARG,Julián Álvarez,José Manuel López,goal,112,,ET2,2,1,"Goal! Argentina 2, Switzerland 1. Julián Alvarez (Argentina) right footed shot from outside the box to the top right corner. Assisted by José Manuel López.",ESPN public summary API,82
+M100,ARG,ARG,José Manuel López,,yellow_card,114,,ET2,,,José Manuel López (Argentina) is shown the yellow card.,ESPN public summary API,82
+M100,CHE,CHE,Rubén Vargas,Remo Freuler,sub_in,115,,ET2,,,"Substitution, Switzerland. Rubén Vargas replaces Remo Freuler.",ESPN public summary API,82
+M100,CHE,CHE,Remo Freuler,Rubén Vargas,sub_out,115,,ET2,,,"Substitution, Switzerland. Rubén Vargas replaces Remo Freuler.",ESPN public summary API,82
+M100,ARG,ARG,,,hydration_break_end,117,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M100,ARG,ARG,Lautaro Martínez,,goal,120,1,ET2,3,1,"Goal! Argentina 3, Switzerland 1. Lautaro Martínez (Argentina) right footed shot from the centre of the box to the bottom right corner following a fast break.",ESPN public summary API,82

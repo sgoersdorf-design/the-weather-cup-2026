@@ -1,8 +1,8 @@
 team_iso3,player_name,preferred_name,shirt_number,position_group,date_of_birth,is_goalkeeper,data_source_name,data_quality_score
-ARG,Alexis Mac Allister,A. Mac Allister,20,CM,,false,ESPN public summary API,82
+ARG,Alexis Mac Allister,A. Mac Allister,20,LM,,false,ESPN public summary API,82
 ARG,Cristian Romero,C. Romero,13,CD-R,,false,ESPN public summary API,82
 ARG,Emiliano Martínez,E. Martínez,23,G,,false,ESPN public summary API,82
-ARG,Enzo Fernández,E. Fernández,24,LM,,false,ESPN public summary API,82
+ARG,Enzo Fernández,E. Fernández,24,CM,,false,ESPN public summary API,82
 ARG,Exequiel Palacios,E. Palacios,14,,,false,ESPN public summary API,82
 ARG,Facundo Medina,F. Medina,25,,,false,ESPN public summary API,82
 ARG,Gerónimo Rulli,G. Rulli,12,,,false,ESPN public summary API,82
@@ -181,20 +181,20 @@ CAN,Richie Laryea,R. Laryea,22,LB,,false,ESPN public summary API,82
 CAN,Stephen Eustáquio,S. Eustáquio,7,CM-L,,false,ESPN public summary API,82
 CAN,Tajon Buchanan,T. Buchanan,17,RM,,false,ESPN public summary API,82
 CAN,Tani Oluwaseyi,T. Oluwaseyi,12,CF-L,,false,ESPN public summary API,82
-CHE,Ardon Jashari,A. Jashari,14,AM,,false,ESPN public summary API,82
+CHE,Ardon Jashari,A. Jashari,14,SUB,,false,ESPN public summary API,82
 CHE,Aurèle Amenda,A. Amenda,24,SUB,,false,ESPN public summary API,82
 CHE,Breel Embolo,B. Embolo,7,F,,false,ESPN public summary API,82
 CHE,Cedric Itten,C. Itten,26,SUB,,false,ESPN public summary API,82
 CHE,Christian Fassnacht,C. Fassnacht,16,SUB,,false,ESPN public summary API,82
 CHE,Dan Ndoye,D. Ndoye,11,AM-L,,false,ESPN public summary API,82
 CHE,Denis Zakaria,D. Zakaria,6,RB,,false,ESPN public summary API,82
-CHE,Djibril Sow,D. Sow,15,SUB,,false,ESPN public summary API,82
+CHE,Djibril Sow,D. Sow,15,AM-R,,false,ESPN public summary API,82
 CHE,Eray Cömert,E. Cömert,18,SUB,,false,ESPN public summary API,82
-CHE,Fabian Rieder,F. Rieder,22,AM-R,,false,ESPN public summary API,82
+CHE,Fabian Rieder,F. Rieder,22,AM,,false,ESPN public summary API,82
 CHE,Granit Xhaka,G. Xhaka,10,LM,,false,ESPN public summary API,82
 CHE,Gregor Kobel,G. Kobel,1,G,,false,ESPN public summary API,82
 CHE,Johan Manzambi,J. Manzambi,9,AM,,false,ESPN public summary API,82
-CHE,Luca Jaquez,L. Jaquez,25,RB,,false,ESPN public summary API,82
+CHE,Luca Jaquez,L. Jaquez,25,SUB,,false,ESPN public summary API,82
 CHE,Manuel Akanji,M. Akanji,5,CD-L,,false,ESPN public summary API,82
 CHE,Marvin Keller,M. Keller,21,SUB,,false,ESPN public summary API,82
 CHE,Michel Aebischer,M. Aebischer,20,SUB,,false,ESPN public summary API,82

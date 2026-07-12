@@ -1,0 +1,5 @@
+data_quality_score,error,match_id
+0,DNS resolution failed for ensemble-api.open-meteo.com,M101
+0,DNS resolution failed for ensemble-api.open-meteo.com,M102
+0,DNS resolution failed for ensemble-api.open-meteo.com,M103
+0,DNS resolution failed for ensemble-api.open-meteo.com,M104

@@ -3985,3 +3985,54 @@ M099,NOR,Oscar Bobb,bench,22,SUB,0,68,,,false,false,ESPN public summary API,82
 M099,NOR,Sander Tangvik,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
 M099,NOR,Sondre Langas,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
 M099,NOR,Thelo Aasgaard,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Alexis Mac Allister,starter,20,LM,11,0,,,false,false,ESPN public summary API,82
+M100,ARG,Cristian Romero,starter,13,CD-R,5,0,105,,false,false,ESPN public summary API,82
+M100,ARG,Emiliano Martínez,starter,23,G,1,0,,,false,false,ESPN public summary API,82
+M100,ARG,Enzo Fernández,starter,24,CM,8,0,90,,false,false,ESPN public summary API,82
+M100,ARG,Julián Álvarez,starter,9,CF-L,10,0,,,false,false,ESPN public summary API,82
+M100,ARG,Leandro Paredes,starter,5,SW,4,0,110,,false,false,ESPN public summary API,82
+M100,ARG,Lionel Messi,starter,10,CF-R,9,0,,,false,false,ESPN public summary API,82
+M100,ARG,Lisandro Martínez,starter,6,CD-L,6,0,,,false,false,ESPN public summary API,82
+M100,ARG,Nahuel Molina,starter,26,RB,2,0,85,,false,false,ESPN public summary API,82
+M100,ARG,Nicolás Tagliafico,starter,3,LB,3,0,78,,false,false,ESPN public summary API,82
+M100,ARG,Rodrigo De Paul,starter,7,RM,7,0,85,,false,false,ESPN public summary API,82
+M100,ARG,Exequiel Palacios,unused,14,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Facundo Medina,unused,25,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Gerónimo Rulli,unused,12,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Giovani Lo Celso,unused,11,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Giuliano Simeone,unused,17,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Gonzalo Montiel,bench,4,,0,85,,,false,false,ESPN public summary API,82
+M100,ARG,José Manuel López,bench,21,,0,110,,,false,false,ESPN public summary API,82
+M100,ARG,Juan Musso,unused,1,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Lautaro Martínez,bench,22,,0,85,,,false,false,ESPN public summary API,82
+M100,ARG,Marcos Senesi,unused,2,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Nico González,bench,15,,0,78,,,false,false,ESPN public summary API,82
+M100,ARG,Nico Paz,unused,18,,0,,,,false,false,ESPN public summary API,82
+M100,ARG,Nicolás Otamendi,bench,19,,0,105,,,false,false,ESPN public summary API,82
+M100,ARG,Thiago Almada,bench,16,,0,90,,,false,false,ESPN public summary API,82
+M100,ARG,Valentín Barco,unused,8,,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Breel Embolo,starter,7,F,9,0,,,false,false,ESPN public summary API,82
+M100,CHE,Dan Ndoye,starter,11,AM-L,11,0,86,,false,false,ESPN public summary API,82
+M100,CHE,Denis Zakaria,starter,6,RB,2,0,96,,false,false,ESPN public summary API,82
+M100,CHE,Djibril Sow,starter,15,AM-R,7,0,86,,false,false,ESPN public summary API,82
+M100,CHE,Fabian Rieder,starter,22,AM,10,0,86,,false,false,ESPN public summary API,82
+M100,CHE,Granit Xhaka,starter,10,LM,4,0,,,false,false,ESPN public summary API,82
+M100,CHE,Gregor Kobel,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M100,CHE,Manuel Akanji,starter,5,CD-L,6,0,,,false,false,ESPN public summary API,82
+M100,CHE,Nico Elvedi,starter,4,CD-R,5,0,,,false,false,ESPN public summary API,82
+M100,CHE,Remo Freuler,starter,8,RM,8,0,115,,false,false,ESPN public summary API,82
+M100,CHE,Ricardo Rodríguez,starter,13,LB,3,0,90,,false,false,ESPN public summary API,82
+M100,CHE,Ardon Jashari,bench,14,SUB,0,96,,,false,false,ESPN public summary API,82
+M100,CHE,Aurèle Amenda,unused,24,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Cedric Itten,unused,26,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Christian Fassnacht,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Eray Cömert,bench,18,SUB,0,90,,,false,false,ESPN public summary API,82
+M100,CHE,Luca Jaquez,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Marvin Keller,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Michel Aebischer,unused,20,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Miro Muheim,bench,2,SUB,0,86,,,false,false,ESPN public summary API,82
+M100,CHE,Noah Okafor,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Rubén Vargas,bench,17,SUB,0,115,,,false,false,ESPN public summary API,82
+M100,CHE,Silvan Widmer,bench,3,SUB,0,86,,,false,false,ESPN public summary API,82
+M100,CHE,Yvon Mvogo,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M100,CHE,Zeki Amdouni,bench,23,SUB,0,86,,,false,false,ESPN public summary API,82

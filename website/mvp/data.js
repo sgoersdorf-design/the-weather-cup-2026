@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-12T00:43:49",
+    "exported_at": "2026-07-12T02:50:59",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -11806,9 +11806,9 @@ window.WM_MVP_DATA = {
       "local_time": "17:00",
       "local_timezone": "America/New_York",
       "date_utc": "2026-07-11T21:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 1,
+      "result_team_b": 1,
+      "match_status": "finished",
       "stadium_name": "Miami Stadium",
       "host_city": "Miami Gardens",
       "host_country": "United States",
@@ -11908,11 +11908,16 @@ window.WM_MVP_DATA = {
       "weather_teaser_de": "Weather Fit: NOR 52.78/100, ENG 52.78/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
       "weather_social_hook_de": "NOR vs. ENG: Bei 31.8 Grad und 59.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
-      "result_resolution": null,
+      "result_resolution": "extra_time",
       "advanced_team_side": null,
       "shootout_score_team_a": null,
       "shootout_score_team_b": null,
-      "event_periods": []
+      "event_periods": [
+        "1H",
+        "2H",
+        "ET1",
+        "ET2"
+      ]
     },
     {
       "match_id": "M100",
@@ -12079,12 +12084,12 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Spanien",
       "team_b_name_en": "Spain",
       "team_b_flag": "🇪🇸",
-      "forecast_temp": 33.8,
-      "forecast_humidity": 39.0,
-      "forecast_wind_speed": 8.6,
+      "forecast_temp": 34.1,
+      "forecast_humidity": 37.0,
+      "forecast_wind_speed": 13.0,
       "forecast_precipitation_probability": 29.0,
-      "forecast_heat_index": 33.8,
-      "forecast_last_updated": "2026-07-11T22:15:43.375359+00:00",
+      "forecast_heat_index": 34.1,
+      "forecast_last_updated": "2026-07-12T00:02:34.757288+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12092,13 +12097,13 @@ window.WM_MVP_DATA = {
       "actual_wind_speed": null,
       "actual_heat_index": null,
       "team_a_weather_fit_score": 52.78,
-      "team_a_weather_familiarity_score": 34.11,
+      "team_a_weather_familiarity_score": 33.21,
       "team_a_weather_tolerance_score": 46.5,
       "team_a_effective_weather_load_score": 23.73,
       "team_a_weather_fit_label": "neutral_fit",
       "team_a_weather_edge_role": "balanced",
       "team_b_weather_fit_score": 53.87,
-      "team_b_weather_familiarity_score": 36.92,
+      "team_b_weather_familiarity_score": 35.05,
       "team_b_weather_tolerance_score": 53.7,
       "team_b_effective_weather_load_score": 22.45,
       "team_b_weather_fit_label": "neutral_fit",
@@ -12147,7 +12152,7 @@ window.WM_MVP_DATA = {
       "weather_headline_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: FRA 52.78/100, ESP 53.87/100. Vorteil: ausgeglichen.",
       "weather_body_de": "Die Wettereignung ist ausgeglichen.",
-      "weather_social_hook_de": "FRA vs. ESP: Bei 33.8 Grad und 39.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
+      "weather_social_hook_de": "FRA vs. ESP: Bei 34.1 Grad und 37.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -12204,11 +12209,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W100",
       "team_b_name_en": "W100",
       "team_b_flag": "",
-      "forecast_temp": 28.2,
-      "forecast_humidity": 69.0,
+      "forecast_temp": 27.5,
+      "forecast_humidity": 63.0,
       "forecast_wind_speed": 13.3,
       "forecast_precipitation_probability": 26.0,
-      "forecast_heat_index": 30.92,
+      "forecast_heat_index": 29.02,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12324,11 +12329,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "L102",
       "team_b_name_en": "L102",
       "team_b_flag": "",
-      "forecast_temp": 36.6,
-      "forecast_humidity": 36.0,
-      "forecast_wind_speed": 16.8,
+      "forecast_temp": 36.0,
+      "forecast_humidity": 39.0,
+      "forecast_wind_speed": 15.0,
       "forecast_precipitation_probability": 23.0,
-      "forecast_heat_index": 36.6,
+      "forecast_heat_index": 36.0,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12444,11 +12449,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W102",
       "team_b_name_en": "W102",
       "team_b_flag": "",
-      "forecast_temp": 22.2,
-      "forecast_humidity": 81.0,
-      "forecast_wind_speed": 5.4,
+      "forecast_temp": 24.7,
+      "forecast_humidity": 39.0,
+      "forecast_wind_speed": 21.6,
       "forecast_precipitation_probability": 35.0,
-      "forecast_heat_index": 22.2,
+      "forecast_heat_index": 24.7,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -13195,27 +13200,27 @@ window.WM_MVP_DATA = {
         "iso3": "ENG",
         "name_de": "England",
         "flag": "🇬🇧",
-        "played": 2,
+        "played": 3,
         "wins": 2,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "goals_for": 5,
-        "goals_against": 3,
+        "goals_for": 6,
+        "goals_against": 4,
         "goal_difference": 2,
-        "points": 6
+        "points": 7
       },
       {
         "iso3": "NOR",
         "name_de": "Norwegen",
         "flag": "🇳🇴",
-        "played": 2,
+        "played": 3,
         "wins": 2,
-        "draws": 0,
+        "draws": 1,
         "losses": 0,
-        "goals_for": 4,
-        "goals_against": 2,
+        "goals_for": 5,
+        "goals_against": 3,
         "goal_difference": 2,
-        "points": 6
+        "points": 7
       },
       {
         "iso3": "BEL",
@@ -15731,16 +15736,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "NOR vs. ENG",
         "host_city": "Miami Gardens",
-        "status": "scheduled",
-        "result": null,
-        "result_resolution": null,
+        "status": "finished",
+        "result": "1:1",
+        "result_resolution": "extra_time",
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "Ausgeglichen",
         "weather_load_score": 42.0,
         "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast liegt ausserhalb des aktuellen Vorhersagefensters."
+        "note_de": "NOR 1:1 ENG (nach Verlängerung entschieden). Forecast-Edge: Ausgeglichen. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M100",
@@ -15851,7 +15856,7 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 98,
+        "finished": 99,
         "forecast_matches": 4,
         "actual_weather_matches": 0,
         "weather_fit_matches": 100,
@@ -15883,7 +15888,7 @@ window.WM_MVP_DATA = {
       },
       "quarterfinals": {
         "matches": 4,
-        "finished": 2,
+        "finished": 3,
         "forecast_matches": 0,
         "actual_weather_matches": 0,
         "weather_fit_matches": 4,
@@ -15934,7 +15939,7 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 98,
+      "finished": 99,
       "forecast_matches": 4,
       "actual_weather_matches": 0,
       "weather_fit_matches": 100,
@@ -15946,15 +15951,15 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 98,
-      "matches_with_goal_events": 71,
-      "matches_with_complete_lineups": 77,
-      "matches_with_substitutions": 77,
-      "matches_with_hydration_markers": 77,
-      "last_event_update": "2026-07-12T00:15:27",
-      "goal_event_coverage_share": 0.724
+      "finished_matches": 99,
+      "matches_with_goal_events": 72,
+      "matches_with_complete_lineups": 78,
+      "matches_with_substitutions": 78,
+      "matches_with_hydration_markers": 78,
+      "last_event_update": "2026-07-12T02:02:17",
+      "goal_event_coverage_share": 0.727
     },
-    "goal_rows": 225,
+    "goal_rows": 228,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
@@ -15966,11 +15971,11 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "31-45+",
-        "goals": 33
+        "goals": 34
       },
       {
         "bucket": "46-60",
-        "goals": 42
+        "goals": 43
       },
       {
         "bucket": "61-75",
@@ -15982,7 +15987,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "90+X",
-        "goals": 29
+        "goals": 30
       }
     ],
     "teams_most_often_scored_in_bucket": [
@@ -16000,9 +16005,9 @@ window.WM_MVP_DATA = {
       },
       {
         "key": "NOR",
-        "bucket": "76-90",
+        "bucket": "31-45+",
         "count": 4,
-        "total": 12
+        "total": 13
       },
       {
         "key": "BRA",
@@ -16018,6 +16023,12 @@ window.WM_MVP_DATA = {
       }
     ],
     "teams_most_often_conceded_in_bucket": [
+      {
+        "key": "NOR",
+        "bucket": "90+X",
+        "count": 4,
+        "total": 11
+      },
       {
         "key": "BIH",
         "bucket": "76-90",
@@ -16039,12 +16050,6 @@ window.WM_MVP_DATA = {
       {
         "key": "AUT",
         "bucket": "31-45+",
-        "count": 3,
-        "total": 9
-      },
-      {
-        "key": "DZA",
-        "bucket": "46-60",
         "count": 3,
         "total": 9
       }
@@ -16099,11 +16104,11 @@ window.WM_MVP_DATA = {
         "count": 6
       },
       {
-        "key": "ESP",
-        "count": 5
+        "key": "NOR",
+        "count": 6
       },
       {
-        "key": "NOR",
+        "key": "ESP",
         "count": 5
       },
       {
@@ -16129,12 +16134,12 @@ window.WM_MVP_DATA = {
         "count": 9
       },
       {
-        "key": "SEN",
-        "count": 8
+        "key": "ENG",
+        "count": 9
       },
       {
-        "key": "CAN",
-        "count": 7
+        "key": "SEN",
+        "count": 8
       }
     ],
     "first_half_conceding_teams": [
@@ -16173,11 +16178,11 @@ window.WM_MVP_DATA = {
         "count": 8
       },
       {
-        "key": "CZE",
-        "count": 6
+        "key": "NOR",
+        "count": 7
       },
       {
-        "key": "BIH",
+        "key": "CZE",
         "count": 6
       }
     ],
@@ -16385,6 +16390,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Jude Bellingham",
+        "team_iso3": "ENG",
+        "total_goals": 6,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 2,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 2
+          },
+          {
+            "bucket": "46-60",
+            "goals": 2
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 1
+          }
+        ]
+      },
+      {
         "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 5,
@@ -16455,43 +16497,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 1
-          }
-        ]
-      },
-      {
-        "player_name": "Jude Bellingham",
-        "team_iso3": "ENG",
-        "total_goals": 4,
-        "top_bucket": "31-45+",
-        "top_bucket_goals": 2,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 2
-          },
-          {
-            "bucket": "46-60",
-            "goals": 1
-          },
-          {
-            "bucket": "61-75",
-            "goals": 1
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
           }
         ]
       },
@@ -18042,6 +18047,43 @@ window.WM_MVP_DATA = {
           {
             "bucket": "76-90",
             "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Andreas Schjelderup",
+        "team_iso3": "NOR",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
           },
           {
             "bucket": "90+X",
@@ -21262,6 +21304,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 2
       },
       {
+        "player_name": "Jude Bellingham",
+        "team_iso3": "ENG",
+        "total_goals": 6,
+        "top_bucket": "46-60",
+        "top_bucket_goals": 2
+      },
+      {
         "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 5,
@@ -21274,13 +21323,6 @@ window.WM_MVP_DATA = {
         "total_goals": 4,
         "top_bucket": "46-60",
         "top_bucket_goals": 3
-      },
-      {
-        "player_name": "Jude Bellingham",
-        "team_iso3": "ENG",
-        "total_goals": 4,
-        "top_bucket": "31-45+",
-        "top_bucket_goals": 2
       },
       {
         "player_name": "Mikel Oyarzabal",
@@ -21574,6 +21616,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "DZA",
         "total_goals": 1,
         "top_bucket": "76-90",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Andreas Schjelderup",
+        "team_iso3": "NOR",
+        "total_goals": 1,
+        "top_bucket": "31-45+",
         "top_bucket_goals": 1
       },
       {
@@ -22189,7 +22238,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-12T00:43:49",
+      "generated_at": "2026-07-12T02:50:59",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22218,14 +22267,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-12T00:15:27"
+        "last_event_update": "2026-07-12T02:02:17"
       },
       "knockout_readiness": {
-        "upcoming_matches": 6,
+        "upcoming_matches": 5,
         "forecast_matches": 4,
-        "weather_fit_matches": 3,
-        "forecast_share": 0.667,
-        "weather_fit_share": 0.5
+        "weather_fit_matches": 2,
+        "forecast_share": 0.8,
+        "weather_fit_share": 0.4
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

@@ -2373,3 +2373,40 @@ M098,ESP,ESP,Dani Olmo,Mikel Merino,sub_out,86,,2H,,,"Substitution, Spain. Mikel
 M098,ESP,ESP,Mikel Merino,,goal,88,,2H,2,1,"Goal! Spain 2, Belgium 1. Mikel Merino (Spain) left footed shot from very close range to the top left corner.",ESPN public summary API,82
 M098,ESP,ESP,Aymeric Laporte,,yellow_card,90,3,2H,,,Aymeric Laporte (Spain) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M098,BEL,BEL,Axel Witsel,,yellow_card,90,5,2H,,,Axel Witsel (Belgium) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M099,NOR,NOR,Andreas Schjelderup,Martin Ødegaard,goal,36,,1H,1,0,"Goal! Norway 1, England 0. Andreas Schjelderup (Norway) left footed shot from the left side of the box to the top right corner. Assisted by Martin Ødegaard.",ESPN public summary API,82
+M099,ENG,ENG,Bukayo Saka,Noni Madueke,sub_in,45,,2H,,,"Substitution, England. Bukayo Saka replaces Noni Madueke.",ESPN public summary API,82
+M099,ENG,ENG,Eberechi Eze,Declan Rice,sub_in,45,,2H,,,"Substitution, England. Eberechi Eze replaces Declan Rice.",ESPN public summary API,82
+M099,ENG,ENG,Declan Rice,Eberechi Eze,sub_out,45,,2H,,,"Substitution, England. Eberechi Eze replaces Declan Rice.",ESPN public summary API,82
+M099,ENG,ENG,Noni Madueke,Bukayo Saka,sub_out,45,,2H,,,"Substitution, England. Bukayo Saka replaces Noni Madueke.",ESPN public summary API,82
+M099,ENG,ENG,Jude Bellingham,Anthony Gordon,goal,45,2,1H,1,1,"Goal! Norway 1, England 1. Jude Bellingham (England) left footed shot from the left side of the box to the bottom right corner. Assisted by Anthony Gordon.",ESPN public summary API,82
+M099,NOR,NOR,,,hydration_break_end,60,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M099,NOR,NOR,Fredrik Aursnes,Julian Ryerson,sub_in,60,,2H,,,"Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury.",ESPN public summary API,82
+M099,NOR,NOR,Julian Ryerson,Fredrik Aursnes,sub_out,60,,2H,,,"Substitution, Norway. Fredrik Aursnes replaces Julian Ryerson because of an injury.",ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M099,NOR,NOR,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M099,NOR,NOR,Antonio Nusa,Andreas Schjelderup,sub_in,68,,2H,,,"Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup.",ESPN public summary API,82
+M099,NOR,NOR,Oscar Bobb,Alexander Sørloth,sub_in,68,,2H,,,"Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",ESPN public summary API,82
+M099,NOR,NOR,Alexander Sørloth,Oscar Bobb,sub_out,68,,2H,,,"Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",ESPN public summary API,82
+M099,NOR,NOR,Andreas Schjelderup,Antonio Nusa,sub_out,68,,2H,,,"Substitution, Norway. Antonio Nusa replaces Andreas Schjelderup.",ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_end,71,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M099,ENG,ENG,Reece James,Anthony Gordon,sub_in,71,,2H,,,"Substitution, England. Reece James replaces Anthony Gordon.",ESPN public summary API,82
+M099,ENG,ENG,Anthony Gordon,Reece James,sub_out,71,,2H,,,"Substitution, England. Reece James replaces Anthony Gordon.",ESPN public summary API,82
+M099,ENG,ENG,Djed Spence,Nico O'Reilly,sub_in,86,,2H,,,"Substitution, England. Djed Spence replaces Nico O'Reilly.",ESPN public summary API,82
+M099,ENG,ENG,Nico O'Reilly,Djed Spence,sub_out,86,,2H,,,"Substitution, England. Djed Spence replaces Nico O'Reilly.",ESPN public summary API,82
+M099,ENG,ENG,Morgan Rogers,Ezri Konsa,sub_in,89,,2H,,,"Substitution, England. Morgan Rogers replaces Ezri Konsa.",ESPN public summary API,82
+M099,ENG,ENG,Ezri Konsa,Morgan Rogers,sub_out,89,,2H,,,"Substitution, England. Morgan Rogers replaces Ezri Konsa.",ESPN public summary API,82
+M099,NOR,NOR,Leo Østigard,Torbjørn Heggem,sub_in,90,,ET1,,,"Substitution, Norway. Leo Østigård replaces Torbjørn Heggem.",ESPN public summary API,82
+M099,NOR,NOR,Marcus Holmgren Pedersen,David Møller Wolfe,sub_in,90,,2H,,,"Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe.",ESPN public summary API,82
+M099,NOR,NOR,David Møller Wolfe,Marcus Holmgren Pedersen,sub_out,90,,2H,,,"Substitution, Norway. Marcus Pedersen replaces David Møller Wolfe.",ESPN public summary API,82
+M099,NOR,NOR,Torbjørn Heggem,Leo Østigard,sub_out,90,,ET1,,,"Substitution, Norway. Leo Østigård replaces Torbjørn Heggem.",ESPN public summary API,82
+M099,NOR,NOR,,,hydration_break_end,90,4,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_end,90,8,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M099,ENG,ENG,Jude Bellingham,,goal,93,,ET1,1,2,"Goal! Norway 1, England 2. Jude Bellingham (England) right footed shot from the centre of the box to the bottom left corner following a corner.",ESPN public summary API,82
+M099,NOR,NOR,Jørgen Strand Larsen,Erling Haaland,sub_in,105,,ET2,,,"Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland.",ESPN public summary API,82
+M099,NOR,NOR,Erling Haaland,Jørgen Strand Larsen,sub_out,105,,ET2,,,"Substitution, Norway. Jørgen Strand Larsen replaces Erling Haaland.",ESPN public summary API,82
+M099,ENG,ENG,Dan Burn,Jude Bellingham,sub_in,111,,ET2,,,"Substitution, England. Dan Burn replaces Jude Bellingham.",ESPN public summary API,82
+M099,ENG,ENG,Jude Bellingham,Dan Burn,sub_out,111,,ET2,,,"Substitution, England. Dan Burn replaces Jude Bellingham.",ESPN public summary API,82
+M099,NOR,NOR,Kristoffer Ajer,,yellow_card,117,,ET2,,,Kristoffer Ajer (Norway) is shown the yellow card.,ESPN public summary API,82
+M099,ENG,ENG,,,hydration_break_end,118,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82

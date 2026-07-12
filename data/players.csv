@@ -416,19 +416,19 @@ EGY,Trézéguet,Trézéguet,7,SUB,,false,ESPN public summary API,82
 EGY,Yasser Ibrahim,Y. Ibrahim,2,CD-R,,false,ESPN public summary API,82
 EGY,Zizo,Zizo,25,SUB,,false,ESPN public summary API,82
 ENG,Anthony Gordon,A. Gordon,18,AM-L,,false,ESPN public summary API,82
-ENG,Bukayo Saka,B. Saka,7,AM-R,,false,ESPN public summary API,82
+ENG,Bukayo Saka,B. Saka,7,SUB,,false,ESPN public summary API,82
 ENG,Dan Burn,D. Burn,15,SUB,,false,ESPN public summary API,82
 ENG,Dean Henderson,D. Henderson,13,SUB,,false,ESPN public summary API,82
 ENG,Declan Rice,D. Rice,4,RM,,false,ESPN public summary API,82
 ENG,Djed Spence,D. Spence,25,SUB,,false,ESPN public summary API,82
 ENG,Eberechi Eze,E. Eze,21,SUB,,false,ESPN public summary API,82
 ENG,Elliot Anderson,E. Anderson,8,LM,,false,ESPN public summary API,82
-ENG,Ezri Konsa,E. Konsa,2,CD-R,,false,ESPN public summary API,82
+ENG,Ezri Konsa,E. Konsa,2,RB,,false,ESPN public summary API,82
 ENG,Harry Kane,H. Kane,9,F,,false,ESPN public summary API,82
 ENG,Ivan Toney,I. Toney,22,SUB,,false,ESPN public summary API,82
 ENG,James Trafford,J. Trafford,23,SUB,,false,ESPN public summary API,82
 ENG,Jarell Quansah,J. Quansah,26,RB,,false,ESPN public summary API,82
-ENG,John Stones,J. Stones,5,SUB,,false,ESPN public summary API,82
+ENG,John Stones,J. Stones,5,CD-R,,false,ESPN public summary API,82
 ENG,Jordan Henderson,J. Henderson,14,SUB,,false,ESPN public summary API,82
 ENG,Jordan Pickford,J. Pickford,1,G,,false,ESPN public summary API,82
 ENG,Jude Bellingham,J. Bellingham,10,AM,,false,ESPN public summary API,82
@@ -437,7 +437,7 @@ ENG,Marc Guéhi,M. Guéhi,6,CD-L,,false,ESPN public summary API,82
 ENG,Marcus Rashford,M. Rashford,11,SUB,,false,ESPN public summary API,82
 ENG,Morgan Rogers,M. Rogers,17,SUB,,false,ESPN public summary API,82
 ENG,Nico O'Reilly,N. O'Reilly,3,LB,,false,ESPN public summary API,82
-ENG,Noni Madueke,N. Madueke,20,SUB,,false,ESPN public summary API,82
+ENG,Noni Madueke,N. Madueke,20,AM-R,,false,ESPN public summary API,82
 ENG,Ollie Watkins,O. Watkins,19,SUB,,false,ESPN public summary API,82
 ENG,Reece James,R. James,24,SUB,,false,ESPN public summary API,82
 ENG,Trevoh Chalobah,T. Chalobah,12,SUB,,false,ESPN public summary API,82
@@ -754,8 +754,8 @@ MEX,Santiago Gimenez,S. Gimenez,11,SUB,,false,ESPN public summary API,82
 MEX,Álvaro Fidalgo,Á. Fidalgo,8,SUB,,false,ESPN public summary API,82
 MEX,Érik Lira,É. Lira,6,CM,,false,ESPN public summary API,82
 NOR,Alexander Sørloth,A. Sørloth,7,RF,,false,ESPN public summary API,82
-NOR,Andreas Schjelderup,A. Schjelderup,21,SUB,,false,ESPN public summary API,82
-NOR,Antonio Nusa,A. Nusa,20,LF,,false,ESPN public summary API,82
+NOR,Andreas Schjelderup,A. Schjelderup,21,LF,,false,ESPN public summary API,82
+NOR,Antonio Nusa,A. Nusa,20,SUB,,false,ESPN public summary API,82
 NOR,David Møller Wolfe,D. Møller Wolfe,5,LB,,false,ESPN public summary API,82
 NOR,Egil Selvik,E. Selvik,13,SUB,,false,ESPN public summary API,82
 NOR,Erling Haaland,E. Haaland,9,F,,false,ESPN public summary API,82
@@ -768,7 +768,7 @@ NOR,Jørgen Strand Larsen,J. Larsen,11,SUB,,false,ESPN public summary API,82
 NOR,Kristian Thorstvedt,K. Thorstvedt,18,SUB,,false,ESPN public summary API,82
 NOR,Kristoffer Ajer,K. Ajer,3,CD-R,,false,ESPN public summary API,82
 NOR,Leo Østigard,L. Østigard,4,SUB,,false,ESPN public summary API,82
-NOR,Marcus Holmgren Pedersen,M. Holmgren Pedersen,16,RB,,false,ESPN public summary API,82
+NOR,Marcus Holmgren Pedersen,M. Holmgren Pedersen,16,SUB,,false,ESPN public summary API,82
 NOR,Martin Ødegaard,M. Ødegaard,10,RM,,false,ESPN public summary API,82
 NOR,Morten Thorsby,M. Thorsby,2,SUB,,false,ESPN public summary API,82
 NOR,Oscar Bobb,O. Bobb,22,SUB,,false,ESPN public summary API,82

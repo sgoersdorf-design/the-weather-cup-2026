@@ -839,6 +839,7 @@ def _offline_payload_from_existing_export(output: str) -> dict[str, Any]:
     )
     ads = payload.get("ads", [])
     event_stats = load_event_stats_from_csv(rows)
+    event_stats["source"] = event_stats.get("source") or "local_csv_only"
     offline_payload = {
         "metadata": {
             "exported_at": datetime.now().isoformat(timespec="seconds"),
@@ -847,6 +848,7 @@ def _offline_payload_from_existing_export(output: str) -> dict[str, Any]:
             "matches": len(rows),
             "forecast_matches": len([row for row in rows if row.get("forecast_temp") is not None]),
             "weather_fit_matches": len([row for row in rows if row.get("team_a_weather_fit_score") is not None]),
+            "event_stats_source": event_stats["source"],
         },
         "matches": rows,
         "standings": build_group_standings(rows),

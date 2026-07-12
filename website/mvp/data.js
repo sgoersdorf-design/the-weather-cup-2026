@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-12T02:50:59",
+    "exported_at": "2026-07-12T04:21:06",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12089,7 +12089,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 13.0,
       "forecast_precipitation_probability": 29.0,
       "forecast_heat_index": 34.1,
-      "forecast_last_updated": "2026-07-12T00:02:34.757288+00:00",
+      "forecast_last_updated": "2026-07-12T02:18:13.958556+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15956,7 +15956,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 78,
       "matches_with_substitutions": 78,
       "matches_with_hydration_markers": 78,
-      "last_event_update": "2026-07-12T02:02:17",
+      "last_event_update": "2026-07-12T04:18:04",
       "goal_event_coverage_share": 0.727
     },
     "goal_rows": 228,
@@ -22238,7 +22238,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-12T02:50:59",
+      "generated_at": "2026-07-12T04:21:07",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22267,7 +22267,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-12T02:02:17"
+        "last_event_update": "2026-07-12T04:18:04"
       },
       "knockout_readiness": {
         "upcoming_matches": 5,

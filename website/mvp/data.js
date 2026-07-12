@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-12T21:04:06",
+    "exported_at": "2026-07-12T22:09:23",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12095,7 +12095,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 13.8,
       "forecast_precipitation_probability": 35.0,
       "forecast_heat_index": 33.0,
-      "forecast_last_updated": "2026-07-12T18:08:23.649036+00:00",
+      "forecast_last_updated": "2026-07-12T20:05:36.683126+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12215,7 +12215,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 7.8,
       "forecast_precipitation_probability": 43.0,
       "forecast_heat_index": 33.7,
-      "forecast_last_updated": "2026-07-12T18:08:23.649036+00:00",
+      "forecast_last_updated": "2026-07-12T20:05:36.683126+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15936,7 +15936,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 79,
       "matches_with_substitutions": 79,
       "matches_with_hydration_markers": 79,
-      "last_event_update": "2026-07-12T20:08:11",
+      "last_event_update": "2026-07-12T22:05:22",
       "goal_event_coverage_share": 0.73
     },
     "goal_rows": 232,
@@ -22306,7 +22306,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-12T21:04:06",
+      "generated_at": "2026-07-12T22:09:23",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22335,7 +22335,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-12T20:08:11"
+        "last_event_update": "2026-07-12T22:05:22"
       },
       "knockout_readiness": {
         "upcoming_matches": 4,

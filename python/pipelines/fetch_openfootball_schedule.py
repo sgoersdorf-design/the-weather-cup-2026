@@ -15,6 +15,7 @@ from typing import Any
 
 OPENFOOTBALL_URL = "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
 NETWORK_HARD_TIMEOUT_SECONDS = 25
+RESULT_OVERRIDES_PATH = Path("data/result_score_overrides.csv")
 
 TEAM_CODE_MAP = {
     "Algeria": ("DZ", "DZA"),
@@ -230,6 +231,28 @@ def normalize_schedule(data: dict[str, Any]) -> list[dict[str, Any]]:
     return rows
 
 
+def _result_override_rows(path: Path = RESULT_OVERRIDES_PATH) -> dict[str, dict[str, str]]:
+    if not path.exists():
+        return {}
+    with path.open(newline="", encoding="utf-8") as handle:
+        return {row["match_id"]: row for row in csv.DictReader(handle) if row.get("match_id")}
+
+
+def apply_result_overrides(rows: list[dict[str, Any]], path: Path = RESULT_OVERRIDES_PATH) -> list[dict[str, Any]]:
+    overrides = _result_override_rows(path)
+    if not overrides:
+        return rows
+    for row in rows:
+        override = overrides.get(str(row.get("match_id") or ""))
+        if override is None:
+            continue
+        row["result_team_a"] = override.get("result_team_a", row.get("result_team_a", ""))
+        row["result_team_b"] = override.get("result_team_b", row.get("result_team_b", ""))
+        row["match_status"] = override.get("match_status") or row.get("match_status") or "finished"
+        row["data_source_name"] = override.get("data_source_name") or row.get("data_source_name")
+    return rows
+
+
 def write_csv(rows: list[dict[str, Any]], output_path: str) -> None:
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -245,7 +268,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--output", default="data/full_schedule_openfootball.csv")
     args = parser.parse_args(argv)
     try:
-        rows = normalize_schedule(fetch_openfootball_json(args.url))
+        rows = apply_result_overrides(normalize_schedule(fetch_openfootball_json(args.url)))
         write_csv(rows, args.output)
     except Exception as exc:  # noqa: BLE001
         cached_output = Path(args.output)

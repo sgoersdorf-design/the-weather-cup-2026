@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-13T14:09:24",
+    "exported_at": "2026-07-13T16:09:55",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12093,9 +12093,9 @@ window.WM_MVP_DATA = {
       "forecast_temp": 31.7,
       "forecast_humidity": 54.0,
       "forecast_wind_speed": 13.6,
-      "forecast_precipitation_probability": 18.0,
+      "forecast_precipitation_probability": 16.0,
       "forecast_heat_index": 34.77,
-      "forecast_last_updated": "2026-07-13T12:06:01.591583+00:00",
+      "forecast_last_updated": "2026-07-13T14:06:01.412235+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12215,7 +12215,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 10.7,
       "forecast_precipitation_probability": 49.0,
       "forecast_heat_index": 32.9,
-      "forecast_last_updated": "2026-07-13T12:06:01.591583+00:00",
+      "forecast_last_updated": "2026-07-13T14:06:01.412235+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15936,7 +15936,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 79,
       "matches_with_substitutions": 79,
       "matches_with_hydration_markers": 79,
-      "last_event_update": "2026-07-13T14:05:49",
+      "last_event_update": "2026-07-13T16:05:48",
       "goal_event_coverage_share": 0.73
     },
     "goal_rows": 232,
@@ -22306,7 +22306,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-13T14:09:24",
+      "generated_at": "2026-07-13T16:09:55",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22335,7 +22335,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-13T14:05:49"
+        "last_event_update": "2026-07-13T16:05:48"
       },
       "knockout_readiness": {
         "upcoming_matches": 4,

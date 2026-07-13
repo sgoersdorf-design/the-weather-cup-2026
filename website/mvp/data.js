@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-13T08:09:43",
+    "exported_at": "2026-07-13T10:09:53",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12090,12 +12090,12 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Spanien",
       "team_b_name_en": "Spain",
       "team_b_flag": "🇪🇸",
-      "forecast_temp": 30.4,
-      "forecast_humidity": 57.0,
-      "forecast_wind_speed": 15.4,
+      "forecast_temp": 31.7,
+      "forecast_humidity": 54.0,
+      "forecast_wind_speed": 13.6,
       "forecast_precipitation_probability": 31.0,
-      "forecast_heat_index": 32.98,
-      "forecast_last_updated": "2026-07-13T06:05:54.324272+00:00",
+      "forecast_heat_index": 34.77,
+      "forecast_last_updated": "2026-07-13T08:06:01.516417+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12103,19 +12103,19 @@ window.WM_MVP_DATA = {
       "actual_wind_speed": null,
       "actual_heat_index": null,
       "team_a_weather_fit_score": 52.78,
-      "team_a_weather_familiarity_score": 48.89,
+      "team_a_weather_familiarity_score": 43.38,
       "team_a_weather_tolerance_score": 46.5,
       "team_a_effective_weather_load_score": 23.73,
       "team_a_weather_fit_label": "neutral_fit",
-      "team_a_weather_edge_role": "weather_trailing",
-      "team_b_weather_fit_score": 57.17,
-      "team_b_weather_familiarity_score": 55.89,
+      "team_a_weather_edge_role": "balanced",
+      "team_b_weather_fit_score": 54.08,
+      "team_b_weather_familiarity_score": 50.38,
       "team_b_weather_tolerance_score": 53.7,
       "team_b_effective_weather_load_score": 22.45,
       "team_b_weather_fit_label": "neutral_fit",
-      "team_b_weather_edge_role": "weather_edge",
+      "team_b_weather_edge_role": "balanced",
       "weather_load_score": 32.0,
-      "weather_fit_edge_gap": 4.39,
+      "weather_fit_edge_gap": 1.3,
       "predicted_result_category": "team_a_win",
       "probability_team_a_win": 35.2,
       "probability_draw": 32.8,
@@ -12156,9 +12156,9 @@ window.WM_MVP_DATA = {
       "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Datenlage offen. Die Modellunsicherheit liegt bei low.",
       "preview_social_hook_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Kontextvorteil balanced, sichtbarer Faktor Datenlage offen. Kein Wettmodell.",
       "weather_headline_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
-      "weather_teaser_de": "Weather Fit: FRA 52.78/100, ESP 57.17/100. Vorteil: ESP.",
-      "weather_body_de": "Spanien wirkt für diese Wettersituation etwas besser eingeordnet als Frankreich: Weather Fit 57.17/100 gegen 52.78/100 bei 30.4 Grad und 57.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
-      "weather_social_hook_de": "FRA vs. ESP: Bei 30.4 Grad und 57.0% Luftfeuchtigkeit sieht der Weather-Fit-Vergleich ESP vorne. Kein Wettmodell.",
+      "weather_teaser_de": "Weather Fit: FRA 52.78/100, ESP 54.08/100. Vorteil: ausgeglichen.",
+      "weather_body_de": "Die Wettereignung ist ausgeglichen.",
+      "weather_social_hook_de": "FRA vs. ESP: Bei 31.7 Grad und 54.0% Luftfeuchtigkeit ist der Weather-Fit-Vergleich ausgeglichen. Kein Wettmodell.",
       "result_resolution": null,
       "advanced_team_side": null,
       "shootout_score_team_a": null,
@@ -12215,7 +12215,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 6.8,
       "forecast_precipitation_probability": 49.0,
       "forecast_heat_index": 31.17,
-      "forecast_last_updated": "2026-07-13T06:05:54.324272+00:00",
+      "forecast_last_updated": "2026-07-13T08:06:01.516417+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15763,11 +15763,11 @@ window.WM_MVP_DATA = {
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
-        "weather_edge": "ESP Edge",
+        "weather_edge": "Ausgeglichen",
         "weather_load_score": 32.0,
         "forecast_available": true,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: ESP Edge; Weather Load 32.0/100."
+        "note_de": "Noch nicht gespielt. Forecast-Edge: Ausgeglichen; Weather Load 32.0/100."
       },
       {
         "match_id": "M102",
@@ -15840,7 +15840,7 @@ window.WM_MVP_DATA = {
         "forecast_matches": 4,
         "actual_weather_matches": 0,
         "weather_fit_matches": 101,
-        "weather_fit_edges": 61,
+        "weather_fit_edges": 60,
         "avg_weather_load_score": 23.33,
         "report_ready_matches": 0
       }
@@ -15902,7 +15902,7 @@ window.WM_MVP_DATA = {
         "forecast_matches": 2,
         "actual_weather_matches": 0,
         "weather_fit_matches": 2,
-        "weather_fit_edges": 2,
+        "weather_fit_edges": 1,
         "avg_weather_load_score": 35.5,
         "report_ready_matches": 0
       },
@@ -15923,7 +15923,7 @@ window.WM_MVP_DATA = {
       "forecast_matches": 4,
       "actual_weather_matches": 0,
       "weather_fit_matches": 101,
-      "weather_fit_edges": 61,
+      "weather_fit_edges": 60,
       "avg_weather_load_score": 23.33,
       "report_ready_matches": 0
     }
@@ -15936,7 +15936,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 79,
       "matches_with_substitutions": 79,
       "matches_with_hydration_markers": 79,
-      "last_event_update": "2026-07-13T08:05:41",
+      "last_event_update": "2026-07-13T10:05:48",
       "goal_event_coverage_share": 0.73
     },
     "goal_rows": 232,
@@ -22306,7 +22306,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-13T08:09:43",
+      "generated_at": "2026-07-13T10:09:53",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22335,7 +22335,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-13T08:05:41"
+        "last_event_update": "2026-07-13T10:05:48"
       },
       "knockout_readiness": {
         "upcoming_matches": 4,

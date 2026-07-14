@@ -1,5 +1,5 @@
 data_quality_score,forecast_data_source,forecast_heat_index,forecast_humidity,forecast_max_temp,forecast_min_temp,forecast_precipitation_probability,forecast_temp,forecast_weather_code,forecast_wind_speed,match_id
-85,Open-Meteo Forecast API,34.28,56,31.2,24.2,15,31.2,1,13.8,M101
-85,Open-Meteo Forecast API,31.33,63,30.5,21.4,51,28.9,3,5.5,M102
-85,Open-Meteo Forecast API,36.79,43,34.3,29.4,21,34.3,3,21.6,M103
-85,Open-Meteo Forecast API,30.2,39,30.2,22.6,39,30.2,3,22.7,M104
+85,Open-Meteo Forecast API,35.08,56,31.6,24.6,15,31.6,1,14.2,M101
+85,Open-Meteo Forecast API,31.33,63,30.5,21.4,48,28.9,3,5.5,M102
+85,Open-Meteo Forecast API,36.79,43,34.3,29.4,38,34.3,3,21.6,M103
+85,Open-Meteo Forecast API,30.2,39,30.2,22.6,45,30.2,3,22.7,M104

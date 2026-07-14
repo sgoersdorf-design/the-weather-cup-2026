@@ -1,10 +1,10 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-14T23:54:52",
+    "exported_at": "2026-07-15T01:31:56",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
-    "forecast_matches": 4,
+    "forecast_matches": 3,
     "weather_fit_matches": 101,
     "event_stats_source": "local_csv_preferred"
   },
@@ -12057,9 +12057,9 @@ window.WM_MVP_DATA = {
       "local_time": "14:00",
       "local_timezone": "America/Chicago",
       "date_utc": "2026-07-14T19:00:00Z",
-      "result_team_a": null,
-      "result_team_b": null,
-      "match_status": "scheduled",
+      "result_team_a": 0,
+      "result_team_b": 2,
+      "match_status": "finished",
       "stadium_name": "Dallas Stadium",
       "host_city": "Arlington",
       "host_country": "United States",
@@ -12090,13 +12090,13 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "Spanien",
       "team_b_name_en": "Spain",
       "team_b_flag": "🇪🇸",
-      "forecast_temp": 27.7,
-      "forecast_humidity": 72.0,
-      "forecast_wind_speed": 7.6,
-      "forecast_precipitation_probability": 17.0,
-      "forecast_heat_index": 30.34,
-      "forecast_last_updated": "2026-07-14T20:29:46.315442+00:00",
-      "forecast_quality": 85.0,
+      "forecast_temp": null,
+      "forecast_humidity": null,
+      "forecast_wind_speed": null,
+      "forecast_precipitation_probability": null,
+      "forecast_heat_index": null,
+      "forecast_last_updated": null,
+      "forecast_quality": null,
       "actual_temp": null,
       "actual_humidity": null,
       "actual_precipitation": null,
@@ -12117,11 +12117,11 @@ window.WM_MVP_DATA = {
       "weather_load_score": 32.0,
       "weather_fit_edge_gap": 6.28,
       "predicted_result_category": "team_a_win",
-      "probability_team_a_win": 35.2,
-      "probability_draw": 32.8,
-      "probability_team_b_win": 31.9,
+      "probability_team_a_win": 35.1,
+      "probability_draw": 33.1,
+      "probability_team_b_win": 31.8,
       "main_context_advantage": "balanced",
-      "biggest_load_factor": "weather_load",
+      "biggest_load_factor": "travel_recovery_gap",
       "uncertainty_level": "low",
       "team_a_travel_distance_km": 2493.64,
       "team_a_travel_time_hours": 6.32,
@@ -12153,8 +12153,8 @@ window.WM_MVP_DATA = {
       "team_b_strength_score": null,
       "preview_headline_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Der Kontext-Check",
       "preview_subheadline_de": "Arlington, 2026-07-14: Wetter, Zeitzonen und Standortfaktoren im transparenten MVP-Vergleich.",
-      "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Datenlage offen. Die Modellunsicherheit liegt bei low.",
-      "preview_social_hook_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Kontextvorteil balanced, sichtbarer Faktor Datenlage offen. Kein Wettmodell.",
+      "preview_teaser_de": "Der auffälligste sichtbare Kontextfaktor ist Wetter-/Standortkontext. Die Modellunsicherheit liegt bei low.",
+      "preview_social_hook_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Kontextvorteil balanced, sichtbarer Faktor Wetter-/Standortkontext. Kein Wettmodell.",
       "weather_headline_de": "🇫🇷 FRA vs. 🇪🇸 ESP: Wer passt besser zum Wetter?",
       "weather_teaser_de": "Weather Fit: FRA 56.34/100, ESP 62.62/100. Vorteil: ESP.",
       "weather_body_de": "Spanien wirkt für diese Wettersituation etwas besser eingeordnet als Frankreich: Weather Fit 62.62/100 gegen 56.34/100 bei 27.7 Grad und 72.0% Luftfeuchtigkeit. Das ist ein Kontextindikator, kein Leistungsbeweis.",
@@ -12213,9 +12213,9 @@ window.WM_MVP_DATA = {
       "forecast_temp": 29.9,
       "forecast_humidity": 60.0,
       "forecast_wind_speed": 3.9,
-      "forecast_precipitation_probability": 17.0,
+      "forecast_precipitation_probability": 19.0,
       "forecast_heat_index": 32.64,
-      "forecast_last_updated": "2026-07-14T20:29:46.315442+00:00",
+      "forecast_last_updated": "2026-07-14T22:14:17.164377+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12338,7 +12338,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 34.3,
       "forecast_humidity": 43.0,
       "forecast_wind_speed": 22.4,
-      "forecast_precipitation_probability": 40.0,
+      "forecast_precipitation_probability": 44.0,
       "forecast_heat_index": 36.79,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -12458,7 +12458,7 @@ window.WM_MVP_DATA = {
       "forecast_temp": 30.9,
       "forecast_humidity": 48.0,
       "forecast_wind_speed": 3.7,
-      "forecast_precipitation_probability": 40.0,
+      "forecast_precipitation_probability": 32.0,
       "forecast_heat_index": 32.08,
       "forecast_last_updated": null,
       "forecast_quality": 85,
@@ -13177,29 +13177,29 @@ window.WM_MVP_DATA = {
     ],
     "–": [
       {
-        "iso3": "FRA",
-        "name_de": "Frankreich",
-        "flag": "🇫🇷",
-        "played": 3,
-        "wins": 3,
-        "draws": 0,
-        "losses": 0,
-        "goals_for": 6,
-        "goals_against": 0,
-        "goal_difference": 6,
-        "points": 9
-      },
-      {
         "iso3": "ESP",
         "name_de": "Spanien",
         "flag": "🇪🇸",
-        "played": 3,
-        "wins": 3,
+        "played": 4,
+        "wins": 4,
         "draws": 0,
         "losses": 0,
-        "goals_for": 6,
+        "goals_for": 8,
         "goals_against": 1,
-        "goal_difference": 5,
+        "goal_difference": 7,
+        "points": 12
+      },
+      {
+        "iso3": "FRA",
+        "name_de": "Frankreich",
+        "flag": "🇫🇷",
+        "played": 4,
+        "wins": 3,
+        "draws": 0,
+        "losses": 1,
+        "goals_for": 6,
+        "goals_against": 2,
+        "goal_difference": 4,
         "points": 9
       },
       {
@@ -15758,16 +15758,16 @@ window.WM_MVP_DATA = {
         "group_name": null,
         "label": "FRA vs. ESP",
         "host_city": "Arlington",
-        "status": "scheduled",
-        "result": null,
+        "status": "finished",
+        "result": "0:2",
         "result_resolution": null,
         "advanced_team_side": null,
         "shootout_result": null,
         "weather_edge": "ESP Edge",
         "weather_load_score": 32.0,
-        "forecast_available": true,
+        "forecast_available": false,
         "actual_weather_available": false,
-        "note_de": "Noch nicht gespielt. Forecast-Edge: ESP Edge; Weather Load 32.0/100."
+        "note_de": "FRA 0:2 ESP. Forecast-Edge: ESP Edge. Ist-Wetter-Abgleich folgt, sobald Actual-Wetterdaten importiert sind."
       },
       {
         "match_id": "M102",
@@ -15836,8 +15836,8 @@ window.WM_MVP_DATA = {
     "matchdays": {
       "–": {
         "matches": 104,
-        "finished": 100,
-        "forecast_matches": 4,
+        "finished": 101,
+        "forecast_matches": 3,
         "actual_weather_matches": 0,
         "weather_fit_matches": 101,
         "weather_fit_edges": 61,
@@ -15898,8 +15898,8 @@ window.WM_MVP_DATA = {
       },
       "semifinals": {
         "matches": 2,
-        "finished": 0,
-        "forecast_matches": 2,
+        "finished": 1,
+        "forecast_matches": 1,
         "actual_weather_matches": 0,
         "weather_fit_matches": 2,
         "weather_fit_edges": 2,
@@ -15919,8 +15919,8 @@ window.WM_MVP_DATA = {
     },
     "tournament": {
       "matches": 104,
-      "finished": 100,
-      "forecast_matches": 4,
+      "finished": 101,
+      "forecast_matches": 3,
       "actual_weather_matches": 0,
       "weather_fit_matches": 101,
       "weather_fit_edges": 61,
@@ -15931,15 +15931,15 @@ window.WM_MVP_DATA = {
   "event_stats": {
     "available": true,
     "coverage": {
-      "finished_matches": 100,
-      "matches_with_goal_events": 73,
-      "matches_with_complete_lineups": 79,
-      "matches_with_substitutions": 79,
-      "matches_with_hydration_markers": 79,
-      "last_event_update": "2026-07-14T22:13:50",
-      "goal_event_coverage_share": 0.73
+      "finished_matches": 101,
+      "matches_with_goal_events": 74,
+      "matches_with_complete_lineups": 80,
+      "matches_with_substitutions": 80,
+      "matches_with_hydration_markers": 80,
+      "last_event_update": "2026-07-15T00:14:04",
+      "goal_event_coverage_share": 0.733
     },
-    "goal_rows": 232,
+    "goal_rows": 234,
     "goals_by_15min_bucket": [
       {
         "bucket": "00-15",
@@ -15947,7 +15947,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "16-30",
-        "goals": 23
+        "goals": 24
       },
       {
         "bucket": "31-45+",
@@ -15955,7 +15955,7 @@ window.WM_MVP_DATA = {
       },
       {
         "bucket": "46-60",
-        "goals": 43
+        "goals": 44
       },
       {
         "bucket": "61-75",
@@ -15990,13 +15990,13 @@ window.WM_MVP_DATA = {
         "total": 13
       },
       {
-        "key": "BRA",
-        "bucket": "46-60",
+        "key": "ESP",
+        "bucket": "16-30",
         "count": 4,
-        "total": 10
+        "total": 11
       },
       {
-        "key": "SEN",
+        "key": "BRA",
         "bucket": "46-60",
         "count": 4,
         "total": 10
@@ -16084,16 +16084,16 @@ window.WM_MVP_DATA = {
         "count": 6
       },
       {
+        "key": "ESP",
+        "count": 6
+      },
+      {
         "key": "NOR",
         "count": 6
       },
       {
         "key": "ARG",
         "count": 6
-      },
-      {
-        "key": "ESP",
-        "count": 5
       },
       {
         "key": "FRA",
@@ -16208,16 +16208,16 @@ window.WM_MVP_DATA = {
         "total": 7
       },
       {
+        "key": "Mikel Oyarzabal",
+        "bucket": "16-30",
+        "count": 3,
+        "total": 5
+      },
+      {
         "key": "Ismaïla Sarr",
         "bucket": "46-60",
         "count": 3,
         "total": 4
-      },
-      {
-        "key": "Harry Kane",
-        "bucket": "61-75",
-        "count": 2,
-        "total": 6
       }
     ],
     "player_goal_timing_profiles": [
@@ -16407,6 +16407,43 @@ window.WM_MVP_DATA = {
         ]
       },
       {
+        "player_name": "Mikel Oyarzabal",
+        "team_iso3": "ESP",
+        "total_goals": 5,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 3,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 3
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 1
+          },
+          {
+            "bucket": "46-60",
+            "goals": 0
+          },
+          {
+            "bucket": "61-75",
+            "goals": 0
+          },
+          {
+            "bucket": "76-90",
+            "goals": 1
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
         "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 5,
@@ -16477,43 +16514,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "90+X",
             "goals": 1
-          }
-        ]
-      },
-      {
-        "player_name": "Mikel Oyarzabal",
-        "team_iso3": "ESP",
-        "total_goals": 4,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 2
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 1
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 1
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
           }
         ]
       },
@@ -17558,6 +17558,43 @@ window.WM_MVP_DATA = {
         "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "46-60",
+        "top_bucket_goals": 1,
+        "buckets": [
+          {
+            "bucket": "00-15",
+            "goals": 0
+          },
+          {
+            "bucket": "16-30",
+            "goals": 0
+          },
+          {
+            "bucket": "31-45+",
+            "goals": 0
+          },
+          {
+            "bucket": "46-60",
+            "goals": 1
+          },
+          {
+            "bucket": "61-75",
+            "goals": 1
+          },
+          {
+            "bucket": "76-90",
+            "goals": 0
+          },
+          {
+            "bucket": "90+X",
+            "goals": 0
+          }
+        ]
+      },
+      {
+        "player_name": "Pedro Porro",
+        "team_iso3": "ESP",
+        "total_goals": 2,
+        "top_bucket": "61-75",
         "top_bucket_goals": 1,
         "buckets": [
           {
@@ -20613,43 +20650,6 @@ window.WM_MVP_DATA = {
           {
             "bucket": "61-75",
             "goals": 0
-          },
-          {
-            "bucket": "76-90",
-            "goals": 0
-          },
-          {
-            "bucket": "90+X",
-            "goals": 0
-          }
-        ]
-      },
-      {
-        "player_name": "Pedro Porro",
-        "team_iso3": "ESP",
-        "total_goals": 1,
-        "top_bucket": "61-75",
-        "top_bucket_goals": 1,
-        "buckets": [
-          {
-            "bucket": "00-15",
-            "goals": 0
-          },
-          {
-            "bucket": "16-30",
-            "goals": 0
-          },
-          {
-            "bucket": "31-45+",
-            "goals": 0
-          },
-          {
-            "bucket": "46-60",
-            "goals": 0
-          },
-          {
-            "bucket": "61-75",
-            "goals": 1
           },
           {
             "bucket": "76-90",
@@ -21365,6 +21365,13 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 2
       },
       {
+        "player_name": "Mikel Oyarzabal",
+        "team_iso3": "ESP",
+        "total_goals": 5,
+        "top_bucket": "16-30",
+        "top_bucket_goals": 3
+      },
+      {
         "player_name": "Ousmane Dembélé",
         "team_iso3": "FRA",
         "total_goals": 5,
@@ -21377,13 +21384,6 @@ window.WM_MVP_DATA = {
         "total_goals": 4,
         "top_bucket": "46-60",
         "top_bucket_goals": 3
-      },
-      {
-        "player_name": "Mikel Oyarzabal",
-        "team_iso3": "ESP",
-        "total_goals": 4,
-        "top_bucket": "16-30",
-        "top_bucket_goals": 2
       },
       {
         "player_name": "Vinícius Júnior",
@@ -21586,6 +21586,13 @@ window.WM_MVP_DATA = {
         "team_iso3": "SEN",
         "total_goals": 2,
         "top_bucket": "46-60",
+        "top_bucket_goals": 1
+      },
+      {
+        "player_name": "Pedro Porro",
+        "team_iso3": "ESP",
+        "total_goals": 2,
+        "top_bucket": "61-75",
         "top_bucket_goals": 1
       },
       {
@@ -22163,13 +22170,6 @@ window.WM_MVP_DATA = {
         "top_bucket_goals": 1
       },
       {
-        "player_name": "Pedro Porro",
-        "team_iso3": "ESP",
-        "total_goals": 1,
-        "top_bucket": "61-75",
-        "top_bucket_goals": 1
-      },
-      {
         "player_name": "Petar Musa",
         "team_iso3": "HRV",
         "total_goals": 1,
@@ -22306,7 +22306,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-14T23:54:52",
+      "generated_at": "2026-07-15T01:31:56",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22335,14 +22335,14 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-14T22:13:50"
+        "last_event_update": "2026-07-15T00:14:04"
       },
       "knockout_readiness": {
-        "upcoming_matches": 4,
-        "forecast_matches": 4,
-        "weather_fit_matches": 2,
+        "upcoming_matches": 3,
+        "forecast_matches": 3,
+        "weather_fit_matches": 1,
         "forecast_share": 1.0,
-        "weather_fit_share": 0.5
+        "weather_fit_share": 0.333
       },
       "key_findings_de": [
         "Die Gruppenphase brachte 215 Tore in 72 Spielen, also 2.99 pro Spiel.",

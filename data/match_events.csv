@@ -2450,3 +2450,34 @@ M100,CHE,CHE,Rubén Vargas,Remo Freuler,sub_in,115,,ET2,,,"Substitution, Switzer
 M100,CHE,CHE,Remo Freuler,Rubén Vargas,sub_out,115,,ET2,,,"Substitution, Switzerland. Rubén Vargas replaces Remo Freuler.",ESPN public summary API,82
 M100,ARG,ARG,,,hydration_break_end,117,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M100,ARG,ARG,Lautaro Martínez,,goal,120,1,ET2,3,1,"Goal! Argentina 3, Switzerland 1. Lautaro Martínez (Argentina) right footed shot from the centre of the box to the bottom right corner following a fast break.",ESPN public summary API,82
+M101,FRA,FRA,Adrien Rabiot,,yellow_card,9,,1H,,,Adrien Rabiot (France) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M101,ESP,ESP,Mikel Oyarzabal,,goal,22,,1H,0,1,"Goal! France 0, Spain 1. Mikel Oyarzabal (Spain) converts the penalty with a left footed shot to the top right corner.",ESPN public summary API,82
+M101,ESP,ESP,,,hydration_break_start,24,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M101,ESP,ESP,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M101,FRA,FRA,,,hydration_break_end,30,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M101,FRA,FRA,Maxence Lacroix,William Saliba,sub_in,30,,1H,,,"Substitution, France. Maxence Lacroix replaces William Saliba because of an injury.",ESPN public summary API,82
+M101,FRA,FRA,William Saliba,Maxence Lacroix,sub_out,30,,1H,,,"Substitution, France. Maxence Lacroix replaces William Saliba because of an injury.",ESPN public summary API,82
+M101,ESP,ESP,Marc Cucurella,,yellow_card,31,,1H,,,Marc Cucurella (Spain) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M101,ESP,ESP,,,hydration_break_end,44,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M101,FRA,FRA,Manu Koné,Adrien Rabiot,sub_in,45,,2H,,,"Substitution, France. Manu Koné replaces Adrien Rabiot.",ESPN public summary API,82
+M101,FRA,FRA,Adrien Rabiot,Manu Koné,sub_out,45,,2H,,,"Substitution, France. Manu Koné replaces Adrien Rabiot.",ESPN public summary API,82
+M101,FRA,FRA,Désiré Doué,Bradley Barcola,sub_in,57,,2H,,,"Substitution, France. Désiré Doué replaces Bradley Barcola.",ESPN public summary API,82
+M101,FRA,FRA,Bradley Barcola,Désiré Doué,sub_out,57,,2H,,,"Substitution, France. Désiré Doué replaces Bradley Barcola.",ESPN public summary API,82
+M101,ESP,ESP,Pedro Porro,Dani Olmo,goal,58,,2H,0,2,"Goal! France 0, Spain 2. Pedro Porro (Spain) right footed shot from the centre of the box to the bottom right corner. Assisted by Dani Olmo.",ESPN public summary API,82
+M101,ESP,ESP,,,hydration_break_start,69,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M101,ESP,ESP,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M101,FRA,FRA,Rayan Cherki,Michael Olise,sub_in,72,,2H,,,"Substitution, France. Rayan Cherki replaces Michael Olise.",ESPN public summary API,82
+M101,FRA,FRA,Theo Hernández,Lucas Digne,sub_in,72,,2H,,,"Substitution, France. Théo Hernández replaces Lucas Digne.",ESPN public summary API,82
+M101,FRA,FRA,Lucas Digne,Theo Hernández,sub_out,72,,2H,,,"Substitution, France. Théo Hernández replaces Lucas Digne.",ESPN public summary API,82
+M101,FRA,FRA,Michael Olise,Rayan Cherki,sub_out,72,,2H,,,"Substitution, France. Rayan Cherki replaces Michael Olise.",ESPN public summary API,82
+M101,ESP,ESP,Ferran Torres,Mikel Oyarzabal,sub_in,74,,2H,,,"Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",ESPN public summary API,82
+M101,ESP,ESP,Mikel Oyarzabal,Ferran Torres,sub_out,74,,2H,,,"Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",ESPN public summary API,82
+M101,ESP,ESP,Mikel Merino,Dani Olmo,sub_in,78,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M101,ESP,ESP,Pedri,Fabián Ruiz,sub_in,78,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M101,ESP,ESP,Dani Olmo,Mikel Merino,sub_out,78,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M101,ESP,ESP,Fabián Ruiz,Pedri,sub_out,78,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M101,ESP,ESP,Marcos Llorente,Pedro Porro,sub_in,84,,2H,,,"Substitution, Spain. Marcos Llorente replaces Pedro Porro.",ESPN public summary API,82
+M101,ESP,ESP,Nico Williams,Álex Baena,sub_in,84,,2H,,,"Substitution, Spain. Nico Williams replaces Álex Baena.",ESPN public summary API,82
+M101,ESP,ESP,Pedro Porro,Marcos Llorente,sub_out,84,,2H,,,"Substitution, Spain. Marcos Llorente replaces Pedro Porro.",ESPN public summary API,82
+M101,ESP,ESP,Álex Baena,Nico Williams,sub_out,84,,2H,,,"Substitution, Spain. Nico Williams replaces Álex Baena.",ESPN public summary API,82
+M101,FRA,FRA,Kylian Mbappé,,yellow_card,86,,2H,,,Kylian Mbappé (France) is shown the yellow card for a bad foul.,ESPN public summary API,82

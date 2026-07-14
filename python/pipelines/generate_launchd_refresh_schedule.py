@@ -20,6 +20,7 @@ DEFAULT_TIMEZONE = "Europe/Berlin"
 JOB_LABEL = "com.wmprojekt.refresh-mvp"
 DEFAULT_HEARTBEAT_INTERVAL_HOURS = 2
 DEFAULT_HEARTBEAT_MINUTE = 5
+FINAL_STAGE_STAGES = {"semifinals", "third_place", "final"}
 
 POST_MATCH_BUFFER_MINUTES = {
     "group_stage": 135,
@@ -68,6 +69,47 @@ def _post_match_trigger(row: dict[str, str], timezone: ZoneInfo) -> Trigger | No
     return Trigger(month=scheduled.month, day=scheduled.day, hour=scheduled.hour, minute=scheduled.minute)
 
 
+def _parse_now(timezone_name: str, now_value: str | None = None) -> datetime:
+    timezone = ZoneInfo(timezone_name)
+    if not now_value:
+        return datetime.now(timezone)
+    parsed = datetime.fromisoformat(now_value.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone)
+    return parsed.astimezone(timezone)
+
+
+def _future_open_matches(schedule_rows: list[dict[str, str]], now: datetime) -> list[dict[str, str]]:
+    future_rows: list[dict[str, str]] = []
+    for row in schedule_rows:
+        if (row.get("match_status") or "").strip() == "finished":
+            continue
+        date_utc = row.get("date_utc") or ""
+        if not date_utc:
+            continue
+        kickoff = _parse_utc(date_utc).astimezone(now.tzinfo or UTC)
+        if kickoff >= now:
+            future_rows.append(row)
+    return future_rows
+
+
+def _auto_interval_hours(
+    schedule_rows: list[dict[str, str]],
+    timezone_name: str,
+    now_value: str | None = None,
+) -> int:
+    now = _parse_now(timezone_name, now_value)
+    future_matches = _future_open_matches(schedule_rows, now)
+    if not future_matches:
+        return 24
+    future_stages = {row.get("tournament_stage") or "" for row in future_matches}
+    if future_stages.issubset(FINAL_STAGE_STAGES) and len(future_matches) <= 4:
+        return 12
+    if len(future_matches) <= 8:
+        return 6
+    return DEFAULT_HEARTBEAT_INTERVAL_HOURS
+
+
 def _recurring_triggers(interval_hours: int, minute: int) -> set[Trigger]:
     if interval_hours <= 0 or 24 % interval_hours != 0:
         raise ValueError("interval_hours must be a positive divisor of 24")
@@ -82,12 +124,16 @@ def _recurring_triggers(interval_hours: int, minute: int) -> set[Trigger]:
 def build_triggers(
     schedule_rows: list[dict[str, str]],
     timezone_name: str = DEFAULT_TIMEZONE,
-    interval_hours: int = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
+    interval_hours: int | None = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
     minute: int = DEFAULT_HEARTBEAT_MINUTE,
+    now_value: str | None = None,
 ) -> list[Trigger]:
     timezone = ZoneInfo(timezone_name)
+    now = _parse_now(timezone_name, now_value)
+    if interval_hours is None:
+        interval_hours = _auto_interval_hours(schedule_rows, timezone_name, now_value)
     triggers = _recurring_triggers(interval_hours=interval_hours, minute=minute)
-    for row in schedule_rows:
+    for row in _future_open_matches(schedule_rows, now):
         trigger = _post_match_trigger(row, timezone)
         if trigger is not None:
             triggers.add(trigger)
@@ -99,14 +145,16 @@ def build_launchd_plist(
     project_dir: Path = DEFAULT_PROJECT_DIR,
     log_dir: Path = DEFAULT_LOG_DIR,
     timezone_name: str = DEFAULT_TIMEZONE,
-    interval_hours: int = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
+    interval_hours: int | None = DEFAULT_HEARTBEAT_INTERVAL_HOURS,
     minute: int = DEFAULT_HEARTBEAT_MINUTE,
+    now_value: str | None = None,
 ) -> dict[str, object]:
     triggers = build_triggers(
         schedule_rows,
         timezone_name=timezone_name,
         interval_hours=interval_hours,
         minute=minute,
+        now_value=now_value,
     )
     project_dir_str = str(project_dir)
     log_dir_str = str(log_dir)
@@ -138,8 +186,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--project-dir", default=str(DEFAULT_PROJECT_DIR))
     parser.add_argument("--log-dir", default=str(DEFAULT_LOG_DIR))
     parser.add_argument("--timezone", default=DEFAULT_TIMEZONE)
-    parser.add_argument("--interval-hours", type=int, default=DEFAULT_HEARTBEAT_INTERVAL_HOURS)
+    parser.add_argument("--interval-hours", type=int, default=None)
     parser.add_argument("--minute", type=int, default=DEFAULT_HEARTBEAT_MINUTE)
+    parser.add_argument("--now")
     args = parser.parse_args(argv)
 
     schedule_path = Path(args.schedule)
@@ -148,13 +197,18 @@ def main(argv: list[str] | None = None) -> int:
     log_dir = Path(args.log_dir)
 
     rows = _read_schedule(schedule_path)
+    interval_hours = args.interval_hours
+    if interval_hours is None:
+        interval_hours = _auto_interval_hours(rows, args.timezone, args.now)
+
     payload = build_launchd_plist(
         rows,
         project_dir=project_dir,
         log_dir=log_dir,
         timezone_name=args.timezone,
-        interval_hours=args.interval_hours,
+        interval_hours=interval_hours,
         minute=args.minute,
+        now_value=args.now,
     )
     log_dir.mkdir(parents=True, exist_ok=True)
     write_plist(output_path, payload)
@@ -171,7 +225,7 @@ def main(argv: list[str] | None = None) -> int:
             "output": str(output_path),
             "project_dir": str(project_dir),
             "trigger_count": len(triggers),
-            "heartbeat_interval_hours": args.interval_hours,
+            "heartbeat_interval_hours": interval_hours,
             "heartbeat_trigger_minute": args.minute,
             "recurring_triggers": recurring_triggers,
             "first_match_trigger": match_triggers[0] if match_triggers else None,

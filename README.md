@@ -224,7 +224,7 @@ Die LaunchAgent-Konfiguration kann spielplanbasiert neu erzeugt werden:
 python -m python.pipelines.generate_launchd_refresh_schedule
 ```
 
-Damit entstehen tägliche 06:00-Läufe plus zusätzliche Refreshes kurz nach den angesetzten Match-Enden.
+Damit entstehen nur noch künftige Match-Trigger; der Sicherheits-Heartbeat wird in der Endphase automatisch reduziert und bleibt in früheren Turnierphasen dichter.
 
 ## Sportdaten
 

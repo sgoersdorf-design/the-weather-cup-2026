@@ -123,8 +123,9 @@ launchctl kickstart gui/$(id -u)/com.wmprojekt.refresh-mvp
 
 Der Job läuft danach automatisch:
 
-- alle 2 Stunden als Sicherheits-Refresh
-- zusätzlich kurz nach den geplanten Match-Enden
+- in der frühen und mittleren Turnierphase weiter engmaschig als Sicherheits-Refresh
+- in der Schlussphase automatisch sparsamer, aktuell mit 12-Stunden-Heartbeat plus Triggern kurz nach den verbleibenden Match-Enden
+- nur noch mit zukünftigen Match-Triggern statt mit bereits vergangenen Turnierterminen
 - mit Auto-Publish nach GitHub, sodass Netlify den neuen Stand direkt deployt
 
 Die Logs liegen danach hier:
@@ -145,7 +146,7 @@ Der Refresh ist inzwischen robuster gegenüber typischen Infrastrukturproblemen:
 - Für die Vollautomatik kann `scripts/refresh_mvp.command --auto-publish` nach erfolgreichem Lauf automatisch committen und nach GitHub pushen, wodurch Netlify direkt neu deployed.
 - Nach dem Push prüft `python -m python.pipelines.verify_live_deploy` automatisch, ob die Live-Seite auf Netlify bereits denselben `exported_at`-Stand ausliefert wie `website/deploy/index.html`. Solange das nicht passiert, bleibt der Lauf sichtbar im Fehlerstatus statt still erfolgreich zu enden.
 - Schlägt dieser Live-Abgleich fehl, löst `python -m python.pipelines.run_and_verify_live_deploy` zusätzlich eine lokale macOS-Benachrichtigung aus und schreibt die Details nach `logs/latest_live_verify_failure.json` sowie `logs/refresh_alerts.log`.
-- Mit `python -m python.pipelines.generate_launchd_refresh_schedule` wird die LaunchAgent-Datei an den Turnierplan angepasst: fester 2-Stunden-Rhythmus plus weitere Läufe kurz nach dem geplanten Match-Ende jeder Partie.
+- Mit `python -m python.pipelines.generate_launchd_refresh_schedule` wird die LaunchAgent-Datei an den Turnierplan angepasst: nur künftige Match-Enden werden eingeplant, und der Heartbeat reduziert sich in der Endphase automatisch.
 
 ## Automatik wieder deaktivieren
 

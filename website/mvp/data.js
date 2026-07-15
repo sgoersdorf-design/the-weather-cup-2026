@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-15T01:31:56",
+    "exported_at": "2026-07-15T02:33:36",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12213,9 +12213,9 @@ window.WM_MVP_DATA = {
       "forecast_temp": 29.9,
       "forecast_humidity": 60.0,
       "forecast_wind_speed": 3.9,
-      "forecast_precipitation_probability": 19.0,
+      "forecast_precipitation_probability": 17.0,
       "forecast_heat_index": 32.64,
-      "forecast_last_updated": "2026-07-14T22:14:17.164377+00:00",
+      "forecast_last_updated": "2026-07-15T00:12:34.985229+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -12335,11 +12335,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "L102",
       "team_b_name_en": "L102",
       "team_b_flag": "",
-      "forecast_temp": 34.3,
-      "forecast_humidity": 43.0,
-      "forecast_wind_speed": 22.4,
+      "forecast_temp": 33.8,
+      "forecast_humidity": 45.0,
+      "forecast_wind_speed": 24.0,
       "forecast_precipitation_probability": 44.0,
-      "forecast_heat_index": 36.79,
+      "forecast_heat_index": 36.42,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -12455,11 +12455,11 @@ window.WM_MVP_DATA = {
       "team_b_name_de": "W102",
       "team_b_name_en": "W102",
       "team_b_flag": "",
-      "forecast_temp": 30.9,
-      "forecast_humidity": 48.0,
-      "forecast_wind_speed": 3.7,
+      "forecast_temp": 26.6,
+      "forecast_humidity": 64.0,
+      "forecast_wind_speed": 7.2,
       "forecast_precipitation_probability": 32.0,
-      "forecast_heat_index": 32.08,
+      "forecast_heat_index": 26.6,
       "forecast_last_updated": null,
       "forecast_quality": 85,
       "actual_temp": null,
@@ -15936,7 +15936,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 80,
       "matches_with_substitutions": 80,
       "matches_with_hydration_markers": 80,
-      "last_event_update": "2026-07-15T00:14:04",
+      "last_event_update": "2026-07-15T02:12:17",
       "goal_event_coverage_share": 0.733
     },
     "goal_rows": 234,
@@ -22306,7 +22306,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-15T01:31:56",
+      "generated_at": "2026-07-15T02:33:36",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22335,7 +22335,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-07-15T00:14:04"
+        "last_event_update": "2026-07-15T02:12:17"
       },
       "knockout_readiness": {
         "upcoming_matches": 3,

@@ -16,39 +16,7 @@
 	<array>
 		<dict>
 			<key>Hour</key>
-			<integer>0</integer>
-			<key>Minute</key>
 			<integer>5</integer>
-		</dict>
-		<dict>
-			<key>Hour</key>
-			<integer>12</integer>
-			<key>Minute</key>
-			<integer>5</integer>
-		</dict>
-		<dict>
-			<key>Hour</key>
-			<integer>0</integer>
-			<key>Minute</key>
-			<integer>5</integer>
-			<key>Month</key>
-			<integer>7</integer>
-			<key>Day</key>
-			<integer>15</integer>
-		</dict>
-		<dict>
-			<key>Hour</key>
-			<integer>0</integer>
-			<key>Minute</key>
-			<integer>5</integer>
-			<key>Month</key>
-			<integer>7</integer>
-			<key>Day</key>
-			<integer>16</integer>
-		</dict>
-		<dict>
-			<key>Hour</key>
-			<integer>2</integer>
 			<key>Minute</key>
 			<integer>5</integer>
 			<key>Month</key>
@@ -58,7 +26,7 @@
 		</dict>
 		<dict>
 			<key>Hour</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>Minute</key>
 			<integer>10</integer>
 			<key>Month</key>
@@ -68,7 +36,7 @@
 		</dict>
 	</array>
 	<key>RunAtLoad</key>
-	<true/>
+	<false/>
 	<key>StandardOutPath</key>
 	<string>/Users/steffengorsdorf/Library/Logs/wm-projekt/refresh_mvp.out.log</string>
 	<key>StandardErrorPath</key>

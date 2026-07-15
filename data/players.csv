@@ -1,30 +1,30 @@
 team_iso3,player_name,preferred_name,shirt_number,position_group,date_of_birth,is_goalkeeper,data_source_name,data_quality_score
-ARG,Alexis Mac Allister,A. Mac Allister,20,LM,,false,ESPN public summary API,82
+ARG,Alexis Mac Allister,A. Mac Allister,20,CM-L,,false,ESPN public summary API,82
 ARG,Cristian Romero,C. Romero,13,CD-R,,false,ESPN public summary API,82
 ARG,Emiliano Martínez,E. Martínez,23,G,,false,ESPN public summary API,82
-ARG,Enzo Fernández,E. Fernández,24,CM,,false,ESPN public summary API,82
-ARG,Exequiel Palacios,E. Palacios,14,,,false,ESPN public summary API,82
-ARG,Facundo Medina,F. Medina,25,,,false,ESPN public summary API,82
-ARG,Gerónimo Rulli,G. Rulli,12,,,false,ESPN public summary API,82
-ARG,Giovani Lo Celso,G. Lo Celso,11,,,false,ESPN public summary API,82
-ARG,Giuliano Simeone,G. Simeone,17,,,false,ESPN public summary API,82
-ARG,Gonzalo Montiel,G. Montiel,4,,,false,ESPN public summary API,82
-ARG,José Manuel López,J. López,21,,,false,ESPN public summary API,82
-ARG,Juan Musso,J. Musso,1,,,false,ESPN public summary API,82
-ARG,Julián Álvarez,J. Álvarez,9,CF-L,,false,ESPN public summary API,82
-ARG,Lautaro Martínez,L. Martínez,22,,,false,ESPN public summary API,82
-ARG,Leandro Paredes,L. Paredes,5,SW,,false,ESPN public summary API,82
-ARG,Lionel Messi,L. Messi,10,CF-R,,false,ESPN public summary API,82
+ARG,Enzo Fernández,E. Fernández,24,CM-R,,false,ESPN public summary API,82
+ARG,Exequiel Palacios,E. Palacios,14,SUB,,false,ESPN public summary API,82
+ARG,Facundo Medina,F. Medina,25,SUB,,false,ESPN public summary API,82
+ARG,Gerónimo Rulli,G. Rulli,12,SUB,,false,ESPN public summary API,82
+ARG,Giovani Lo Celso,G. Lo Celso,11,SUB,,false,ESPN public summary API,82
+ARG,Giuliano Simeone,G. Simeone,17,RM,,false,ESPN public summary API,82
+ARG,Gonzalo Montiel,G. Montiel,4,SUB,,false,ESPN public summary API,82
+ARG,José Manuel López,J. López,21,SUB,,false,ESPN public summary API,82
+ARG,Juan Musso,J. Musso,1,SUB,,false,ESPN public summary API,82
+ARG,Julián Álvarez,J. Álvarez,9,LM,,false,ESPN public summary API,82
+ARG,Lautaro Martínez,L. Martínez,22,SUB,,false,ESPN public summary API,82
+ARG,Leandro Paredes,L. Paredes,5,DM,,false,ESPN public summary API,82
+ARG,Lionel Messi,L. Messi,10,F,,false,ESPN public summary API,82
 ARG,Lisandro Martínez,L. Martínez,6,CD-L,,false,ESPN public summary API,82
-ARG,Marcos Senesi,M. Senesi,2,,,false,ESPN public summary API,82
+ARG,Marcos Senesi,M. Senesi,2,SUB,,false,ESPN public summary API,82
 ARG,Nahuel Molina,N. Molina,26,RB,,false,ESPN public summary API,82
-ARG,Nico González,N. González,15,,,false,ESPN public summary API,82
-ARG,Nico Paz,N. Paz,18,,,false,ESPN public summary API,82
-ARG,Nicolás Otamendi,N. Otamendi,19,,,false,ESPN public summary API,82
+ARG,Nico González,N. González,15,SUB,,false,ESPN public summary API,82
+ARG,Nico Paz,N. Paz,18,SUB,,false,ESPN public summary API,82
+ARG,Nicolás Otamendi,N. Otamendi,19,SUB,,false,ESPN public summary API,82
 ARG,Nicolás Tagliafico,N. Tagliafico,3,LB,,false,ESPN public summary API,82
-ARG,Rodrigo De Paul,R. De Paul,7,RM,,false,ESPN public summary API,82
-ARG,Thiago Almada,T. Almada,16,,,false,ESPN public summary API,82
-ARG,Valentín Barco,V. Barco,8,,,false,ESPN public summary API,82
+ARG,Rodrigo De Paul,R. De Paul,7,SUB,,false,ESPN public summary API,82
+ARG,Thiago Almada,T. Almada,16,SUB,,false,ESPN public summary API,82
+ARG,Valentín Barco,V. Barco,8,SUB,,false,ESPN public summary API,82
 AUS,Aiden O'Neill,A. O'Neill,13,CM-L,,false,ESPN public summary API,82
 AUS,Ajdin Hrustic,A. Hrustic,10,SUB,,false,ESPN public summary API,82
 AUS,Alessandro Circati,A. Circati,3,CD-R,,false,ESPN public summary API,82
@@ -420,10 +420,10 @@ ENG,Bukayo Saka,B. Saka,7,SUB,,false,ESPN public summary API,82
 ENG,Dan Burn,D. Burn,15,SUB,,false,ESPN public summary API,82
 ENG,Dean Henderson,D. Henderson,13,SUB,,false,ESPN public summary API,82
 ENG,Declan Rice,D. Rice,4,RM,,false,ESPN public summary API,82
-ENG,Djed Spence,D. Spence,25,SUB,,false,ESPN public summary API,82
+ENG,Djed Spence,D. Spence,25,LB,,false,ESPN public summary API,82
 ENG,Eberechi Eze,E. Eze,21,SUB,,false,ESPN public summary API,82
 ENG,Elliot Anderson,E. Anderson,8,LM,,false,ESPN public summary API,82
-ENG,Ezri Konsa,E. Konsa,2,RB,,false,ESPN public summary API,82
+ENG,Ezri Konsa,E. Konsa,2,SUB,,false,ESPN public summary API,82
 ENG,Harry Kane,H. Kane,9,F,,false,ESPN public summary API,82
 ENG,Ivan Toney,I. Toney,22,SUB,,false,ESPN public summary API,82
 ENG,James Trafford,J. Trafford,23,SUB,,false,ESPN public summary API,82
@@ -435,11 +435,11 @@ ENG,Jude Bellingham,J. Bellingham,10,AM,,false,ESPN public summary API,82
 ENG,Kobbie Mainoo,K. Mainoo,16,SUB,,false,ESPN public summary API,82
 ENG,Marc Guéhi,M. Guéhi,6,CD-L,,false,ESPN public summary API,82
 ENG,Marcus Rashford,M. Rashford,11,SUB,,false,ESPN public summary API,82
-ENG,Morgan Rogers,M. Rogers,17,SUB,,false,ESPN public summary API,82
-ENG,Nico O'Reilly,N. O'Reilly,3,LB,,false,ESPN public summary API,82
-ENG,Noni Madueke,N. Madueke,20,AM-R,,false,ESPN public summary API,82
+ENG,Morgan Rogers,M. Rogers,17,AM-R,,false,ESPN public summary API,82
+ENG,Nico O'Reilly,N. O'Reilly,3,SUB,,false,ESPN public summary API,82
+ENG,Noni Madueke,N. Madueke,20,SUB,,false,ESPN public summary API,82
 ENG,Ollie Watkins,O. Watkins,19,SUB,,false,ESPN public summary API,82
-ENG,Reece James,R. James,24,SUB,,false,ESPN public summary API,82
+ENG,Reece James,R. James,24,RB,,false,ESPN public summary API,82
 ENG,Trevoh Chalobah,T. Chalobah,12,SUB,,false,ESPN public summary API,82
 ESP,Alejandro Grimaldo,A. Grimaldo,3,SUB,,false,ESPN public summary API,82
 ESP,Aymeric Laporte,A. Laporte,14,CD-L,,false,ESPN public summary API,82

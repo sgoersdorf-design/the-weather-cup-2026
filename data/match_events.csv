@@ -2481,3 +2481,37 @@ M101,ESP,ESP,Nico Williams,Álex Baena,sub_in,84,,2H,,,"Substitution, Spain. Nic
 M101,ESP,ESP,Pedro Porro,Marcos Llorente,sub_out,84,,2H,,,"Substitution, Spain. Marcos Llorente replaces Pedro Porro.",ESPN public summary API,82
 M101,ESP,ESP,Álex Baena,Nico Williams,sub_out,84,,2H,,,"Substitution, Spain. Nico Williams replaces Álex Baena.",ESPN public summary API,82
 M101,FRA,FRA,Kylian Mbappé,,yellow_card,86,,2H,,,Kylian Mbappé (France) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M102,ARG,ARG,,,hydration_break_end,12,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M102,ARG,ARG,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M102,ARG,ARG,,,hydration_break_end,28,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M102,ENG,ENG,Elliot Anderson,,yellow_card,37,,1H,,,Elliot Anderson (England) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M102,ARG,ARG,Lisandro Martínez,,yellow_card,42,,1H,,,Lisandro Martínez (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M102,ARG,ARG,Cristian Romero,,yellow_card,51,,2H,,,Cristian Romero (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M102,ENG,ENG,Anthony Gordon,Morgan Rogers,goal,55,,2H,1,0,"Goal! England 1, Argentina 0. Anthony Gordon (England) right footed shot from very close range to the bottom left corner. Assisted by Morgan Rogers with a cross.",ESPN public summary API,82
+M102,ARG,ARG,Nico González,Leandro Paredes,sub_in,64,,2H,,,"Substitution, Argentina. Nico González replaces Leandro Paredes.",ESPN public summary API,82
+M102,ARG,ARG,Leandro Paredes,Nico González,sub_out,64,,2H,,,"Substitution, Argentina. Nico González replaces Leandro Paredes.",ESPN public summary API,82
+M102,ARG,ARG,,,hydration_break_start,69,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M102,ARG,ARG,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M102,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_in,72,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M102,ARG,ARG,Nicolás Otamendi,Lisandro Martínez,sub_in,72,,2H,,,"Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez.",ESPN public summary API,82
+M102,ARG,ARG,Rodrigo De Paul,Giuliano Simeone,sub_in,72,,2H,,,"Substitution, Argentina. Rodrigo De Paul replaces Giuliano Simeone.",ESPN public summary API,82
+M102,ENG,ENG,Ezri Konsa,Anthony Gordon,sub_in,72,,2H,,,"Substitution, England. Ezri Konsa replaces Anthony Gordon.",ESPN public summary API,82
+M102,ARG,ARG,Giuliano Simeone,Rodrigo De Paul,sub_out,72,,2H,,,"Substitution, Argentina. Rodrigo De Paul replaces Giuliano Simeone.",ESPN public summary API,82
+M102,ARG,ARG,Lisandro Martínez,Nicolás Otamendi,sub_out,72,,2H,,,"Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez.",ESPN public summary API,82
+M102,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_out,72,,2H,,,"Substitution, Argentina. Gonzalo Montiel replaces Nahuel Molina.",ESPN public summary API,82
+M102,ENG,ENG,Anthony Gordon,Ezri Konsa,sub_out,72,,2H,,,"Substitution, England. Ezri Konsa replaces Anthony Gordon.",ESPN public summary API,82
+M102,ARG,ARG,Lautaro Martínez,Nicolás Tagliafico,sub_in,81,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Nicolás Tagliafico.",ESPN public summary API,82
+M102,ARG,ARG,Nicolás Tagliafico,Lautaro Martínez,sub_out,81,,2H,,,"Substitution, Argentina. Lautaro Martínez replaces Nicolás Tagliafico.",ESPN public summary API,82
+M102,ENG,ENG,,,hydration_break_end,82,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M102,ENG,ENG,Dan Burn,Reece James,sub_in,82,,2H,,,"Substitution, England. Dan Burn replaces Reece James because of an injury.",ESPN public summary API,82
+M102,ENG,ENG,Nico O'Reilly,Declan Rice,sub_in,82,,2H,,,"Substitution, England. Nico O'Reilly replaces Declan Rice.",ESPN public summary API,82
+M102,ENG,ENG,Declan Rice,Nico O'Reilly,sub_out,82,,2H,,,"Substitution, England. Nico O'Reilly replaces Declan Rice.",ESPN public summary API,82
+M102,ENG,ENG,Reece James,Dan Burn,sub_out,82,,2H,,,"Substitution, England. Dan Burn replaces Reece James because of an injury.",ESPN public summary API,82
+M102,ARG,ARG,Enzo Fernández,Lionel Messi,goal,85,,2H,1,1,"Goal! England 1, Argentina 1. Enzo Fernández (Argentina) right footed shot from outside the box to the bottom left corner. Assisted by Lionel Messi following a corner.",ESPN public summary API,82
+M102,ENG,ENG,,,hydration_break_end,90,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M102,ARG,ARG,Lautaro Martínez,Lionel Messi,goal,90,2,2H,1,2,"Goal! England 1, Argentina 2. Lautaro Martínez (Argentina) header from very close range to the top left corner. Assisted by Lionel Messi with a cross.",ESPN public summary API,82
+M102,ARG,ARG,Rodrigo De Paul,,yellow_card,90,4,2H,,,Rodrigo De Paul (Argentina) is shown the yellow card.,ESPN public summary API,82
+M102,ENG,ENG,Ivan Toney,John Stones,sub_in,90,6,2H,,,"Substitution, England. Ivan Toney replaces John Stones.",ESPN public summary API,82
+M102,ENG,ENG,Marcus Rashford,Djed Spence,sub_in,90,6,2H,,,"Substitution, England. Marcus Rashford replaces Djed Spence.",ESPN public summary API,82
+M102,ENG,ENG,Djed Spence,Marcus Rashford,sub_out,90,6,2H,,,"Substitution, England. Marcus Rashford replaces Djed Spence.",ESPN public summary API,82
+M102,ENG,ENG,John Stones,Ivan Toney,sub_out,90,6,2H,,,"Substitution, England. Ivan Toney replaces John Stones.",ESPN public summary API,82

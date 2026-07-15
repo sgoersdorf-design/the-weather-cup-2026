@@ -4088,3 +4088,54 @@ M101,FRA,Rayan Cherki,bench,24,SUB,0,72,,,false,false,ESPN public summary API,82
 M101,FRA,Robin Risser,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
 M101,FRA,Theo Hernández,bench,19,SUB,0,72,,,false,false,ESPN public summary API,82
 M101,FRA,Warren Zaïre-Emery,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Alexis Mac Allister,starter,20,CM-L,10,0,,,false,false,ESPN public summary API,82
+M102,ARG,Cristian Romero,starter,13,CD-R,5,0,,,false,false,ESPN public summary API,82
+M102,ARG,Emiliano Martínez,starter,23,G,1,0,,,false,false,ESPN public summary API,82
+M102,ARG,Enzo Fernández,starter,24,CM-R,8,0,,,false,false,ESPN public summary API,82
+M102,ARG,Giuliano Simeone,starter,17,RM,7,0,72,,false,false,ESPN public summary API,82
+M102,ARG,Julián Álvarez,starter,9,LM,11,0,,,false,false,ESPN public summary API,82
+M102,ARG,Leandro Paredes,starter,5,DM,4,0,64,,false,false,ESPN public summary API,82
+M102,ARG,Lionel Messi,starter,10,F,9,0,,,false,false,ESPN public summary API,82
+M102,ARG,Lisandro Martínez,starter,6,CD-L,6,0,72,,false,false,ESPN public summary API,82
+M102,ARG,Nahuel Molina,starter,26,RB,2,0,72,,false,false,ESPN public summary API,82
+M102,ARG,Nicolás Tagliafico,starter,3,LB,3,0,81,,false,false,ESPN public summary API,82
+M102,ARG,Exequiel Palacios,unused,14,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Facundo Medina,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Gerónimo Rulli,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Giovani Lo Celso,unused,11,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Gonzalo Montiel,bench,4,SUB,0,72,,,false,false,ESPN public summary API,82
+M102,ARG,José Manuel López,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Juan Musso,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Lautaro Martínez,bench,22,SUB,0,81,,,false,false,ESPN public summary API,82
+M102,ARG,Marcos Senesi,unused,2,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Nico González,bench,15,SUB,0,64,,,false,false,ESPN public summary API,82
+M102,ARG,Nico Paz,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Nicolás Otamendi,bench,19,SUB,0,72,,,false,false,ESPN public summary API,82
+M102,ARG,Rodrigo De Paul,bench,7,SUB,0,72,,,false,false,ESPN public summary API,82
+M102,ARG,Thiago Almada,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ARG,Valentín Barco,unused,8,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Anthony Gordon,starter,18,AM-L,11,0,72,,false,false,ESPN public summary API,82
+M102,ENG,Declan Rice,starter,4,RM,8,0,82,,false,false,ESPN public summary API,82
+M102,ENG,Djed Spence,starter,25,LB,3,0,90,,false,false,ESPN public summary API,82
+M102,ENG,Elliot Anderson,starter,8,LM,4,0,,,false,false,ESPN public summary API,82
+M102,ENG,Harry Kane,starter,9,F,9,0,,,false,false,ESPN public summary API,82
+M102,ENG,John Stones,starter,5,CD-R,5,0,90,,false,false,ESPN public summary API,82
+M102,ENG,Jordan Pickford,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M102,ENG,Jude Bellingham,starter,10,AM,10,0,,,false,false,ESPN public summary API,82
+M102,ENG,Marc Guéhi,starter,6,CD-L,6,0,,,false,false,ESPN public summary API,82
+M102,ENG,Morgan Rogers,starter,17,AM-R,7,0,,,false,false,ESPN public summary API,82
+M102,ENG,Reece James,starter,24,RB,2,0,82,,false,false,ESPN public summary API,82
+M102,ENG,Bukayo Saka,unused,7,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Dan Burn,bench,15,SUB,0,82,,,false,false,ESPN public summary API,82
+M102,ENG,Dean Henderson,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Eberechi Eze,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Ezri Konsa,bench,2,SUB,0,72,,,false,false,ESPN public summary API,82
+M102,ENG,Ivan Toney,bench,22,SUB,0,90,,,false,false,ESPN public summary API,82
+M102,ENG,James Trafford,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Jordan Henderson,unused,14,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Kobbie Mainoo,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Marcus Rashford,bench,11,SUB,0,90,,,false,false,ESPN public summary API,82
+M102,ENG,Nico O'Reilly,bench,3,SUB,0,82,,,false,false,ESPN public summary API,82
+M102,ENG,Noni Madueke,unused,20,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Ollie Watkins,unused,19,SUB,0,,,,false,false,ESPN public summary API,82
+M102,ENG,Trevoh Chalobah,unused,12,SUB,0,,,,false,false,ESPN public summary API,82

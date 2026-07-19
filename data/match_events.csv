@@ -2515,3 +2515,42 @@ M102,ENG,ENG,Ivan Toney,John Stones,sub_in,90,6,2H,,,"Substitution, England. Iva
 M102,ENG,ENG,Marcus Rashford,Djed Spence,sub_in,90,6,2H,,,"Substitution, England. Marcus Rashford replaces Djed Spence.",ESPN public summary API,82
 M102,ENG,ENG,Djed Spence,Marcus Rashford,sub_out,90,6,2H,,,"Substitution, England. Marcus Rashford replaces Djed Spence.",ESPN public summary API,82
 M102,ENG,ENG,John Stones,Ivan Toney,sub_out,90,6,2H,,,"Substitution, England. Ivan Toney replaces John Stones.",ESPN public summary API,82
+M103,ENG,ENG,Declan Rice,,goal,3,,1H,0,1,"Goal! France 0, England 1. Declan Rice (England) right footed shot from outside the box to the bottom right corner.",ESPN public summary API,82
+M103,ENG,ENG,Ezri Konsa,Declan Rice,goal,18,,1H,0,2,"Goal! France 0, England 2. Ezri Konsa (England) header from the centre of the box to the bottom right corner. Assisted by Declan Rice with a cross following a corner.",ESPN public summary API,82
+M103,FRA,FRA,,,hydration_break_start,23,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M103,FRA,FRA,,,hydration_break_end,25,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,ENG,ENG,Bukayo Saka,Marcus Rashford,goal,37,,1H,0,3,"Goal! France 0, England 3. Bukayo Saka (England) left footed shot from the left side of the box to the high centre of the goal. Assisted by Marcus Rashford following a fast break.",ESPN public summary API,82
+M103,ENG,ENG,Ollie Watkins,Marcus Rashford,sub_in,45,,2H,,,"Substitution, England. Ollie Watkins replaces Marcus Rashford.",ESPN public summary API,82
+M103,FRA,FRA,Bradley Barcola,Désiré Doué,sub_in,45,,2H,,,"Substitution, France. Bradley Barcola replaces Désiré Doué.",ESPN public summary API,82
+M103,FRA,FRA,Dayot Upamecano,Ibrahima Konaté,sub_in,45,,2H,,,"Substitution, France. Dayot Upamecano replaces Ibrahima Konaté.",ESPN public summary API,82
+M103,FRA,FRA,Lucas Digne,Theo Hernández,sub_in,45,,2H,,,"Substitution, France. Lucas Digne replaces Théo Hernández.",ESPN public summary API,82
+M103,FRA,FRA,Ousmane Dembélé,Rayan Cherki,sub_in,45,,2H,,,"Substitution, France. Ousmane Dembélé replaces Rayan Cherki.",ESPN public summary API,82
+M103,ENG,ENG,Marcus Rashford,Ollie Watkins,sub_out,45,,2H,,,"Substitution, England. Ollie Watkins replaces Marcus Rashford.",ESPN public summary API,82
+M103,FRA,FRA,Désiré Doué,Bradley Barcola,sub_out,45,,2H,,,"Substitution, France. Bradley Barcola replaces Désiré Doué.",ESPN public summary API,82
+M103,FRA,FRA,Ibrahima Konaté,Dayot Upamecano,sub_out,45,,2H,,,"Substitution, France. Dayot Upamecano replaces Ibrahima Konaté.",ESPN public summary API,82
+M103,FRA,FRA,Rayan Cherki,Ousmane Dembélé,sub_out,45,,2H,,,"Substitution, France. Ousmane Dembélé replaces Rayan Cherki.",ESPN public summary API,82
+M103,FRA,FRA,Theo Hernández,Lucas Digne,sub_out,45,,2H,,,"Substitution, France. Lucas Digne replaces Théo Hernández.",ESPN public summary API,82
+M103,ENG,ENG,Bukayo Saka,Eberechi Eze,goal,45,1,1H,0,4,"Goal! France 0, England 4. Bukayo Saka (England) left footed shot from the centre of the box to the bottom right corner. Assisted by Eberechi Eze with a through ball.",ESPN public summary API,82
+M103,FRA,FRA,Kylian Mbappé,Michael Olise,goal,48,,2H,1,4,"Goal! France 1, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise with a through ball following a fast break.",ESPN public summary API,82
+M103,FRA,FRA,Bradley Barcola,Kylian Mbappé,goal,54,,2H,2,4,"Goal! France 2, England 4. Bradley Barcola (France) right footed shot from the centre of the box to the bottom left corner. Assisted by Kylian Mbappé with a through ball.",ESPN public summary API,82
+M103,FRA,FRA,Kylian Mbappé,Michael Olise,goal,66,,2H,3,4,"Goal! France 3, England 4. Kylian Mbappé (France) left footed shot from the centre of the box to the bottom right corner. Assisted by Michael Olise.",ESPN public summary API,82
+M103,ENG,ENG,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M103,FRA,FRA,,,hydration_break_start,68,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M103,ENG,ENG,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,FRA,FRA,,,hydration_break_end,72,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,ENG,ENG,Elliot Anderson,Ivan Toney,sub_in,79,,2H,,,"Substitution, England. Elliot Anderson replaces Ivan Toney.",ESPN public summary API,82
+M103,ENG,ENG,Jude Bellingham,Eberechi Eze,sub_in,79,,2H,,,"Substitution, England. Jude Bellingham replaces Eberechi Eze.",ESPN public summary API,82
+M103,ENG,ENG,Eberechi Eze,Jude Bellingham,sub_out,79,,2H,,,"Substitution, England. Jude Bellingham replaces Eberechi Eze.",ESPN public summary API,82
+M103,ENG,ENG,Ivan Toney,Elliot Anderson,sub_out,79,,2H,,,"Substitution, England. Elliot Anderson replaces Ivan Toney.",ESPN public summary API,82
+M103,ENG,ENG,,,hydration_break_end,82,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,ENG,ENG,,,hydration_break_end,83,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,ENG,ENG,Reece James,Jarell Quansah,sub_in,83,,2H,,,"Substitution, England. Reece James replaces Jarell Quansah because of an injury.",ESPN public summary API,82
+M103,ENG,ENG,Jarell Quansah,Reece James,sub_out,83,,2H,,,"Substitution, England. Reece James replaces Jarell Quansah because of an injury.",ESPN public summary API,82
+M103,ENG,ENG,Bukayo Saka,,goal,87,,2H,3,5,"Goal! France 3, England 5. Bukayo Saka (England) converts the penalty with a left footed shot to the bottom right corner.",ESPN public summary API,82
+M103,FRA,FRA,Jules Koundé,Malo Gusto,sub_in,90,1,2H,,,"Substitution, France. Jules Koundé replaces Malo Gusto because of an injury.",ESPN public summary API,82
+M103,FRA,FRA,Malo Gusto,Jules Koundé,sub_out,90,1,2H,,,"Substitution, France. Jules Koundé replaces Malo Gusto because of an injury.",ESPN public summary API,82
+M103,ENG,ENG,Trevoh Chalobah,Marc Guéhi,sub_in,90,3,2H,,,"Substitution, England. Trevoh Chalobah replaces Marc Guéhi.",ESPN public summary API,82
+M103,ENG,ENG,Marc Guéhi,Trevoh Chalobah,sub_out,90,3,2H,,,"Substitution, England. Trevoh Chalobah replaces Marc Guéhi.",ESPN public summary API,82
+M103,ENG,ENG,,,hydration_break_end,90,5,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M103,FRA,FRA,Ousmane Dembélé,Dayot Upamecano,goal,90,6,2H,4,5,"Goal! France 4, England 5. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Dayot Upamecano following a fast break.",ESPN public summary API,82
+M103,ENG,ENG,Jude Bellingham,,goal,90,8,2H,4,6,"Goal! France 4, England 6. Jude Bellingham (England) right footed shot from the centre of the box to the bottom right corner following a fast break.",ESPN public summary API,82

@@ -6,6 +6,7 @@ import argparse
 import csv
 import hashlib
 import sys
+import time
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +17,12 @@ TEAM_SHEET_REQUIRED_COLUMNS = {"match_id", "team_iso3"}
 APPEARANCE_REQUIRED_COLUMNS = {"match_id", "team_iso3", "player_name", "appearance_role"}
 EVENT_REQUIRED_COLUMNS = {"match_id", "event_type", "minute"}
 GOAL_EVENT_TYPES = {"goal", "own_goal", "penalty_goal"}
+RETRYABLE_CONNECTION_ERROR_MARKERS = (
+    "server closed the connection unexpectedly",
+    "can't reconnect until invalid transaction is rolled back",
+    "connection not open",
+    "ssl connection has been closed unexpectedly",
+)
 
 
 def _load_sql():
@@ -183,6 +190,26 @@ def _ensure_player(conn, text, team_id: str, row: dict[str, Any]) -> str:
     return str(inserted)
 
 
+def _is_retryable_connection_error(exc: Exception) -> bool:
+    message = str(exc).lower()
+    return any(marker in message for marker in RETRYABLE_CONNECTION_ERROR_MARKERS)
+
+
+def _execute_with_retry(engine, operation, attempts: int = 3):
+    last_error: Exception | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            with engine.begin() as conn:
+                return operation(conn)
+        except Exception as exc:  # noqa: BLE001
+            last_error = exc
+            if attempt >= attempts or not _is_retryable_connection_error(exc):
+                raise
+            time.sleep(min(attempt, 3))
+    assert last_error is not None
+    raise last_error
+
+
 def import_match_event_data(
     players_file: str | None = None,
     team_sheets_file: str | None = None,
@@ -229,14 +256,13 @@ def import_match_event_data(
 
     text = _load_sql()
     engine = get_engine()
-    with engine.begin() as conn:
-        if "players" in payloads:
-            rows, path = payloads["players"]
-            for row in rows:
-                try:
-                    with conn.begin_nested():
-                        team_id = _team_id(conn, text, row["team_iso3"])
-                        result = conn.execute(
+    if "players" in payloads:
+        rows, path = payloads["players"]
+        for row in rows:
+            try:
+                def _upsert_player(conn):
+                    team_id = _team_id(conn, text, row["team_iso3"])
+                    result = conn.execute(
                             text(
                                 """
                                 insert into players (
@@ -272,13 +298,17 @@ def import_match_event_data(
                                 }
                             ),
                         )
-                    inserted = bool(result.scalar())
-                    summary["players"]["rows_inserted"] += int(inserted)
-                    summary["players"]["rows_updated"] += int(not inserted)
-                except Exception as exc:  # noqa: BLE001
-                    summary["players"]["rows_failed"] += 1
-                    print(f"Failed player {row.get('player_name')}: {exc}", file=sys.stderr)
-            conn.execute(
+                    return bool(result.scalar())
+
+                inserted = _execute_with_retry(engine, _upsert_player)
+                summary["players"]["rows_inserted"] += int(inserted)
+                summary["players"]["rows_updated"] += int(not inserted)
+            except Exception as exc:  # noqa: BLE001
+                summary["players"]["rows_failed"] += 1
+                print(f"Failed player {row.get('player_name')}: {exc}", file=sys.stderr)
+        _execute_with_retry(
+            engine,
+            lambda conn: conn.execute(
                 text(
                     """
                     insert into import_logs(
@@ -298,18 +328,19 @@ def import_match_event_data(
                     "status": "completed" if summary["players"]["rows_failed"] == 0 else "partial",
                     "error_message": None if summary["players"]["rows_failed"] == 0 else "Some player rows failed; see stderr.",
                 },
-            )
+            ),
+        )
 
-        if "team_sheets" in payloads:
-            rows, path = payloads["team_sheets"]
-            for row in rows:
-                try:
-                    with conn.begin_nested():
-                        team_id = _team_id(conn, text, row["team_iso3"])
-                        captain_player_id = None
-                        if row.get("captain_player_name"):
-                            captain_player_id = _ensure_player(conn, text, team_id, {"player_name": row["captain_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")})
-                        result = conn.execute(
+    if "team_sheets" in payloads:
+        rows, path = payloads["team_sheets"]
+        for row in rows:
+            try:
+                def _upsert_team_sheet(conn):
+                    team_id = _team_id(conn, text, row["team_iso3"])
+                    captain_player_id = None
+                    if row.get("captain_player_name"):
+                        captain_player_id = _ensure_player(conn, text, team_id, {"player_name": row["captain_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")})
+                    result = conn.execute(
                             text(
                                 """
                                 insert into match_team_sheets (
@@ -345,13 +376,17 @@ def import_match_event_data(
                                 }
                             ),
                         )
-                    inserted = bool(result.scalar())
-                    summary["team_sheets"]["rows_inserted"] += int(inserted)
-                    summary["team_sheets"]["rows_updated"] += int(not inserted)
-                except Exception as exc:  # noqa: BLE001
-                    summary["team_sheets"]["rows_failed"] += 1
-                    print(f"Failed team sheet {row.get('match_id')} {row.get('team_iso3')}: {exc}", file=sys.stderr)
-            conn.execute(
+                    return bool(result.scalar())
+
+                inserted = _execute_with_retry(engine, _upsert_team_sheet)
+                summary["team_sheets"]["rows_inserted"] += int(inserted)
+                summary["team_sheets"]["rows_updated"] += int(not inserted)
+            except Exception as exc:  # noqa: BLE001
+                summary["team_sheets"]["rows_failed"] += 1
+                print(f"Failed team sheet {row.get('match_id')} {row.get('team_iso3')}: {exc}", file=sys.stderr)
+        _execute_with_retry(
+            engine,
+            lambda conn: conn.execute(
                 text(
                     """
                     insert into import_logs(
@@ -371,16 +406,17 @@ def import_match_event_data(
                     "status": "completed" if summary["team_sheets"]["rows_failed"] == 0 else "partial",
                     "error_message": None if summary["team_sheets"]["rows_failed"] == 0 else "Some team sheet rows failed; see stderr.",
                 },
-            )
+            ),
+        )
 
-        if "appearances" in payloads:
-            rows, path = payloads["appearances"]
-            for row in rows:
-                try:
-                    with conn.begin_nested():
-                        team_id = _team_id(conn, text, row["team_iso3"])
-                        player_id = _ensure_player(conn, text, team_id, row)
-                        result = conn.execute(
+    if "appearances" in payloads:
+        rows, path = payloads["appearances"]
+        for row in rows:
+            try:
+                def _upsert_appearance(conn):
+                    team_id = _team_id(conn, text, row["team_iso3"])
+                    player_id = _ensure_player(conn, text, team_id, row)
+                    result = conn.execute(
                             text(
                                 """
                                 insert into match_player_appearances (
@@ -427,13 +463,17 @@ def import_match_event_data(
                                 }
                             ),
                         )
-                    inserted = bool(result.scalar())
-                    summary["appearances"]["rows_inserted"] += int(inserted)
-                    summary["appearances"]["rows_updated"] += int(not inserted)
-                except Exception as exc:  # noqa: BLE001
-                    summary["appearances"]["rows_failed"] += 1
-                    print(f"Failed appearance {row.get('match_id')} {row.get('player_name')}: {exc}", file=sys.stderr)
-            conn.execute(
+                    return bool(result.scalar())
+
+                inserted = _execute_with_retry(engine, _upsert_appearance)
+                summary["appearances"]["rows_inserted"] += int(inserted)
+                summary["appearances"]["rows_updated"] += int(not inserted)
+            except Exception as exc:  # noqa: BLE001
+                summary["appearances"]["rows_failed"] += 1
+                print(f"Failed appearance {row.get('match_id')} {row.get('player_name')}: {exc}", file=sys.stderr)
+        _execute_with_retry(
+            engine,
+            lambda conn: conn.execute(
                 text(
                     """
                     insert into import_logs(
@@ -453,25 +493,26 @@ def import_match_event_data(
                     "status": "completed" if summary["appearances"]["rows_failed"] == 0 else "partial",
                     "error_message": None if summary["appearances"]["rows_failed"] == 0 else "Some appearance rows failed; see stderr.",
                 },
-            )
+            ),
+        )
 
-        if "events" in payloads:
-            rows, path = payloads["events"]
-            for row in rows:
-                try:
-                    with conn.begin_nested():
-                        team_id = _team_id(conn, text, row["team_iso3"]) if row.get("team_iso3") else None
-                        player_id = _ensure_player(conn, text, team_id, row) if team_id and row.get("player_name") else None
-                        related_player_id = None
-                        if team_id and row.get("related_player_name"):
-                            related_player_id = _ensure_player(
-                                conn,
-                                text,
-                                team_id,
-                                {"player_name": row["related_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")},
-                            )
-                        beneficiary_team_id = _team_id(conn, text, row["beneficiary_team_iso3"]) if row.get("beneficiary_team_iso3") else team_id
-                        result = conn.execute(
+    if "events" in payloads:
+        rows, path = payloads["events"]
+        for row in rows:
+            try:
+                def _upsert_event(conn):
+                    team_id = _team_id(conn, text, row["team_iso3"]) if row.get("team_iso3") else None
+                    player_id = _ensure_player(conn, text, team_id, row) if team_id and row.get("player_name") else None
+                    related_player_id = None
+                    if team_id and row.get("related_player_name"):
+                        related_player_id = _ensure_player(
+                            conn,
+                            text,
+                            team_id,
+                            {"player_name": row["related_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")},
+                        )
+                    beneficiary_team_id = _team_id(conn, text, row["beneficiary_team_iso3"]) if row.get("beneficiary_team_iso3") else team_id
+                    result = conn.execute(
                             text(
                                 """
                                 insert into match_events (
@@ -523,13 +564,17 @@ def import_match_event_data(
                                 }
                             ),
                         )
-                    inserted = bool(result.scalar())
-                    summary["events"]["rows_inserted"] += int(inserted)
-                    summary["events"]["rows_updated"] += int(not inserted)
-                except Exception as exc:  # noqa: BLE001
-                    summary["events"]["rows_failed"] += 1
-                    print(f"Failed event {row.get('match_id')} {row.get('event_type')} {row.get('minute')}: {exc}", file=sys.stderr)
-            conn.execute(
+                    return bool(result.scalar())
+
+                inserted = _execute_with_retry(engine, _upsert_event)
+                summary["events"]["rows_inserted"] += int(inserted)
+                summary["events"]["rows_updated"] += int(not inserted)
+            except Exception as exc:  # noqa: BLE001
+                summary["events"]["rows_failed"] += 1
+                print(f"Failed event {row.get('match_id')} {row.get('event_type')} {row.get('minute')}: {exc}", file=sys.stderr)
+        _execute_with_retry(
+            engine,
+            lambda conn: conn.execute(
                 text(
                     """
                     insert into import_logs(
@@ -549,7 +594,8 @@ def import_match_event_data(
                     "status": "completed" if summary["events"]["rows_failed"] == 0 else "partial",
                     "error_message": None if summary["events"]["rows_failed"] == 0 else "Some event rows failed; see stderr.",
                 },
-            )
+            ),
+        )
     return summary
 
 

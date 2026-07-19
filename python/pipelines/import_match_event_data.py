@@ -234,43 +234,44 @@ def import_match_event_data(
             rows, path = payloads["players"]
             for row in rows:
                 try:
-                    team_id = _team_id(conn, text, row["team_iso3"])
-                    result = conn.execute(
-                        text(
-                            """
-                            insert into players (
-                              team_id, player_name, preferred_name, shirt_number, position_group,
-                              date_of_birth, is_goalkeeper, data_source_name, data_quality_score
-                            )
-                            values (
-                              :team_id, :player_name, :preferred_name, :shirt_number, :position_group,
-                              :date_of_birth, :is_goalkeeper, :data_source_name, :data_quality_score
-                            )
-                            on conflict (team_id, player_name) do update set
-                              preferred_name = excluded.preferred_name,
-                              shirt_number = excluded.shirt_number,
-                              position_group = excluded.position_group,
-                              date_of_birth = excluded.date_of_birth,
-                              is_goalkeeper = excluded.is_goalkeeper,
-                              data_source_name = excluded.data_source_name,
-                              data_quality_score = excluded.data_quality_score
-                            returning (xmax = 0) as inserted
-                            """
-                        ),
-                        _clean(
-                            {
-                                "team_id": team_id,
-                                "player_name": row["player_name"],
-                                "preferred_name": row.get("preferred_name"),
-                                "shirt_number": _parse_int(row.get("shirt_number")),
-                                "position_group": row.get("position_group"),
-                                "date_of_birth": row.get("date_of_birth"),
-                                "is_goalkeeper": _parse_bool(row.get("is_goalkeeper")) or False,
-                                "data_source_name": row.get("data_source_name"),
-                                "data_quality_score": row.get("data_quality_score") or 0,
-                            }
-                        ),
-                    )
+                    with conn.begin_nested():
+                        team_id = _team_id(conn, text, row["team_iso3"])
+                        result = conn.execute(
+                            text(
+                                """
+                                insert into players (
+                                  team_id, player_name, preferred_name, shirt_number, position_group,
+                                  date_of_birth, is_goalkeeper, data_source_name, data_quality_score
+                                )
+                                values (
+                                  :team_id, :player_name, :preferred_name, :shirt_number, :position_group,
+                                  :date_of_birth, :is_goalkeeper, :data_source_name, :data_quality_score
+                                )
+                                on conflict (team_id, player_name) do update set
+                                  preferred_name = excluded.preferred_name,
+                                  shirt_number = excluded.shirt_number,
+                                  position_group = excluded.position_group,
+                                  date_of_birth = excluded.date_of_birth,
+                                  is_goalkeeper = excluded.is_goalkeeper,
+                                  data_source_name = excluded.data_source_name,
+                                  data_quality_score = excluded.data_quality_score
+                                returning (xmax = 0) as inserted
+                                """
+                            ),
+                            _clean(
+                                {
+                                    "team_id": team_id,
+                                    "player_name": row["player_name"],
+                                    "preferred_name": row.get("preferred_name"),
+                                    "shirt_number": _parse_int(row.get("shirt_number")),
+                                    "position_group": row.get("position_group"),
+                                    "date_of_birth": row.get("date_of_birth"),
+                                    "is_goalkeeper": _parse_bool(row.get("is_goalkeeper")) or False,
+                                    "data_source_name": row.get("data_source_name"),
+                                    "data_quality_score": row.get("data_quality_score") or 0,
+                                }
+                            ),
+                        )
                     inserted = bool(result.scalar())
                     summary["players"]["rows_inserted"] += int(inserted)
                     summary["players"]["rows_updated"] += int(not inserted)
@@ -303,46 +304,47 @@ def import_match_event_data(
             rows, path = payloads["team_sheets"]
             for row in rows:
                 try:
-                    team_id = _team_id(conn, text, row["team_iso3"])
-                    captain_player_id = None
-                    if row.get("captain_player_name"):
-                        captain_player_id = _ensure_player(conn, text, team_id, {"player_name": row["captain_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")})
-                    result = conn.execute(
-                        text(
-                            """
-                            insert into match_team_sheets (
-                              match_id, team_id, formation, coach_name, captain_player_id,
-                              hydration_break_planned, notes, data_source_name, data_quality_score
-                            )
-                            values (
-                              :match_id, :team_id, :formation, :coach_name, :captain_player_id,
-                              :hydration_break_planned, :notes, :data_source_name, :data_quality_score
-                            )
-                            on conflict (match_id, team_id) do update set
-                              formation = excluded.formation,
-                              coach_name = excluded.coach_name,
-                              captain_player_id = excluded.captain_player_id,
-                              hydration_break_planned = excluded.hydration_break_planned,
-                              notes = excluded.notes,
-                              data_source_name = excluded.data_source_name,
-                              data_quality_score = excluded.data_quality_score
-                            returning (xmax = 0) as inserted
-                            """
-                        ),
-                        _clean(
-                            {
-                                "match_id": row["match_id"],
-                                "team_id": team_id,
-                                "formation": row.get("formation"),
-                                "coach_name": row.get("coach_name"),
-                                "captain_player_id": captain_player_id,
-                                "hydration_break_planned": _parse_bool(row.get("hydration_break_planned")),
-                                "notes": row.get("notes"),
-                                "data_source_name": row.get("data_source_name"),
-                                "data_quality_score": row.get("data_quality_score") or 0,
-                            }
-                        ),
-                    )
+                    with conn.begin_nested():
+                        team_id = _team_id(conn, text, row["team_iso3"])
+                        captain_player_id = None
+                        if row.get("captain_player_name"):
+                            captain_player_id = _ensure_player(conn, text, team_id, {"player_name": row["captain_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")})
+                        result = conn.execute(
+                            text(
+                                """
+                                insert into match_team_sheets (
+                                  match_id, team_id, formation, coach_name, captain_player_id,
+                                  hydration_break_planned, notes, data_source_name, data_quality_score
+                                )
+                                values (
+                                  :match_id, :team_id, :formation, :coach_name, :captain_player_id,
+                                  :hydration_break_planned, :notes, :data_source_name, :data_quality_score
+                                )
+                                on conflict (match_id, team_id) do update set
+                                  formation = excluded.formation,
+                                  coach_name = excluded.coach_name,
+                                  captain_player_id = excluded.captain_player_id,
+                                  hydration_break_planned = excluded.hydration_break_planned,
+                                  notes = excluded.notes,
+                                  data_source_name = excluded.data_source_name,
+                                  data_quality_score = excluded.data_quality_score
+                                returning (xmax = 0) as inserted
+                                """
+                            ),
+                            _clean(
+                                {
+                                    "match_id": row["match_id"],
+                                    "team_id": team_id,
+                                    "formation": row.get("formation"),
+                                    "coach_name": row.get("coach_name"),
+                                    "captain_player_id": captain_player_id,
+                                    "hydration_break_planned": _parse_bool(row.get("hydration_break_planned")),
+                                    "notes": row.get("notes"),
+                                    "data_source_name": row.get("data_source_name"),
+                                    "data_quality_score": row.get("data_quality_score") or 0,
+                                }
+                            ),
+                        )
                     inserted = bool(result.scalar())
                     summary["team_sheets"]["rows_inserted"] += int(inserted)
                     summary["team_sheets"]["rows_updated"] += int(not inserted)
@@ -375,55 +377,56 @@ def import_match_event_data(
             rows, path = payloads["appearances"]
             for row in rows:
                 try:
-                    team_id = _team_id(conn, text, row["team_iso3"])
-                    player_id = _ensure_player(conn, text, team_id, row)
-                    result = conn.execute(
-                        text(
-                            """
-                            insert into match_player_appearances (
-                              match_id, team_id, player_id, appearance_role, shirt_number,
-                              position_label, lineup_slot, minute_in, minute_out, minutes_played,
-                              is_captain, is_goalkeeper, data_source_name, data_quality_score
-                            )
-                            values (
-                              :match_id, :team_id, :player_id, :appearance_role, :shirt_number,
-                              :position_label, :lineup_slot, :minute_in, :minute_out, :minutes_played,
-                              :is_captain, :is_goalkeeper, :data_source_name, :data_quality_score
-                            )
-                            on conflict (match_id, team_id, player_id) do update set
-                              appearance_role = excluded.appearance_role,
-                              shirt_number = excluded.shirt_number,
-                              position_label = excluded.position_label,
-                              lineup_slot = excluded.lineup_slot,
-                              minute_in = excluded.minute_in,
-                              minute_out = excluded.minute_out,
-                              minutes_played = excluded.minutes_played,
-                              is_captain = excluded.is_captain,
-                              is_goalkeeper = excluded.is_goalkeeper,
-                              data_source_name = excluded.data_source_name,
-                              data_quality_score = excluded.data_quality_score
-                            returning (xmax = 0) as inserted
-                            """
-                        ),
-                        _clean(
-                            {
-                                "match_id": row["match_id"],
-                                "team_id": team_id,
-                                "player_id": player_id,
-                                "appearance_role": row["appearance_role"],
-                                "shirt_number": _parse_int(row.get("shirt_number")),
-                                "position_label": row.get("position_label"),
-                                "lineup_slot": row.get("lineup_slot"),
-                                "minute_in": _parse_int(row.get("minute_in")),
-                                "minute_out": _parse_int(row.get("minute_out")),
-                                "minutes_played": _parse_int(row.get("minutes_played")),
-                                "is_captain": _parse_bool(row.get("is_captain")) or False,
-                                "is_goalkeeper": _parse_bool(row.get("is_goalkeeper")) or False,
-                                "data_source_name": row.get("data_source_name"),
-                                "data_quality_score": row.get("data_quality_score") or 0,
-                            }
-                        ),
-                    )
+                    with conn.begin_nested():
+                        team_id = _team_id(conn, text, row["team_iso3"])
+                        player_id = _ensure_player(conn, text, team_id, row)
+                        result = conn.execute(
+                            text(
+                                """
+                                insert into match_player_appearances (
+                                  match_id, team_id, player_id, appearance_role, shirt_number,
+                                  position_label, lineup_slot, minute_in, minute_out, minutes_played,
+                                  is_captain, is_goalkeeper, data_source_name, data_quality_score
+                                )
+                                values (
+                                  :match_id, :team_id, :player_id, :appearance_role, :shirt_number,
+                                  :position_label, :lineup_slot, :minute_in, :minute_out, :minutes_played,
+                                  :is_captain, :is_goalkeeper, :data_source_name, :data_quality_score
+                                )
+                                on conflict (match_id, team_id, player_id) do update set
+                                  appearance_role = excluded.appearance_role,
+                                  shirt_number = excluded.shirt_number,
+                                  position_label = excluded.position_label,
+                                  lineup_slot = excluded.lineup_slot,
+                                  minute_in = excluded.minute_in,
+                                  minute_out = excluded.minute_out,
+                                  minutes_played = excluded.minutes_played,
+                                  is_captain = excluded.is_captain,
+                                  is_goalkeeper = excluded.is_goalkeeper,
+                                  data_source_name = excluded.data_source_name,
+                                  data_quality_score = excluded.data_quality_score
+                                returning (xmax = 0) as inserted
+                                """
+                            ),
+                            _clean(
+                                {
+                                    "match_id": row["match_id"],
+                                    "team_id": team_id,
+                                    "player_id": player_id,
+                                    "appearance_role": row["appearance_role"],
+                                    "shirt_number": _parse_int(row.get("shirt_number")),
+                                    "position_label": row.get("position_label"),
+                                    "lineup_slot": row.get("lineup_slot"),
+                                    "minute_in": _parse_int(row.get("minute_in")),
+                                    "minute_out": _parse_int(row.get("minute_out")),
+                                    "minutes_played": _parse_int(row.get("minutes_played")),
+                                    "is_captain": _parse_bool(row.get("is_captain")) or False,
+                                    "is_goalkeeper": _parse_bool(row.get("is_goalkeeper")) or False,
+                                    "data_source_name": row.get("data_source_name"),
+                                    "data_quality_score": row.get("data_quality_score") or 0,
+                                }
+                            ),
+                        )
                     inserted = bool(result.scalar())
                     summary["appearances"]["rows_inserted"] += int(inserted)
                     summary["appearances"]["rows_updated"] += int(not inserted)
@@ -456,69 +459,70 @@ def import_match_event_data(
             rows, path = payloads["events"]
             for row in rows:
                 try:
-                    team_id = _team_id(conn, text, row["team_iso3"]) if row.get("team_iso3") else None
-                    player_id = _ensure_player(conn, text, team_id, row) if team_id and row.get("player_name") else None
-                    related_player_id = None
-                    if team_id and row.get("related_player_name"):
-                        related_player_id = _ensure_player(
-                            conn,
-                            text,
-                            team_id,
-                            {"player_name": row["related_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")},
+                    with conn.begin_nested():
+                        team_id = _team_id(conn, text, row["team_iso3"]) if row.get("team_iso3") else None
+                        player_id = _ensure_player(conn, text, team_id, row) if team_id and row.get("player_name") else None
+                        related_player_id = None
+                        if team_id and row.get("related_player_name"):
+                            related_player_id = _ensure_player(
+                                conn,
+                                text,
+                                team_id,
+                                {"player_name": row["related_player_name"], "data_source_name": row.get("data_source_name"), "data_quality_score": row.get("data_quality_score")},
+                            )
+                        beneficiary_team_id = _team_id(conn, text, row["beneficiary_team_iso3"]) if row.get("beneficiary_team_iso3") else team_id
+                        result = conn.execute(
+                            text(
+                                """
+                                insert into match_events (
+                                  match_id, source_row_key, team_id, beneficiary_team_id, player_id, related_player_id,
+                                  event_type, minute, stoppage_minute, period,
+                                  scoreboard_team_a, scoreboard_team_b, notes,
+                                  data_source_name, data_quality_score
+                                )
+                                values (
+                                  :match_id, :source_row_key, :team_id, :beneficiary_team_id, :player_id, :related_player_id,
+                                  :event_type, :minute, :stoppage_minute, :period,
+                                  :scoreboard_team_a, :scoreboard_team_b, :notes,
+                                  :data_source_name, :data_quality_score
+                                )
+                                on conflict (source_row_key) do update set
+                                  team_id = excluded.team_id,
+                                  beneficiary_team_id = excluded.beneficiary_team_id,
+                                  player_id = excluded.player_id,
+                                  related_player_id = excluded.related_player_id,
+                                  event_type = excluded.event_type,
+                                  minute = excluded.minute,
+                                  stoppage_minute = excluded.stoppage_minute,
+                                  period = excluded.period,
+                                  scoreboard_team_a = excluded.scoreboard_team_a,
+                                  scoreboard_team_b = excluded.scoreboard_team_b,
+                                  notes = excluded.notes,
+                                  data_source_name = excluded.data_source_name,
+                                  data_quality_score = excluded.data_quality_score
+                                returning (xmax = 0) as inserted
+                                """
+                            ),
+                            _clean(
+                                {
+                                    "match_id": row["match_id"],
+                                    "source_row_key": _event_row_key(row),
+                                    "team_id": team_id,
+                                    "beneficiary_team_id": beneficiary_team_id if row.get("event_type") in GOAL_EVENT_TYPES else row.get("beneficiary_team_iso3") and beneficiary_team_id,
+                                    "player_id": player_id,
+                                    "related_player_id": related_player_id,
+                                    "event_type": row["event_type"],
+                                    "minute": _parse_int(row.get("minute")),
+                                    "stoppage_minute": _parse_int(row.get("stoppage_minute")),
+                                    "period": row.get("period") or "unknown",
+                                    "scoreboard_team_a": _parse_int(row.get("scoreboard_team_a")),
+                                    "scoreboard_team_b": _parse_int(row.get("scoreboard_team_b")),
+                                    "notes": row.get("notes"),
+                                    "data_source_name": row.get("data_source_name"),
+                                    "data_quality_score": row.get("data_quality_score") or 0,
+                                }
+                            ),
                         )
-                    beneficiary_team_id = _team_id(conn, text, row["beneficiary_team_iso3"]) if row.get("beneficiary_team_iso3") else team_id
-                    result = conn.execute(
-                        text(
-                            """
-                            insert into match_events (
-                              match_id, source_row_key, team_id, beneficiary_team_id, player_id, related_player_id,
-                              event_type, minute, stoppage_minute, period,
-                              scoreboard_team_a, scoreboard_team_b, notes,
-                              data_source_name, data_quality_score
-                            )
-                            values (
-                              :match_id, :source_row_key, :team_id, :beneficiary_team_id, :player_id, :related_player_id,
-                              :event_type, :minute, :stoppage_minute, :period,
-                              :scoreboard_team_a, :scoreboard_team_b, :notes,
-                              :data_source_name, :data_quality_score
-                            )
-                            on conflict (source_row_key) do update set
-                              team_id = excluded.team_id,
-                              beneficiary_team_id = excluded.beneficiary_team_id,
-                              player_id = excluded.player_id,
-                              related_player_id = excluded.related_player_id,
-                              event_type = excluded.event_type,
-                              minute = excluded.minute,
-                              stoppage_minute = excluded.stoppage_minute,
-                              period = excluded.period,
-                              scoreboard_team_a = excluded.scoreboard_team_a,
-                              scoreboard_team_b = excluded.scoreboard_team_b,
-                              notes = excluded.notes,
-                              data_source_name = excluded.data_source_name,
-                              data_quality_score = excluded.data_quality_score
-                            returning (xmax = 0) as inserted
-                            """
-                        ),
-                        _clean(
-                            {
-                                "match_id": row["match_id"],
-                                "source_row_key": _event_row_key(row),
-                                "team_id": team_id,
-                                "beneficiary_team_id": beneficiary_team_id if row.get("event_type") in GOAL_EVENT_TYPES else row.get("beneficiary_team_iso3") and beneficiary_team_id,
-                                "player_id": player_id,
-                                "related_player_id": related_player_id,
-                                "event_type": row["event_type"],
-                                "minute": _parse_int(row.get("minute")),
-                                "stoppage_minute": _parse_int(row.get("stoppage_minute")),
-                                "period": row.get("period") or "unknown",
-                                "scoreboard_team_a": _parse_int(row.get("scoreboard_team_a")),
-                                "scoreboard_team_b": _parse_int(row.get("scoreboard_team_b")),
-                                "notes": row.get("notes"),
-                                "data_source_name": row.get("data_source_name"),
-                                "data_quality_score": row.get("data_quality_score") or 0,
-                            }
-                        ),
-                    )
                     inserted = bool(result.scalar())
                     summary["events"]["rows_inserted"] += int(inserted)
                     summary["events"]["rows_updated"] += int(not inserted)

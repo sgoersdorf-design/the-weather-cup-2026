@@ -2554,3 +2554,43 @@ M103,ENG,ENG,Marc Guéhi,Trevoh Chalobah,sub_out,90,3,2H,,,"Substitution, Englan
 M103,ENG,ENG,,,hydration_break_end,90,5,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M103,FRA,FRA,Ousmane Dembélé,Dayot Upamecano,goal,90,6,2H,4,5,"Goal! France 4, England 5. Ousmane Dembélé (France) left footed shot from the centre of the box to the bottom left corner. Assisted by Dayot Upamecano following a fast break.",ESPN public summary API,82
 M103,ENG,ENG,Jude Bellingham,,goal,90,8,2H,4,6,"Goal! France 4, England 6. Jude Bellingham (England) right footed shot from the centre of the box to the bottom right corner following a fast break.",ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_start,25,,1H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_end,27,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M104,ARG,ARG,Lisandro Martínez,,yellow_card,41,,1H,,,Lisandro Martínez (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M104,ARG,ARG,Nicolás Otamendi,Lisandro Martínez,sub_in,44,,1H,,,"Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez because of an injury.",ESPN public summary API,82
+M104,ARG,ARG,Lisandro Martínez,Nicolás Otamendi,sub_out,44,,1H,,,"Substitution, Argentina. Nicolás Otamendi replaces Lisandro Martínez because of an injury.",ESPN public summary API,82
+M104,ARG,ARG,Leandro Paredes,Nico González,sub_in,45,,2H,,,"Substitution, Argentina. Leandro Paredes replaces Nico González.",ESPN public summary API,82
+M104,ARG,ARG,Nico González,Leandro Paredes,sub_out,45,,2H,,,"Substitution, Argentina. Leandro Paredes replaces Nico González.",ESPN public summary API,82
+M104,ARG,ARG,Leandro Paredes,,yellow_card,52,,2H,,,Leandro Paredes (Argentina) is shown the yellow card.,ESPN public summary API,82
+M104,ARG,ARG,Nahuel Molina,Gonzalo Montiel,sub_in,58,,2H,,,"Substitution, Argentina. Nahuel Molina replaces Gonzalo Montiel.",ESPN public summary API,82
+M104,ARG,ARG,Gonzalo Montiel,Nahuel Molina,sub_out,58,,2H,,,"Substitution, Argentina. Nahuel Molina replaces Gonzalo Montiel.",ESPN public summary API,82
+M104,ESP,ESP,Ferran Torres,Mikel Oyarzabal,sub_in,62,,2H,,,"Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",ESPN public summary API,82
+M104,ESP,ESP,Pedri,Fabián Ruiz,sub_in,62,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M104,ESP,ESP,Fabián Ruiz,Pedri,sub_out,62,,2H,,,"Substitution, Spain. Pedri replaces Fabián Ruiz.",ESPN public summary API,82
+M104,ESP,ESP,Mikel Oyarzabal,Ferran Torres,sub_out,62,,2H,,,"Substitution, Spain. Ferran Torres replaces Mikel Oyarzabal.",ESPN public summary API,82
+M104,ARG,ARG,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_start,67,,2H,,,Delay in match for a drinks break.,ESPN public summary API,82
+M104,ARG,ARG,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_end,70,,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M104,ARG,ARG,Facundo Medina,Cristian Romero,sub_in,70,,2H,,,"Substitution, Argentina. Facundo Medina replaces Cristian Romero because of an injury.",ESPN public summary API,82
+M104,ARG,ARG,Giuliano Simeone,Rodrigo De Paul,sub_in,70,,2H,,,"Substitution, Argentina. Giuliano Simeone replaces Rodrigo De Paul.",ESPN public summary API,82
+M104,ARG,ARG,Cristian Romero,Facundo Medina,sub_out,70,,2H,,,"Substitution, Argentina. Facundo Medina replaces Cristian Romero because of an injury.",ESPN public summary API,82
+M104,ARG,ARG,Rodrigo De Paul,Giuliano Simeone,sub_out,70,,2H,,,"Substitution, Argentina. Giuliano Simeone replaces Rodrigo De Paul.",ESPN public summary API,82
+M104,ESP,ESP,Mikel Merino,Dani Olmo,sub_in,75,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M104,ESP,ESP,Nico Williams,Álex Baena,sub_in,75,,2H,,,"Substitution, Spain. Nico Williams replaces Álex Baena.",ESPN public summary API,82
+M104,ESP,ESP,Dani Olmo,Mikel Merino,sub_out,75,,2H,,,"Substitution, Spain. Mikel Merino replaces Dani Olmo.",ESPN public summary API,82
+M104,ESP,ESP,Álex Baena,Nico Williams,sub_out,75,,2H,,,"Substitution, Spain. Nico Williams replaces Álex Baena.",ESPN public summary API,82
+M104,ARG,ARG,Enzo Fernández,,yellow_card,82,,2H,,,Enzo Fernández (Argentina) is shown the yellow card.,ESPN public summary API,82
+M104,ARG,ARG,Cristian Romero,,yellow_card,90,2,2H,,,Cristian Romero (Argentina) is shown the yellow card.,ESPN public summary API,82
+M104,ARG,ARG,Enzo Fernández,,red_card,90,3,2H,,,Second yellow card to Enzo Fernández (Argentina) for a bad foul.,ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_end,90,5,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M104,ARG,ARG,,,hydration_break_end,99,,ET1,,,Delay over. They are ready to continue.,ESPN public summary API,82
+M104,ESP,ESP,Eric García,Aymeric Laporte,sub_in,99,,ET1,,,"Substitution, Spain. Eric García replaces Aymeric Laporte.",ESPN public summary API,82
+M104,ESP,ESP,Martín Zubimendi,Rodri,sub_in,99,,ET1,,,"Substitution, Spain. Martín Zubimendi replaces Rodri.",ESPN public summary API,82
+M104,ESP,ESP,Aymeric Laporte,Eric García,sub_out,99,,ET1,,,"Substitution, Spain. Eric García replaces Aymeric Laporte.",ESPN public summary API,82
+M104,ESP,ESP,Rodri,Martín Zubimendi,sub_out,99,,ET1,,,"Substitution, Spain. Martín Zubimendi replaces Rodri.",ESPN public summary API,82
+M104,ARG,ARG,Marcos Senesi,Julián Álvarez,sub_in,102,,ET1,,,"Substitution, Argentina. Marcos Senesi replaces Julián Alvarez.",ESPN public summary API,82
+M104,ARG,ARG,Julián Álvarez,Marcos Senesi,sub_out,102,,ET1,,,"Substitution, Argentina. Marcos Senesi replaces Julián Alvarez.",ESPN public summary API,82
+M104,ESP,ESP,Ferran Torres,Nico Williams,goal,106,,ET2,1,0,"Goal! Spain 1, Argentina 0. Ferran Torres (Spain) left footed shot from the centre of the box to the high centre of the goal. Assisted by Nico Williams with a headed pass.",ESPN public summary API,82
+M104,ARG,ARG,Alexis Mac Allister,,yellow_card,111,,ET2,,,Alexis Mac Allister (Argentina) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M104,ESP,ESP,,,hydration_break_end,118,,ET2,,,Delay over. They are ready to continue.,ESPN public summary API,82

@@ -4190,3 +4190,55 @@ M103,FRA,N'Golo Kanté,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
 M103,FRA,Ousmane Dembélé,bench,7,SUB,0,45,,,false,false,ESPN public summary API,82
 M103,FRA,Robin Risser,unused,23,SUB,0,,,,false,false,ESPN public summary API,82
 M103,FRA,William Saliba,unused,17,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Alexis Mac Allister,starter,20,CM-L,8,0,,,false,false,ESPN public summary API,82
+M104,ARG,Cristian Romero,starter,13,CD-R,5,0,70,,false,false,ESPN public summary API,82
+M104,ARG,Emiliano Martínez,starter,23,G,1,0,,,false,false,ESPN public summary API,82
+M104,ARG,Enzo Fernández,starter,24,CM-R,4,0,,,false,false,ESPN public summary API,82
+M104,ARG,Gonzalo Montiel,starter,4,RB,2,0,58,,false,false,ESPN public summary API,82
+M104,ARG,Julián Álvarez,starter,9,CF-L,9,0,102,,false,false,ESPN public summary API,82
+M104,ARG,Lionel Messi,starter,10,CF-R,10,0,,,false,false,ESPN public summary API,82
+M104,ARG,Lisandro Martínez,starter,6,CD-L,6,0,44,,false,false,ESPN public summary API,82
+M104,ARG,Nico González,starter,15,LM,11,0,45,,false,false,ESPN public summary API,82
+M104,ARG,Nicolás Tagliafico,starter,3,LB,3,0,,,false,false,ESPN public summary API,82
+M104,ARG,Rodrigo De Paul,starter,7,RM,7,0,70,,false,false,ESPN public summary API,82
+M104,ARG,Exequiel Palacios,unused,14,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Facundo Medina,bench,25,SUB,0,70,,,false,false,ESPN public summary API,82
+M104,ARG,Gerónimo Rulli,unused,12,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Giovani Lo Celso,unused,11,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Giuliano Simeone,bench,17,SUB,0,70,,,false,false,ESPN public summary API,82
+M104,ARG,José Manuel López,unused,21,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Juan Musso,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Lautaro Martínez,unused,22,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Leandro Paredes,bench,5,SUB,0,45,,,false,false,ESPN public summary API,82
+M104,ARG,Marcos Senesi,bench,2,SUB,0,102,,,false,false,ESPN public summary API,82
+M104,ARG,Nahuel Molina,bench,26,SUB,0,58,,,false,false,ESPN public summary API,82
+M104,ARG,Nico Paz,unused,18,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Nicolás Otamendi,bench,19,SUB,0,44,,,false,false,ESPN public summary API,82
+M104,ARG,Thiago Almada,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ARG,Valentín Barco,unused,8,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Aymeric Laporte,starter,14,CD-L,6,0,99,,false,false,ESPN public summary API,82
+M104,ESP,Dani Olmo,starter,10,AM,10,0,75,,false,false,ESPN public summary API,82
+M104,ESP,Fabián Ruiz,starter,8,LM,4,0,62,,false,false,ESPN public summary API,82
+M104,ESP,Lamine Yamal,starter,19,AM-R,7,0,,,false,false,ESPN public summary API,82
+M104,ESP,Marc Cucurella,starter,24,LB,3,0,,,false,false,ESPN public summary API,82
+M104,ESP,Mikel Oyarzabal,starter,21,F,9,0,62,,false,false,ESPN public summary API,82
+M104,ESP,Pau Cubarsí,starter,22,CD-R,5,0,,,false,false,ESPN public summary API,82
+M104,ESP,Pedro Porro,starter,12,RB,2,0,,,false,false,ESPN public summary API,82
+M104,ESP,Rodri,starter,16,RM,8,0,99,,false,false,ESPN public summary API,82
+M104,ESP,Unai Simón,starter,23,G,1,0,,,false,false,ESPN public summary API,82
+M104,ESP,Álex Baena,starter,15,AM-L,11,0,75,,false,false,ESPN public summary API,82
+M104,ESP,Alejandro Grimaldo,unused,3,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Borja Iglesias,unused,26,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,David Raya,unused,1,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Eric García,bench,4,SUB,0,99,,,false,false,ESPN public summary API,82
+M104,ESP,Ferran Torres,bench,7,SUB,0,62,,,false,false,ESPN public summary API,82
+M104,ESP,Gavi,unused,9,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Joan García,unused,13,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Marc Pubill,unused,2,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Marcos Llorente,unused,5,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Martín Zubimendi,bench,18,SUB,0,99,,,false,false,ESPN public summary API,82
+M104,ESP,Mikel Merino,bench,6,SUB,0,75,,,false,false,ESPN public summary API,82
+M104,ESP,Nico Williams,bench,17,SUB,0,75,,,false,false,ESPN public summary API,82
+M104,ESP,Pedri,bench,20,SUB,0,62,,,false,false,ESPN public summary API,82
+M104,ESP,Víctor Muñoz,unused,25,SUB,0,,,,false,false,ESPN public summary API,82
+M104,ESP,Yéremy Pino,unused,11,SUB,0,,,,false,false,ESPN public summary API,82

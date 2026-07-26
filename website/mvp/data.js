@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-07-26T20:08:47",
+    "exported_at": "2026-07-26T20:48:15",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -22479,7 +22479,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-07-26T20:08:47",
+      "generated_at": "2026-07-26T20:48:15",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22896,6 +22896,551 @@ window.WM_MVP_DATA = {
           "category": "context",
           "team_a_iso3": "CHE",
           "team_b_iso3": "BIH"
+        },
+        "highest_altitude": {
+          "match_id": "M001",
+          "label": "MEX vs. ZAF",
+          "result": "2:0",
+          "weather_edge": "ZAF Edge",
+          "weather_load_score": 14.0,
+          "gap": 4.98,
+          "host_city": "Mexico City",
+          "local_date": "2026-06-11",
+          "category": "context",
+          "team_a_iso3": "MEX",
+          "team_b_iso3": "ZAF"
+        }
+      }
+    },
+    "final_2026": {
+      "id": "weather-cup-2026-final",
+      "generated_at": "2026-07-26T20:48:15",
+      "scope_stage": "full_tournament",
+      "scope_label_de": "Gesamtes Turnier",
+      "scope_label_en": "Full tournament",
+      "headline_de": "Der Finalreport deckt alle 104 WM-Spiele 2026 ab. 17 von 62 klaren Wetterkanten deckten sich mit dem Siegerbild; die Trefferquote liegt bei 27%.",
+      "headline_en": "The final report covers all 104 World Cup matches in 2026. 17 of 62 clear weather edges matched the winning side, for a hit rate of 27%.",
+      "summary_de": "Finaler Turnierreport zum kompletten Weather Cup 2026 mit Abschlussanalyse, Einordnung und dokumentierten Grenzen der Datengrundlage.",
+      "summary_en": "Final tournament report for the full Weather Cup 2026 with closing analysis, context and documented limits of the dataset.",
+      "tournament_complete": true,
+      "champion_iso3": null,
+      "runner_up_iso3": null,
+      "final_match_id": "M104",
+      "final_label": "ESP vs. ARG",
+      "final_result": "0:0",
+      "actual_weather_matches": 0,
+      "finished_matches": 104,
+      "total_goals": 301,
+      "goals_per_match": 2.89,
+      "draws": 28,
+      "draw_share": 0.269,
+      "both_teams_scored": 57,
+      "both_teams_scored_share": 0.548,
+      "avg_weather_load_score": 23.29,
+      "high_load_matches": 48,
+      "comparable_matches": 62,
+      "weather_edge_confirmed": 17,
+      "weather_edge_missed": 27,
+      "weather_edge_draws": 18,
+      "weather_edge_hit_rate": 27,
+      "avg_weather_edge_gap": 11.21,
+      "event_coverage": {
+        "finished_matches": 104,
+        "goal_event_matches": 77,
+        "goal_event_share": 0.74,
+        "lineup_matches": 83,
+        "hydration_matches": 83,
+        "last_event_update": "2026-07-26T20:05:43"
+      },
+      "knockout_readiness": {
+        "upcoming_matches": 0,
+        "forecast_matches": 0,
+        "weather_fit_matches": 0,
+        "forecast_share": null,
+        "weather_fit_share": null
+      },
+      "top_scorers": [
+        {
+          "player_name": "Kylian Mbappé",
+          "team_iso3": "FRA",
+          "total_goals": 10,
+          "top_bucket": "61-75",
+          "top_bucket_goals": 4
+        },
+        {
+          "player_name": "Lionel Messi",
+          "team_iso3": "ARG",
+          "total_goals": 8,
+          "top_bucket": "76-90",
+          "top_bucket_goals": 3
+        },
+        {
+          "player_name": "Erling Haaland",
+          "team_iso3": "NOR",
+          "total_goals": 7,
+          "top_bucket": "76-90",
+          "top_bucket_goals": 3
+        }
+      ],
+      "key_findings_de": [
+        "Der Titel ging an –; das Finale ESP vs. ARG endete 0:0.",
+        "Das Turnier brachte 301 Tore in 104 Spielen, also 2.89 pro Spiel.",
+        "Die Event-Coverage deckt 77/104 beendete Spiele mit Tor-Events ab; Ist-Wetter bleibt bewusst offen, solange keine Messdaten vorliegen.",
+        "Top-Torjäger laut Eventdaten: Kylian Mbappé (FRA, 10) / Lionel Messi (ARG, 8) / Erling Haaland (NOR, 7)."
+      ],
+      "key_findings_en": [
+        "The title went to –; the final ESP vs. ARG finished 0:0.",
+        "The tournament produced 301 goals across 104 matches, or 2.89 per match.",
+        "Event coverage reaches 77/104 finished matches with goal events; actual weather remains intentionally open until measurements exist.",
+        "Top scorers from event data: Kylian Mbappé (FRA, 10) / Lionel Messi (ARG, 8) / Erling Haaland (NOR, 7)."
+      ],
+      "method_note_de": "Weather Fit bleibt ein Kontextindikator. Die Abschlussanalyse liest das gesamte Turnier deskriptiv und trennt beobachtete Muster strikt von kausalen Behauptungen; fehlendes Ist-Wetter bleibt offen markiert.",
+      "method_note_en": "Weather Fit remains a context indicator. The closing analysis reads the full tournament descriptively and keeps observed patterns separate from causal claims; missing actual-weather measurements stay explicitly open.",
+      "featured_matches": {
+        "confirmed": [
+          {
+            "match_id": "M030",
+            "label": "ECU vs. DEU",
+            "result": "2:1",
+            "weather_edge": "ECU Edge",
+            "weather_load_score": 18.0,
+            "gap": 31.33,
+            "host_city": "East Rutherford",
+            "local_date": "2026-06-25",
+            "category": "confirmed",
+            "team_a_iso3": "ECU",
+            "team_b_iso3": "DEU"
+          },
+          {
+            "match_id": "M017",
+            "label": "SCO vs. BRA",
+            "result": "0:3",
+            "weather_edge": "BRA Edge",
+            "weather_load_score": 32.0,
+            "gap": 16.03,
+            "host_city": "Miami Gardens",
+            "local_date": "2026-06-24",
+            "category": "confirmed",
+            "team_a_iso3": "SCO",
+            "team_b_iso3": "BRA"
+          },
+          {
+            "match_id": "M066",
+            "label": "COD vs. UZB",
+            "result": "3:1",
+            "weather_edge": "COD Edge",
+            "weather_load_score": 42.0,
+            "gap": 14.44,
+            "host_city": "Atlanta",
+            "local_date": "2026-06-27",
+            "category": "confirmed",
+            "team_a_iso3": "COD",
+            "team_b_iso3": "UZB"
+          },
+          {
+            "match_id": "M076",
+            "label": "BRA vs. JPN",
+            "result": "2:1",
+            "weather_edge": "BRA Edge",
+            "weather_load_score": 42.0,
+            "gap": 11.0,
+            "host_city": "Houston",
+            "local_date": "2026-06-29",
+            "category": "confirmed",
+            "team_a_iso3": "BRA",
+            "team_b_iso3": "JPN"
+          },
+          {
+            "match_id": "M102",
+            "label": "ENG vs. ARG",
+            "result": "1:2",
+            "weather_edge": "ARG Edge",
+            "weather_load_score": 22.0,
+            "gap": 10.95,
+            "host_city": "Atlanta",
+            "local_date": "2026-07-15",
+            "category": "confirmed",
+            "team_a_iso3": "ENG",
+            "team_b_iso3": "ARG"
+          }
+        ],
+        "missed": [
+          {
+            "match_id": "M091",
+            "label": "BRA vs. NOR",
+            "result": "1:2",
+            "weather_edge": "BRA Edge",
+            "weather_load_score": 32.0,
+            "gap": 28.78,
+            "host_city": "East Rutherford",
+            "local_date": "2026-07-05",
+            "category": "missed",
+            "team_a_iso3": "BRA",
+            "team_b_iso3": "NOR"
+          },
+          {
+            "match_id": "M049",
+            "label": "FRA vs. SEN",
+            "result": "3:1",
+            "weather_edge": "SEN Edge",
+            "weather_load_score": 18.0,
+            "gap": 23.99,
+            "host_city": "East Rutherford",
+            "local_date": "2026-06-16",
+            "category": "missed",
+            "team_a_iso3": "FRA",
+            "team_b_iso3": "SEN"
+          },
+          {
+            "match_id": "M025",
+            "label": "DEU vs. CUW",
+            "result": "7:1",
+            "weather_edge": "CUW Edge",
+            "weather_load_score": 49.0,
+            "gap": 23.77,
+            "host_city": "Houston",
+            "local_date": "2026-06-14",
+            "category": "missed",
+            "team_a_iso3": "DEU",
+            "team_b_iso3": "CUW"
+          },
+          {
+            "match_id": "M052",
+            "label": "NOR vs. SEN",
+            "result": "3:2",
+            "weather_edge": "SEN Edge",
+            "weather_load_score": 7.0,
+            "gap": 19.35,
+            "host_city": "East Rutherford",
+            "local_date": "2026-06-22",
+            "category": "missed",
+            "team_a_iso3": "NOR",
+            "team_b_iso3": "SEN"
+          },
+          {
+            "match_id": "M080",
+            "label": "ENG vs. COD",
+            "result": "2:1",
+            "weather_edge": "COD Edge",
+            "weather_load_score": 42.0,
+            "gap": 17.96,
+            "host_city": "Atlanta",
+            "local_date": "2026-07-01",
+            "category": "missed",
+            "team_a_iso3": "ENG",
+            "team_b_iso3": "COD"
+          }
+        ],
+        "draw": [
+          {
+            "match_id": "M061",
+            "label": "PRT vs. COD",
+            "result": "1:1",
+            "weather_edge": "COD Edge",
+            "weather_load_score": 50.0,
+            "gap": 28.96,
+            "host_city": "Houston",
+            "local_date": "2026-06-17",
+            "category": "draw",
+            "team_a_iso3": "PRT",
+            "team_b_iso3": "COD"
+          },
+          {
+            "match_id": "M043",
+            "label": "ESP vs. CPV",
+            "result": "0:0",
+            "weather_edge": "CPV Edge",
+            "weather_load_score": 18.0,
+            "gap": 19.64,
+            "host_city": "Atlanta",
+            "local_date": "2026-06-15",
+            "category": "draw",
+            "team_a_iso3": "ESP",
+            "team_b_iso3": "CPV"
+          },
+          {
+            "match_id": "M065",
+            "label": "COL vs. PRT",
+            "result": "0:0",
+            "weather_edge": "COL Edge",
+            "weather_load_score": 32.0,
+            "gap": 16.57,
+            "host_city": "Miami Gardens",
+            "local_date": "2026-06-27",
+            "category": "draw",
+            "team_a_iso3": "COL",
+            "team_b_iso3": "PRT"
+          },
+          {
+            "match_id": "M046",
+            "label": "URY vs. CPV",
+            "result": "2:2",
+            "weather_edge": "CPV Edge",
+            "weather_load_score": 49.0,
+            "gap": 15.82,
+            "host_city": "Miami Gardens",
+            "local_date": "2026-06-21",
+            "category": "draw",
+            "team_a_iso3": "URY",
+            "team_b_iso3": "CPV"
+          },
+          {
+            "match_id": "M086",
+            "label": "ARG vs. CPV",
+            "result": "1:1",
+            "weather_edge": "CPV Edge",
+            "weather_load_score": 42.0,
+            "gap": 15.6,
+            "host_city": "Miami Gardens",
+            "local_date": "2026-07-03",
+            "category": "draw",
+            "team_a_iso3": "ARG",
+            "team_b_iso3": "CPV"
+          }
+        ]
+      },
+      "team_leaders": {
+        "attack": [
+          {
+            "iso3": "FRA",
+            "name_de": "Frankreich",
+            "name_en": "France",
+            "flag": "🇫🇷",
+            "played": 8,
+            "wins": 6,
+            "draws": 0,
+            "losses": 2,
+            "goals_for": 20,
+            "goals_against": 10,
+            "goal_difference": 10
+          },
+          {
+            "iso3": "ENG",
+            "name_de": "England",
+            "name_en": "England",
+            "flag": "🇬🇧",
+            "played": 8,
+            "wins": 6,
+            "draws": 1,
+            "losses": 1,
+            "goals_for": 20,
+            "goals_against": 12,
+            "goal_difference": 8
+          },
+          {
+            "iso3": "ARG",
+            "name_de": "Argentinien",
+            "name_en": "Argentina",
+            "flag": "🇦🇷",
+            "played": 8,
+            "wins": 5,
+            "draws": 3,
+            "losses": 0,
+            "goals_for": 15,
+            "goals_against": 6,
+            "goal_difference": 9
+          },
+          {
+            "iso3": "ESP",
+            "name_de": "Spanien",
+            "name_en": "Spain",
+            "flag": "🇪🇸",
+            "played": 8,
+            "wins": 6,
+            "draws": 2,
+            "losses": 0,
+            "goals_for": 13,
+            "goals_against": 1,
+            "goal_difference": 12
+          },
+          {
+            "iso3": "BEL",
+            "name_de": "Belgien",
+            "name_en": "Belgium",
+            "flag": "🇧🇪",
+            "played": 6,
+            "wins": 2,
+            "draws": 3,
+            "losses": 1,
+            "goals_for": 13,
+            "goals_against": 7,
+            "goal_difference": 6
+          }
+        ],
+        "goal_difference": [
+          {
+            "iso3": "ESP",
+            "name_de": "Spanien",
+            "name_en": "Spain",
+            "flag": "🇪🇸",
+            "played": 8,
+            "wins": 6,
+            "draws": 2,
+            "losses": 0,
+            "goals_for": 13,
+            "goals_against": 1,
+            "goal_difference": 12
+          },
+          {
+            "iso3": "FRA",
+            "name_de": "Frankreich",
+            "name_en": "France",
+            "flag": "🇫🇷",
+            "played": 8,
+            "wins": 6,
+            "draws": 0,
+            "losses": 2,
+            "goals_for": 20,
+            "goals_against": 10,
+            "goal_difference": 10
+          },
+          {
+            "iso3": "ARG",
+            "name_de": "Argentinien",
+            "name_en": "Argentina",
+            "flag": "🇦🇷",
+            "played": 8,
+            "wins": 5,
+            "draws": 3,
+            "losses": 0,
+            "goals_for": 15,
+            "goals_against": 6,
+            "goal_difference": 9
+          },
+          {
+            "iso3": "ENG",
+            "name_de": "England",
+            "name_en": "England",
+            "flag": "🇬🇧",
+            "played": 8,
+            "wins": 6,
+            "draws": 1,
+            "losses": 1,
+            "goals_for": 20,
+            "goals_against": 12,
+            "goal_difference": 8
+          },
+          {
+            "iso3": "MEX",
+            "name_de": "Mexiko",
+            "name_en": "Mexico",
+            "flag": "🇲🇽",
+            "played": 5,
+            "wins": 4,
+            "draws": 0,
+            "losses": 1,
+            "goals_for": 10,
+            "goals_against": 3,
+            "goal_difference": 7
+          }
+        ],
+        "conceded": [
+          {
+            "iso3": "ENG",
+            "name_de": "England",
+            "name_en": "England",
+            "flag": "🇬🇧",
+            "played": 8,
+            "wins": 6,
+            "draws": 1,
+            "losses": 1,
+            "goals_for": 20,
+            "goals_against": 12,
+            "goal_difference": 8
+          },
+          {
+            "iso3": "TUN",
+            "name_de": "Tunesien",
+            "name_en": "Tunisia",
+            "flag": "🇹🇳",
+            "played": 3,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "goals_for": 2,
+            "goals_against": 12,
+            "goal_difference": -10
+          },
+          {
+            "iso3": "IRQ",
+            "name_de": "Irak",
+            "name_en": "Iraq",
+            "flag": "🇮🇶",
+            "played": 3,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "goals_for": 1,
+            "goals_against": 12,
+            "goal_difference": -11
+          },
+          {
+            "iso3": "NOR",
+            "name_de": "Norwegen",
+            "name_en": "Norway",
+            "flag": "🇳🇴",
+            "played": 6,
+            "wins": 4,
+            "draws": 0,
+            "losses": 2,
+            "goals_for": 13,
+            "goals_against": 11,
+            "goal_difference": 2
+          },
+          {
+            "iso3": "UZB",
+            "name_de": "Usbekistan",
+            "name_en": "Uzbekistan",
+            "flag": "🇺🇿",
+            "played": 3,
+            "wins": 0,
+            "draws": 0,
+            "losses": 3,
+            "goals_for": 2,
+            "goals_against": 11,
+            "goal_difference": -9
+          }
+        ]
+      },
+      "context_extremes": {
+        "highest_load": {
+          "match_id": "M090",
+          "label": "CAN vs. MAR",
+          "result": "0:3",
+          "weather_edge": "Ausgeglichen",
+          "weather_load_score": 52.0,
+          "gap": 2.71,
+          "host_city": "Houston",
+          "local_date": "2026-07-04",
+          "category": "context",
+          "team_a_iso3": "CAN",
+          "team_b_iso3": "MAR"
+        },
+        "sharpest_edge": {
+          "match_id": "M030",
+          "label": "ECU vs. DEU",
+          "result": "2:1",
+          "weather_edge": "ECU Edge",
+          "weather_load_score": 18.0,
+          "gap": 31.33,
+          "host_city": "East Rutherford",
+          "local_date": "2026-06-25",
+          "category": "context",
+          "team_a_iso3": "ECU",
+          "team_b_iso3": "DEU"
+        },
+        "longest_travel": {
+          "match_id": "M074",
+          "label": "DEU vs. PRY",
+          "result": "1:1",
+          "weather_edge": "Ausgeglichen",
+          "weather_load_score": null,
+          "gap": null,
+          "host_city": "Foxborough",
+          "local_date": "2026-06-29",
+          "category": "context",
+          "team_a_iso3": "DEU",
+          "team_b_iso3": "PRY"
         },
         "highest_altitude": {
           "match_id": "M001",

@@ -461,23 +461,23 @@ const I18N = {
     weatherResultContext: "Kontexttreffer, kein Nachweis einer Ursache.",
     reportExamplesTitle: "Die Partien hinter der Quote",
     reportExamplesIntro: "Hier sieht man konkret, in welchen Spielen sich der Wettervorteil bestätigte, kippte oder in einem Remis endete.",
-    reportEditionEyebrow: "Weather Cup Report 01",
-    reportLeadTitle: "Die erste Bilanz nach der Gruppenphase",
+    reportEditionEyebrow: "Weather Cup Final Report",
+    reportLeadTitle: "Die Abschlussbilanz des Turniers",
     reportScope: "Scope",
     reportGoals: "Torbild",
     reportCoverage: "Event-Coverage",
-    reportReadiness: "K.o.-Forecast",
+    reportReadiness: "Ist-Wetter",
     reportInsightsTitle: "Die vier wichtigsten Signale",
     reportInsightEdgeHit: "Wetterkante traf",
     reportInsightLoad: "Ø Weather Load",
     reportInsightDraws: "Remis-Anteil",
-    reportInsightForecast: "K.o.-Spiele offen",
+    reportInsightForecast: "Messdaten offen",
     reportFindingsTitle: "Key Findings",
     reportHistoryTitle: "Vergleich zu 2022, 2018, 2014 und 2010",
-    reportHistoryIntro: "Der aktuelle Gruppenphasenstand laesst sich am saubersten als Turnier-Pace lesen: Wie torreich oder defensiv waere 2026, wenn sich dieses Niveau fortsetzt?",
-    reportHistoryPaceLabel: "2026er Turnier-Pace",
-    reportHistoryPaceLead: "Mehr Tore pro Spiel als in allen vier Vergleichsturnieren",
-    reportHistoryPaceCaveat: "Verglichen wird der aktuelle Gruppenphasenwert 2026 mit den Gesamtturnieren 2022, 2018, 2014 und 2010.",
+    reportHistoryIntro: "Der Finalstand 2026 laesst sich jetzt direkt gegen die kompletten WM-Turniere 2022, 2018, 2014 und 2010 einordnen.",
+    reportHistoryPaceLabel: "2026er Abschlusswert",
+    reportHistoryPaceLead: "Vergleich der finalen Torquote mit vier kompletten WM-Turnieren",
+    reportHistoryPaceCaveat: "Verglichen wird das abgeschlossene 2026er Gesamtturnier mit den Vollturnieren 2022, 2018, 2014 und 2010.",
     reportHistoryChampion: "Sieger",
     reportHistoryTopScorer: "Top-Torschuetze",
     reportHistoryGoals: "Tore",
@@ -922,23 +922,23 @@ const I18N = {
     weatherResultContext: "Context hit, not evidence of causation.",
     reportExamplesTitle: "The matches behind the hit rate",
     reportExamplesIntro: "This view shows the exact matches in which the weather edge held, flipped, or ended in a draw.",
-    reportEditionEyebrow: "Weather Cup Report 01",
-    reportLeadTitle: "The first checkpoint after the group stage",
+    reportEditionEyebrow: "Weather Cup Final Report",
+    reportLeadTitle: "The tournament closing report",
     reportScope: "Scope",
     reportGoals: "Goal profile",
     reportCoverage: "Event coverage",
-    reportReadiness: "Knockout forecast",
+    reportReadiness: "Actual weather",
     reportInsightsTitle: "The four strongest signals",
     reportInsightEdgeHit: "Weather edge held",
     reportInsightLoad: "Avg Weather Load",
     reportInsightDraws: "Draw share",
-    reportInsightForecast: "Open knockout matches",
+    reportInsightForecast: "Observed weather pending",
     reportFindingsTitle: "Key findings",
     reportHistoryTitle: "Benchmarks versus 2022, 2018, 2014 and 2010",
-    reportHistoryIntro: "The cleanest way to read the current group-stage sample is as tournament pace: how open or high-scoring 2026 would look if this level held.",
-    reportHistoryPaceLabel: "2026 tournament pace",
-    reportHistoryPaceLead: "More goals per match than all four comparison tournaments",
-    reportHistoryPaceCaveat: "This compares the current 2026 group-stage rate with the full tournaments in 2022, 2018, 2014 and 2010.",
+    reportHistoryIntro: "The 2026 final sample can now be benchmarked directly against the completed World Cups of 2022, 2018, 2014 and 2010.",
+    reportHistoryPaceLabel: "2026 final rate",
+    reportHistoryPaceLead: "Final goals-per-match benchmark against four completed World Cups",
+    reportHistoryPaceCaveat: "This compares the completed 2026 tournament with the full tournaments in 2022, 2018, 2014 and 2010.",
     reportHistoryChampion: "Champion",
     reportHistoryTopScorer: "Top scorer",
     reportHistoryGoals: "Goals",
@@ -1071,7 +1071,8 @@ const MAP_BOUNDS = {
 };
 
 function currentReport() {
-  return source.reports && source.reports.group_stage_2026 ? source.reports.group_stage_2026 : null;
+  if (!source.reports) return null;
+  return source.reports.final_2026 || source.reports.group_stage_2026 || null;
 }
 const MAP_VIEWBOX = { width: 1000, height: 620 };
 const FALLBACK_USER_TIME_ZONE = "Europe/Berlin";
@@ -3058,8 +3059,7 @@ function reportInsightCard(label, value, detail) {
 
 function renderReportLead(report) {
   if (!report) return "";
-  const readiness = report.knockout_readiness || {};
-  const forecastShare = Number.isFinite(Number(readiness.forecast_share)) ? `${numberLabel(Number(readiness.forecast_share) * 100, 0)}%` : "–";
+  const actualWeatherValue = `${report.actual_weather_matches || 0}/${report.finished_matches || 0}`;
   return `<section class="report-hero-card">
     <div class="report-hero-copy">
       <p class="eyebrow">${t("reportEditionEyebrow")}</p>
@@ -3071,7 +3071,7 @@ function renderReportLead(report) {
       <div><span>${t("reportScope")}</span><b>${state.lang === "de" ? report.scope_label_de : report.scope_label_en}</b></div>
       <div><span>${t("reportGoals")}</span><b>${report.total_goals} · ${numberLabel(report.goals_per_match, 2)} ${t("statsPerMatch")}</b></div>
       <div><span>${t("reportCoverage")}</span><b>${report.event_coverage.goal_event_matches}/${report.event_coverage.finished_matches}</b></div>
-      <div><span>${t("reportReadiness")}</span><b>${readiness.forecast_matches}/${readiness.upcoming_matches || 0} · ${forecastShare}</b></div>
+      <div><span>${t("reportReadiness")}</span><b>${actualWeatherValue}</b></div>
     </div>
   </section>`;
 }
@@ -3086,7 +3086,7 @@ function renderReportInsights(report) {
       ${reportInsightCard(t("reportInsightEdgeHit"), report.weather_edge_hit_rate === null ? "–" : `${report.weather_edge_hit_rate}%`, `${report.weather_edge_confirmed}/${report.comparable_matches} ${t("confirmedWeatherEdges")}`)}
       ${reportInsightCard(t("reportInsightLoad"), report.avg_weather_load_score === null ? "–" : `${numberLabel(report.avg_weather_load_score, 1)}/100`, state.lang === "de" ? `${report.high_load_matches} Partien mit mindestens mittlerer Last` : `${report.high_load_matches} matches in at least the medium-load band`)}
       ${reportInsightCard(t("reportInsightDraws"), report.draw_share === null ? "–" : `${numberLabel(report.draw_share * 100, 0)}%`, `${report.draws} ${t("matches")} ${state.lang === "de" ? "endeten remis" : "ended level"}`)}
-      ${reportInsightCard(t("reportInsightForecast"), report.knockout_readiness.upcoming_matches || 0, `${report.knockout_readiness.forecast_matches}/${report.knockout_readiness.upcoming_matches || 0} ${state.lang === "de" ? "mit Forecast" : "with forecast"}`)}
+      ${reportInsightCard(t("reportInsightForecast"), `${report.actual_weather_matches || 0}/${report.finished_matches || 0}`, state.lang === "de" ? "Open-Meteo-Messdaten fehlen weiterhin im Finalstand" : "Open-Meteo measurements are still unavailable in the final state")}
     </div>
   </section>`;
 }
@@ -3144,6 +3144,21 @@ function historicalBaselineCard(item, currentRate) {
 function renderHistoricalComparison(report) {
   const summary = historicalComparisonSummary(report);
   if (!summary) return "";
+  const lowestHistorical = summary.baselines.reduce((worst, item) => (item.goalsPerMatch < worst.goalsPerMatch ? item : worst), summary.baselines[0]);
+  let lead = t("reportHistoryPaceLead");
+  if (summary.currentRate > summary.bestHistorical.goalsPerMatch) {
+    lead = state.lang === "de"
+      ? `Hoeher als ${summary.bestHistorical.year} und damit offensiver als alle vier Vergleichsturniere`
+      : `Higher than ${summary.bestHistorical.year}, making 2026 more open than all four benchmark tournaments`;
+  } else if (summary.currentRate < lowestHistorical.goalsPerMatch) {
+    lead = state.lang === "de"
+      ? `Niedriger als ${lowestHistorical.year} und damit toraermer als alle vier Vergleichsturniere`
+      : `Lower than ${lowestHistorical.year}, making 2026 lower-scoring than all four benchmark tournaments`;
+  } else {
+    lead = state.lang === "de"
+      ? `Zwischen ${lowestHistorical.year} und ${summary.bestHistorical.year} im historischen Korridor`
+      : `Inside the historical corridor between ${lowestHistorical.year} and ${summary.bestHistorical.year}`;
+  }
   return `<section class="report-section-card historical-section-card">
     <div class="report-section-head">
       <h3>${t("reportHistoryTitle")}</h3>
@@ -3152,7 +3167,7 @@ function renderHistoricalComparison(report) {
     <div class="historical-pace-callout">
       <span>${t("reportHistoryPaceLabel")}</span>
       <b>${numberLabel(summary.currentRate, 2)} ${t("reportHistoryGoalsPerMatch")}</b>
-      <small>${t("reportHistoryPaceLead")}</small>
+      <small>${lead}</small>
       <p>${t("reportHistoryPaceCaveat")}</p>
     </div>
     <div class="historical-scroll-rail">

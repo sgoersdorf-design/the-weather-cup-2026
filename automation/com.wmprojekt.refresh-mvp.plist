@@ -12,29 +12,6 @@
 	</array>
 	<key>WorkingDirectory</key>
 	<string>/Users/steffengorsdorf/Projects/wm-projekt</string>
-	<key>StartCalendarInterval</key>
-	<array>
-		<dict>
-			<key>Hour</key>
-			<integer>5</integer>
-			<key>Minute</key>
-			<integer>5</integer>
-			<key>Month</key>
-			<integer>7</integer>
-			<key>Day</key>
-			<integer>19</integer>
-		</dict>
-		<dict>
-			<key>Hour</key>
-			<integer>3</integer>
-			<key>Minute</key>
-			<integer>10</integer>
-			<key>Month</key>
-			<integer>7</integer>
-			<key>Day</key>
-			<integer>20</integer>
-		</dict>
-	</array>
 	<key>RunAtLoad</key>
 	<false/>
 	<key>StandardOutPath</key>

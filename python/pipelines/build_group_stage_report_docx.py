@@ -1,4 +1,4 @@
-"""Build the Weather Cup 2026 group-stage report as a DOCX artifact."""
+"""Build the Weather Cup 2026 final report as a DOCX artifact."""
 
 from __future__ import annotations
 
@@ -117,12 +117,12 @@ def _add_cover(doc: Document, report: dict[str, Any], metadata: dict[str, Any]) 
     title = doc.add_paragraph(style="Title")
     title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     title.paragraph_format.space_after = Pt(4)
-    _add_run(title, "Gruppenphase: Der erste Weather-Cup-Report", size=28, color=BLUE, bold=True)
+    _add_run(title, "Finalreport: Die komplette Weather-Cup-Bilanz 2026", size=28, color=BLUE, bold=True)
 
     subtitle = doc.add_paragraph()
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     subtitle.paragraph_format.space_after = Pt(18)
-    _add_run(subtitle, "Wissenschaftlich belastbare Zwischenbilanz nach 72 Gruppenspielen", size=14, color=MUTED)
+    _add_run(subtitle, "Abschlussanalyse nach allen 104 WM-Spielen mit Weather-Fit-, Event- und Kontextdaten", size=14, color=MUTED)
 
     meta = doc.add_table(rows=2, cols=3)
     meta.autofit = False
@@ -203,7 +203,7 @@ def _add_kpi_table(doc: Document, report: dict[str, Any]) -> None:
                 run.font.bold = True
 
     doc.add_paragraph(
-        "Der Gruppenphasen-Datensatz kombiniert Resultate, Event-Coverage sowie Forecast- und Weather-Fit-Signale. "
+        "Der Finaldatensatz kombiniert Resultate, Event-Coverage sowie Forecast- und Weather-Fit-Signale fuer das gesamte Turnier. "
         "Ist-Wetter bleibt bewusst ausgeklammert, solange keine belastbaren Messdaten importiert sind."
     )
 
@@ -263,12 +263,11 @@ def _add_team_tables(doc: Document, report: dict[str, Any]) -> None:
 
 
 def _add_outlook(doc: Document, report: dict[str, Any]) -> None:
-    readiness = report["knockout_readiness"]
     coverage = report["event_coverage"]
-    doc.add_paragraph("K.o.-Runden-Ausblick", style="Heading 1")
+    doc.add_paragraph("Abschluss & Datengrenzen", style="Heading 1")
     doc.add_paragraph(
-        f"Vor dem weiteren Turnierverlauf sind {readiness['upcoming_matches']} K.o.-Spiele ohne Endstand im Export. "
-        f"Davon tragen {readiness['forecast_matches']} bereits Forecasts und {readiness['weather_fit_matches']} belastbare Weather-Fit-Werte."
+        f"Das Turnier ist abgeschlossen. Champion: {report.get('champion_iso3') or '–'}; "
+        f"Finale: {report.get('final_label') or '–'} ({report.get('final_result') or '–'})."
     )
     doc.add_paragraph(
         f"Die Event-Coverage liegt bei {coverage['goal_event_matches']}/{coverage['finished_matches']} Spielen mit Tor-Events, "
@@ -281,11 +280,12 @@ def _add_outlook(doc: Document, report: dict[str, Any]) -> None:
 
 def build_docx(data_path: Path = DATA_JS, output_path: Path | None = None) -> Path:
     payload = _load_payload(data_path)
-    report = ((payload.get("reports") or {}).get("group_stage_2026")) or {}
+    reports = payload.get("reports") or {}
+    report = reports.get("final_2026") or reports.get("group_stage_2026") or {}
     if not report:
-        raise ValueError("Missing reports.group_stage_2026 in website/mvp/data.js")
+        raise ValueError("Missing reports.final_2026 or reports.group_stage_2026 in website/mvp/data.js")
 
-    output = output_path or ROOT / "reports" / "weather-cup-2026-group-stage-report.docx"
+    output = output_path or ROOT / "reports" / "weather-cup-2026-final-report.docx"
     output.parent.mkdir(parents=True, exist_ok=True)
 
     doc = Document()
@@ -303,9 +303,9 @@ def build_docx(data_path: Path = DATA_JS, output_path: Path | None = None) -> Pa
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Build group-stage Weather Cup DOCX report")
+    parser = argparse.ArgumentParser(description="Build final Weather Cup DOCX report")
     parser.add_argument("--data", default=str(DATA_JS))
-    parser.add_argument("--output", default=str(ROOT / "reports" / "weather-cup-2026-group-stage-report.docx"))
+    parser.add_argument("--output", default=str(ROOT / "reports" / "weather-cup-2026-final-report.docx"))
     args = parser.parse_args(argv)
     path = build_docx(Path(args.data), Path(args.output))
     print(path)

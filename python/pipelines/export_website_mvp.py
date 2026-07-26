@@ -12,7 +12,7 @@ from typing import Any
 
 from python.db import get_engine
 from python.pipelines.event_tournament_stats import compute_event_tournament_stats
-from python.pipelines.group_stage_report import build_group_stage_report
+from python.pipelines.group_stage_report import build_group_stage_report, build_tournament_report
 
 
 def _load_dependencies():
@@ -856,6 +856,7 @@ def _offline_payload_from_existing_export(output: str) -> dict[str, Any]:
         "event_stats": event_stats,
         "reports": {
             "group_stage_2026": build_group_stage_report(rows, event_stats),
+            "final_2026": build_tournament_report(rows, event_stats),
         },
         "ads": ads,
     }
@@ -1035,6 +1036,7 @@ def export_website_mvp_data(output: str = "website/mvp/data.js") -> dict[str, An
         "event_stats": event_stats,
         "reports": {
             "group_stage_2026": build_group_stage_report(rows, event_stats),
+            "final_2026": build_tournament_report(rows, event_stats),
         },
         "ads": ads,
     }

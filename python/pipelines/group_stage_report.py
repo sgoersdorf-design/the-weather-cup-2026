@@ -10,6 +10,7 @@ from typing import Any
 
 
 EDGE_THRESHOLD = 4.0
+GOAL_EVENT_TYPES = {"goal", "own_goal", "penalty_goal"}
 
 
 def _has_result(row: dict[str, Any]) -> bool:
@@ -18,6 +19,14 @@ def _has_result(row: dict[str, Any]) -> bool:
 
 def _stage(row: dict[str, Any]) -> str:
     return str(row.get("tournament_stage") or "").strip().lower()
+
+
+def _scope_label(scope_stage: str, *, lang: str) -> str:
+    labels = {
+        "group_stage": {"de": "Gruppenphase", "en": "Group stage"},
+        "full_tournament": {"de": "Gesamtes Turnier", "en": "Full tournament"},
+    }
+    return labels.get(scope_stage, labels["full_tournament"])[lang]
 
 
 def _safe_float(value: Any) -> float | None:
@@ -82,6 +91,39 @@ def _match_entry(row: dict[str, Any], category: str) -> dict[str, Any]:
         "team_a_iso3": row.get("team_a_iso3"),
         "team_b_iso3": row.get("team_b_iso3"),
     }
+
+
+def _stage_priority(row: dict[str, Any]) -> tuple[int, str, str]:
+    stage_order = {
+        "group_stage": 0,
+        "round_of_32": 1,
+        "round_of_16": 2,
+        "quarterfinals": 3,
+        "semifinals": 4,
+        "third_place_playoff": 5,
+        "final": 6,
+    }
+    return (
+        stage_order.get(_stage(row), -1),
+        str(row.get("date_utc") or ""),
+        str(row.get("match_id") or ""),
+    )
+
+
+def _winner_iso3(row: dict[str, Any]) -> str | None:
+    if not _has_result(row):
+        return None
+    winner = _winner_side(row)
+    if winner == "team_a":
+        return row.get("team_a_iso3")
+    if winner == "team_b":
+        return row.get("team_b_iso3")
+    return None
+
+
+def _top_scorers(event_stats: dict[str, Any] | None, limit: int = 3) -> list[dict[str, Any]]:
+    rows = list((event_stats or {}).get("top_scorers") or [])
+    return rows[:limit]
 
 
 def _team_stats(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -154,7 +196,7 @@ def _share(count: int, total: int) -> float | None:
     return round(count / total, 3) if total else None
 
 
-def _group_stage_event_coverage(group_stage_ids: set[str], fallback: dict[str, Any] | None, finished_matches: int) -> dict[str, Any]:
+def _event_coverage_for_match_ids(match_ids: set[str], fallback: dict[str, Any] | None, finished_matches: int) -> dict[str, Any]:
     events_path = Path("data/match_events.csv")
     appearances_path = Path("data/match_player_appearances.csv")
     if events_path.exists() and appearances_path.exists():
@@ -165,16 +207,16 @@ def _group_stage_event_coverage(group_stage_ids: set[str], fallback: dict[str, A
       goal_matches = {
           row["match_id"]
           for row in events_rows
-          if row.get("match_id") in group_stage_ids and row.get("event_type") in {"goal", "own_goal", "penalty_goal"}
+          if row.get("match_id") in match_ids and row.get("event_type") in GOAL_EVENT_TYPES
       }
       hydration_matches = {
           row["match_id"]
           for row in events_rows
-          if row.get("match_id") in group_stage_ids and row.get("event_type") in {"hydration_break_start", "hydration_break_end"}
+          if row.get("match_id") in match_ids and row.get("event_type") in {"hydration_break_start", "hydration_break_end"}
       }
       starter_counts: dict[str, int] = defaultdict(int)
       for row in appearances_rows:
-          if row.get("match_id") in group_stage_ids and row.get("appearance_role") == "starter":
+          if row.get("match_id") in match_ids and row.get("appearance_role") == "starter":
               starter_counts[row["match_id"]] += 1
       lineup_matches = len([match_id for match_id, starters in starter_counts.items() if starters >= 22])
       return {
@@ -262,7 +304,7 @@ def build_group_stage_report(rows: list[dict[str, Any]], event_stats: dict[str, 
     knockout_with_forecast = [row for row in knockout_upcoming if row.get("forecast_temp") is not None]
     knockout_with_fit = [row for row in knockout_upcoming if row.get("team_a_weather_fit_score") is not None]
 
-    coverage = _group_stage_event_coverage(
+    coverage = _event_coverage_for_match_ids(
         {str(row.get("match_id") or "") for row in finished},
         (event_stats or {}).get("coverage") or {},
         len(finished),
@@ -346,6 +388,190 @@ def build_group_stage_report(rows: list[dict[str, Any]], event_stats: dict[str, 
             "confirmed": [_match_entry(row, "confirmed") for row in sorted(confirmed_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:3]],
             "missed": [_match_entry(row, "missed") for row in sorted(missed_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:3]],
             "draw": [_match_entry(row, "draw") for row in sorted(draw_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:3]],
+        },
+        "team_leaders": {
+            "attack": top_attack,
+            "goal_difference": top_defense,
+            "conceded": top_conceded,
+        },
+        "context_extremes": {
+            "highest_load": _match_entry(load_match, "context") if load_match else None,
+            "sharpest_edge": _match_entry(edge_match, "context") if edge_match else None,
+            "longest_travel": _match_entry(travel_match, "context") if travel_match else None,
+            "highest_altitude": _match_entry(altitude_match, "context") if altitude_match else None,
+        },
+    }
+
+
+def build_tournament_report(rows: list[dict[str, Any]], event_stats: dict[str, Any] | None = None) -> dict[str, Any]:
+    """Build the final full-tournament Weather Cup report."""
+
+    finished = [row for row in rows if _has_result(row)]
+    comparable = [row for row in finished if _weather_leader_side(row)]
+
+    confirmed_rows: list[dict[str, Any]] = []
+    missed_rows: list[dict[str, Any]] = []
+    draw_rows: list[dict[str, Any]] = []
+    for row in comparable:
+        leader = _weather_leader_side(row)
+        winner = _winner_side(row)
+        if winner == "draw":
+            draw_rows.append(row)
+        elif winner == leader:
+            confirmed_rows.append(row)
+        else:
+            missed_rows.append(row)
+
+    goals = [int(row["result_team_a"]) + int(row["result_team_b"]) for row in finished]
+    draw_count = len([row for row in finished if _winner_side(row) == "draw"])
+    btts_count = len([row for row in finished if int(row["result_team_a"]) > 0 and int(row["result_team_b"]) > 0])
+    load_values = [_safe_float(row.get("weather_load_score")) for row in finished]
+    load_values = [value for value in load_values if value is not None]
+    edge_gaps = [_safe_float(row.get("weather_fit_edge_gap")) for row in comparable]
+    edge_gaps = [value for value in edge_gaps if value is not None]
+
+    teams = _team_stats(finished)
+    top_attack = sorted(teams, key=lambda item: (-item["goals_for"], item["goals_against"], item["name_de"]))[:5]
+    top_defense = sorted(teams, key=lambda item: (-item["goal_difference"], item["goals_against"], item["name_de"]))[:5]
+    top_conceded = sorted(teams, key=lambda item: (-item["goals_against"], -item["goals_for"], item["name_de"]))[:5]
+
+    load_match = max(
+        [row for row in finished if _safe_float(row.get("weather_load_score")) is not None],
+        key=lambda row: _safe_float(row.get("weather_load_score")) or 0,
+        default=None,
+    )
+    edge_match = max(
+        [row for row in comparable if _safe_float(row.get("weather_fit_edge_gap")) is not None],
+        key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0,
+        default=None,
+    )
+    travel_match = max(
+        [
+            row
+            for row in finished
+            if _safe_float(row.get("team_a_travel_distance_km")) is not None or _safe_float(row.get("team_b_travel_distance_km")) is not None
+        ],
+        key=lambda row: max(_safe_float(row.get("team_a_travel_distance_km")) or 0, _safe_float(row.get("team_b_travel_distance_km")) or 0),
+        default=None,
+    )
+    altitude_match = max(
+        [row for row in finished if _safe_float(row.get("elevation_m")) is not None],
+        key=lambda row: _safe_float(row.get("elevation_m")) or 0,
+        default=None,
+    )
+
+    coverage = _event_coverage_for_match_ids(
+        {str(row.get("match_id") or "") for row in finished},
+        (event_stats or {}).get("coverage") or {},
+        len(finished),
+    )
+    top_scorers = _top_scorers(event_stats)
+    final_row = max(
+        [row for row in finished if _stage(row) == "final"],
+        key=_stage_priority,
+        default=max(finished, key=_stage_priority, default=None),
+    )
+    champion_iso3 = _winner_iso3(final_row) if final_row else None
+    runner_up_iso3 = None
+    if final_row and champion_iso3:
+        runner_up_iso3 = final_row.get("team_b_iso3") if champion_iso3 == final_row.get("team_a_iso3") else final_row.get("team_a_iso3")
+    actual_weather_matches = len([row for row in finished if row.get("actual_temp") is not None])
+    high_load_count = len([value for value in load_values if value >= 25])
+    confirmed_count = len(confirmed_rows)
+    missed_count = len(missed_rows)
+    draw_edge_count = len(draw_rows)
+    hit_rate = round((confirmed_count / len(comparable)) * 100) if comparable else None
+
+    headline_de = (
+        f"Der Finalreport deckt alle {len(finished)} WM-Spiele 2026 ab. "
+        f"{confirmed_count} von {len(comparable)} klaren Wetterkanten deckten sich mit dem Siegerbild; "
+        f"die Trefferquote liegt bei {hit_rate}%."
+        if comparable
+        else "Der Finalreport deckt das komplette Turnier ab, aber es gibt noch keine klaren Wetterkanten im Datensatz."
+    )
+    headline_en = (
+        f"The final report covers all {len(finished)} World Cup matches in 2026. "
+        f"{confirmed_count} of {len(comparable)} clear weather edges matched the winning side, "
+        f"for a hit rate of {hit_rate}%."
+        if comparable
+        else "The final report covers the complete tournament, but no clear weather edges are available in the dataset yet."
+    )
+
+    final_label = _display_label(final_row) if final_row else "–"
+    final_result = _result_label(final_row) if final_row else "–"
+    top_scorer_line_de = " / ".join(
+        f"{item.get('player_name', '–')} ({item.get('team_iso3', '–')}, {item.get('total_goals', 0)})" for item in top_scorers
+    ) or "–"
+    top_scorer_line_en = top_scorer_line_de
+    key_findings_de = [
+        f"Der Titel ging an {champion_iso3 or '–'}; das Finale {final_label} endete {final_result}.",
+        f"Das Turnier brachte {sum(goals)} Tore in {len(finished)} Spielen, also {round(sum(goals) / len(finished), 2) if finished else 0} pro Spiel.",
+        f"Die Event-Coverage deckt {coverage['goal_event_matches']}/{coverage['finished_matches']} beendete Spiele mit Tor-Events ab; Ist-Wetter bleibt bewusst offen, solange keine Messdaten vorliegen.",
+        f"Top-Torjäger laut Eventdaten: {top_scorer_line_de}.",
+    ]
+    key_findings_en = [
+        f"The title went to {champion_iso3 or '–'}; the final {final_label} finished {final_result}.",
+        f"The tournament produced {sum(goals)} goals across {len(finished)} matches, or {round(sum(goals) / len(finished), 2) if finished else 0} per match.",
+        f"Event coverage reaches {coverage['goal_event_matches']}/{coverage['finished_matches']} finished matches with goal events; actual weather remains intentionally open until measurements exist.",
+        f"Top scorers from event data: {top_scorer_line_en}.",
+    ]
+
+    return {
+        "id": "weather-cup-2026-final",
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "scope_stage": "full_tournament",
+        "scope_label_de": _scope_label("full_tournament", lang="de"),
+        "scope_label_en": _scope_label("full_tournament", lang="en"),
+        "headline_de": headline_de,
+        "headline_en": headline_en,
+        "summary_de": "Finaler Turnierreport zum kompletten Weather Cup 2026 mit Abschlussanalyse, Einordnung und dokumentierten Grenzen der Datengrundlage.",
+        "summary_en": "Final tournament report for the full Weather Cup 2026 with closing analysis, context and documented limits of the dataset.",
+        "tournament_complete": True,
+        "champion_iso3": champion_iso3,
+        "runner_up_iso3": runner_up_iso3,
+        "final_match_id": final_row.get("match_id") if final_row else None,
+        "final_label": final_label,
+        "final_result": final_result,
+        "actual_weather_matches": actual_weather_matches,
+        "finished_matches": len(finished),
+        "total_goals": sum(goals),
+        "goals_per_match": _avg([float(value) for value in goals]),
+        "draws": draw_count,
+        "draw_share": _share(draw_count, len(finished)),
+        "both_teams_scored": btts_count,
+        "both_teams_scored_share": _share(btts_count, len(finished)),
+        "avg_weather_load_score": _avg(load_values),
+        "high_load_matches": high_load_count,
+        "comparable_matches": len(comparable),
+        "weather_edge_confirmed": confirmed_count,
+        "weather_edge_missed": missed_count,
+        "weather_edge_draws": draw_edge_count,
+        "weather_edge_hit_rate": hit_rate,
+        "avg_weather_edge_gap": _avg(edge_gaps),
+        "event_coverage": {
+            "finished_matches": coverage["finished_matches"],
+            "goal_event_matches": coverage["goal_event_matches"],
+            "goal_event_share": coverage["goal_event_share"],
+            "lineup_matches": coverage["lineup_matches"],
+            "hydration_matches": coverage["hydration_matches"],
+            "last_event_update": coverage["last_event_update"],
+        },
+        "knockout_readiness": {
+            "upcoming_matches": 0,
+            "forecast_matches": 0,
+            "weather_fit_matches": 0,
+            "forecast_share": None,
+            "weather_fit_share": None,
+        },
+        "top_scorers": top_scorers,
+        "key_findings_de": key_findings_de,
+        "key_findings_en": key_findings_en,
+        "method_note_de": "Weather Fit bleibt ein Kontextindikator. Die Abschlussanalyse liest das gesamte Turnier deskriptiv und trennt beobachtete Muster strikt von kausalen Behauptungen; fehlendes Ist-Wetter bleibt offen markiert.",
+        "method_note_en": "Weather Fit remains a context indicator. The closing analysis reads the full tournament descriptively and keeps observed patterns separate from causal claims; missing actual-weather measurements stay explicitly open.",
+        "featured_matches": {
+            "confirmed": [_match_entry(row, "confirmed") for row in sorted(confirmed_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:5]],
+            "missed": [_match_entry(row, "missed") for row in sorted(missed_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:5]],
+            "draw": [_match_entry(row, "draw") for row in sorted(draw_rows, key=lambda row: _safe_float(row.get("weather_fit_edge_gap")) or 0, reverse=True)[:5]],
         },
         "team_leaders": {
             "attack": top_attack,

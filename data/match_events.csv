@@ -542,7 +542,7 @@ M018,MAR,MAR,Gessime Yassine,Soufiane Rahimi,goal,89,,2H,4,2,"Goal! Morocco 4, H
 M018,HTI,HTI,Josué Casimir,,yellow_card,90,3,2H,,,Josué Casimir (Haiti) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M018,MAR,MAR,,,hydration_break_end,90,7,2H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M019,USA,USA,Damián Bobadilla,,goal,7,,1H,1,0,"Own Goal by Damián Bobadilla, Paraguay. USA 1, Paraguay 0.",ESPN public summary API,82
-M019,PRY,PRY,Juan Cáceres,,yellow_card,10,,1H,,,Juan José Cáceres (Paraguay) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M019,PRY,PRY,Juan Jose Cáceres,,yellow_card,10,,1H,,,Juan José Cáceres (Paraguay) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M019,USA,USA,,,hydration_break_end,13,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M019,PRY,PRY,,,hydration_break_end,19,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M019,USA,USA,,,hydration_break_end,19,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
@@ -567,9 +567,9 @@ M019,USA,USA,Timothy Weah,Sergiño Dest,sub_in,72,,2H,,,"Substitution, USA. Timo
 M019,USA,USA,Folarin Balogun,Ricardo Pepi,sub_out,72,,2H,,,"Substitution, USA. Ricardo Pepi replaces Folarin Balogun.",ESPN public summary API,82
 M019,USA,USA,Sergiño Dest,Timothy Weah,sub_out,72,,2H,,,"Substitution, USA. Timothy Weah replaces Sergiño Dest.",ESPN public summary API,82
 M019,PRY,PRY,Maurício,Julio Enciso,goal,73,,2H,3,1,"Goal! USA 3, Paraguay 1. Mauricio (Paraguay) left footed shot from the centre of the box to the bottom right corner. Assisted by Julio Enciso following a set piece situation.",ESPN public summary API,82
-M019,PRY,PRY,Gustavo Velázquez,Juan Cáceres,sub_in,79,,2H,,,"Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",ESPN public summary API,82
+M019,PRY,PRY,Gustavo Velázquez,Juan Jose Cáceres,sub_in,79,,2H,,,"Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",ESPN public summary API,82
 M019,PRY,PRY,Ramón Sosa,Miguel Almirón,sub_in,79,,2H,,,"Substitution, Paraguay. Ramón Sosa replaces Miguel Almirón.",ESPN public summary API,82
-M019,PRY,PRY,Juan Cáceres,Gustavo Velázquez,sub_out,79,,2H,,,"Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",ESPN public summary API,82
+M019,PRY,PRY,Juan Jose Cáceres,Gustavo Velázquez,sub_out,79,,2H,,,"Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",ESPN public summary API,82
 M019,PRY,PRY,Miguel Almirón,Ramón Sosa,sub_out,79,,2H,,,"Substitution, Paraguay. Ramón Sosa replaces Miguel Almirón.",ESPN public summary API,82
 M019,PRY,PRY,Diego Gómez,,yellow_card,79,,2H,,,Diego Gómez (Paraguay) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M019,PRY,PRY,Alejandro Romero Gamarra,Diego Gómez,sub_in,80,,2H,,,"Substitution, Paraguay. Alejandro Romero replaces Diego Gómez.",ESPN public summary API,82

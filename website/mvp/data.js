@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-08-17T20:09:37",
+    "exported_at": "2026-08-17T22:09:52",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12455,7 +12455,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 18.6,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 26.8,
-      "forecast_last_updated": "2026-08-17T18:05:45.788801+00:00",
+      "forecast_last_updated": "2026-08-17T20:05:50.325420+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -15889,7 +15889,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 83,
       "matches_with_substitutions": 83,
       "matches_with_hydration_markers": 83,
-      "last_event_update": "2026-08-17T20:05:32",
+      "last_event_update": "2026-08-17T22:05:36",
       "goal_event_coverage_share": 0.74
     },
     "goal_rows": 248,
@@ -22479,7 +22479,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-08-17T20:09:37",
+      "generated_at": "2026-08-17T22:09:52",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22508,7 +22508,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-08-17T20:05:32"
+        "last_event_update": "2026-08-17T22:05:36"
       },
       "knockout_readiness": {
         "upcoming_matches": 0,
@@ -22914,7 +22914,7 @@ window.WM_MVP_DATA = {
     },
     "final_2026": {
       "id": "weather-cup-2026-final",
-      "generated_at": "2026-08-17T20:09:37",
+      "generated_at": "2026-08-17T22:09:52",
       "scope_stage": "full_tournament",
       "scope_label_de": "Gesamtes Turnier",
       "scope_label_en": "Full tournament",
@@ -22950,7 +22950,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.74,
         "lineup_matches": 83,
         "hydration_matches": 83,
-        "last_event_update": "2026-08-17T20:05:32"
+        "last_event_update": "2026-08-17T22:05:36"
       },
       "knockout_readiness": {
         "upcoming_matches": 0,

@@ -1,12 +1,12 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-08-25T16:08:53",
-    "source": "Supabase/PostgreSQL static export",
+    "exported_at": "2026-08-26T07:03:37",
+    "source": "Local offline export with schedule/result overlay",
     "language": "de",
     "matches": 104,
     "forecast_matches": 1,
     "weather_fit_matches": 103,
-    "event_stats_source": "local_csv_preferred"
+    "event_stats_source": "local_csv_only"
   },
   "matches": [
     {
@@ -22474,12 +22474,12 @@ window.WM_MVP_DATA = {
       "hydration_break_markers_present": true,
       "note": "Reliable hydration-break and timing analysis requires event rows with minute, period and hydration markers."
     },
-    "source": "local_csv_preferred"
+    "source": "local_csv_only"
   },
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-08-25T16:08:53",
+      "generated_at": "2026-08-26T07:03:37",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22914,7 +22914,7 @@ window.WM_MVP_DATA = {
     },
     "final_2026": {
       "id": "weather-cup-2026-final",
-      "generated_at": "2026-08-25T16:08:53",
+      "generated_at": "2026-08-26T07:03:37",
       "scope_stage": "full_tournament",
       "scope_label_de": "Gesamtes Turnier",
       "scope_label_en": "Full tournament",

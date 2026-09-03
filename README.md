@@ -38,6 +38,8 @@ docs/                Datenquellen, Methodik, Redaktion, Roadmap
 prompts/             Entwicklungs-Prompts
 ```
 
+Projektübergreifende Entwicklungsregeln und eine kopierbare Start-Checkliste stehen in [`DEVELOPMENT_PLAYBOOK.md`](DEVELOPMENT_PLAYBOOK.md).
+
 ## Setup
 
 Kanonischer Projektpfad auf diesem Mac:

@@ -312,7 +312,7 @@ M007,BIH,Esmir Bajraktarevic,starter,20,RM,7,0,,,false,false,ESPN public summary
 M007,BIH,Ivan Basic,starter,13,CM-L,8,0,,,false,false,ESPN public summary API,82
 M007,BIH,Jovo Lukic,starter,25,CF-L,9,0,,,false,false,ESPN public summary API,82
 M007,BIH,Nikola Katic,starter,18,CD-R,5,0,,,false,false,ESPN public summary API,82
-M007,BIH,Nikola Vasiljevic,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M007,BIH,Nikola Vasilj,starter,1,G,1,0,,,false,false,ESPN public summary API,82
 M007,BIH,Sead Kolasinac,starter,5,LB,3,0,,,false,false,ESPN public summary API,82
 M007,BIH,Tarik Muharemovic,starter,4,CD-L,6,0,,,false,false,ESPN public summary API,82
 M007,BIH,Amir Hadziahmetovic,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
@@ -416,7 +416,7 @@ M009,BIH,Ermedin Demirovic,starter,10,CF-R,10,0,,,false,false,ESPN public summar
 M009,BIH,Ivan Sunjic,starter,14,CM-L,8,0,,,false,false,ESPN public summary API,82
 M009,BIH,Kerim Alajbegovic,starter,19,LM,11,0,,,false,false,ESPN public summary API,82
 M009,BIH,Nikola Katic,starter,18,CD-R,5,0,,,false,false,ESPN public summary API,82
-M009,BIH,Nikola Vasiljevic,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M009,BIH,Nikola Vasilj,starter,1,G,1,0,,,false,false,ESPN public summary API,82
 M009,BIH,Sead Kolasinac,starter,5,LB,3,0,,,false,false,ESPN public summary API,82
 M009,BIH,Tarik Muharemovic,starter,4,CD-L,6,0,,,false,false,ESPN public summary API,82
 M009,BIH,Amir Hadziahmetovic,unused,16,SUB,0,,,,false,false,ESPN public summary API,82
@@ -567,7 +567,7 @@ M012,BIH,Ivan Basic,starter,13,CM-R,4,0,,,false,false,ESPN public summary API,82
 M012,BIH,Ivan Sunjic,starter,14,CM-L,8,0,,,false,false,ESPN public summary API,82
 M012,BIH,Kerim Alajbegovic,starter,19,LM,11,0,,,false,false,ESPN public summary API,82
 M012,BIH,Nikola Katic,starter,18,CD-R,5,0,,,false,false,ESPN public summary API,82
-M012,BIH,Nikola Vasiljevic,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M012,BIH,Nikola Vasilj,starter,1,G,1,0,,,false,false,ESPN public summary API,82
 M012,BIH,Sead Kolasinac,starter,5,LB,3,0,,,false,false,ESPN public summary API,82
 M012,BIH,Stjepan Radeljic,starter,21,CD-L,6,0,,,false,false,ESPN public summary API,82
 M012,BIH,Amar Dedic,unused,7,SUB,0,,,,false,false,ESPN public summary API,82
@@ -3133,7 +3133,7 @@ M081,BIH,Ermedin Demirovic,starter,10,CF-L,9,0,,,false,false,ESPN public summary
 M081,BIH,Ivan Sunjic,starter,14,CM,8,0,,,false,false,ESPN public summary API,82
 M081,BIH,Kerim Alajbegovic,starter,19,CM-L,11,0,,,false,false,ESPN public summary API,82
 M081,BIH,Nikola Katic,starter,18,CD-R,6,0,,,false,false,ESPN public summary API,82
-M081,BIH,Nikola Vasiljevic,starter,1,G,1,0,,,false,false,ESPN public summary API,82
+M081,BIH,Nikola Vasilj,starter,1,G,1,0,,,false,false,ESPN public summary API,82
 M081,BIH,Sead Kolasinac,starter,5,LB,3,0,,,false,false,ESPN public summary API,82
 M081,BIH,Stjepan Radeljic,starter,21,CD-L,4,0,,,false,false,ESPN public summary API,82
 M081,BIH,Tarik Muharemovic,starter,4,CD,5,0,,,false,false,ESPN public summary API,82

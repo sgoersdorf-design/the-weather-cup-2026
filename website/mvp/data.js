@@ -1,6 +1,6 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-09-20T20:08:02",
+    "exported_at": "2026-09-20T22:07:58",
     "source": "Supabase/PostgreSQL static export",
     "language": "de",
     "matches": 104,
@@ -12455,7 +12455,7 @@ window.WM_MVP_DATA = {
       "forecast_wind_speed": 18.6,
       "forecast_precipitation_probability": 0.0,
       "forecast_heat_index": 26.8,
-      "forecast_last_updated": "2026-09-20T18:05:15.959660+00:00",
+      "forecast_last_updated": "2026-09-20T20:05:15.415851+00:00",
       "forecast_quality": 85.0,
       "actual_temp": null,
       "actual_humidity": null,
@@ -22479,7 +22479,7 @@ window.WM_MVP_DATA = {
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-09-20T20:08:02",
+      "generated_at": "2026-09-20T22:07:58",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22914,7 +22914,7 @@ window.WM_MVP_DATA = {
     },
     "final_2026": {
       "id": "weather-cup-2026-final",
-      "generated_at": "2026-09-20T20:08:02",
+      "generated_at": "2026-09-20T22:07:58",
       "scope_stage": "full_tournament",
       "scope_label_de": "Gesamtes Turnier",
       "scope_label_en": "Full tournament",

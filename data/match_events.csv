@@ -451,11 +451,11 @@ M016,BRA,BRA,Rayan,Raphinha,sub_in,40,,1H,,,"Substitution, Brazil. Rayan replace
 M016,BRA,BRA,Raphinha,Rayan,sub_out,40,,1H,,,"Substitution, Brazil. Rayan replaces Raphinha because of an injury.",ESPN public summary API,82
 M016,HTI,HTI,,,hydration_break_end,43,,1H,,,Delay over. They are ready to continue.,ESPN public summary API,82
 M016,HTI,HTI,Dominique Simon,Carlens Arcus,sub_in,45,,2H,,,"Substitution, Haiti. Dominique Simon replaces Carlens Arcus.",ESPN public summary API,82
-M016,HTI,HTI,Wilson Isidor,Frantz Pierrot,sub_in,45,,2H,,,"Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot.",ESPN public summary API,82
+M016,HTI,HTI,Wilson Isidor,Frantzdy Pierrot,sub_in,45,,2H,,,"Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot.",ESPN public summary API,82
 M016,HTI,HTI,Carlens Arcus,Dominique Simon,sub_out,45,,2H,,,"Substitution, Haiti. Dominique Simon replaces Carlens Arcus.",ESPN public summary API,82
-M016,HTI,HTI,Frantz Pierrot,Wilson Isidor,sub_out,45,,2H,,,"Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot.",ESPN public summary API,82
+M016,HTI,HTI,Frantzdy Pierrot,Wilson Isidor,sub_out,45,,2H,,,"Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot.",ESPN public summary API,82
 M016,BRA,BRA,Vinícius Júnior,Lucas Paquetá,goal,45,3,1H,3,0,"Goal! Brazil 3, Haiti 0. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the centre of the goal. Assisted by Lucas Paquetá with a through ball.",ESPN public summary API,82
-M016,HTI,HTI,Frantz Pierrot,,yellow_card,45,4,1H,,,Frantzdy Pierrot (Haiti) is shown the yellow card for a bad foul.,ESPN public summary API,82
+M016,HTI,HTI,Frantzdy Pierrot,,yellow_card,45,4,1H,,,Frantzdy Pierrot (Haiti) is shown the yellow card for a bad foul.,ESPN public summary API,82
 M016,HTI,HTI,Louicius Deedson,Josué Casimir,sub_in,62,,2H,,,"Substitution, Haiti. Louicius Deedson replaces Josué Casimir.",ESPN public summary API,82
 M016,HTI,HTI,Josué Casimir,Louicius Deedson,sub_out,62,,2H,,,"Substitution, Haiti. Louicius Deedson replaces Josué Casimir.",ESPN public summary API,82
 M016,BRA,BRA,Endrick,Matheus Cunha,sub_in,64,,2H,,,"Substitution, Brazil. Endrick replaces Matheus Cunha.",ESPN public summary API,82
@@ -532,10 +532,10 @@ M018,HTI,HTI,Dominique Simon,Danley Jean Jacques,sub_in,80,,2H,,,"Substitution, 
 M018,HTI,HTI,Danley Jean Jacques,Dominique Simon,sub_out,80,,2H,,,"Substitution, Haiti. Dominique Simon replaces Danley Jean Jacques.",ESPN public summary API,82
 M018,HTI,HTI,Jean-Kévin Duverne,Carlens Arcus,sub_out,80,,2H,,,"Substitution, Haiti. Carlens Arcus replaces Jean-Kévin Duverne.",ESPN public summary API,82
 M018,HTI,HTI,Duckens Nazon,,yellow_card,80,,2H,,,Duckens Nazon (Haiti) is shown the yellow card.,ESPN public summary API,82
-M018,HTI,HTI,Frantz Pierrot,Lenny Joseph,sub_in,83,,2H,,,"Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph.",ESPN public summary API,82
+M018,HTI,HTI,Frantzdy Pierrot,Lenny Joseph,sub_in,83,,2H,,,"Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph.",ESPN public summary API,82
 M018,MAR,MAR,Noussair Mazraoui,Anass Salah-Eddine,sub_in,83,,2H,,,"Substitution, Morocco. Noussair Mazraoui replaces Anass Salah-Eddine.",ESPN public summary API,82
 M018,MAR,MAR,Samir El Mourabet,Neil El Aynaoui,sub_in,83,,2H,,,"Substitution, Morocco. Samir El Mourabet replaces Neil El Aynaoui.",ESPN public summary API,82
-M018,HTI,HTI,Lenny Joseph,Frantz Pierrot,sub_out,83,,2H,,,"Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph.",ESPN public summary API,82
+M018,HTI,HTI,Lenny Joseph,Frantzdy Pierrot,sub_out,83,,2H,,,"Substitution, Haiti. Frantzdy Pierrot replaces Lenny Joseph.",ESPN public summary API,82
 M018,MAR,MAR,Anass Salah-Eddine,Noussair Mazraoui,sub_out,83,,2H,,,"Substitution, Morocco. Noussair Mazraoui replaces Anass Salah-Eddine.",ESPN public summary API,82
 M018,MAR,MAR,Neil El Aynaoui,Samir El Mourabet,sub_out,83,,2H,,,"Substitution, Morocco. Samir El Mourabet replaces Neil El Aynaoui.",ESPN public summary API,82
 M018,MAR,MAR,Gessime Yassine,Soufiane Rahimi,goal,89,,2H,4,2,"Goal! Morocco 4, Haiti 2. Gessime Yassine (Morocco) left footed shot from the centre of the box to the centre of the goal. Assisted by Soufiane Rahimi.",ESPN public summary API,82

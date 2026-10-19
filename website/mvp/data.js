@@ -1,12 +1,12 @@
 window.WM_MVP_DATA = {
   "metadata": {
-    "exported_at": "2026-10-19T09:08:54",
-    "source": "Supabase/PostgreSQL static export",
+    "exported_at": "2026-10-19T11:12:03",
+    "source": "Local offline export with schedule/result overlay",
     "language": "de",
     "matches": 104,
     "forecast_matches": 1,
     "weather_fit_matches": 103,
-    "event_stats_source": "local_csv_preferred"
+    "event_stats_source": "local_csv_only"
   },
   "matches": [
     {
@@ -15889,7 +15889,7 @@ window.WM_MVP_DATA = {
       "matches_with_complete_lineups": 83,
       "matches_with_substitutions": 83,
       "matches_with_hydration_markers": 83,
-      "last_event_update": "2026-10-19T09:05:33",
+      "last_event_update": "2026-10-19T11:10:35",
       "goal_event_coverage_share": 0.74
     },
     "goal_rows": 248,
@@ -22474,12 +22474,12 @@ window.WM_MVP_DATA = {
       "hydration_break_markers_present": true,
       "note": "Reliable hydration-break and timing analysis requires event rows with minute, period and hydration markers."
     },
-    "source": "local_csv_preferred"
+    "source": "local_csv_only"
   },
   "reports": {
     "group_stage_2026": {
       "id": "weather-cup-2026-group-stage",
-      "generated_at": "2026-10-19T09:08:54",
+      "generated_at": "2026-10-19T11:12:03",
       "scope_stage": "group_stage",
       "scope_label_de": "Gruppenphase",
       "scope_label_en": "Group stage",
@@ -22508,7 +22508,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.694,
         "lineup_matches": 55,
         "hydration_matches": 55,
-        "last_event_update": "2026-10-19T09:05:33"
+        "last_event_update": "2026-10-19T11:10:35"
       },
       "knockout_readiness": {
         "upcoming_matches": 0,
@@ -22914,7 +22914,7 @@ window.WM_MVP_DATA = {
     },
     "final_2026": {
       "id": "weather-cup-2026-final",
-      "generated_at": "2026-10-19T09:08:54",
+      "generated_at": "2026-10-19T11:12:03",
       "scope_stage": "full_tournament",
       "scope_label_de": "Gesamtes Turnier",
       "scope_label_en": "Full tournament",
@@ -22950,7 +22950,7 @@ window.WM_MVP_DATA = {
         "goal_event_share": 0.74,
         "lineup_matches": 83,
         "hydration_matches": 83,
-        "last_event_update": "2026-10-19T09:05:33"
+        "last_event_update": "2026-10-19T11:10:35"
       },
       "knockout_readiness": {
         "upcoming_matches": 0,
